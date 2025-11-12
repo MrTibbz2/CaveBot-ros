@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/CaveBot-ros/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson setup --libdir=lib --prefix=/home/pi/CaveBot-ros/install/libcamera --buildtype=release /home/pi/CaveBot-ros/build/libcamera /home/pi/CaveBot-ros/src/libcamera
+Invoked command in '/home/pi/CaveBot-ros/build/libcamera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson setup --libdir=lib --prefix=/home/pi/CaveBot-ros/install/libcamera --buildtype=release /home/pi/CaveBot-ros/build/libcamera /home/pi/CaveBot-ros/src/libcamera
+Invoking command in '/home/pi/CaveBot-ros/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson compile
+Invoked command in '/home/pi/CaveBot-ros/build/libcamera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson compile
+Invoking command in '/home/pi/CaveBot-ros/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson install
+Invoked command in '/home/pi/CaveBot-ros/build/libcamera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson install

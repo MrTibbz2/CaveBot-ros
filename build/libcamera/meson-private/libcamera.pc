@@ -1,0 +1,10 @@
+prefix=/home/pi/CaveBot-ros/install/libcamera
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libcamera
+Description: Complex Camera Support Library
+Version: 0.5.2
+Requires: libcamera-base
+Libs: -L${libdir} -lcamera
+Cflags: -I${includedir}/libcamera

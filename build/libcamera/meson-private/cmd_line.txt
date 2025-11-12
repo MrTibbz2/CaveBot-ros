@@ -1,0 +1,7 @@
+[options]
+prefix = /home/pi/CaveBot-ros/install/libcamera
+libdir = lib
+buildtype = release
+
+[properties]
+
