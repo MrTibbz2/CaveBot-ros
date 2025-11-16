@@ -21,6 +21,8 @@ setup(
     description='Dual camera launch package',
     license='TODO',
     entry_points={
-        'console_scripts': [],
+        'console_scripts': [
+            'disparity_to_depth = dualcam_launch.disparity_to_depth:main',
+        ],
     },
 )

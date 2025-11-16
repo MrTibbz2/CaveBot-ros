@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000301] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.000549] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000571] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000728] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000746] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000765] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000781] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000799] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000816] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000832] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000850] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000867] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000884] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000900] (-) JobUnselected: {'identifier': 'libcamera'}
+[0.000918] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000934] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000951] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000967] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000990] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001176] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001195] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001211] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001229] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001250] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001360] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001379] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001395] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001412] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001429] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001446] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001462] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001478] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001498] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001515] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001531] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001547] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001565] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001582] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001598] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001615] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001631] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001649] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001666] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001682] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001699] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001715] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001731] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001748] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001764] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001781] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001797] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001826] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001855] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001870] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001885] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001900] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001920] (dualcam_launch) JobQueued: {'identifier': 'dualcam_launch', 'dependencies': OrderedDict({'depthimage_to_laserscan': '/home/pi/CaveBot-ros/install/depthimage_to_laserscan', 'image_view': '/home/pi/CaveBot-ros/install/image_view', 'libcamera': '/home/pi/CaveBot-ros/install/libcamera', 'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'camera_ros': '/home/pi/CaveBot-ros/install/camera_ros', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc', 'stereo_image_proc': '/home/pi/CaveBot-ros/install/stereo_image_proc'})}
+[0.001973] (dualcam_launch) JobStarted: {'identifier': 'dualcam_launch'}
+[0.099439] (-) TimerEvent: {}
+[0.199636] (-) TimerEvent: {}
+[0.299818] (-) TimerEvent: {}
+[0.400006] (-) TimerEvent: {}
+[0.500207] (-) TimerEvent: {}
+[0.600400] (-) TimerEvent: {}
+[0.700601] (-) TimerEvent: {}
+[0.800806] (-) TimerEvent: {}
+[0.901010] (-) TimerEvent: {}
+[1.001209] (-) TimerEvent: {}
+[1.101421] (-) TimerEvent: {}
+[1.201612] (-) TimerEvent: {}
+[1.301797] (-) TimerEvent: {}
+[1.401980] (-) TimerEvent: {}
+[1.502196] (-) TimerEvent: {}
+[1.602437] (-) TimerEvent: {}
+[1.647569] (dualcam_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/pi/CaveBot-ros/build/dualcam_launch/build'], 'cwd': '/home/pi/CaveBot-ros/build/dualcam_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc/lib:/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:/home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-da2ee9b2-216e-4a64-9690-bbd06c8e3e77.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/dualcam_launch', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/build/dualcam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.702531] (-) TimerEvent: {}
+[1.802711] (-) TimerEvent: {}
+[1.902904] (-) TimerEvent: {}
+[2.003080] (-) TimerEvent: {}
+[2.050879] (dualcam_launch) StdoutLine: {'line': b'running develop\n'}
+[2.103158] (-) TimerEvent: {}
+[2.203325] (-) TimerEvent: {}
+[2.303493] (-) TimerEvent: {}
+[2.313654] (dualcam_launch) StdoutLine: {'line': b'Removing /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam-launch.egg-link (link to .)\n'}
+[2.395096] (dualcam_launch) CommandEnded: {'returncode': 0}
+[2.396541] (dualcam_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dualcam_launch', 'build', '--build-base', '/home/pi/CaveBot-ros/build/dualcam_launch/build', 'install', '--record', '/home/pi/CaveBot-ros/build/dualcam_launch/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/pi/CaveBot-ros/src/dualcam_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc/lib:/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:/home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-da2ee9b2-216e-4a64-9690-bbd06c8e3e77.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/dualcam_launch', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/build/dualcam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.403572] (-) TimerEvent: {}
+[2.503742] (-) TimerEvent: {}
+[2.603935] (-) TimerEvent: {}
+[2.704117] (-) TimerEvent: {}
+[2.751785] (dualcam_launch) StdoutLine: {'line': b'running egg_info\n'}
+[2.776347] (dualcam_launch) StdoutLine: {'line': b'writing ../../build/dualcam_launch/dualcam_launch.egg-info/PKG-INFO\n'}
+[2.776722] (dualcam_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/dualcam_launch/dualcam_launch.egg-info/dependency_links.txt\n'}
+[2.777636] (dualcam_launch) StdoutLine: {'line': b'writing requirements to ../../build/dualcam_launch/dualcam_launch.egg-info/requires.txt\n'}
+[2.778158] (dualcam_launch) StdoutLine: {'line': b'writing top-level names to ../../build/dualcam_launch/dualcam_launch.egg-info/top_level.txt\n'}
+[2.804205] (-) TimerEvent: {}
+[2.831489] (dualcam_launch) StdoutLine: {'line': b"reading manifest file '../../build/dualcam_launch/dualcam_launch.egg-info/SOURCES.txt'\n"}
+[2.832472] (dualcam_launch) StdoutLine: {'line': b"writing manifest file '../../build/dualcam_launch/dualcam_launch.egg-info/SOURCES.txt'\n"}
+[2.832685] (dualcam_launch) StdoutLine: {'line': b'running build\n'}
+[2.832826] (dualcam_launch) StdoutLine: {'line': b'running build_py\n'}
+[2.833062] (dualcam_launch) StdoutLine: {'line': b'running install\n'}
+[2.842146] (dualcam_launch) StdoutLine: {'line': b'running install_lib\n'}
+[2.867413] (dualcam_launch) StdoutLine: {'line': b'creating /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch\n'}
+[2.867595] (dualcam_launch) StdoutLine: {'line': b'copying /home/pi/CaveBot-ros/build/dualcam_launch/build/lib/dualcam_launch/__init__.py -> /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch\n'}
+[2.868302] (dualcam_launch) StdoutLine: {'line': b'byte-compiling /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch/__init__.py to __init__.cpython-312.pyc\n'}
+[2.868627] (dualcam_launch) StdoutLine: {'line': b'running install_data\n'}
+[2.868765] (dualcam_launch) StdoutLine: {'line': b'copying resource/dualcam_launch -> /home/pi/CaveBot-ros/install/dualcam_launch/share/ament_index/resource_index/packages\n'}
+[2.868980] (dualcam_launch) StdoutLine: {'line': b'copying package.xml -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch\n'}
+[2.869173] (dualcam_launch) StdoutLine: {'line': b'copying launch/stereo_pipeline_viz.launch.py -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch\n'}
+[2.869350] (dualcam_launch) StdoutLine: {'line': b'copying launch/stereo_pipeline.launch.py -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch\n'}
+[2.869497] (dualcam_launch) StdoutLine: {'line': b'copying launch/dualcam.launch.py -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch\n'}
+[2.869666] (dualcam_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.896811] (dualcam_launch) StdoutLine: {'line': b'Copying ../../build/dualcam_launch/dualcam_launch.egg-info to /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch-0.0.1-py3.12.egg-info\n'}
+[2.897966] (dualcam_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[2.904278] (-) TimerEvent: {}
+[3.004412] (-) TimerEvent: {}
+[3.079581] (dualcam_launch) StdoutLine: {'line': b"writing list of installed files to '/home/pi/CaveBot-ros/build/dualcam_launch/install.log'\n"}
+[3.104526] (-) TimerEvent: {}
+[3.151976] (dualcam_launch) CommandEnded: {'returncode': 0}
+[3.173097] (dualcam_launch) JobEnded: {'identifier': 'dualcam_launch', 'rc': 0}
+[3.173912] (-) EventReactorShutdown: {}
