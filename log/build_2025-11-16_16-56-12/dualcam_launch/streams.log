@@ -1,0 +1,18 @@
+[2.897s] Invoking command in '/home/pi/CaveBot-ros/build/dualcam_launch': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/image_view:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig PYTHONPATH=/home/pi/CaveBot-ros/build/dualcam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/dualcam_launch/build --no-deps symlink_data --force
+[3.997s] running develop
+[4.727s] running egg_info
+[4.785s] writing dualcam_launch.egg-info/PKG-INFO
+[4.789s] writing dependency_links to dualcam_launch.egg-info/dependency_links.txt
+[4.792s] writing requirements to dualcam_launch.egg-info/requires.txt
+[4.794s] writing top-level names to dualcam_launch.egg-info/top_level.txt
+[4.952s] reading manifest file 'dualcam_launch.egg-info/SOURCES.txt'
+[4.959s] writing manifest file 'dualcam_launch.egg-info/SOURCES.txt'
+[5.030s] running build_ext
+[5.031s] Creating /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam-launch.egg-link (link to .)
+[5.034s] 
+[5.034s] Installed /home/pi/CaveBot-ros/build/dualcam_launch
+[5.034s] running symlink_data
+[5.035s] symbolically linking /home/pi/CaveBot-ros/build/dualcam_launch/resource/dualcam_launch -> /home/pi/CaveBot-ros/install/dualcam_launch/share/ament_index/resource_index/packages
+[5.035s] symbolically linking /home/pi/CaveBot-ros/build/dualcam_launch/package.xml -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch
+[5.039s] symbolically linking /home/pi/CaveBot-ros/build/dualcam_launch/launch/dualcam.launch.py -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch
+[5.179s] Invoked command in '/home/pi/CaveBot-ros/build/dualcam_launch' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/image_view:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig PYTHONPATH=/home/pi/CaveBot-ros/build/dualcam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/dualcam_launch/build --no-deps symlink_data --force

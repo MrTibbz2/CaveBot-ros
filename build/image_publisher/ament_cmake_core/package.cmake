@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "image_publisher")
-set(image_publisher_VERSION "7.1.2")
+set(image_publisher_VERSION "5.0.11")
 set(image_publisher_MAINTAINER "Vincent Rabaud <vincent.rabaud@gmail.com>, Joshua Whitley <whitleysoftwareservices@gmail.com>, Chris Ye <chris.ye@intel.com>, Jacob Perron <jacob@openrobotics.org>, Michael Ferguson <mfergs7@gmail.com>")
 set(image_publisher_BUILD_DEPENDS "camera_info_manager" "cv_bridge" "image_transport" "rcl_interfaces" "rclcpp" "rclcpp_components")
 set(image_publisher_BUILDTOOL_DEPENDS "ament_cmake_auto")

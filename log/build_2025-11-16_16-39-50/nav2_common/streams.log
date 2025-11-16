@@ -1,0 +1,62 @@
+[0.026s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_common
+[0.069s] -- Found ament_cmake_core: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_core/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.179s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.203s] -- Found ament_cmake_python: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_python/cmake)
+[2.274s] -- Configuring done (2.2s)
+[2.287s] -- Generating done (0.0s)
+[2.294s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_common
+[2.305s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_common
+[2.308s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_common -- -j4 -l4
+[2.575s] Built target ament_cmake_python_symlink_nav2_common
+[3.141s] running egg_info
+[3.143s] creating nav2_common.egg-info
+[3.190s] writing nav2_common.egg-info/PKG-INFO
+[3.190s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[3.192s] writing top-level names to nav2_common.egg-info/top_level.txt
+[3.192s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.316s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.318s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.436s] Built target ament_cmake_python_build_nav2_common_egg
+[3.506s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_common -- -j4 -l4
+[3.507s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_common
+[3.540s] -- Install configuration: ""
+[3.545s] -- Execute custom install script
+[3.546s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[3.588s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[3.607s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/PKG-INFO
+[3.629s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/SOURCES.txt
+[3.649s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/dependency_links.txt
+[3.670s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/top_level.txt
+[3.694s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py
+[3.715s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py
+[3.741s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py
+[3.760s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py
+[3.786s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py
+[3.805s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py
+[3.831s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[3.853s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[3.877s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[3.901s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[3.920s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/path.sh
+[3.943s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/path.dsv
+[3.965s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.bash
+[3.989s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.sh
+[4.016s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.zsh
+[4.035s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.dsv
+[4.063s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/package.dsv
+[4.081s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[4.105s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[4.127s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[4.152s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[4.173s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/package.xml
+[4.195s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[4.432s] Listing '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common'...
+[4.432s] Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py'...
+[4.433s] Listing '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch'...
+[4.433s] Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py'...
+[4.433s] Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py'...
+[4.433s] Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[4.434s] Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py'...
+[4.434s] Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[4.458s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_common

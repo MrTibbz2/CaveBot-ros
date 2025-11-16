@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp

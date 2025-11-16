@@ -331,7 +331,6 @@ CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o: \
  /usr/include/opencv4/opencv2/core/core_c.h \
  /usr/include/opencv4/opencv2/core/types_c.h /usr/include/c++/13/stdlib.h \
  /opt/ros/jazzy/include/cv_bridge/cv_bridge/cv_bridge_export.h \
- /opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp \
  /opt/ros/jazzy/include/message_filters/message_filters/subscriber.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
@@ -786,7 +785,6 @@ CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o: \
  /opt/ros/jazzy/include/message_filters/message_filters/signal1.h \
  /opt/ros/jazzy/include/message_filters/message_filters/message_event.h \
  /opt/ros/jazzy/include/message_filters/message_filters/parameter_adapter.h \
- /opt/ros/jazzy/include/message_filters/message_filters/sync_policies/approximate_time.hpp \
  /opt/ros/jazzy/include/message_filters/message_filters/sync_policies/approximate_time.h \
  /usr/include/inttypes.h \
  /opt/ros/jazzy/include/message_filters/message_filters/message_traits.h \
@@ -797,10 +795,7 @@ CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o: \
  /opt/ros/jazzy/include/message_filters/message_filters/null_types.h \
  /opt/ros/jazzy/include/message_filters/message_filters/signal9.h \
  /opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h \
- /opt/ros/jazzy/include/message_filters/message_filters/sync_policies/exact_time.hpp \
  /opt/ros/jazzy/include/message_filters/message_filters/sync_policies/exact_time.h \
- /opt/ros/jazzy/include/message_filters/message_filters/synchronizer.hpp \
- /opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h \
  /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/stereo_view_node.hpp \
  /usr/include/opencv4/opencv2/highgui/highgui.hpp \
  /usr/include/opencv4/opencv2/highgui.hpp \

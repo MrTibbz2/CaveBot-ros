@@ -1,0 +1,5 @@
+/home/pi/CaveBot-ros/install/opennav_docking/lib/libopennav_docking_core.so
+/home/pi/CaveBot-ros/install/opennav_docking/lib/libcontroller.so
+/home/pi/CaveBot-ros/install/opennav_docking/lib/libpose_filter.so
+/home/pi/CaveBot-ros/install/opennav_docking/lib/libsimple_charging_dock.so
+/home/pi/CaveBot-ros/install/opennav_docking/lib/libsimple_non_charging_dock.so

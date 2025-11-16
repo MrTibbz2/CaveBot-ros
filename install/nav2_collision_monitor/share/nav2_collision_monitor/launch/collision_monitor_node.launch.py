@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/src/navigation2/nav2_collision_monitor/launch/collision_monitor_node.launch.py

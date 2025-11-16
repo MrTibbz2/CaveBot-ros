@@ -1,0 +1,70 @@
+[0.041s] Invoking command in '/home/pi/CaveBot-ros/build/camera_ros': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig /usr/bin/cmake /home/pi/CaveBot-ros/src/camera_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/camera_ros
+[0.089s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.866s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.905s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.959s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.977s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.162s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.472s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.522s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.661s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.674s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.765s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.832s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.210s] -- Added test 'clang_format' to check C / C++ code style
+[2.217s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.221s] -- Configured cppcheck include dirs: 
+[2.221s] -- Configured cppcheck exclude dirs and/or files: 
+[2.222s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.222s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.225s] -- Added test 'lint_cmake' to check CMake code style
+[2.228s] -- Added test 'mypy' to statically type check Python code.
+[2.235s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.235s] -- Added test 'pyflakes' to perform static code analysis on Python code
+[2.236s] -- Added test 'xmllint' to check XML markup files
+[2.242s] -- Configuring done (2.2s)
+[2.338s] -- Generating done (0.1s)
+[2.373s] -- Build files have been written to: /home/pi/CaveBot-ros/build/camera_ros
+[2.404s] Invoked command in '/home/pi/CaveBot-ros/build/camera_ros' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig /usr/bin/cmake /home/pi/CaveBot-ros/src/camera_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/camera_ros
+[2.405s] Invoking command in '/home/pi/CaveBot-ros/build/camera_ros': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig /usr/bin/cmake --build /home/pi/CaveBot-ros/build/camera_ros -- -j4 -l4
+[2.568s] [ 15%] Built target utils
+[2.637s] [ 23%] Linking CXX executable camera_node
+[3.111s] [ 30%] Built target camera_node
+[3.224s] [ 84%] Built target param
+[3.305s] [ 92%] Linking CXX shared library libcamera_component.so
+[5.406s] [100%] Built target camera_component
+[5.440s] Invoked command in '/home/pi/CaveBot-ros/build/camera_ros' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig /usr/bin/cmake --build /home/pi/CaveBot-ros/build/camera_ros -- -j4 -l4
+[5.443s] Invoking command in '/home/pi/CaveBot-ros/build/camera_ros': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig /usr/bin/cmake --install /home/pi/CaveBot-ros/build/camera_ros
+[5.472s] -- Install configuration: ""
+[5.474s] -- Execute custom install script
+[5.474s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/lib/camera_ros/camera_node
+[5.509s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/environment/library_path.sh
+[5.539s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/environment/library_path.dsv
+[5.576s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[5.605s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[5.636s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[5.664s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[5.691s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[5.715s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/environment/path.sh
+[5.741s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/environment/path.dsv
+[5.766s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/local_setup.bash
+[5.794s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/local_setup.sh
+[5.819s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/local_setup.zsh
+[5.843s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/local_setup.dsv
+[5.874s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/package.dsv
+[5.907s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[5.941s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[5.965s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake
+[5.991s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.021s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[6.042s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[6.072s] -- Symlinking: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/package.xml
+[6.104s] -- Installing: /home/pi/CaveBot-ros/install/camera_ros/lib/libcamera_component.so
+[6.123s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/camera_ros/lib/libcamera_component.so" to ""
+[6.124s] -- Up-to-date: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
+[6.124s] -- Up-to-date: /home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake
+[6.134s] Invoked command in '/home/pi/CaveBot-ros/build/camera_ros' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_view:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:${LD_LIBRARY_PATH} PATH=/home/pi/CaveBot-ros/install/libcamera/bin:${PATH} PKG_CONFIG_PATH=/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig /usr/bin/cmake --install /home/pi/CaveBot-ros/build/camera_ros

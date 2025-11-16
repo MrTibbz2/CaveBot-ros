@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/build/image_rotate/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

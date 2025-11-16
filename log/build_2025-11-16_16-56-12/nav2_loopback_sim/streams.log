@@ -1,0 +1,25 @@
+[2.545s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_loopback_sim': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_simple_commander:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/pi/CaveBot-ros/build/nav2_simple_commander:/home/pi/CaveBot-ros/install/nav2_simple_commander/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/nav2_loopback_sim/build --no-deps symlink_data
+[3.468s] running develop
+[4.125s] running egg_info
+[4.127s] creating nav2_loopback_sim.egg-info
+[4.191s] writing nav2_loopback_sim.egg-info/PKG-INFO
+[4.191s] writing dependency_links to nav2_loopback_sim.egg-info/dependency_links.txt
+[4.194s] writing entry points to nav2_loopback_sim.egg-info/entry_points.txt
+[4.196s] writing requirements to nav2_loopback_sim.egg-info/requires.txt
+[4.201s] writing top-level names to nav2_loopback_sim.egg-info/top_level.txt
+[4.201s] writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[4.322s] reading manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[4.325s] writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[4.430s] running build_ext
+[4.433s] Creating /home/pi/CaveBot-ros/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2-loopback-sim.egg-link (link to .)
+[4.434s] Installing loopback_simulator script to /home/pi/CaveBot-ros/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[4.439s] 
+[4.439s] Installed /home/pi/CaveBot-ros/build/nav2_loopback_sim
+[4.440s] running symlink_data
+[4.440s] creating /home/pi/CaveBot-ros/install/nav2_loopback_sim/share/ament_index
+[4.440s] creating /home/pi/CaveBot-ros/install/nav2_loopback_sim/share/ament_index/resource_index
+[4.442s] creating /home/pi/CaveBot-ros/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[4.443s] symbolically linking /home/pi/CaveBot-ros/build/nav2_loopback_sim/resource/nav2_loopback_sim -> /home/pi/CaveBot-ros/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[4.443s] symbolically linking /home/pi/CaveBot-ros/build/nav2_loopback_sim/package.xml -> /home/pi/CaveBot-ros/install/nav2_loopback_sim/share/nav2_loopback_sim
+[4.446s] symbolically linking /home/pi/CaveBot-ros/build/nav2_loopback_sim/launch/loopback_simulation.launch.py -> /home/pi/CaveBot-ros/install/nav2_loopback_sim/share/nav2_loopback_sim
+[4.585s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_loopback_sim' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_simple_commander:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/pi/CaveBot-ros/build/nav2_simple_commander:/home/pi/CaveBot-ros/install/nav2_simple_commander/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/nav2_loopback_sim/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "slam_toolbox/srv/Reset_Request",
+      "fields": [
+        {
+          "name": "pause_new_measurements",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "False"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "slam_toolbox/srv/Reset_Request",
+      "hash_string": "RIHS01_e3eb332dcfed05e39e67aa244c229e5a4d1741969d26e0d8f9138425ee4f8856"
+    }
+  ]
+}

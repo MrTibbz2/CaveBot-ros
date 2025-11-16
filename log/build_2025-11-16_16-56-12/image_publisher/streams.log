@@ -1,0 +1,72 @@
+[0.025s] Invoking command in '/home/pi/CaveBot-ros/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_publisher -- -j4 -l4
+[0.089s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.769s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[0.876s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.917s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.137s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.144s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.288s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.560s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.207s] -- opencv version 4.6.0
+[2.219s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.235s] In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/image_publisher` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+[2.256s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.265s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/image_publisher/include
+[2.266s] -- Configured cppcheck exclude dirs and/or files: 
+[2.266s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.266s] -- Configured cpplint exclude dirs and/or files: 
+[2.268s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.269s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.272s] -- Added test 'lint_cmake' to check CMake code style
+[2.274s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.280s] -- Added test 'uncrustify' to check C / C++ code style
+[2.281s] -- Configured uncrustify additional arguments: 
+[2.281s] -- Added test 'xmllint' to check XML markup files
+[2.293s] -- Configuring done (2.2s)
+[2.375s] -- Generating done (0.1s)
+[2.732s] -- Build files have been written to: /home/pi/CaveBot-ros/build/image_publisher
+[2.870s] [ 25%] Building CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o
+[20.401s] [ 50%] Linking CXX shared library libimage_publisher.so
+[21.221s] [ 50%] Built target image_publisher
+[21.287s] [ 75%] Building CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o
+[32.336s] [100%] Linking CXX executable image_publisher_node
+[34.622s] [100%] Built target image_publisher_node
+[34.660s] Invoked command in '/home/pi/CaveBot-ros/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_publisher -- -j4 -l4
+[34.664s] Invoking command in '/home/pi/CaveBot-ros/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_publisher
+[34.686s] -- Install configuration: ""
+[34.687s] -- Execute custom install script
+[34.691s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/include/image_publisher/image_publisher.hpp
+[34.716s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/include/image_publisher/visibility.h
+[34.741s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/library_path.sh
+[34.769s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[34.802s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/lib/libimage_publisher.so
+[34.833s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/lib/image_publisher/image_publisher_node
+[34.862s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_component_file.launch.py
+[34.887s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[34.909s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[34.937s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[34.960s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/splash.png
+[34.991s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[35.021s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[35.053s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[35.077s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[35.103s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/path.sh
+[35.129s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/path.dsv
+[35.154s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.bash
+[35.178s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.sh
+[35.203s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.zsh
+[35.228s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.dsv
+[35.255s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/package.dsv
+[35.286s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[35.317s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[35.346s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.376s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.407s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[35.437s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[35.468s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[35.491s] -- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/package.xml
+[35.517s] Invoked command in '/home/pi/CaveBot-ros/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_publisher

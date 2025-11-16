@@ -1,0 +1,646 @@
+[0.127s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_mppi_controller
+[0.372s] -- The C compiler identification is GNU 13.3.0
+[0.617s] -- The CXX compiler identification is GNU 13.3.0
+[0.694s] -- Detecting C compiler ABI info
+[1.010s] -- Detecting C compiler ABI info - done
+[1.045s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.045s] -- Detecting C compile features
+[1.051s] -- Detecting C compile features - done
+[1.078s] -- Detecting CXX compiler ABI info
+[1.376s] -- Detecting CXX compiler ABI info - done
+[1.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.418s] -- Detecting CXX compile features
+[1.418s] -- Detecting CXX compile features - done
+[1.428s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.848s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.089s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.210s] -- Performing Test arch_native_supported
+[2.519s] -- Performing Test arch_native_supported - Success
+[2.537s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.633s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.680s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.013s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.024s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.283s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.332s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.558s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[3.568s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.614s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[3.733s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.875s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.942s] -- Found nav2_core: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_core/share/nav2_core/cmake)
+[4.720s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.727s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.159s] -- Found tf2_eigen: 0.36.14 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[5.170s] -- Setting build type to Release as none was specified.
+[5.173s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[5.318s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Failed
+[5.320s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[5.452s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Failed
+[5.459s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[5.579s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Failed
+[5.579s] -- Performing Test COMPILER_SUPPORTS_FMA
+[5.767s] -- Performing Test COMPILER_SUPPORTS_FMA - Failed
+[5.916s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.926s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[6.285s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.591s] -- Found Threads: TRUE  
+[7.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.586s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include
+[7.587s] -- Configured cppcheck exclude dirs and/or files: 
+[7.595s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.596s] -- Configured cpplint exclude dirs and/or files: 
+[7.603s] -- Added test 'lint_cmake' to check CMake code style
+[7.612s] -- Added test 'uncrustify' to check C / C++ code style
+[7.613s] -- Configured uncrustify additional arguments: 
+[7.615s] -- Added test 'xmllint' to check XML markup files
+[7.637s] -- Configuring done (7.5s)
+[10.359s] -- Generating done (2.4s)
+[10.572s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_mppi_controller
+[10.646s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_mppi_controller
+[10.647s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_mppi_controller -- -j4 -l4
+[10.843s] [  2%] Building CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o
+[23.075s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[23.076s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[23.076s]                  from /usr/include/xtensor/xexception.hpp:24,
+[23.076s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[23.076s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[23.076s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[23.076s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/optimizer.hpp:25,
+[23.076s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/controller.hpp:22,
+[23.077s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/controller.cpp:17:
+[23.077s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[23.077s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[23.077s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[23.077s]       |                                                      ^~~~~~~~
+[23.086s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[23.086s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[23.087s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[23.087s]       |                                                         ^~~~~~~~
+[48.886s] [  4%] Building CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o
+[52.075s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[52.076s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[52.076s]                  from /usr/include/xtensor/xexception.hpp:24,
+[52.076s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[52.076s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[52.076s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[52.076s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/optimizer.hpp:25,
+[52.077s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/optimizer.cpp:15:
+[52.077s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[52.077s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[52.077s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[52.077s]       |                                                      ^~~~~~~~
+[52.084s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[52.084s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[52.084s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[52.084s]       |                                                         ^~~~~~~~
+[109.697s] [  6%] Building CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o
+[113.907s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[113.907s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[113.908s]                  from /usr/include/xtensor/xexception.hpp:24,
+[113.908s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[113.908s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[113.908s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[113.908s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_manager.hpp:27,
+[113.908s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critic_manager.cpp:15:
+[113.912s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[113.912s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[113.912s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[113.913s]       |                                                      ^~~~~~~~
+[113.917s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[113.918s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[113.918s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[113.918s]       |                                                         ^~~~~~~~
+[147.532s] [  8%] Building CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o
+[150.692s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[150.693s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[150.693s]                  from /usr/include/xtensor/xexception.hpp:24,
+[150.693s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[150.693s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[150.693s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[150.694s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/trajectory_visualizer.hpp:25,
+[150.694s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/trajectory_visualizer.cpp:16:
+[150.694s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[150.694s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[150.694s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[150.703s]       |                                                      ^~~~~~~~
+[150.703s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[150.703s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[150.704s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[150.704s]       |                                                         ^~~~~~~~
+[184.560s] [ 10%] Building CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o
+[195.758s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[195.759s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[195.759s]                  from /usr/include/xtensor/xexception.hpp:24,
+[195.759s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[195.761s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[195.761s]                  from /usr/include/xtensor/xarray.hpp:19,
+[195.768s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/utils.hpp:31,
+[195.769s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/path_handler.cpp:18:
+[195.769s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[195.769s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[195.770s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[195.770s]       |                                                      ^~~~~~~~
+[195.772s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[195.772s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[195.772s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[195.773s]       |                                                         ^~~~~~~~
+[210.711s] [ 12%] Building CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o
+[223.244s] [ 14%] Building CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o
+[226.258s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[226.258s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[226.259s]                  from /usr/include/xtensor/xexception.hpp:24,
+[226.259s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[226.259s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[226.259s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[226.259s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/noise_generator.hpp:28,
+[226.260s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/noise_generator.cpp:15:
+[226.260s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[226.260s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[226.260s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[226.260s]       |                                                      ^~~~~~~~
+[226.268s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[226.268s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[226.268s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[226.269s]       |                                                         ^~~~~~~~
+[240.734s] [ 16%] Linking CXX shared library libmppi_controller.so
+[242.704s] [ 16%] Built target mppi_controller
+[242.768s] [ 18%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[268.920s] [ 20%] Linking CXX static library libgtest.a
+[269.114s] [ 20%] Built target gtest
+[269.183s] [ 22%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[271.848s] [ 25%] Linking CXX static library libgtest_main.a
+[271.967s] [ 25%] Built target gtest_main
+[272.045s] [ 27%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o
+[283.695s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[283.695s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[283.695s]                  from /usr/include/xtensor/xexception.hpp:24,
+[283.695s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[283.696s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[283.696s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[283.696s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[283.696s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[283.702s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/obstacles_critic.hpp:23,
+[283.702s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/obstacles_critic.cpp:17:
+[283.703s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[283.703s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[283.703s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[283.703s]       |                                                      ^~~~~~~~
+[283.708s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[283.708s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[283.709s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[283.709s]       |                                                         ^~~~~~~~
+[304.516s] [ 29%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o
+[316.328s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[316.328s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[316.329s]                  from /usr/include/xtensor/xexception.hpp:24,
+[316.329s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[316.329s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[316.330s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[316.330s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[316.330s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[316.337s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/cost_critic.hpp:24,
+[316.337s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/cost_critic.cpp:17:
+[316.337s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[316.338s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[316.338s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[316.338s]       |                                                      ^~~~~~~~
+[316.345s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[316.346s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[316.346s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[316.346s]       |                                                         ^~~~~~~~
+[335.912s] [ 31%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o
+[348.133s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[348.133s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[348.133s]                  from /usr/include/xtensor/xexception.hpp:24,
+[348.133s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[348.133s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[348.133s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[348.133s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[348.134s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[348.134s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/goal_critic.hpp:19,
+[348.134s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/goal_critic.cpp:16:
+[348.134s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[348.134s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[348.134s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[348.134s]       |                                                      ^~~~~~~~
+[348.147s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[348.147s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[348.147s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[348.147s]       |                                                         ^~~~~~~~
+[368.176s] [ 33%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o
+[379.578s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[379.578s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[379.578s]                  from /usr/include/xtensor/xexception.hpp:24,
+[379.578s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[379.578s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[379.578s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[379.579s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[379.579s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[379.579s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/goal_angle_critic.hpp:18,
+[379.579s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/goal_angle_critic.cpp:15:
+[379.579s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[379.579s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[379.579s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[379.586s]       |                                                      ^~~~~~~~
+[379.586s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[379.586s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[379.586s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[379.587s]       |                                                         ^~~~~~~~
+[400.135s] [ 35%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o
+[411.451s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[411.452s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[411.452s]                  from /usr/include/xtensor/xexception.hpp:24,
+[411.452s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[411.452s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[411.452s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[411.453s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[411.453s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[411.453s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/path_align_critic.hpp:18,
+[411.453s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/path_align_critic.cpp:15:
+[411.453s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[411.453s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[411.459s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[411.459s]       |                                                      ^~~~~~~~
+[411.459s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[411.459s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[411.460s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[411.460s]       |                                                         ^~~~~~~~
+[431.482s] [ 37%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o
+[444.308s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[444.308s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[444.308s]                  from /usr/include/xtensor/xexception.hpp:24,
+[444.309s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[444.309s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[444.309s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[444.309s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[444.309s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[444.310s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/path_follow_critic.hpp:19,
+[444.310s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/path_follow_critic.cpp:15:
+[444.310s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[444.310s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[444.310s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[444.319s]       |                                                      ^~~~~~~~
+[444.320s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[444.320s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[444.320s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[444.320s]       |                                                         ^~~~~~~~
+[465.230s] [ 39%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o
+[475.921s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[475.921s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[475.921s]                  from /usr/include/xtensor/xexception.hpp:24,
+[475.921s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[475.922s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[475.922s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[475.922s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[475.922s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[475.922s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/path_angle_critic.hpp:19,
+[475.922s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/path_angle_critic.cpp:16:
+[475.922s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[475.923s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[475.923s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[475.923s]       |                                                      ^~~~~~~~
+[475.936s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[475.936s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[475.936s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[475.937s]       |                                                         ^~~~~~~~
+[506.419s] [ 41%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o
+[518.350s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[518.351s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[518.351s]                  from /usr/include/xtensor/xexception.hpp:24,
+[518.351s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[518.351s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[518.352s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[518.352s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[518.352s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[518.352s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/prefer_forward_critic.hpp:18,
+[518.352s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/prefer_forward_critic.cpp:15:
+[518.353s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[518.362s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[518.363s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[518.363s]       |                                                      ^~~~~~~~
+[518.364s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[518.364s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[518.364s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[518.364s]       |                                                         ^~~~~~~~
+[538.236s] [ 43%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o
+[549.228s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[549.229s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[549.229s]                  from /usr/include/xtensor/xexception.hpp:24,
+[549.229s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[549.229s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[549.229s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[549.229s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[549.230s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[549.230s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/twirling_critic.hpp:18,
+[549.230s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/twirling_critic.cpp:15:
+[549.230s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[549.230s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[549.230s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[549.230s]       |                                                      ^~~~~~~~
+[549.237s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[549.237s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[549.237s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[549.237s]       |                                                         ^~~~~~~~
+[567.853s] [ 45%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o
+[578.658s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[578.659s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[578.659s]                  from /usr/include/xtensor/xexception.hpp:24,
+[578.659s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[578.659s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[578.660s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[578.660s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[578.660s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[578.660s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/constraint_critic.hpp:18,
+[578.660s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/constraint_critic.cpp:15:
+[578.666s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[578.666s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[578.666s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[578.667s]       |                                                      ^~~~~~~~
+[578.671s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[578.672s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[578.672s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[578.672s]       |                                                         ^~~~~~~~
+[605.018s] [ 47%] Building CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o
+[615.859s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[615.859s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[615.860s]                  from /usr/include/xtensor/xexception.hpp:24,
+[615.860s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[615.860s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[615.860s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[615.860s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp:25,
+[615.860s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_function.hpp:25,
+[615.860s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/velocity_deadband_critic.hpp:20,
+[615.861s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/src/critics/velocity_deadband_critic.cpp:15:
+[615.861s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[615.861s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[615.861s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[615.861s]       |                                                      ^~~~~~~~
+[615.870s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[615.870s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[615.870s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[615.871s]       |                                                         ^~~~~~~~
+[636.400s] [ 50%] Linking CXX shared library libmppi_critics.so
+[638.721s] [ 50%] Built target mppi_critics
+[638.793s] [ 52%] Building CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o
+[646.848s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[646.849s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[646.849s]                  from /usr/include/xtensor/xexception.hpp:24,
+[646.849s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[646.849s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[646.849s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[646.850s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/control_sequence.hpp:22,
+[646.850s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/models_test.cpp:17:
+[646.850s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[646.850s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[646.850s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[646.855s]       |                                                      ^~~~~~~~
+[646.867s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[646.867s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[646.868s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[646.868s]       |                                                         ^~~~~~~~
+[660.269s] [ 54%] Linking CXX executable models_test
+[661.808s] [ 54%] Built target models_test
+[661.876s] [ 56%] Building CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o
+[669.173s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[669.173s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[669.174s]                  from /usr/include/xtensor/xexception.hpp:24,
+[669.175s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[669.176s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[669.176s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[669.176s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/noise_generator.hpp:28,
+[669.176s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/noise_generator_test.cpp:21:
+[669.176s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[669.176s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[669.176s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[669.177s]       |                                                      ^~~~~~~~
+[669.177s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[669.177s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[669.177s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[669.177s]       |                                                         ^~~~~~~~
+[679.940s] [ 58%] Linking CXX executable noise_generator_test
+[681.988s] [ 58%] Built target noise_generator_test
+[682.065s] [ 60%] Building CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o
+[700.767s] [ 62%] Linking CXX executable parameter_handler_test
+[703.545s] [ 62%] Built target parameter_handler_test
+[703.620s] [ 64%] Building CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o
+[711.720s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[711.720s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[711.721s]                  from /usr/include/xtensor/xexception.hpp:24,
+[711.721s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[711.721s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[711.721s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[711.722s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/control_sequence.hpp:22,
+[711.722s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/motion_models.hpp:21,
+[711.722s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/motion_model_tests.cpp:20:
+[711.722s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[711.729s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[711.729s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[711.729s]       |                                                      ^~~~~~~~
+[711.730s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[711.730s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[711.730s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[711.731s]       |                                                         ^~~~~~~~
+[727.364s] [ 66%] Linking CXX executable motion_model_tests
+[729.433s] [ 66%] Built target motion_model_tests
+[729.499s] [ 68%] Building CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o
+[737.255s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[737.255s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[737.255s]                  from /usr/include/xtensor/xexception.hpp:24,
+[737.256s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[737.256s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[737.256s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[737.256s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/trajectory_visualizer.hpp:25,
+[737.256s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/trajectory_visualizer_tests.cpp:20:
+[737.256s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[737.257s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[737.257s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[737.257s]       |                                                      ^~~~~~~~
+[737.266s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[737.266s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[737.267s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[737.267s]       |                                                         ^~~~~~~~
+[789.263s] [ 70%] Linking CXX executable trajectory_visualizer_tests
+[791.470s] [ 70%] Built target trajectory_visualizer_tests
+[791.545s] [ 72%] Building CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o
+[794.837s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[794.837s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[794.837s]                  from /usr/include/xtensor/xexception.hpp:24,
+[794.837s]                  from /usr/include/xtensor/xaccessible.hpp:13,
+[794.838s]                  from /usr/include/xtensor/xbroadcast.hpp:23,
+[794.838s]                  from /usr/include/xtensor/xbuilder.hpp:29,
+[794.838s]                  from /usr/include/xtensor/xrandom.hpp:25,
+[794.838s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/utils_test.cpp:20:
+[794.838s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[794.839s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[794.846s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[794.846s]       |                                                      ^~~~~~~~
+[794.854s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[794.854s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[794.854s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[794.855s]       |                                                         ^~~~~~~~
+[830.659s] [ 75%] Linking CXX executable utils_test
+[833.261s] [ 75%] Built target utils_test
+[833.329s] [ 77%] Building CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o
+[857.009s] [ 79%] Linking CXX executable path_handler_test
+[860.030s] [ 79%] Built target path_handler_test
+[860.092s] [ 81%] Building CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o
+[868.989s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[868.989s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[868.990s]                  from /usr/include/xtensor/xexception.hpp:24,
+[868.990s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[868.990s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[868.990s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[868.990s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_manager.hpp:27,
+[868.991s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/critic_manager_test.cpp:20:
+[868.991s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[868.991s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[868.991s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[868.991s]       |                                                      ^~~~~~~~
+[869.000s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[869.000s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[869.000s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[869.001s]       |                                                         ^~~~~~~~
+[900.940s] [ 83%] Linking CXX executable critic_manager_test
+[903.569s] [ 83%] Built target critic_manager_test
+[903.644s] [ 85%] Building CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o
+[912.489s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[912.490s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[912.490s]                  from /usr/include/xtensor/xexception.hpp:24,
+[912.494s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[912.494s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[912.495s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[912.495s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/optimizer.hpp:25,
+[912.496s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/optimizer_unit_tests.cpp:20:
+[912.496s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[912.505s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[912.506s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[912.506s]       |                                                      ^~~~~~~~
+[912.506s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[912.507s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[912.507s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[912.507s]       |                                                         ^~~~~~~~
+[953.609s] [ 87%] Linking CXX executable optimizer_unit_tests
+[957.042s] [ 87%] Built target optimizer_unit_tests
+[957.113s] [ 89%] Building CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o
+[964.976s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[964.977s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[964.977s]                  from /usr/include/xtensor/xexception.hpp:24,
+[964.977s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[964.980s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[964.980s]                  from /usr/include/xtensor/xarray.hpp:19,
+[964.980s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/utils.hpp:31,
+[964.980s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/critics_tests.cpp:21:
+[964.981s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[964.981s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[964.981s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[964.981s]       |                                                      ^~~~~~~~
+[964.990s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[964.990s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[964.991s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[964.991s]       |                                                         ^~~~~~~~
+[1006.779s] [ 91%] Linking CXX executable critics_tests
+[1010.052s] [ 91%] Built target critics_tests
+[1010.140s] [ 93%] Building CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o
+[1021.472s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[1021.473s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[1021.476s]                  from /usr/include/xtensor/xexception.hpp:24,
+[1021.476s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[1021.476s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[1021.477s]                  from /usr/include/xtensor/xtensor.hpp:19,
+[1021.477s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/optimizer.hpp:25,
+[1021.477s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/controller.hpp:22,
+[1021.477s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/controller_state_transition_test.cpp:23:
+[1021.477s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[1021.481s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[1021.481s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[1021.481s]       |                                                      ^~~~~~~~
+[1021.485s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[1021.485s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[1021.486s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[1021.486s]       |                                                         ^~~~~~~~
+[1050.702s] [ 95%] Linking CXX executable controller_state_transition_test
+[1053.667s] [ 95%] Built target controller_state_transition_test
+[1053.736s] [ 97%] Building CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o
+[1066.298s] In file included from /usr/include/xsimd/xsimd.hpp:55,
+[1066.299s]                  from /usr/include/xtensor/xtensor_config.hpp:61,
+[1066.299s]                  from /usr/include/xtensor/xexception.hpp:24,
+[1066.299s]                  from /usr/include/xtensor/xstorage.hpp:21,
+[1066.299s]                  from /usr/include/xtensor/xbuffer_adaptor.hpp:21,
+[1066.299s]                  from /usr/include/xtensor/xarray.hpp:19,
+[1066.299s]                  from /home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/test/optimizer_smoke_test.cpp:25:
+[1066.299s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<float, float> xsimd::sincos(float)’:
+[1066.299s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1075:54: note: parameter passing for argument of type ‘std::pair<float, float>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[1066.300s]  1075 |     inline std::pair<float, float> sincos(float val) noexcept
+[1066.303s]       |                                                      ^~~~~~~~
+[1066.309s] /usr/include/xsimd/arch/xsimd_scalar.hpp: In function ‘std::pair<double, double> xsimd::sincos(double)’:
+[1066.309s] /usr/include/xsimd/arch/xsimd_scalar.hpp:1082:57: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[1066.309s]  1082 |     inline std::pair<double, double> sincos(double val) noexcept
+[1066.309s]       |                                                         ^~~~~~~~
+[1095.484s] [100%] Linking CXX executable optimizer_smoke_test
+[1098.493s] [100%] Built target optimizer_smoke_test
+[1098.533s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_mppi_controller -- -j4 -l4
+[1098.534s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_mppi_controller
+[1098.564s] -- Install configuration: "Release"
+[1098.569s] -- Execute custom install script
+[1098.569s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/lib/libmppi_controller.so
+[1098.601s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/lib/libmppi_critics.so
+[1098.628s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[1098.654s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[1098.682s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[1098.710s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[1098.740s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[1098.774s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[1098.807s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[1098.842s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[1098.877s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[1098.911s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[1098.939s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[1098.969s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[1098.991s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[1099.022s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[1099.053s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[1099.088s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[1099.119s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[1099.154s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[1099.187s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[1099.223s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[1099.253s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[1099.286s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[1099.317s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[1099.341s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[1099.378s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[1099.396s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[1099.423s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[1099.457s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[1099.488s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[1099.522s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[1099.553s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+[1099.585s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+[1099.618s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[1099.647s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[1099.675s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[1099.700s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[1099.726s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[1099.752s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[1099.778s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[1099.804s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[1099.830s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[1099.862s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[1099.895s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[1099.930s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[1099.962s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[1099.997s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[1100.029s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1100.059s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1100.086s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1100.114s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[1100.139s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[1100.174s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[1100.213s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_mppi_controller

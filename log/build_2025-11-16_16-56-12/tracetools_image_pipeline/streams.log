@@ -1,0 +1,60 @@
+[0.023s] Invoking command in '/home/pi/CaveBot-ros/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/tracetools_image_pipeline -- -j4 -l4
+[0.077s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.861s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.923s] -- LTTng found: tracing enabled
+[0.954s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.314s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.314s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.315s] -- Configured cppcheck include dirs: /usr/include/aarch64-linux-gnu
+[1.315s] -- Configured cppcheck exclude dirs and/or files: 
+[1.319s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.319s] -- Configured cpplint exclude dirs and/or files: 
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.508s] -- Added test 'uncrustify' to check C / C++ code style
+[1.508s] -- Configured uncrustify additional arguments: 
+[1.508s] -- Added test 'xmllint' to check XML markup files
+[1.508s] -- Configuring done (1.3s)
+[1.508s] -- Generating done (0.0s)
+[1.508s] -- Build files have been written to: /home/pi/CaveBot-ros/build/tracetools_image_pipeline
+[1.508s] [ 16%] Building CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o
+[1.509s] [ 33%] Building C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o
+[1.509s] [ 50%] Building C object CMakeFiles/tracetools_image_pipeline.dir/src/tp_call.c.o
+[1.881s] [ 66%] Linking CXX shared library libtracetools_image_pipeline.so
+[2.137s] [ 66%] Built target tracetools_image_pipeline
+[2.213s] [ 83%] Linking C executable status
+[2.552s] [100%] Built target status
+[2.605s] Invoked command in '/home/pi/CaveBot-ros/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/tracetools_image_pipeline -- -j4 -l4
+[2.605s] Invoking command in '/home/pi/CaveBot-ros/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/tracetools_image_pipeline
+[2.636s] -- Install configuration: ""
+[2.639s] -- Execute custom install script
+[2.639s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[2.639s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[2.640s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[2.640s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[2.640s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tp_call.h
+[2.640s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[2.650s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[2.657s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[2.657s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[2.658s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[2.659s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[2.659s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[2.660s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[2.660s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[2.661s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[2.661s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[2.663s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[2.664s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[2.664s] -- Symlinking: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_link_flags-extras.cmake
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[2.699s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[2.700s] -- Installing: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[2.703s] -- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[2.703s] -- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[2.710s] Invoked command in '/home/pi/CaveBot-ros/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/tracetools_image_pipeline

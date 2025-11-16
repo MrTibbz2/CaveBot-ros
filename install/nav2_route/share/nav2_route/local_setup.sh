@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/build/nav2_route/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,7 @@
+/home/pi/CaveBot-ros/install/nav2_route/lib/libroute_server_core.so
+/home/pi/CaveBot-ros/install/nav2_route/lib/libedge_scorers.so
+/home/pi/CaveBot-ros/install/nav2_route/lib/libroute_operations.so
+/home/pi/CaveBot-ros/install/nav2_route/lib/libgraph_file_loaders.so
+/home/pi/CaveBot-ros/install/nav2_route/lib/libgraph_file_savers.so
+/home/pi/CaveBot-ros/install/nav2_route/share/nav2_route/cmake/export_nav2_routeExport.cmake
+/home/pi/CaveBot-ros/install/nav2_route/share/nav2_route/cmake/export_nav2_routeExport-release.cmake

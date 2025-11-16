@@ -1,0 +1,164 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found nav2_graceful_controller: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_graceful_controller/share/nav2_graceful_controller/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found opennav_docking_core: 1.3.10 (/home/pi/CaveBot-ros/install/opennav_docking_core/share/opennav_docking_core/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_docking/opennav_docking/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (10.5s)
+-- Generating done (2.5s)
+-- Build files have been written to: /home/pi/CaveBot-ros/build/opennav_docking
+[  2%] Building CXX object CMakeFiles/controller.dir/src/controller.cpp.o
+[  5%] Linking CXX shared library libcontroller.so
+[  5%] Built target controller
+[  8%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 11%] Linking CXX static library libgtest.a
+[ 11%] Built target gtest
+[ 13%] Building CXX object test/CMakeFiles/test_dock.dir/testing_dock.cpp.o
+[ 16%] Linking CXX shared library libtest_dock.so
+[ 16%] Built target test_dock
+[ 19%] Building CXX object CMakeFiles/opennav_docking_core.dir/src/docking_server.cpp.o
+[ 22%] Building CXX object CMakeFiles/opennav_docking_core.dir/src/dock_database.cpp.o
+[ 25%] Building CXX object CMakeFiles/opennav_docking_core.dir/src/navigator.cpp.o
+[ 27%] Linking CXX shared library libopennav_docking_core.so
+[ 27%] Built target opennav_docking_core
+[ 30%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 33%] Linking CXX static library libgtest_main.a
+[ 33%] Built target gtest_main
+[ 36%] Building CXX object CMakeFiles/opennav_docking.dir/src/main.cpp.o
+[ 38%] Building CXX object test/CMakeFiles/test_dock_database.dir/test_dock_database.cpp.o
+[ 41%] Building CXX object test/CMakeFiles/test_utils.dir/test_utils.cpp.o
+[ 44%] Building CXX object CMakeFiles/pose_filter.dir/src/pose_filter.cpp.o
+[ 47%] Linking CXX executable opennav_docking
+[ 50%] Linking CXX shared library libpose_filter.so
+[ 50%] Built target pose_filter
+[ 52%] Linking CXX executable test_dock_database
+[ 55%] Linking CXX executable test_utils
+[ 55%] Built target opennav_docking
+[ 55%] Built target test_utils
+[ 55%] Built target test_dock_database
+[ 58%] Building CXX object test/CMakeFiles/test_pose_filter.dir/test_pose_filter.cpp.o
+[ 61%] Linking CXX executable test_pose_filter
+[ 61%] Built target test_pose_filter
+[ 63%] Building CXX object test/CMakeFiles/test_docking_server_unit.dir/test_docking_server_unit.cpp.o
+[ 66%] Building CXX object CMakeFiles/simple_charging_dock.dir/src/simple_charging_dock.cpp.o
+[ 69%] Building CXX object test/CMakeFiles/test_controller.dir/test_controller.cpp.o
+[ 72%] Building CXX object test/CMakeFiles/test_navigator.dir/test_navigator.cpp.o
+[ 75%] Linking CXX executable test_docking_server_unit
+[ 77%] Linking CXX executable test_navigator
+[ 80%] Linking CXX executable test_controller
+[ 80%] Built target test_docking_server_unit
+[ 80%] Built target test_controller
+[ 80%] Built target test_navigator
+[ 83%] Linking CXX shared library libsimple_charging_dock.so
+[ 83%] Built target simple_charging_dock
+[ 86%] Building CXX object CMakeFiles/simple_non_charging_dock.dir/src/simple_non_charging_dock.cpp.o
+[ 88%] Linking CXX shared library libsimple_non_charging_dock.so
+[ 88%] Built target simple_non_charging_dock
+[ 94%] Building CXX object test/CMakeFiles/test_simple_charging_dock.dir/test_simple_charging_dock.cpp.o
+[ 94%] Building CXX object test/CMakeFiles/test_simple_non_charging_dock.dir/test_simple_non_charging_dock.cpp.o
+[ 97%] Linking CXX executable test_simple_non_charging_dock
+[100%] Linking CXX executable test_simple_charging_dock
+[100%] Built target test_simple_non_charging_dock
+[100%] Built target test_simple_charging_dock
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking//plugins.xml
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/lib/opennav_docking/opennav_docking
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/controller.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/dock_database.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/docking_server.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/navigator.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/pose_filter.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/simple_charging_dock.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/simple_non_charging_dock.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/types.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/include//opennav_docking/utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking//test_dock_file.yaml
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/lib/libtest_dock.so
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/library_path.dsv
+-- Up-to-date symlink: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/library_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/ament_index/resource_index/package_run_dependencies/opennav_docking
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/ament_index/resource_index/parent_prefix_path/opennav_docking
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/environment/path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/local_setup.bash
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/local_setup.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/local_setup.zsh
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/local_setup.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/package.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/ament_index/resource_index/packages/opennav_docking
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/ament_index/resource_index/opennav_docking_core__pluginlib__plugin/opennav_docking
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/ament_index/resource_index/rclcpp_components/opennav_docking
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/cmake/opennav_dockingConfig.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/cmake/opennav_dockingConfig-version.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/opennav_docking/share/opennav_docking/package.xml
+-- Installing: /home/pi/CaveBot-ros/install/opennav_docking/lib/libopennav_docking_core.so
+-- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/opennav_docking/lib/libopennav_docking_core.so" to ""
+-- Installing: /home/pi/CaveBot-ros/install/opennav_docking/lib/libcontroller.so
+-- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/opennav_docking/lib/libcontroller.so" to ""
+-- Installing: /home/pi/CaveBot-ros/install/opennav_docking/lib/libpose_filter.so
+-- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/opennav_docking/lib/libpose_filter.so" to ""
+-- Installing: /home/pi/CaveBot-ros/install/opennav_docking/lib/libsimple_charging_dock.so
+-- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/opennav_docking/lib/libsimple_charging_dock.so" to ""
+-- Installing: /home/pi/CaveBot-ros/install/opennav_docking/lib/libsimple_non_charging_dock.so
+-- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/opennav_docking/lib/libsimple_non_charging_dock.so" to ""

@@ -1,0 +1,246 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3f63025de66de0ada278.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						13
+					]
+				},
+				{
+					"build" : "plugins/test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-plugins.test-Release-9e960d74352cb6e6fce4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugins/test",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "nav2_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_server-Release-e63aadb23c81982c56fd.json",
+					"name" : "controller_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_server_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_server_core-Release-a11a2d6e3fa5fff6e143.json",
+					"name" : "controller_server_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gctest::@4b5aa5e7a3fc53ea8ede",
+					"jsonFile" : "target-gctest-Release-914a550b0e3350c01293.json",
+					"name" : "gctest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-13f17ce765e8b6c3aa80.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-670e1da0ecbf20796a53.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_controller_uninstall-Release-a189aa7f6d644ad4ee6e.json",
+					"name" : "nav2_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pctest::@4b5aa5e7a3fc53ea8ede",
+					"jsonFile" : "target-pctest-Release-43ba8e0af510c0074b26.json",
+					"name" : "pctest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_progress_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_progress_checker-Release-10735d651206c4792e56.json",
+					"name" : "pose_progress_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "position_goal_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-position_goal_checker-Release-a114c2a41cb32ca266de.json",
+					"name" : "position_goal_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_goal_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_goal_checker-Release-860ca1410db2557a6e9f.json",
+					"name" : "simple_goal_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_progress_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_progress_checker-Release-4d06812e180db4615036.json",
+					"name" : "simple_progress_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stopped_goal_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stopped_goal_checker-Release-692538d97bd8fd41cd89.json",
+					"name" : "stopped_goal_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_dynamic_parameters::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_dynamic_parameters-Release-45eb649f7c0991afe1e0.json",
+					"name" : "test_dynamic_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-169eeeb9682ceadf8a90.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/CaveBot-ros/build/nav2_controller",
+		"source" : "/home/pi/CaveBot-ros/src/navigation2/nav2_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

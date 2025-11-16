@@ -1,0 +1,67 @@
+-- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- opencv version 4.6.0
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/image_publisher/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/pi/CaveBot-ros/build/image_publisher
+[ 25%] Building CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o
+[ 50%] Linking CXX shared library libimage_publisher.so
+[ 50%] Built target image_publisher
+[ 75%] Building CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o
+[100%] Linking CXX executable image_publisher_node
+[100%] Built target image_publisher_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/include/image_publisher/image_publisher.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/include/image_publisher/visibility.h
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/library_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/lib/libimage_publisher.so
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/lib/image_publisher/image_publisher_node
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_component_file.launch.py
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/launch/splash.png
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/environment/path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.bash
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.zsh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/local_setup.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/package.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_publisher/share/image_publisher/package.xml

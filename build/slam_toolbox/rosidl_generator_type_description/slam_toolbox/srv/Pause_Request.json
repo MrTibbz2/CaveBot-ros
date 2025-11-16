@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "slam_toolbox/srv/Pause_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "slam_toolbox/srv/Pause_Request",
+      "hash_string": "RIHS01_bd94128b2476065d43caa26f43334ad5b688186e82ca73366f11e6459b7562a6"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/build/dwb_msgs/rosidl_generator_c/dwb_msgs/msg/critic_score.h

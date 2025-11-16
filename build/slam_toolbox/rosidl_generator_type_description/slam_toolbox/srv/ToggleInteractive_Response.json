@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "slam_toolbox/srv/ToggleInteractive_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "slam_toolbox/srv/ToggleInteractive_Response",
+      "hash_string": "RIHS01_d470db82b95328c0094694dfb2d32e98df8aa33bcaee19df87c116a9f79a07ce"
+    }
+  ]
+}

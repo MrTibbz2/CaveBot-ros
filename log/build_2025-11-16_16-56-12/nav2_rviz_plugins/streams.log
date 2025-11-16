@@ -1,0 +1,138 @@
+[0.039s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_rviz_plugins
+[0.234s] -- The C compiler identification is GNU 13.3.0
+[0.464s] -- The CXX compiler identification is GNU 13.3.0
+[0.517s] -- Detecting C compiler ABI info
+[0.826s] -- Detecting C compiler ABI info - done
+[0.852s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.852s] -- Detecting C compile features
+[0.858s] -- Detecting C compile features - done
+[0.879s] -- Detecting CXX compiler ABI info
+[1.231s] -- Detecting CXX compiler ABI info - done
+[1.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.273s] -- Detecting CXX compile features
+[1.277s] -- Detecting CXX compile features - done
+[1.292s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.776s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.017s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.120s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.222s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.265s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.502s] -- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+[2.739s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.753s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.998s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.051s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.906s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.909s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.912s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.136s] -- Found nav2_lifecycle_manager: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[4.279s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[4.342s] -- Found rviz_common: 14.1.16 (/opt/ros/jazzy/share/rviz_common/cmake)
+[4.357s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[4.362s] -- Found OGRE
+[4.366s] --   static     : OFF
+[4.366s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[4.367s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.367s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[4.367s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[4.367s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[4.368s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.368s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[4.368s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.368s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.373s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.373s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.443s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.3")  
+[4.462s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[4.854s] -- Found X11: /usr/include   
+[4.858s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[5.137s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[5.137s] -- Looking for gethostbyname
+[5.421s] -- Looking for gethostbyname - found
+[5.421s] -- Looking for connect
+[5.770s] -- Looking for connect - found
+[5.771s] -- Looking for remove
+[6.031s] -- Looking for remove - found
+[6.033s] -- Looking for shmat
+[6.295s] -- Looking for shmat - found
+[6.295s] -- Looking for IceConnectionNumber in ICE
+[6.565s] -- Looking for IceConnectionNumber in ICE - found
+[6.679s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[6.707s] -- Found rviz_default_plugins: 14.1.16 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[7.080s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.455s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.469s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_rviz_plugins/include
+[7.469s] -- Configured cppcheck exclude dirs and/or files: 
+[7.478s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.479s] -- Configured cpplint exclude dirs and/or files: 
+[7.483s] -- Added test 'lint_cmake' to check CMake code style
+[7.491s] -- Added test 'uncrustify' to check C / C++ code style
+[7.494s] -- Configured uncrustify additional arguments: 
+[7.498s] -- Added test 'xmllint' to check XML markup files
+[7.515s] -- Configuring done (7.4s)
+[7.757s] -- Generating done (0.2s)
+[7.779s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_rviz_plugins
+[7.833s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_rviz_plugins
+[7.838s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_rviz_plugins -- -j4 -l4
+[8.022s] [  0%] Built target nav2_rviz_plugins_autogen_timestamp_deps
+[8.083s] [  8%] Automatic MOC for target nav2_rviz_plugins
+[22.297s] [  8%] Built target nav2_rviz_plugins_autogen
+[22.430s] [ 16%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o
+[62.033s] [ 25%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o
+[74.354s] [ 33%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o
+[139.468s] [ 41%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/selector.cpp.o
+[160.266s] [ 50%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/utils.cpp.o
+[177.112s] [ 58%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o
+[194.616s] [ 66%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o
+[230.321s] [ 75%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/docking_panel.cpp.o
+[298.582s] [ 83%] Building CXX object CMakeFiles/nav2_rviz_plugins.dir/src/costmap_cost_tool.cpp.o
+[310.631s] [ 91%] Linking CXX shared library libnav2_rviz_plugins.so
+[326.174s] [100%] Built target nav2_rviz_plugins
+[326.202s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_rviz_plugins -- -j4 -l4
+[326.204s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_rviz_plugins
+[326.222s] -- Install configuration: ""
+[326.223s] -- Execute custom install script
+[326.224s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+[326.245s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/costmap_cost_tool.hpp
+[326.268s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/docking_panel.hpp
+[326.288s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[326.311s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[326.331s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[326.354s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[326.378s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[326.405s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[326.432s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[326.460s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/selector.hpp
+[326.488s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/include//nav2_rviz_plugins/utils.hpp
+[326.516s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/icons/classes/Docking.svg
+[326.546s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/icons/classes/nav2_logo_small.png
+[326.572s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[326.596s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[326.619s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[326.642s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[326.663s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[326.686s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[326.713s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[326.746s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[326.768s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[326.796s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[326.816s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[326.838s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[326.861s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[326.883s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[326.911s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[326.938s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[326.965s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[326.991s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[327.012s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[327.034s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[327.055s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[327.078s] -- Installing: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[327.138s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[327.138s] -- Installing: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[327.141s] -- Installing: /home/pi/CaveBot-ros/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[327.145s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_rviz_plugins

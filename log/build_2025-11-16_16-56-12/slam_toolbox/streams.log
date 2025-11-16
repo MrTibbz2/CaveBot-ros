@@ -1,0 +1,692 @@
+[0.024s] Invoking command in '/home/pi/CaveBot-ros/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/slam_toolbox
+[0.195s] -- The C compiler identification is GNU 13.3.0
+[0.348s] -- The CXX compiler identification is GNU 13.3.0
+[0.396s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.670s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.671s] -- Detecting C compile features
+[0.671s] -- Detecting C compile features - done
+[0.693s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[1.001s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.002s] -- Detecting CXX compile features
+[1.003s] -- Detecting CXX compile features - done
+[1.011s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.403s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.609s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.675s] -- Found message_filters: 4.11.8 (/opt/ros/jazzy/share/message_filters/cmake)
+[1.781s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.820s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.934s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.127s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.136s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.352s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.401s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.663s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.755s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.804s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[2.819s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.084s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.159s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.168s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.193s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.197s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.197s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.210s] -- Found tf2_sensor_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[3.227s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.263s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.294s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.301s] -- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[3.348s] -- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+[3.460s] -- Found rviz_common: 14.1.16 (/opt/ros/jazzy/share/rviz_common/cmake)
+[3.555s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.563s] -- Found OGRE
+[3.564s] --   static     : OFF
+[3.564s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.564s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.564s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.564s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.564s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[3.565s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.565s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[3.565s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.565s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.565s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.565s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.639s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.3")  
+[3.672s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[4.214s] -- Found X11: /usr/include   
+[4.227s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[4.653s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[4.657s] -- Looking for gethostbyname
+[5.041s] -- Looking for gethostbyname - found
+[5.050s] -- Looking for connect
+[5.446s] -- Looking for connect - found
+[5.447s] -- Looking for remove
+[5.785s] -- Looking for remove - found
+[5.786s] -- Looking for shmat
+[6.057s] -- Looking for shmat - found
+[6.058s] -- Looking for IceConnectionNumber in ICE
+[6.398s] -- Looking for IceConnectionNumber in ICE - found
+[6.548s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[6.592s] -- Found rviz_default_plugins: 14.1.16 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[7.496s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system serialization filesystem thread 
+[7.534s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[7.565s] -- Found CHOLMOD: /usr/include/suitesparse  
+[7.569s] -- Found CSparse: /usr/include/suitesparse  
+[7.662s] -- Looking for sgemm_
+[7.901s] -- Looking for sgemm_ - not found
+[7.910s] -- Found Threads: TRUE  
+[8.041s] -- Looking for sgemm_
+[8.260s] -- Looking for sgemm_ - found
+[8.261s] -- Found BLAS: /usr/lib/aarch64-linux-gnu/libblas.so  
+[8.269s] -- Looking for cheev_
+[8.503s] -- Looking for cheev_ - not found
+[8.556s] -- Looking for cheev_
+[8.844s] -- Looking for cheev_ - found
+[8.853s] -- Found LAPACK: /usr/lib/aarch64-linux-gnu/liblapack.so;/usr/lib/aarch64-linux-gnu/libblas.so  
+[9.284s] -- Found AMD headers in: /usr/include/suitesparse
+[9.297s] -- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+[9.298s] -- Found CAMD headers in: /usr/include/suitesparse
+[9.305s] -- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+[9.306s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[9.313s] -- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+[9.319s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[9.322s] -- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+[9.327s] -- Found COLAMD headers in: /usr/include/suitesparse
+[9.329s] -- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+[9.337s] -- Found SPQR headers in: /usr/include/suitesparse
+[9.340s] -- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+[9.342s] -- Found Config headers in: /usr/include/suitesparse
+[9.347s] -- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+[9.354s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[9.354s] -- Looking for shm_open in rt
+[9.625s] -- Looking for shm_open in rt - found
+[9.626s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[9.660s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[9.661s] -- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[9.662s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[9.689s] -- Found required Ceres dependency: glog
+[9.692s] -- Found required Ceres dependency: gflags
+[9.699s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[11.916s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[14.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.676s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[16.054s] -- Found PythonExtra: /usr/bin/python3  
+[17.339s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[17.683s] -- Configuring done (17.6s)
+[18.565s] -- Generating done (0.7s)
+[18.745s] -- Build files have been written to: /home/pi/CaveBot-ros/build/slam_toolbox
+[18.818s] Invoked command in '/home/pi/CaveBot-ros/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/slam_toolbox
+[18.822s] Invoking command in '/home/pi/CaveBot-ros/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/slam_toolbox -- -j4 -l4
+[19.051s] [  1%] Generating type hashes for ROS interfaces
+[20.342s] [  1%] Built target slam_toolbox__rosidl_generator_type_description
+[20.398s] [  2%] Building CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o
+[51.280s] [  3%] Building CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o
+[112.276s] [  3%] Linking CXX shared library libkartoSlamToolbox.so
+[114.055s] [  3%] Built target kartoSlamToolbox
+[114.109s] [  4%] Generating C code for ROS interfaces
+[119.799s] [  5%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__description.c.o
+[120.013s] [  5%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o
+[120.646s] [  6%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__type_support.c.o
+[120.812s] [  6%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/reset__description.c.o
+[121.056s] [  7%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/reset__functions.c.o
+[121.753s] [  8%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/reset__type_support.c.o
+[121.998s] [  8%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__description.c.o
+[122.329s] [  9%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o
+[122.948s] [  9%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o
+[123.107s] [ 10%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__description.c.o
+[123.328s] [ 10%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o
+[123.926s] [ 11%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o
+[124.136s] [ 12%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__description.c.o
+[124.346s] [ 12%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o
+[124.897s] [ 13%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__type_support.c.o
+[125.067s] [ 13%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__description.c.o
+[125.303s] [ 14%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o
+[125.857s] [ 15%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__type_support.c.o
+[126.000s] [ 15%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__description.c.o
+[126.219s] [ 16%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o
+[126.751s] [ 16%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o
+[126.877s] [ 17%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__description.c.o
+[127.088s] [ 17%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o
+[127.601s] [ 18%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o
+[127.733s] [ 19%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__description.c.o
+[127.978s] [ 19%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o
+[128.551s] [ 20%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__type_support.c.o
+[128.732s] [ 20%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__description.c.o
+[129.057s] [ 21%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o
+[129.846s] [ 22%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o
+[130.009s] [ 22%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__description.c.o
+[130.257s] [ 23%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o
+[130.825s] [ 23%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o
+[130.965s] [ 24%] Linking C shared library libslam_toolbox__rosidl_generator_c.so
+[131.127s] [ 24%] Built target slam_toolbox__rosidl_generator_c
+[131.190s] [ 25%] Generating C++ code for ROS interfaces
+[135.034s] [ 25%] Built target slam_toolbox__cpp
+[135.073s] [ 26%] Generating C introspection for ROS interfaces
+[137.746s] [ 26%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o
+[137.935s] [ 27%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/reset__type_support.c.o
+[138.136s] [ 27%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o
+[138.333s] [ 28%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o
+[138.564s] [ 28%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o
+[138.802s] [ 29%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o
+[139.024s] [ 30%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o
+[139.208s] [ 30%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o
+[139.443s] [ 31%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o
+[139.645s] [ 31%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o
+[139.848s] [ 32%] Building C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o
+[140.047s] [ 33%] Linking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so
+[140.164s] [ 33%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[140.188s] [ 33%] Generating C type support dispatch for ROS interfaces
+[142.035s] [ 34%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o
+[142.195s] [ 34%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/reset__type_support.cpp.o
+[142.330s] [ 35%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o
+[142.487s] [ 35%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o
+[142.635s] [ 36%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o
+[142.792s] [ 37%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o
+[142.941s] [ 37%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o
+[143.078s] [ 38%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o
+[143.231s] [ 38%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o
+[143.390s] [ 39%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o
+[143.530s] [ 40%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o
+[143.695s] [ 40%] Linking CXX shared library libslam_toolbox__rosidl_typesupport_c.so
+[143.813s] [ 40%] Built target slam_toolbox__rosidl_typesupport_c
+[143.852s] [ 40%] Generating C++ introspection for ROS interfaces
+[146.769s] [ 41%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o
+[148.191s] [ 41%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/reset__type_support.cpp.o
+[149.685s] [ 42%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o
+[151.330s] [ 42%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o
+[152.904s] [ 43%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o
+[154.819s] [ 44%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o
+[156.227s] [ 44%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o
+[157.404s] [ 45%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o
+[158.637s] [ 45%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o
+[159.984s] [ 46%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o
+[161.509s] [ 47%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o
+[162.970s] [ 47%] Linking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[163.217s] [ 47%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[163.247s] [ 48%] Generating C++ type support dispatch for ROS interfaces
+[165.059s] [ 48%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o
+[166.131s] [ 49%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/reset__type_support.cpp.o
+[167.679s] [ 49%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o
+[168.824s] [ 50%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o
+[169.912s] [ 51%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o
+[171.094s] [ 51%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o
+[172.385s] [ 52%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o
+[173.466s] [ 52%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o
+[174.522s] [ 53%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o
+[175.670s] [ 54%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o
+[176.889s] [ 54%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o
+[178.170s] [ 55%] Linking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so
+[178.426s] [ 55%] Built target slam_toolbox__rosidl_typesupport_cpp
+[178.454s] [ 56%] Generating C++ type support for eProsima Fast-RTPS
+[182.328s] [ 57%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o
+[184.441s] [ 57%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/reset__type_support.cpp.o
+[186.547s] [ 58%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o
+[188.646s] [ 58%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o
+[190.740s] [ 59%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o
+[192.739s] [ 59%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o
+[194.959s] [ 60%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o
+[196.912s] [ 61%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o
+[198.894s] [ 61%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o
+[201.015s] [ 62%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o
+[203.191s] [ 62%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o
+[205.397s] [ 63%] Linking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[205.669s] [ 63%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[205.695s] [ 63%] Generating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp
+[205.777s] [ 64%] Building CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o
+[270.875s] [ 64%] Building CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o
+[291.177s] [ 65%] Linking CXX shared library libSlamToolboxPlugin.so
+[297.540s] [ 65%] Built target SlamToolboxPlugin
+[297.599s] [ 66%] Building CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o
+[342.429s] [ 66%] Linking CXX shared library libceres_solver_plugin.so
+[344.432s] [ 66%] Built target ceres_solver_plugin
+[344.499s] [ 67%] Building CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o
+[395.586s] [ 67%] Building CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o
+[465.436s] [ 68%] Building CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o
+[526.046s] [ 68%] Building CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o
+[560.146s] [ 69%] Building CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o
+[597.843s] [ 70%] Linking CXX shared library libtoolbox_common.so
+[600.929s] [ 70%] Built target toolbox_common
+[600.963s] [ 70%] Generating C type support for eProsima Fast-RTPS
+[604.870s] [ 71%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o
+[606.570s] [ 71%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/reset__type_support_c.cpp.o
+[608.300s] [ 72%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o
+[609.949s] [ 73%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o
+[611.664s] [ 73%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o
+[613.691s] [ 74%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o
+[615.494s] [ 74%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o
+[617.431s] [ 75%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o
+[619.191s] [ 76%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o
+[621.075s] [ 76%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o
+[622.782s] [ 77%] Building CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o
+[624.530s] [ 77%] Linking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[624.794s] [ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[624.861s] [ 77%] Building CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o
+[667.687s] [ 78%] Linking CXX shared library libsync_slam_toolbox.so
+[669.854s] [ 78%] Built target sync_slam_toolbox
+[669.920s] [ 79%] Building CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o
+[729.656s] [ 80%] Linking CXX shared library liblocalization_slam_toolbox.so
+[732.019s] [ 80%] Built target localization_slam_toolbox
+[732.086s] [ 81%] Building CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o
+[772.470s] [ 81%] Linking CXX shared library liblifelong_slam_toolbox.so
+[774.672s] [ 81%] Built target lifelong_slam_toolbox
+[774.736s] [ 82%] Building CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o
+[830.243s] [ 82%] Linking CXX executable merge_maps_kinematic
+[832.695s] [ 82%] Built target merge_maps_kinematic
+[832.768s] [ 82%] Built target slam_toolbox
+[832.842s] [ 82%] Building CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o
+[874.048s] [ 83%] Linking CXX executable sync_slam_toolbox_node
+[875.395s] [ 83%] Built target sync_slam_toolbox_node
+[875.452s] [ 83%] Building CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o
+[911.280s] [ 84%] Linking CXX executable localization_slam_toolbox_node
+[913.208s] [ 84%] Built target localization_slam_toolbox_node
+[913.261s] [ 85%] Building CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o
+[950.532s] [ 85%] Linking CXX executable lifelong_slam_toolbox_node
+[952.673s] [ 85%] Built target lifelong_slam_toolbox_node
+[952.740s] [ 85%] Building CXX object CMakeFiles/map_and_localization_slam_toolbox.dir/src/experimental/slam_toolbox_map_and_localization.cpp.o
+[1018.991s] [ 86%] Linking CXX shared library libmap_and_localization_slam_toolbox.so
+[1021.401s] [ 86%] Built target map_and_localization_slam_toolbox
+[1021.465s] [ 86%] Generating Python code for ROS interfaces
+[1027.188s] [ 86%] Built target slam_toolbox__py
+[1027.258s] [ 87%] Building CXX object CMakeFiles/map_and_localization_slam_toolbox_node.dir/src/experimental/slam_toolbox_map_and_localization_node.cpp.o
+[1063.226s] [ 87%] Linking CXX executable map_and_localization_slam_toolbox_node
+[1065.115s] [ 87%] Built target map_and_localization_slam_toolbox_node
+[1065.220s] [ 88%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o
+[1065.947s] [ 88%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_reset_s.c.o
+[1066.771s] [ 89%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o
+[1067.964s] [ 89%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o
+[1068.847s] [ 90%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o
+[1069.742s] [ 90%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o
+[1070.672s] [ 91%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o
+[1071.462s] [ 92%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o
+[1072.141s] [ 92%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o
+[1072.777s] [ 93%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o
+[1073.443s] [ 93%] Building C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o
+[1074.124s] [ 94%] Linking C shared library libslam_toolbox__rosidl_generator_py.so
+[1074.331s] [ 94%] Built target slam_toolbox__rosidl_generator_py
+[1074.403s] [ 94%] Building CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o
+[1111.015s] [ 95%] Linking CXX shared library libasync_slam_toolbox.so
+[1113.381s] [ 95%] Built target async_slam_toolbox
+[1113.436s] [ 96%] Building C object CMakeFiles/slam_toolbox_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o
+[1115.123s] [ 97%] Linking C shared module rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.so
+[1115.231s] [ 97%] Built target slam_toolbox_s__rosidl_typesupport_introspection_c
+[1115.297s] [ 98%] Building C object CMakeFiles/slam_toolbox_s__rosidl_typesupport_c.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o
+[1116.943s] [ 98%] Linking C shared module rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.so
+[1117.051s] [ 98%] Built target slam_toolbox_s__rosidl_typesupport_c
+[1117.116s] [ 99%] Building CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o
+[1153.418s] [ 99%] Linking CXX executable async_slam_toolbox_node
+[1155.076s] [ 99%] Built target async_slam_toolbox_node
+[1155.129s] [100%] Building C object CMakeFiles/slam_toolbox_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[1156.799s] [100%] Linking C shared module rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.so
+[1157.164s] [100%] Built target slam_toolbox_s__rosidl_typesupport_fastrtps_c
+[1157.245s] [100%] Built target ament_cmake_python_symlink_slam_toolbox
+[1157.956s] running egg_info
+[1157.961s] creating slam_toolbox.egg-info
+[1158.013s] writing slam_toolbox.egg-info/PKG-INFO
+[1158.013s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1158.014s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1158.019s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1158.173s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1158.175s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1158.288s] [100%] Built target ament_cmake_python_build_slam_toolbox_egg
+[1158.336s] Invoked command in '/home/pi/CaveBot-ros/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/slam_toolbox -- -j4 -l4
+[1158.343s] Invoking command in '/home/pi/CaveBot-ros/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/slam_toolbox
+[1158.372s] -- Install configuration: "Release"
+[1158.373s] -- Execute custom install script
+[1158.377s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/Karto.h
+[1158.408s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/Macros.h
+[1158.437s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/Mapper.h
+[1158.462s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/Math.h
+[1158.491s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/Types.h
+[1158.520s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[1158.551s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[1158.581s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[1158.611s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Pause.json
+[1158.639s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Reset.json
+[1158.672s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.json
+[1158.695s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.json
+[1158.720s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Clear.json
+[1158.746s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.json
+[1158.776s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.json
+[1158.809s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.json
+[1158.841s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.json
+[1158.871s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.json
+[1158.909s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.json
+[1158.942s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[1158.973s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[1158.999s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[1159.024s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[1159.049s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[1159.076s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[1159.103s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[1159.135s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[1159.168s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[1159.197s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[1159.227s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[1159.258s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[1159.289s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[1159.313s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[1159.339s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[1159.364s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[1159.389s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[1159.424s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[1159.453s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[1159.485s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[1159.516s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[1159.549s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[1159.580s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[1159.608s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[1159.635s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[1159.661s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[1159.689s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__functions.h
+[1159.716s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__struct.h
+[1159.747s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__type_support.h
+[1159.790s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[1159.817s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[1159.847s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[1159.878s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[1159.909s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[1159.937s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[1159.970s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[1160.002s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[1160.027s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[1160.049s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[1160.074s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[1160.096s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[1160.130s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/reset.h
+[1160.156s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[1160.184s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[1160.217s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[1160.244s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[1160.276s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[1160.305s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1160.333s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[1160.355s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[1160.379s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[1160.405s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[1160.435s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[1160.465s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[1160.498s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[1160.529s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_fastrtps_c.h
+[1160.553s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[1160.579s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[1160.601s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[1160.633s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp
+[1160.662s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[1160.692s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[1160.718s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[1160.744s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[1160.772s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[1160.794s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[1160.824s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[1160.856s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.hpp
+[1160.885s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[1160.920s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[1160.952s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[1160.985s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.hpp
+[1161.016s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[1161.047s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[1161.082s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[1161.113s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.hpp
+[1161.140s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[1161.164s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[1161.199s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[1161.229s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp
+[1161.256s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[1161.285s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[1161.316s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[1161.373s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.hpp
+[1161.413s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[1161.440s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[1161.469s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[1161.495s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.hpp
+[1161.523s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[1161.551s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[1161.581s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[1161.606s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.hpp
+[1161.634s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__builder.hpp
+[1161.658s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__struct.hpp
+[1161.679s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__traits.hpp
+[1161.701s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__type_support.hpp
+[1161.724s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[1161.748s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[1161.780s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[1161.808s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.hpp
+[1161.899s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[1161.952s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[1161.981s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[1162.001s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp
+[1162.025s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[1162.049s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[1162.080s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[1162.108s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp
+[1162.142s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[1162.171s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[1162.203s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[1162.235s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/reset.hpp
+[1162.269s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[1162.302s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[1162.333s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[1162.364s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1162.391s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.417s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.442s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.474s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.505s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.534s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.562s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.589s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.610s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.636s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.665s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[1162.692s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1162.725s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[1162.758s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[1162.785s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[1162.814s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[1162.843s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[1162.872s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[1162.893s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[1162.917s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_introspection_c.h
+[1162.941s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[1162.969s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[1162.998s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[1163.032s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[1163.062s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[1163.090s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[1163.115s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[1163.140s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[1163.165s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[1163.195s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[1163.222s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp
+[1163.254s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[1163.286s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[1163.316s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[1163.348s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[1163.377s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[1163.404s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox-2.8.3-py3.12.egg-info/PKG-INFO
+[1163.428s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox-2.8.3-py3.12.egg-info/SOURCES.txt
+[1163.452s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox-2.8.3-py3.12.egg-info/dependency_links.txt
+[1163.477s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox-2.8.3-py3.12.egg-info/top_level.txt
+[1163.509s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/__init__.py
+[1163.542s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[1163.576s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[1163.604s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[1163.635s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.so
+[1163.668s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.so
+[1163.698s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.so
+[1163.718s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/__init__.py
+[1163.744s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_add_submap.py
+[1163.769s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_add_submap_s.c
+[1163.796s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_clear.py
+[1163.825s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_clear_queue.py
+[1163.858s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_clear_queue_s.c
+[1163.889s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_clear_s.c
+[1163.922s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[1163.949s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[1163.980s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_loop_closure.py
+[1164.016s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_loop_closure_s.c
+[1164.045s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_merge_maps.py
+[1164.076s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_merge_maps_s.c
+[1164.105s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_pause.py
+[1164.128s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_pause_s.c
+[1164.154s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_reset.py
+[1164.184s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_reset_s.c
+[1164.214s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_save_map.py
+[1164.244s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_save_map_s.c
+[1164.272s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[1164.305s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[1164.332s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_toggle_interactive.py
+[1164.361s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[1164.398s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.so
+[1164.400s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.so
+[1164.403s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.so
+[1164.403s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[1164.464s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Reset.idl
+[1164.525s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[1164.570s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[1164.600s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[1164.631s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[1164.657s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[1164.690s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[1164.714s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[1164.740s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[1164.766s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[1164.788s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Pause.srv
+[1164.817s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Reset.srv
+[1164.848s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.srv
+[1164.878s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.srv
+[1164.910s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/Clear.srv
+[1164.931s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.srv
+[1164.961s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.srv
+[1164.982s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.srv
+[1165.006s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.srv
+[1165.038s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.srv
+[1165.068s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.srv
+[1165.100s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[1165.131s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[1165.159s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[1165.189s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[1165.214s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[1165.243s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[1165.273s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node
+[1165.329s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[1165.358s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libtoolbox_common.so
+[1165.387s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[1165.418s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libceres_solver_plugin.so
+[1165.448s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[1165.479s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[1165.511s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[1165.541s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[1165.572s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[1165.602s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[1165.636s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[1165.670s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[1165.702s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[1165.733s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[1165.768s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[1165.798s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[1165.832s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[1165.863s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[1165.896s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[1165.927s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[1165.959s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[1165.992s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[1166.024s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[1166.055s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[1166.085s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[1166.119s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[1166.145s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[1166.173s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[1166.201s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[1166.231s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[1166.255s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[1166.289s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[1166.322s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[1166.354s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[1166.385s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[1166.419s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[1166.449s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[1166.476s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[1166.504s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/solver_plugins.xml
+[1166.526s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/rviz_plugins.xml
+[1166.555s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[1166.588s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[1166.621s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[1166.675s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[1166.706s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[1166.739s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[1166.771s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[1166.802s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[1166.835s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[1166.863s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[1166.888s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/package.dsv
+[1166.915s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[1166.940s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[1166.971s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[1167.004s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox
+[1167.035s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[1167.075s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[1167.116s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[1167.150s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[1167.176s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[1167.209s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1167.239s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1167.274s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[1167.299s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[1167.323s] -- Symlinking: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/package.xml
+[1167.350s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[1167.357s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""
+[1167.360s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[1167.366s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so" to ""
+[1167.366s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[1167.368s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1167.369s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[1167.375s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""
+[1167.375s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[1167.381s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""
+[1167.381s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[1167.384s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""
+[1167.387s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[1167.389s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""
+[1167.705s] Listing '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox'...
+[1167.706s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/__init__.py'...
+[1167.706s] Listing '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv'...
+[1167.706s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/__init__.py'...
+[1167.706s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_add_submap.py'...
+[1167.706s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_clear.py'...
+[1167.707s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_clear_queue.py'...
+[1167.707s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py'...
+[1167.707s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_loop_closure.py'...
+[1167.707s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_merge_maps.py'...
+[1167.708s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_pause.py'...
+[1167.714s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_reset.py'...
+[1167.714s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_save_map.py'...
+[1167.715s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_serialize_pose_graph.py'...
+[1167.715s] Compiling '/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages/slam_toolbox/srv/_toggle_interactive.py'...
+[1167.726s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[1167.731s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so" to ""
+[1167.731s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[1167.732s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[1167.732s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[1167.732s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1167.732s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[1167.733s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[1167.733s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1167.733s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[1167.733s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[1167.740s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[1167.740s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[1167.741s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[1167.741s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[1167.741s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[1167.741s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[1167.741s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[1167.741s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[1167.742s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[1167.742s] -- Installing: /home/pi/CaveBot-ros/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[1167.763s] Invoked command in '/home/pi/CaveBot-ros/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/slam_toolbox

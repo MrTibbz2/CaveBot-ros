@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/src/navigation2/nav2_simple_commander/launch/follow_path_example_launch.py

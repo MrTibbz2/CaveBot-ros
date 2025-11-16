@@ -1,0 +1,12 @@
+/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/layered_costmap.cpp: In member function ‘void nav2_costmap_2d::LayeredCostmap::setFootprint(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)’:
+/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/layered_costmap.cpp:279:19: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  279 |     footprint_spec);
+      |                   ^
+/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/footprint.cpp: In function ‘std::pair<double, double> nav2_costmap_2d::calculateMinAndMaxDistances(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)’:
+/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/footprint.cpp:44:59: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+   44 |   const std::vector<geometry_msgs::msg::Point> & footprint)
+      |                                                           ^
+/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/test/unit/footprint_collision_checker_test.cpp: In member function ‘virtual void collision_footprint_not_enough_points_Test::TestBody()’:
+/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/test/unit/footprint_collision_checker_test.cpp:175:78: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  175 |   std::tie(min_dist, max_dist) = nav2_costmap_2d::calculateMinAndMaxDistances(footprint);
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~

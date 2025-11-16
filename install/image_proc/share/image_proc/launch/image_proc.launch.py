@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/src/image_pipeline/image_proc/launch/image_proc.launch.py

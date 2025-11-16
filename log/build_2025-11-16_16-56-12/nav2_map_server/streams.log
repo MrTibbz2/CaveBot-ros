@@ -1,0 +1,152 @@
+[0.070s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_map_server': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_map_server
+[0.763s] -- The C compiler identification is GNU 13.3.0
+[1.177s] -- The CXX compiler identification is GNU 13.3.0
+[1.293s] -- Detecting C compiler ABI info
+[1.892s] -- Detecting C compiler ABI info - done
+[1.950s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.954s] -- Detecting C compile features
+[1.957s] -- Detecting C compile features - done
+[2.015s] -- Detecting CXX compiler ABI info
+[2.644s] -- Detecting CXX compiler ABI info - done
+[2.708s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.708s] -- Detecting CXX compile features
+[2.713s] -- Detecting CXX compile features - done
+[2.737s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.740s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.493s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[4.506s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.731s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.824s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.452s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.467s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.868s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.958s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.431s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[6.535s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[6.653s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[6.820s] -- Found nav2_msgs: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_msgs/share/nav2_msgs/cmake)
+[7.166s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[7.168s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[7.177s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[7.187s] -- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+[7.409s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.416s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.417s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.522s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[7.544s] -- Setting build type to Release as none was specified.
+[7.615s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.150s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.171s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.572s] -- Found Threads: TRUE  
+[8.596s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.631s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.702s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_map_server/include
+[8.704s] -- Configured cppcheck exclude dirs and/or files: 
+[8.713s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.714s] -- Configured cpplint exclude dirs and/or files: 
+[8.719s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.721s] -- Configured 'flake8' exclude dirs and/or files: 
+[8.724s] -- Added test 'lint_cmake' to check CMake code style
+[8.728s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.737s] -- Added test 'uncrustify' to check C / C++ code style
+[8.737s] -- Configured uncrustify additional arguments: 
+[8.743s] -- Added test 'xmllint' to check XML markup files
+[8.768s] -- Configuring done (8.7s)
+[9.380s] -- Generating done (0.5s)
+[9.459s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_map_server
+[9.634s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_map_server
+[9.638s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_map_server': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_map_server -- -j4 -l4
+[9.925s] [  2%] Building CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o
+[11.022s] [  5%] Building CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o
+[44.520s] [  8%] Linking CXX shared library libmap_io.so
+[45.328s] [  8%] Built target map_io
+[45.377s] [ 11%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[71.846s] [ 13%] Linking CXX static library libgtest.a
+[72.010s] [ 13%] Built target gtest
+[72.069s] [ 16%] Building CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o
+[88.580s] [ 19%] Building CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o
+[89.110s] [ 22%] Linking CXX executable test_map_saver_publisher
+[89.792s] [ 22%] Built target test_map_saver_publisher
+[89.862s] [ 25%] Building CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o
+[115.940s] [ 27%] Building CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o
+[133.858s] [ 30%] Building CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o
+[167.914s] [ 33%] Linking CXX shared library libmap_server_core.so
+[168.912s] [ 33%] Built target map_server_core
+[168.979s] [ 36%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[171.533s] [ 38%] Linking CXX static library libgtest_main.a
+[171.639s] [ 38%] Built target gtest_main
+[171.709s] [ 41%] Building CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o
+[181.091s] [ 44%] Linking CXX executable map_saver_server
+[182.076s] [ 44%] Built target map_saver_server
+[182.139s] [ 47%] Building CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o
+[191.994s] [ 50%] Linking CXX executable costmap_filter_info_server
+[192.831s] [ 50%] Built target costmap_filter_info_server
+[192.897s] [ 52%] Building CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o
+[209.472s] [ 55%] Building CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o
+[209.937s] [ 58%] Linking CXX executable test_map_io
+[210.734s] [ 58%] Built target test_map_io
+[210.801s] [ 61%] Building CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o
+[240.758s] [ 63%] Linking CXX executable test_costmap_filter_info_server
+[241.997s] [ 63%] Built target test_costmap_filter_info_server
+[242.060s] [ 66%] Building CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o
+[262.371s] [ 69%] Building CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o
+[262.849s] [ 72%] Linking CXX executable test_map_server_node
+[263.807s] [ 72%] Built target test_map_server_node
+[263.861s] [ 75%] Building CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o
+[280.633s] [ 77%] Building CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o
+[281.104s] [ 80%] Linking CXX executable test_map_saver_node
+[282.257s] [ 80%] Built target test_map_saver_node
+[282.312s] [ 83%] Building CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o
+[302.020s] [ 86%] Building CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o
+[302.494s] [ 88%] Linking CXX executable test_map_saver_cli
+[303.039s] [ 88%] Built target test_map_saver_cli
+[303.092s] [ 91%] Building CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o
+[312.851s] [ 94%] Linking CXX executable map_saver_cli
+[313.629s] [ 94%] Built target map_saver_cli
+[313.682s] [ 97%] Building CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o
+[324.360s] [100%] Linking CXX executable map_server
+[325.099s] [100%] Built target map_server
+[325.137s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_map_server -- -j4 -l4
+[325.137s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_map_server': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_map_server
+[325.167s] -- Install configuration: "Release"
+[325.167s] -- Execute custom install script
+[325.172s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/lib/libmap_server_core.so
+[325.205s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/lib/libmap_io.so
+[325.234s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/lib/nav2_map_server/map_server
+[325.261s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[325.288s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[325.308s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[325.334s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[325.364s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[325.394s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[325.426s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[325.457s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[325.488s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[325.516s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[325.546s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[325.574s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[325.599s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[325.625s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[325.661s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[325.695s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[325.725s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[325.756s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[325.790s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[325.823s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[325.857s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[325.889s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/package.dsv
+[325.918s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[325.950s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[325.983s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[326.013s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[326.041s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[326.073s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[326.103s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[326.133s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_map_server/share/nav2_map_server/package.xml
+[326.177s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_map_server

@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/src/navigation2/nav2_bringup/launch/navigation_launch.py

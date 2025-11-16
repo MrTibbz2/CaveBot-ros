@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "slam_toolbox/srv/DeserializePoseGraph_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "slam_toolbox/srv/DeserializePoseGraph_Response",
+      "hash_string": "RIHS01_a613fd2146e43534730add3fb85b1ddc9ef56b82e543ccf6a099c28158fff059"
+    }
+  ]
+}

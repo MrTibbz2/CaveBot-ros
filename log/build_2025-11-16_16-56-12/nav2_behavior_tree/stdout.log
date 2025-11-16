@@ -1,0 +1,576 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav2_msgs: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found behaviortree_cpp: 4.7.1 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_behavior_tree/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (6.7s)
+-- Generating done (2.7s)
+-- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_behavior_tree
+[  1%] Building CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o
+[  1%] Linking CXX shared library libnav2_behavior_tree.so
+[  1%] Built target nav2_behavior_tree
+[  1%] Building CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o
+[  2%] Linking CXX shared library libnav2_controller_cancel_bt_node.so
+[  2%] Built target nav2_controller_cancel_bt_node
+[  2%] Building CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o
+[  3%] Linking CXX shared library libnav2_wait_cancel_bt_node.so
+[  3%] Built target nav2_wait_cancel_bt_node
+[  3%] Building CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o
+[  4%] Linking CXX shared library libnav2_spin_cancel_bt_node.so
+[  4%] Built target nav2_spin_cancel_bt_node
+[  5%] Building CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o
+[  5%] Linking CXX shared library libnav2_back_up_cancel_bt_node.so
+[  5%] Built target nav2_back_up_cancel_bt_node
+[  5%] Building CXX object CMakeFiles/nav2_assisted_teleop_cancel_bt_node.dir/plugins/action/assisted_teleop_cancel_node.cpp.o
+[  6%] Linking CXX shared library libnav2_assisted_teleop_cancel_bt_node.so
+[  6%] Built target nav2_assisted_teleop_cancel_bt_node
+[  7%] Building CXX object CMakeFiles/nav2_drive_on_heading_cancel_bt_node.dir/plugins/action/drive_on_heading_cancel_node.cpp.o
+[  7%] Linking CXX shared library libnav2_drive_on_heading_cancel_bt_node.so
+[  7%] Built target nav2_drive_on_heading_cancel_bt_node
+[  7%] Building CXX object CMakeFiles/nav2_smooth_path_action_bt_node.dir/plugins/action/smooth_path_action.cpp.o
+[  8%] Linking CXX shared library libnav2_smooth_path_action_bt_node.so
+[  8%] Built target nav2_smooth_path_action_bt_node
+[  8%] Building CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o
+[  9%] Linking CXX shared library libnav2_follow_path_action_bt_node.so
+[  9%] Built target nav2_follow_path_action_bt_node
+[  9%] Building CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o
+[  9%] Linking CXX shared library libnav2_back_up_action_bt_node.so
+[  9%] Built target nav2_back_up_action_bt_node
+[ 10%] Building CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o
+[ 10%] Linking CXX shared library libnav2_drive_on_heading_bt_node.so
+[ 10%] Built target nav2_drive_on_heading_bt_node
+[ 11%] Building CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o
+[ 11%] Linking CXX shared library libnav2_spin_action_bt_node.so
+[ 11%] Built target nav2_spin_action_bt_node
+[ 12%] Building CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o
+[ 12%] Linking CXX shared library libnav2_wait_action_bt_node.so
+[ 12%] Built target nav2_wait_action_bt_node
+[ 12%] Building CXX object CMakeFiles/nav2_assisted_teleop_action_bt_node.dir/plugins/action/assisted_teleop_action.cpp.o
+[ 13%] Linking CXX shared library libnav2_assisted_teleop_action_bt_node.so
+[ 13%] Built target nav2_assisted_teleop_action_bt_node
+[ 13%] Building CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o
+[ 14%] Linking CXX shared library libnav2_clear_costmap_service_bt_node.so
+[ 14%] Built target nav2_clear_costmap_service_bt_node
+[ 14%] Building CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o
+[ 15%] Linking CXX shared library libnav2_is_stuck_condition_bt_node.so
+[ 15%] Built target nav2_is_stuck_condition_bt_node
+[ 15%] Building CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o
+[ 16%] Linking CXX shared library libnav2_transform_available_condition_bt_node.so
+[ 16%] Built target nav2_transform_available_condition_bt_node
+[ 17%] Building CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o
+[ 17%] Linking CXX shared library libnav2_goal_reached_condition_bt_node.so
+[ 17%] Built target nav2_goal_reached_condition_bt_node
+[ 17%] Building CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o
+[ 18%] Linking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so
+[ 18%] Built target nav2_globally_updated_goal_condition_bt_node
+[ 19%] Building CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o
+[ 19%] Linking CXX shared library libnav2_goal_updated_condition_bt_node.so
+[ 19%] Built target nav2_goal_updated_condition_bt_node
+[ 20%] Building CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o
+[ 20%] Linking CXX shared library libnav2_is_path_valid_condition_bt_node.so
+[ 20%] Built target nav2_is_path_valid_condition_bt_node
+[ 20%] Building CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o
+[ 21%] Linking CXX shared library libnav2_time_expired_condition_bt_node.so
+[ 21%] Built target nav2_time_expired_condition_bt_node
+[ 21%] Building CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o
+[ 21%] Linking CXX shared library libnav2_path_expiring_timer_condition.so
+[ 21%] Built target nav2_path_expiring_timer_condition
+[ 21%] Building CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o
+[ 21%] Linking CXX shared library libnav2_distance_traveled_condition_bt_node.so
+[ 21%] Built target nav2_distance_traveled_condition_bt_node
+[ 21%] Building CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o
+[ 22%] Linking CXX shared library libnav2_initial_pose_received_condition_bt_node.so
+[ 22%] Built target nav2_initial_pose_received_condition_bt_node
+[ 22%] Building CXX object CMakeFiles/nav2_is_battery_charging_condition_bt_node.dir/plugins/condition/is_battery_charging_condition.cpp.o
+[ 22%] Linking CXX shared library libnav2_is_battery_charging_condition_bt_node.so
+[ 22%] Built target nav2_is_battery_charging_condition_bt_node
+[ 23%] Building CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o
+[ 23%] Linking CXX shared library libnav2_is_battery_low_condition_bt_node.so
+[ 23%] Built target nav2_is_battery_low_condition_bt_node
+[ 23%] Building CXX object CMakeFiles/nav2_are_error_codes_active_condition_bt_node.dir/plugins/condition/are_error_codes_present_condition.cpp.o
+[ 23%] Building CXX object CMakeFiles/nav2_would_a_controller_recovery_help_condition_bt_node.dir/plugins/condition/would_a_controller_recovery_help_condition.cpp.o
+[ 23%] Building CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o
+[ 24%] Building CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o
+[ 25%] Linking CXX shared library libnav2_are_error_codes_active_condition_bt_node.so
+[ 25%] Built target nav2_are_error_codes_active_condition_bt_node
+[ 26%] Linking CXX shared library libnav2_would_a_controller_recovery_help_condition_bt_node.so
+[ 26%] Built target nav2_would_a_controller_recovery_help_condition_bt_node
+[ 26%] Linking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so
+[ 26%] Built target nav2_compute_path_to_pose_action_bt_node
+[ 26%] Linking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so
+[ 26%] Built target nav2_compute_path_through_poses_action_bt_node
+[ 27%] Building CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o
+[ 27%] Linking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so
+[ 27%] Built target nav2_reinitialize_global_localization_service_bt_node
+[ 27%] Building CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o
+[ 28%] Linking CXX shared library libnav2_rate_controller_bt_node.so
+[ 28%] Built target nav2_rate_controller_bt_node
+[ 28%] Building CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o
+[ 29%] Linking CXX shared library libnav2_distance_controller_bt_node.so
+[ 29%] Built target nav2_distance_controller_bt_node
+[ 30%] Building CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o
+[ 30%] Building CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o
+[ 30%] Linking CXX shared library libnav2_speed_controller_bt_node.so
+[ 30%] Built target nav2_speed_controller_bt_node
+[ 30%] Building CXX object CMakeFiles/nav2_would_a_smoother_recovery_help_condition_bt_node.dir/plugins/condition/would_a_smoother_recovery_help_condition.cpp.o
+[ 30%] Building CXX object CMakeFiles/nav2_would_a_planner_recovery_help_condition_bt_node.dir/plugins/condition/would_a_planner_recovery_help_condition.cpp.o
+[ 31%] Building CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o
+[ 31%] Linking CXX shared library libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+[ 31%] Built target nav2_would_a_smoother_recovery_help_condition_bt_node
+[ 32%] Linking CXX shared library libnav2_would_a_planner_recovery_help_condition_bt_node.so
+[ 32%] Linking CXX shared library libnav2_truncate_path_action_bt_node.so
+[ 32%] Built target nav2_would_a_planner_recovery_help_condition_bt_node
+[ 32%] Built target nav2_truncate_path_action_bt_node
+[ 32%] Linking CXX shared library libnav2_truncate_path_local_action_bt_node.so
+[ 32%] Built target nav2_truncate_path_local_action_bt_node
+[ 32%] Building CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o
+[ 32%] Linking CXX shared library libnav2_recovery_node_bt_node.so
+[ 32%] Built target nav2_recovery_node_bt_node
+[ 32%] Building CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o
+[ 33%] Linking CXX shared library libnav2_navigate_to_pose_action_bt_node.so
+[ 33%] Built target nav2_navigate_to_pose_action_bt_node
+[ 33%] Building CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o
+[ 34%] Building CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o
+[ 35%] Building CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o
+[ 36%] Linking CXX shared library libnav2_navigate_through_poses_action_bt_node.so
+[ 36%] Building CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o
+[ 36%] Built target nav2_navigate_through_poses_action_bt_node
+[ 36%] Building CXX object CMakeFiles/nav2_get_pose_from_path_action_bt_node.dir/plugins/action/get_pose_from_path_action.cpp.o
+[ 37%] Linking CXX shared library libnav2_get_pose_from_path_action_bt_node.so
+[ 37%] Linking CXX shared library libnav2_remove_passed_goals_action_bt_node.so
+[ 37%] Built target nav2_get_pose_from_path_action_bt_node
+[ 37%] Built target nav2_remove_passed_goals_action_bt_node
+[ 37%] Linking CXX shared library libnav2_path_longer_on_approach_bt_node.so
+[ 37%] Built target nav2_path_longer_on_approach_bt_node
+[ 38%] Linking CXX shared library libnav2_goal_updater_node_bt_node.so
+[ 38%] Built target nav2_goal_updater_node_bt_node
+[ 38%] Building CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o
+[ 39%] Linking CXX shared library libnav2_single_trigger_bt_node.so
+[ 39%] Built target nav2_single_trigger_bt_node
+[ 39%] Building CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o
+[ 39%] Building CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o
+[ 39%] Building CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o
+[ 40%] Building CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o
+[ 41%] Linking CXX shared library libnav2_round_robin_node_bt_node.so
+[ 41%] Built target nav2_round_robin_node_bt_node
+[ 41%] Linking CXX shared library libnav2_pipeline_sequence_bt_node.so
+[ 41%] Built target nav2_pipeline_sequence_bt_node
+[ 42%] Linking CXX shared library libnav2_planner_selector_bt_node.so
+[ 42%] Built target nav2_planner_selector_bt_node
+[ 43%] Linking CXX shared library libnav2_controller_selector_bt_node.so
+[ 43%] Built target nav2_controller_selector_bt_node
+[ 43%] Building CXX object CMakeFiles/nav2_progress_checker_selector_bt_node.dir/plugins/action/progress_checker_selector_node.cpp.o
+[ 44%] Linking CXX shared library libnav2_progress_checker_selector_bt_node.so
+[ 44%] Built target nav2_progress_checker_selector_bt_node
+[ 44%] Building CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o
+[ 44%] Building CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o
+[ 44%] Building CXX object CMakeFiles/nav2_compute_and_track_route_cancel_bt_node.dir/plugins/action/compute_and_track_route_cancel_node.cpp.o
+[ 44%] Building CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o
+[ 45%] Linking CXX shared library libnav2_goal_updated_controller_bt_node.so
+[ 45%] Built target nav2_goal_updated_controller_bt_node
+[ 46%] Linking CXX shared library libnav2_compute_and_track_route_cancel_bt_node.so
+[ 46%] Built target nav2_compute_and_track_route_cancel_bt_node
+[ 46%] Linking CXX shared library libnav2_goal_checker_selector_bt_node.so
+[ 46%] Built target nav2_goal_checker_selector_bt_node
+[ 46%] Linking CXX shared library libnav2_smoother_selector_bt_node.so
+[ 46%] Built target nav2_smoother_selector_bt_node
+[ 46%] Building CXX object CMakeFiles/generate_nav2_tree_nodes_xml.dir/src/generate_nav2_tree_nodes_xml.cpp.o
+[ 46%] Linking CXX executable generate_nav2_tree_nodes_xml
+[ 46%] Built target generate_nav2_tree_nodes_xml
+[ 47%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 47%] Linking CXX static library libgtest_main.a
+[ 47%] Built target gtest_main
+[ 48%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 48%] Linking CXX static library libgtest.a
+[ 48%] Built target gtest
+[ 49%] Building CXX object CMakeFiles/nav2_compute_route_bt_node.dir/plugins/action/compute_route_action.cpp.o
+[ 50%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o
+[ 50%] Building CXX object test/CMakeFiles/test_bt_utils.dir/test_bt_utils.cpp.o
+[ 50%] Building CXX object CMakeFiles/nav2_compute_and_track_route_bt_node.dir/plugins/action/compute_and_track_route_action.cpp.o
+[ 50%] Linking CXX shared library libnav2_compute_route_bt_node.so
+[ 50%] Built target nav2_compute_route_bt_node
+[ 51%] Linking CXX executable test_bt_utils
+[ 51%] Built target test_bt_utils
+[ 51%] Linking CXX executable test_condition_distance_traveled
+[ 51%] Built target test_condition_distance_traveled
+[ 52%] Linking CXX shared library libnav2_compute_and_track_route_bt_node.so
+[ 52%] Built target nav2_compute_and_track_route_bt_node
+[ 52%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o
+[ 53%] Linking CXX executable test_condition_goal_reached
+[ 53%] Built target test_condition_goal_reached
+[ 53%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o
+[ 54%] Linking CXX executable test_condition_goal_updated
+[ 54%] Built target test_condition_goal_updated
+[ 54%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o
+[ 54%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o
+[ 54%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o
+[ 54%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o
+[ 55%] Linking CXX executable test_condition_globally_updated_goal
+[ 55%] Built target test_condition_globally_updated_goal
+[ 55%] Linking CXX executable test_condition_initial_pose_received
+[ 55%] Built target test_condition_initial_pose_received
+[ 55%] Linking CXX executable test_condition_time_expired
+[ 56%] Linking CXX executable test_condition_path_expiring_timer
+[ 56%] Built target test_condition_time_expired
+[ 56%] Built target test_condition_path_expiring_timer
+[ 57%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_charging.dir/test_is_battery_charging.cpp.o
+[ 58%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o
+[ 58%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o
+[ 59%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o
+[ 59%] Linking CXX executable test_condition_is_battery_charging
+[ 59%] Built target test_condition_is_battery_charging
+[ 59%] Building CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o
+[ 59%] Linking CXX executable test_condition_is_battery_low
+[ 60%] Linking CXX executable test_condition_is_path_valid
+[ 60%] Built target test_condition_is_battery_low
+[ 60%] Built target test_condition_is_path_valid
+[ 60%] Linking CXX executable test_condition_transform_available
+[ 60%] Built target test_condition_transform_available
+[ 61%] Linking CXX executable test_condition_is_stuck
+[ 61%] Built target test_condition_is_stuck
+[ 61%] Building CXX object test/plugins/condition/CMakeFiles/test_would_a_planner_recovery_help.dir/test_would_a_planner_recovery_help.cpp.o
+[ 62%] Linking CXX executable test_would_a_planner_recovery_help
+[ 62%] Built target test_would_a_planner_recovery_help
+[ 62%] Building CXX object test/plugins/condition/CMakeFiles/test_would_a_smoother_recovery_help.dir/test_would_a_smoother_recovery_help.cpp.o
+[ 62%] Building CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o
+[ 62%] Building CXX object test/plugins/condition/CMakeFiles/test_would_a_controller_recovery_help.dir/test_would_a_controller_recovery_help.cpp.o
+[ 63%] Building CXX object test/plugins/condition/CMakeFiles/test_are_error_codes_present.dir/test_are_error_codes_present.cpp.o
+[ 64%] Linking CXX executable test_would_a_smoother_recovery_help
+[ 64%] Built target test_would_a_smoother_recovery_help
+[ 64%] Linking CXX executable test_decorator_distance_controller
+[ 64%] Built target test_decorator_distance_controller
+[ 65%] Linking CXX executable test_would_a_controller_recovery_help
+[ 65%] Linking CXX executable test_are_error_codes_present
+[ 65%] Built target test_would_a_controller_recovery_help
+[ 65%] Built target test_are_error_codes_present
+[ 66%] Building CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o
+[ 66%] Building CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o
+[ 67%] Building CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o
+[ 67%] Building CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o
+[ 67%] Linking CXX executable test_goal_updater_node
+[ 67%] Built target test_goal_updater_node
+[ 67%] Linking CXX executable test_decorator_rate_controller
+[ 68%] Linking CXX executable test_single_trigger_node
+[ 68%] Built target test_decorator_rate_controller
+[ 68%] Built target test_single_trigger_node
+[ 69%] Linking CXX executable test_decorator_speed_controller
+[ 69%] Building CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o
+[ 69%] Built target test_decorator_speed_controller
+[ 70%] Building CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o
+[ 71%] Building CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o
+[ 71%] Building CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o
+[ 71%] Linking CXX executable test_decorator_path_longer_on_approach
+[ 71%] Built target test_decorator_path_longer_on_approach
+[ 71%] Linking CXX executable test_goal_updated_controller
+[ 71%] Built target test_goal_updated_controller
+[ 72%] Linking CXX executable test_control_recovery_node
+[ 72%] Linking CXX executable test_control_pipeline_sequence
+[ 72%] Built target test_control_recovery_node
+[ 72%] Built target test_control_pipeline_sequence
+[ 72%] Building CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o
+[ 72%] Building CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o
+[ 72%] Building CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o
+[ 73%] Linking CXX executable test_action_spin_action
+[ 73%] Building CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o
+[ 73%] Built target test_action_spin_action
+[ 73%] Building CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o
+[ 74%] Linking CXX executable test_action_back_up_action
+[ 74%] Built target test_action_back_up_action
+[ 75%] Linking CXX executable test_action_drive_on_heading
+[ 75%] Built target test_action_drive_on_heading
+[ 76%] Linking CXX executable test_control_round_robin_node
+[ 76%] Built target test_control_round_robin_node
+[ 77%] Linking CXX executable test_bt_action_node
+[ 77%] Built target test_bt_action_node
+[ 78%] Building CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o
+[ 79%] Building CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o
+[ 80%] Building CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o
+[ 80%] Building CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o
+[ 80%] Linking CXX executable test_action_controller_cancel_action
+[ 80%] Built target test_action_controller_cancel_action
+[ 80%] Linking CXX executable test_action_wait_cancel_action
+[ 80%] Built target test_action_wait_cancel_action
+[ 80%] Linking CXX executable test_action_assisted_teleop_action
+[ 80%] Linking CXX executable test_action_wait_action
+[ 80%] Built target test_action_assisted_teleop_action
+[ 80%] Built target test_action_wait_action
+[ 81%] Building CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o
+[ 81%] Building CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o
+[ 81%] Building CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o
+[ 81%] Building CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o
+[ 81%] Linking CXX executable test_action_assisted_teleop_cancel_action
+[ 81%] Built target test_action_assisted_teleop_cancel_action
+[ 82%] Linking CXX executable test_action_drive_on_heading_cancel_action
+[ 83%] Linking CXX executable test_action_back_up_cancel_action
+[ 84%] Linking CXX executable test_action_spin_cancel_action
+[ 84%] Built target test_action_back_up_cancel_action
+[ 84%] Built target test_action_drive_on_heading_cancel_action
+[ 84%] Built target test_action_spin_cancel_action
+[ 85%] Building CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o
+[ 85%] Building CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o
+[ 86%] Building CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o
+[ 86%] Building CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o
+[ 86%] Linking CXX executable test_action_compute_path_through_poses_action
+[ 86%] Built target test_action_compute_path_through_poses_action
+[ 86%] Linking CXX executable test_action_compute_path_to_pose_action
+[ 86%] Built target test_action_compute_path_to_pose_action
+[ 86%] Linking CXX executable test_action_reinitialize_global_localization_service
+[ 86%] Built target test_action_reinitialize_global_localization_service
+[ 87%] Linking CXX executable test_action_clear_costmap_service
+[ 87%] Built target test_action_clear_costmap_service
+[ 88%] Building CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o
+[ 88%] Linking CXX executable test_action_navigate_to_pose_action
+[ 88%] Built target test_action_navigate_to_pose_action
+[ 88%] Building CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o
+[ 88%] Linking CXX executable test_action_navigate_through_poses_action
+[ 88%] Built target test_action_navigate_through_poses_action
+[ 89%] Building CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o
+[ 89%] Building CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o
+[ 90%] Building CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o
+[ 90%] Building CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o
+[ 90%] Linking CXX executable test_truncate_path_action
+[ 90%] Built target test_truncate_path_action
+[ 91%] Linking CXX executable test_action_follow_path_action
+[ 92%] Linking CXX executable test_action_smooth_path_action
+[ 92%] Built target test_action_smooth_path_action
+[ 92%] Built target test_action_follow_path_action
+[ 92%] Linking CXX executable test_truncate_path_local_action
+[ 92%] Built target test_truncate_path_local_action
+[ 93%] Building CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o
+[ 93%] Linking CXX executable test_planner_selector_node
+[ 93%] Built target test_planner_selector_node
+[ 93%] Building CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o
+[ 94%] Linking CXX executable test_controller_selector_node
+[ 94%] Built target test_controller_selector_node
+[ 94%] Building CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o
+[ 94%] Building CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o
+[ 94%] Building CXX object test/plugins/action/CMakeFiles/test_get_pose_from_path_action.dir/test_get_pose_from_path_action.cpp.o
+[ 94%] Building CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o
+[ 94%] Linking CXX executable test_smoother_selector_node
+[ 94%] Built target test_smoother_selector_node
+[ 94%] Building CXX object test/plugins/action/CMakeFiles/test_progress_checker_selector_node.dir/test_progress_checker_selector_node.cpp.o
+[ 95%] Linking CXX executable test_get_pose_from_path_action
+[ 95%] Built target test_get_pose_from_path_action
+[ 96%] Linking CXX executable test_goal_checker_selector_node
+[ 96%] Built target test_goal_checker_selector_node
+[ 97%] Linking CXX executable test_progress_checker_selector_node
+[ 97%] Built target test_progress_checker_selector_node
+[ 98%] Linking CXX executable test_remove_passed_goals_action
+[ 98%] Built target test_remove_passed_goals_action
+[ 98%] Building CXX object test/plugins/action/CMakeFiles/test_compute_and_track_route_cancel.dir/test_compute_and_track_route_cancel_node.cpp.o
+[ 98%] Linking CXX executable test_compute_and_track_route_cancel
+[ 98%] Built target test_compute_and_track_route_cancel
+[ 98%] Building CXX object test/plugins/action/CMakeFiles/test_compute_and_track_route.dir/test_compute_and_track_route_action.cpp.o
+[ 99%] Building CXX object test/plugins/action/CMakeFiles/test_compute_route.dir/test_compute_route_action.cpp.o
+[100%] Linking CXX executable test_compute_and_track_route
+[100%] Linking CXX executable test_compute_route
+[100%] Built target test_compute_and_track_route
+[100%] Built target test_compute_route
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_cancel_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/libnav2_compute_route_bt_node.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/lib/nav2_behavior_tree/generate_nav2_tree_nodes_xml
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_and_track_route_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_and_track_route_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_route_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/are_error_codes_present_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_planner_recovery_help_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_smoother_recovery_help_condition.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_action_server.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_behavior_tree_fixture.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_dummy_tree_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_service.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_transform_handler.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_action_server.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_service.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_transform_handler.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/include/nav2_behavior_tree/plugins_list.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml

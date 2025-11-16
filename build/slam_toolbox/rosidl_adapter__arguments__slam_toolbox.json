@@ -1,0 +1,16 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/Pause.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/Reset.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/ClearQueue.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/ToggleInteractive.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/Clear.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/SaveMap.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/LoopClosure.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/MergeMaps.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/AddSubmap.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/DeserializePoseGraph.srv",
+    "/home/pi/CaveBot-ros/src/slam_toolbox:srv/SerializePoseGraph.srv"
+  ]
+}

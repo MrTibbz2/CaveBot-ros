@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "slam_toolbox/srv/SerializePoseGraph_Request",
+      "fields": [
+        {
+          "name": "filename",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "slam_toolbox/srv/SerializePoseGraph_Request",
+      "hash_string": "RIHS01_723d3bfb9150b866fcbb26e447c8c7af3fb1e77e14d684037dc2baa0dbe80bd6"
+    }
+  ]
+}

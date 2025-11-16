@@ -1,0 +1,10 @@
+[  5%] Built target rectify_node
+[ 11%] Built target image_proc
+[ 17%] Built target debayer_node
+[ 22%] Built target resize_node
+[ 28%] Built target crop_decimate_node
+[ 34%] Built target gtest_main
+[ 40%] Built target track_marker_node
+[ 45%] Built target crop_non_zero_node
+[ 51%] Built target gtest
+[ 54%] Building CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o

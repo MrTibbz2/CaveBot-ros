@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "image_view")
-set(image_view_VERSION "7.1.2")
+set(image_view_VERSION "5.0.11")
 set(image_view_MAINTAINER "Vincent Rabaud <vincent.rabaud@gmail.com>, Joshua Whitley <whitleysoftwareservices@gmail.com>, Jacob Perron <jacob@openrobotics.org>, Michael Ferguson <mfergs7@gmail.com>")
 set(image_view_BUILD_DEPENDS "camera_calibration_parsers" "cv_bridge" "image_transport" "message_filters" "rclcpp" "rclcpp_components" "sensor_msgs" "std_srvs" "stereo_msgs")
 set(image_view_BUILDTOOL_DEPENDS "ament_cmake_auto")

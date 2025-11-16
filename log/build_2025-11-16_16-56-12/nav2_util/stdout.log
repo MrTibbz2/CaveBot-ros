@@ -1,0 +1,174 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.4s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_util
+[  1%] Building CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o
+[  3%] Building CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o
+[  5%] Building CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o
+[  7%] Building CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o
+[  9%] Building CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o
+[ 19%] Building CXX object src/CMakeFiles/nav2_util_core.dir/array_parser.cpp.o
+[ 21%] Linking CXX shared library libnav2_util_core.so
+[ 21%] Built target nav2_util_core
+[ 23%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 25%] Linking CXX static library libgtest.a
+[ 25%] Built target gtest
+[ 27%] Building CXX object src/CMakeFiles/base_footprint_publisher.dir/base_footprint_publisher.cpp.o
+[ 29%] Linking CXX executable base_footprint_publisher
+[ 29%] Built target base_footprint_publisher
+[ 31%] Building CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o
+[ 33%] Linking CXX executable lifecycle_bringup
+[ 33%] Built target lifecycle_bringup
+[ 35%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 37%] Linking CXX static library libgtest_main.a
+[ 37%] Built target gtest_main
+[ 39%] Building CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o
+[ 41%] Linking CXX executable test_execution_timer
+[ 41%] Built target test_execution_timer
+[ 43%] Building CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o
+[ 45%] Linking CXX executable test_string_utils
+[ 45%] Built target test_string_utils
+[ 47%] Building CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o
+[ 49%] Linking CXX executable test_lifecycle_utils
+[ 49%] Built target test_lifecycle_utils
+[ 50%] Building CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o
+[ 52%] Linking CXX executable test_actions
+[ 52%] Built target test_actions
+[ 54%] Building CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o
+[ 56%] Linking CXX executable test_lifecycle_node
+[ 56%] Built target test_lifecycle_node
+[ 58%] Building CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o
+[ 60%] Linking CXX executable test_lifecycle_cli_node
+[ 60%] Built target test_lifecycle_cli_node
+[ 62%] Building CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o
+[ 64%] Linking CXX executable test_geometry_utils
+[ 64%] Built target test_geometry_utils
+[ 66%] Building CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o
+[ 68%] Linking CXX executable test_odometry_utils
+[ 68%] Built target test_odometry_utils
+[ 70%] Building CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o
+[ 72%] Linking CXX executable test_robot_utils
+[ 72%] Built target test_robot_utils
+[ 74%] Building CXX object test/CMakeFiles/test_base_footprint_publisher.dir/test_base_footprint_publisher.cpp.o
+[ 76%] Linking CXX executable test_base_footprint_publisher
+[ 76%] Built target test_base_footprint_publisher
+[ 78%] Building CXX object test/CMakeFiles/test_array_parser.dir/test_array_parser.cpp.o
+[ 80%] Linking CXX executable test_array_parser
+[ 80%] Built target test_array_parser
+[ 82%] Building CXX object test/CMakeFiles/test_twist_publisher.dir/test_twist_publisher.cpp.o
+[ 84%] Linking CXX executable test_twist_publisher
+[ 84%] Built target test_twist_publisher
+[ 86%] Building CXX object test/CMakeFiles/test_twist_subscriber.dir/test_twist_subscriber.cpp.o
+[ 88%] Linking CXX executable test_twist_subscriber
+[ 88%] Built target test_twist_subscriber
+[ 90%] Building CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o
+[ 92%] Linking CXX executable test_validation_messages
+[ 92%] Built target test_validation_messages
+[ 94%] Building CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o
+[ 96%] Linking CXX executable test_service_client
+[ 96%] Built target test_service_client
+[ 98%] Building CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o
+[100%] Linking CXX executable test_node_utils
+[100%] Built target test_node_utils
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/lib/nav2_util/lifecycle_bringup
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/clear_entirely_costmap_service_client.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/lifecycle_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/lifecycle_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/node_thread.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/node_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/service_client.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/simple_action_server.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/include/nav2_util/nav2_util/validate_messages.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/environment/library_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/environment/path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/environment/path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/local_setup.bash
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/local_setup.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/local_setup.zsh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/local_setup.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/package.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/package.xml
+-- Installing: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+-- Installing: /home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+-- Installing: /home/pi/CaveBot-ros/install/nav2_util/lib/libnav2_util_core.so
+-- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav2_util/lib/libnav2_util_core.so" to ""

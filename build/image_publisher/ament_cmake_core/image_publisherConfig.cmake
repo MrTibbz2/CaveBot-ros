@@ -16,7 +16,7 @@ set(_image_publisher_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT image_publisher_FIND_QUIETLY)
-  message(STATUS "Found image_publisher: 7.1.2 (${image_publisher_DIR})")
+  message(STATUS "Found image_publisher: 5.0.11 (${image_publisher_DIR})")
 endif()
 
 # warn when using a deprecated package

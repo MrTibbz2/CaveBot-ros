@@ -1,0 +1,4 @@
+[  5%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o
+[ 10%] Building CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o
+[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o
+[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o

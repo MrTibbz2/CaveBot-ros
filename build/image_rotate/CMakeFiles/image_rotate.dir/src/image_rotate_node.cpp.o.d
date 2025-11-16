@@ -153,6 +153,7 @@ CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o: \
  /usr/include/c++/13/bits/basic_string.tcc \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator_args.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h \
  /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp \
  /usr/include/c++/13/future /usr/include/c++/13/mutex \
  /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
@@ -758,6 +759,7 @@ CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.h \
  /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.hpp \
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
@@ -765,6 +767,7 @@ CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o: \
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
  /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h \
  /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
@@ -863,6 +866,8 @@ CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o: \
  /usr/include/opencv4/opencv2/core/core_c.h \
  /usr/include/opencv4/opencv2/core/types_c.h \
  /opt/ros/jazzy/include/cv_bridge/cv_bridge/cv_bridge_export.h \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.h \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/jazzy/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \

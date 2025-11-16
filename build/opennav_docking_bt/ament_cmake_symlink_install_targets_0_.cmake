@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/CaveBot-ros/build/opennav_docking_bt/libopennav_dock_action_bt_node.so" "/home/pi/CaveBot-ros/build/opennav_docking_bt/libopennav_undock_action_bt_node.so" "TARGETS" "opennav_dock_action_bt_node" "opennav_undock_action_bt_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

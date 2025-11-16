@@ -1,0 +1,275 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4d3754f5c1f00dd9c53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						18
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "opennav_docking",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller-809899b398434c7fdb22.json",
+					"name" : "controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-d10528706dcda728cc57.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-60a5c1fa3f4d003c7eca.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opennav_docking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opennav_docking-d36b5a26a08e34d0f258.json",
+					"name" : "opennav_docking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opennav_docking_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opennav_docking_core-5d321baa318ff44102cc.json",
+					"name" : "opennav_docking_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opennav_docking_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opennav_docking_uninstall-1ae3bd084ea8ed16d4ce.json",
+					"name" : "opennav_docking_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_filter-76ff7491485e5a40a273.json",
+					"name" : "pose_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_charging_dock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_charging_dock-8b919ae4ebca881e1ad3.json",
+					"name" : "simple_charging_dock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_non_charging_dock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_non_charging_dock-415c3c2e2a6f9d633313.json",
+					"name" : "simple_non_charging_dock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_controller::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_controller-f1e4dcfea702dd8b06ac.json",
+					"name" : "test_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_dock::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_dock-8c2154d4dc7909acd3f4.json",
+					"name" : "test_dock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_dock_database::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_dock_database-35f1e1d87622a9c2f11f.json",
+					"name" : "test_dock_database",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_docking_server_unit::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_docking_server_unit-928301a6359b71ec585d.json",
+					"name" : "test_docking_server_unit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_navigator::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_navigator-6181026933e76a270833.json",
+					"name" : "test_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_pose_filter::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_pose_filter-0bede2894a6a21fa1f2a.json",
+					"name" : "test_pose_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_simple_charging_dock::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_simple_charging_dock-1cdcab0ef738071f09cd.json",
+					"name" : "test_simple_charging_dock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_simple_non_charging_dock::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_simple_non_charging_dock-8fdfcc917f146f76348c.json",
+					"name" : "test_simple_non_charging_dock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_utils::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_utils-6765cf8ca8ff573c4aa5.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2fb2077d943d12b14e2e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/CaveBot-ros/build/opennav_docking",
+		"source" : "/home/pi/CaveBot-ros/src/navigation2/nav2_docking/opennav_docking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

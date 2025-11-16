@@ -1,0 +1,164 @@
+[  5%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o
+[ 10%] Building CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o
+[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o
+[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp: In constructor ‘image_view::ImageSaverNode::ImageSaverNode(const rclcpp::NodeOptions&)’:
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:77:46: error: no matching function for call to ‘image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)’
+   77 |   image_transport::TransportHints hints{*this};
+      |                                              ^
+In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_saver_node.hpp:56,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:56:
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: ‘image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)’
+   61 |   TransportHints(
+      |   ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from ‘image_view::ImageSaverNode’ to ‘const rclcpp::Node*’
+   62 |     const rclcpp::Node * node,
+      |     ~~~~~~~~~~~~~~~~~~~~~^~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)’
+   45 | class TransportHints
+      |       ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::ImageSaverNode’ to ‘const image_transport::TransportHints&’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::ImageSaverNode’ to ‘image_transport::TransportHints&&’
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:86:5: error: cannot convert ‘image_view::ImageSaverNode’ to ‘rclcpp::Node*’
+   86 |     *this, topic, std::bind(
+      |     ^~~~~
+      |     |
+      |     image_view::ImageSaverNode
+/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18: note:   initializing argument 1 of ‘image_transport::CameraSubscriber image_transport::create_camera_subscription(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)’
+   86 |   rclcpp::Node * node,
+      |   ~~~~~~~~~~~~~~~^~~~
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:92:5: error: cannot convert ‘image_view::ImageSaverNode’ to ‘rclcpp::Node*’
+   92 |     *this, topic, std::bind(
+      |     ^~~~~
+      |     |
+      |     image_view::ImageSaverNode
+/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18: note:   initializing argument 1 of ‘image_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)’
+   64 |   rclcpp::Node * node,
+      |   ~~~~~~~~~~~~~~~^~~~
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp: In constructor ‘image_view::ExtractImagesNode::ExtractImagesNode(const rclcpp::NodeOptions&)’:
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:79:46: error: no matching function for call to ‘image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)’
+   79 |   image_transport::TransportHints hints{*this};
+      |                                              ^
+In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:58:
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: ‘image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)’
+   61 |   TransportHints(
+      |   ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from ‘image_view::ExtractImagesNode’ to ‘const rclcpp::Node*’
+   62 |     const rclcpp::Node * node,
+      |     ~~~~~~~~~~~~~~~~~~~~~^~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)’
+   45 | class TransportHints
+      |       ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::ExtractImagesNode’ to ‘const image_transport::TransportHints&’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::ExtractImagesNode’ to ‘image_transport::TransportHints&&’
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp: In constructor ‘image_view::StereoViewNode::StereoViewNode(const rclcpp::NodeOptions&)’:
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:102:46: error: no matching function for call to ‘image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)’
+  102 |   image_transport::TransportHints hints{*this};
+      |                                              ^
+In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,
+                 from /opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:39,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/stereo_view_node.hpp:63,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:61:
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: ‘image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)’
+   61 |   TransportHints(
+      |   ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from ‘image_view::StereoViewNode’ to ‘const rclcpp::Node*’
+   62 |     const rclcpp::Node * node,
+      |     ~~~~~~~~~~~~~~~~~~~~~^~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)’
+   45 | class TransportHints
+      |       ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::StereoViewNode’ to ‘const image_transport::TransportHints&’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::StereoViewNode’ to ‘image_transport::TransportHints&&’
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:131:23: error: cannot convert ‘image_view::StereoViewNode’ to ‘rclcpp::Node*’
+  131 |   left_sub_.subscribe(*this, left_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());
+      |                       ^~~~~
+      |                       |
+      |                       image_view::StereoViewNode
+/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20: note:   initializing argument 1 of ‘void image_transport::SubscriberFilter::subscribe(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)’
+  110 |     rclcpp::Node * node,
+      |     ~~~~~~~~~~~~~~~^~~~
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:132:24: error: cannot convert ‘image_view::StereoViewNode’ to ‘rclcpp::Node*’
+  132 |   right_sub_.subscribe(*this, right_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());
+      |                        ^~~~~
+      |                        |
+      |                        image_view::StereoViewNode
+/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20: note:   initializing argument 1 of ‘void image_transport::SubscriberFilter::subscribe(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)’
+  110 |     rclcpp::Node * node,
+      |     ~~~~~~~~~~~~~~~^~~~
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:133:27: error: no matching function for call to ‘message_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::subscribe(image_view::StereoViewNode*, std::string&, rclcpp::QoS)’
+  133 |   disparity_sub_.subscribe(this, disparity_topic, rclcpp::QoS(10));
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:56:
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8: note: candidate: ‘void message_filters::Subscriber<M, NodeType>::subscribe(NodePtr, const std::string&, rmw_qos_profile_t) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]’
+  240 |   void subscribe(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |        ^~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26: note:   no known conversion for argument 1 from ‘image_view::StereoViewNode*’ to ‘message_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::NodePtr’ {aka ‘std::shared_ptr<rclcpp::Node>’}
+  240 |   void subscribe(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |                  ~~~~~~~~^~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8: note: candidate: ‘void message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const std::string&, rmw_qos_profile_t) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]’
+  255 |   void subscribe(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |        ^~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85: note:   no known conversion for argument 3 from ‘rclcpp::QoS’ to ‘rmw_qos_profile_t’ {aka ‘rmw_qos_profile_s’}
+  255 |   void subscribe(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |                                                             ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8: note: candidate: ‘void message_filters::Subscriber<M, NodeType>::subscribe(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]’
+  270 |   void subscribe(
+      |        ^~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8: note:   candidate expects 4 arguments, 3 provided
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8: note: candidate: ‘void message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]’
+  292 |   void subscribe(
+      |        ^~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8: note:   candidate expects 4 arguments, 3 provided
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8: note: candidate: ‘void message_filters::Subscriber<M, NodeType>::subscribe() [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node]’
+  319 |   void subscribe() override
+      |        ^~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8: note:   candidate expects 0 arguments, 3 provided
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:83:5: error: cannot convert ‘image_view::ExtractImagesNode’ to ‘rclcpp::Node*’
+   83 |     *this, topic, std::bind(
+      |     ^~~~~
+      |     |
+      |     image_view::ExtractImagesNode
+/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18: note:   initializing argument 1 of ‘image_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)’
+   64 |   rclcpp::Node * node,
+      |   ~~~~~~~~~~~~~~~^~~~
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp: In constructor ‘image_view::ImageViewNode::ImageViewNode(const rclcpp::NodeOptions&)’:
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:110:46: error: no matching function for call to ‘image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)’
+  110 |   image_transport::TransportHints hints{*this};
+      |                                              ^
+In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_view_node.hpp:29,
+                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:59:
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: ‘image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)’
+   61 |   TransportHints(
+      |   ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from ‘image_view::ImageViewNode’ to ‘const rclcpp::Node*’
+   62 |     const rclcpp::Node * node,
+      |     ~~~~~~~~~~~~~~~~~~~~~^~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)’
+   45 | class TransportHints
+      |       ^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::ImageViewNode’ to ‘const image_transport::TransportHints&’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)’
+/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_view::ImageViewNode’ to ‘image_transport::TransportHints&&’
+/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:120:5: error: cannot convert ‘image_view::ImageViewNode’ to ‘rclcpp::Node*’
+  120 |     *this, topic, std::bind(&ImageViewNode::imageCb, this, std::placeholders::_1),
+      |     ^~~~~
+      |     |
+      |     image_view::ImageViewNode
+/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18: note:   initializing argument 1 of ‘image_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)’
+   64 |   rclcpp::Node * node,
+      |   ~~~~~~~~~~~~~~~^~~~
+gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:118: CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:90: CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:104: CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:132: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/image_view_nodes.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

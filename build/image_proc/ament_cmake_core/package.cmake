@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "image_proc")
-set(image_proc_VERSION "7.1.2")
+set(image_proc_VERSION "5.0.11")
 set(image_proc_MAINTAINER "Vincent Rabaud <vincent.rabaud@gmail.com>, Joshua Whitley <whitleysoftwareservices@gmail.com>, Jacob Perron <jacob@openrobotics.org>, Michael Ferguson <mfergs7@gmail.com>")
 set(image_proc_BUILD_DEPENDS "camera_calibration_parsers" "cv_bridge" "image_geometry" "image_transport" "geometry_msgs" "libopencv-dev" "rclcpp" "rclcpp_components" "rcutils" "sensor_msgs" "tf2" "tf2_geometry_msgs" "tracetools_image_pipeline")
 set(image_proc_BUILDTOOL_DEPENDS "ament_cmake_auto")

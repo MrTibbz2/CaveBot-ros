@@ -1,0 +1,31 @@
+[0.021s] Invoking command in '/home/pi/CaveBot-ros/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav_2d_msgs
+[0.163s] -- The C compiler identification is GNU 13.3.0
+[0.397s] -- The CXX compiler identification is GNU 13.3.0
+[0.569s] -- Detecting C compiler ABI info
+[0.911s] -- Detecting C compiler ABI info - done
+[0.966s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.966s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[1.016s] -- Detecting CXX compiler ABI info
+[1.440s] -- Detecting CXX compiler ABI info - done
+[1.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.496s] -- Detecting CXX compile features
+[1.507s] -- Detecting CXX compile features - done
+[1.513s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.220s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.928s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.018s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.507s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.565s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.144s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.508s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[12.013s] -- Found PythonExtra: /usr/bin/python3  
+[13.882s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[14.176s] -- Configuring done (14.1s)
+[14.467s] -- Generating done (0.2s)
+[14.520s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav_2d_msgs

@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "tracetools_image_pipeline")
-set(tracetools_image_pipeline_VERSION "7.1.2")
+set(tracetools_image_pipeline_VERSION "5.0.11")
 set(tracetools_image_pipeline_MAINTAINER "Víctor Mayoral-Vilches <v.mayoralv@gmail.com>, Michael Ferguson <mfergs7@gmail.com>")
 set(tracetools_image_pipeline_BUILD_DEPENDS )
 set(tracetools_image_pipeline_BUILDTOOL_DEPENDS "ament_cmake_ros" "pkg-config")

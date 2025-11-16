@@ -8,5 +8,11 @@ setup.py
 ../../build/dualcam_launch/dualcam_launch.egg-info/top_level.txt
 ../../build/dualcam_launch/dualcam_launch.egg-info/zip-safe
 dualcam_launch/__init__.py
+dualcam_launch.egg-info/PKG-INFO
+dualcam_launch.egg-info/SOURCES.txt
+dualcam_launch.egg-info/dependency_links.txt
+dualcam_launch.egg-info/requires.txt
+dualcam_launch.egg-info/top_level.txt
+dualcam_launch.egg-info/zip-safe
 launch/dualcam.launch.py
 resource/dualcam_launch

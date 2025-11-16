@@ -1,0 +1,144 @@
+[0.022s] Invoking command in '/home/pi/CaveBot-ros/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson compile
+[1.178s] [1/24] Generating src/libcamera/version.cpp with a custom command
+[1.184s] INFO: autodetecting backend as ninja
+[1.184s] INFO: calculating backend command to run: /usr/bin/ninja
+[1.329s] Invoked command in '/home/pi/CaveBot-ros/build/libcamera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson compile
+[1.338s] Invoking command in '/home/pi/CaveBot-ros/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson install
+[1.920s] ninja: Entering directory `/home/pi/CaveBot-ros/build/libcamera'
+[2.153s] [1/24] Generating src/libcamera/version.cpp with a custom command
+[2.387s] Installing include/libcamera/ipa/core_ipa_interface.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.388s] Installing include/libcamera/ipa/mali-c55_ipa_interface.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.388s] Installing include/libcamera/ipa/rkisp1_ipa_interface.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.388s] Installing include/libcamera/ipa/raspberrypi_ipa_interface.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.388s] Installing include/libcamera/ipa/soft_ipa_interface.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.388s] Installing include/libcamera/control_ids.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.388s] Installing include/libcamera/property_ids.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.389s] Installing include/libcamera/formats.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.389s] Installing include/libcamera/libcamera.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.389s] Installing src/libcamera/base/libcamera-base.so.0.5.2 to /home/pi/CaveBot-ros/install/libcamera/lib
+[2.389s] Installing src/libcamera/libcamera.so.0.5.2 to /home/pi/CaveBot-ros/install/libcamera/lib
+[2.389s] Installing src/libcamera/proxy/worker/mali-c55_ipa_proxy to /home/pi/CaveBot-ros/install/libcamera/libexec/libcamera
+[2.389s] Installing src/libcamera/proxy/worker/rkisp1_ipa_proxy to /home/pi/CaveBot-ros/install/libcamera/libexec/libcamera
+[2.389s] Installing src/libcamera/proxy/worker/raspberrypi_ipa_proxy to /home/pi/CaveBot-ros/install/libcamera/libexec/libcamera
+[2.389s] Installing src/libcamera/proxy/worker/soft_ipa_proxy to /home/pi/CaveBot-ros/install/libcamera/libexec/libcamera
+[2.390s] Installing src/ipa/mali-c55/ipa_mali_c55.so to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera/ipa
+[2.390s] Installing src/ipa/rkisp1/ipa_rkisp1.so to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera/ipa
+[2.390s] Installing src/ipa/rpi/pisp/ipa_rpi_pisp.so to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera/ipa
+[2.390s] Installing src/ipa/rpi/vc4/ipa_rpi_vc4.so to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera/ipa
+[2.390s] Installing src/ipa/simple/ipa_soft_simple.so to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera/ipa
+[2.390s] Installing src/apps/lc-compliance/lc-compliance to /home/pi/CaveBot-ros/install/libcamera/bin
+[2.395s] Installing src/apps/cam/cam to /home/pi/CaveBot-ros/install/libcamera/bin
+[2.395s] Installing src/gstreamer/libgstlibcamera.so to /home/pi/CaveBot-ros/install/libcamera/lib/gstreamer-1.0
+[2.396s] Installing src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so to /home/pi/CaveBot-ros/install/libcamera/lib/python3/dist-packages/libcamera
+[2.396s] Installing src/v4l2/v4l2-compat.so to /home/pi/CaveBot-ros/install/libcamera/libexec/libcamera
+[2.396s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/bound_method.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.396s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/class.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.396s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/flags.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.396s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/object.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.397s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/shared_fd.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.397s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/signal.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.397s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/span.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.397s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/base/unique_fd.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/base
+[2.397s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/ipa/ipa_controls.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.402s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/ipa/ipa_interface.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.405s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/ipa/ipa_module_info.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera/ipa
+[2.405s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/camera.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.405s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/camera_manager.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.405s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/color_space.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.405s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/controls.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.405s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/fence.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.406s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/framebuffer.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.406s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/framebuffer_allocator.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.406s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/geometry.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.406s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/logging.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.406s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/orientation.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.406s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/pixel_format.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.409s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/request.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.409s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/stream.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.409s] Installing /home/pi/CaveBot-ros/src/libcamera/include/libcamera/transform.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.410s] Installing /home/pi/CaveBot-ros/build/libcamera/include/libcamera/version.h to /home/pi/CaveBot-ros/install/libcamera/include/libcamera/libcamera
+[2.410s] Installing /home/pi/CaveBot-ros/build/libcamera/meson-private/libcamera-base.pc to /home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig
+[2.410s] Installing /home/pi/CaveBot-ros/src/libcamera/src/libcamera/pipeline/rpi/pisp/data/example.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/pipeline/rpi/pisp
+[2.410s] Installing /home/pi/CaveBot-ros/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/example.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/pipeline/rpi/vc4
+[2.410s] Installing /home/pi/CaveBot-ros/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/rpi_apps.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/pipeline/rpi/vc4
+[2.410s] Installing /home/pi/CaveBot-ros/build/libcamera/meson-private/libcamera.pc to /home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig
+[2.410s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/mali-c55/data/imx415.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/mali-c55
+[2.410s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/mali-c55/data/uncalibrated.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/mali-c55
+[2.410s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/imx219.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.411s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/imx258.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.461s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/ov2685.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.461s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/ov4689.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.461s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/ov5640.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/ov5695.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/ov8858.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rkisp1/data/uncalibrated.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rkisp1
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx219.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx219_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx283.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx290.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx296.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.462s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx296_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx335.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx378.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx415.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx415_b0569.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx462.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx477.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.463s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx477_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.466s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx477_scientific.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx500.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx519.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx708.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx708_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.467s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/ov5647.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/ov5647_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/ov64a40.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/ov9281_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/se327m12.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/uncalibrated.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/vd56g3.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/pisp/data/vd56g3_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/pisp
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx219.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.468s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx219_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx283.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx290.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx296.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx296_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx327.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx335.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.469s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx378.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.473s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx415.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.473s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx415_b0569.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.473s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx462.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.473s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx477.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.473s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx477_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.474s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx477_scientific.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.474s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx500.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.474s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx519.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.474s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx708.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.474s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx708_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.499s] Regenerating IPA modules signatures
+[2.738s] Compiling '/home/pi/CaveBot-ros/install/libcamera/lib/python3/dist-packages/libcamera/__init__.py'...
+[2.763s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.763s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.763s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/ov5647.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.763s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/ov5647_noir.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.764s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/ov64a40.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.764s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/ov7251_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.764s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/ov9281_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.764s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/se327m12.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.764s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/uncalibrated.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.765s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/vd56g3.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.765s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/rpi/vc4/data/vd56g3_mono.json to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/rpi/vc4
+[2.765s] Installing /home/pi/CaveBot-ros/src/libcamera/src/ipa/simple/data/uncalibrated.yaml to /home/pi/CaveBot-ros/install/libcamera/share/libcamera/ipa/simple
+[2.765s] Installing /home/pi/CaveBot-ros/src/libcamera/src/py/libcamera/__init__.py to /home/pi/CaveBot-ros/install/libcamera/lib/python3/dist-packages/libcamera
+[2.765s] Installing /home/pi/CaveBot-ros/build/libcamera/src/v4l2/libcamerify to /home/pi/CaveBot-ros/install/libcamera/bin
+[2.772s] Installing symlink pointing to libcamera-base.so.0.5.2 to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera-base.so.0.5
+[2.772s] Installing symlink pointing to libcamera-base.so.0.5 to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera-base.so
+[2.772s] Installing symlink pointing to libcamera.so.0.5.2 to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera.so.0.5
+[2.772s] Installing symlink pointing to libcamera.so.0.5 to /home/pi/CaveBot-ros/install/libcamera/lib/libcamera.so
+[2.773s] Running custom install script '/home/pi/CaveBot-ros/src/libcamera/src/ipa/ipa-sign-install.sh /home/pi/CaveBot-ros/build/libcamera/src/ipa-priv-key.pem lib/libcamera/ipa/ipa_mali_c55.so lib/libcamera/ipa/ipa_rkisp1.so lib/libcamera/ipa/ipa_rpi_pisp.so lib/libcamera/ipa/ipa_rpi_vc4.so lib/libcamera/ipa/ipa_soft_simple.so'
+[2.773s] Running custom install script '/usr/bin/python3 /home/pi/CaveBot-ros/build/libcamera/meson-private/pycompile.py python-3.12-installed.json 0'
+[2.919s] Invoked command in '/home/pi/CaveBot-ros/build/libcamera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson install

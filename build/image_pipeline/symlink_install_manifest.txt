@@ -1,0 +1,15 @@
+/home/pi/CaveBot-ros/install/image_pipeline/share/ament_index/resource_index/package_run_dependencies/image_pipeline
+/home/pi/CaveBot-ros/install/image_pipeline/share/ament_index/resource_index/parent_prefix_path/image_pipeline
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/environment/ament_prefix_path.sh
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/environment/ament_prefix_path.dsv
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/environment/path.sh
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/environment/path.dsv
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/local_setup.bash
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/local_setup.sh
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/local_setup.zsh
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/local_setup.dsv
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/package.dsv
+/home/pi/CaveBot-ros/install/image_pipeline/share/ament_index/resource_index/packages/image_pipeline
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/cmake/image_pipelineConfig.cmake
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/cmake/image_pipelineConfig-version.cmake
+/home/pi/CaveBot-ros/install/image_pipeline/share/image_pipeline/package.xml

@@ -1,0 +1,94 @@
+[0.030s] Invoking command in '/home/pi/CaveBot-ros/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_view -- -j4 -l4
+[0.086s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.821s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.241s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.266s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.558s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.574s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.430s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.023s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.037s] In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/image_view` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+[3.048s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.051s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.053s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/image_view/include
+[3.053s] -- Configured cppcheck exclude dirs and/or files: 
+[3.056s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.057s] -- Configured cpplint exclude dirs and/or files: 
+[3.058s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.058s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.058s] -- Added test 'lint_cmake' to check CMake code style
+[3.060s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.062s] -- Added test 'uncrustify' to check C / C++ code style
+[3.062s] -- Configured uncrustify additional arguments: 
+[3.066s] -- Added test 'xmllint' to check XML markup files
+[3.069s] -- Configuring done (3.0s)
+[3.300s] -- Generating done (0.2s)
+[3.401s] -- Build files have been written to: /home/pi/CaveBot-ros/build/image_view
+[3.701s] [  5%] Building CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o
+[3.720s] [ 10%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o
+[3.723s] [ 15%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o
+[3.757s] [ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o
+[50.921s] [ 26%] Building CXX object CMakeFiles/image_view_nodes.dir/src/video_recorder_node.cpp.o
+[64.426s] [ 31%] Linking CXX shared library libimage_view_nodes.so
+[68.793s] [ 36%] Built target image_view_nodes
+[68.842s] [ 42%] Building CXX object CMakeFiles/disparity_view.dir/src/disparity_view.cpp.o
+[77.329s] [ 47%] Linking CXX executable disparity_view
+[81.320s] [ 47%] Built target disparity_view
+[81.369s] [ 52%] Building CXX object CMakeFiles/extract_images.dir/src/extract_images.cpp.o
+[88.435s] [ 57%] Linking CXX executable extract_images
+[92.883s] [ 57%] Built target extract_images
+[92.974s] [ 63%] Building CXX object CMakeFiles/image_saver.dir/src/image_saver.cpp.o
+[103.166s] [ 68%] Linking CXX executable image_saver
+[106.505s] [ 68%] Built target image_saver
+[106.552s] [ 73%] Building CXX object CMakeFiles/video_recorder.dir/src/video_recorder.cpp.o
+[115.911s] [ 78%] Linking CXX executable video_recorder
+[119.787s] [ 78%] Built target video_recorder
+[119.845s] [ 84%] Building CXX object CMakeFiles/stereo_view.dir/src/stereo_view.cpp.o
+[129.984s] [ 89%] Linking CXX executable stereo_view
+[134.118s] [ 89%] Built target stereo_view
+[134.178s] [ 94%] Building CXX object CMakeFiles/image_view.dir/src/image_view.cpp.o
+[147.992s] [100%] Linking CXX executable image_view
+[152.150s] [100%] Built target image_view
+[152.185s] Invoked command in '/home/pi/CaveBot-ros/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_view -- -j4 -l4
+[152.185s] Invoking command in '/home/pi/CaveBot-ros/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_view
+[152.206s] -- Install configuration: ""
+[152.210s] -- Execute custom install script
+[152.210s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/extract_images_sync
+[152.236s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/disparity_view_node.hpp
+[152.263s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/extract_images_node.hpp
+[152.297s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/image_saver_node.hpp
+[152.323s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/image_view_node.hpp
+[152.353s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/stereo_view_node.hpp
+[152.380s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/video_recorder_node.hpp
+[152.409s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/library_path.sh
+[152.432s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/library_path.dsv
+[152.457s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/libimage_view_nodes.so
+[152.489s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/disparity_view
+[152.521s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/image_view
+[152.551s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/stereo_view
+[152.583s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/extract_images
+[152.616s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/image_saver
+[152.644s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/video_recorder
+[152.673s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[152.697s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[152.724s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[152.752s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[152.773s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/path.sh
+[152.801s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/path.dsv
+[152.832s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.bash
+[152.862s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.sh
+[152.893s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.zsh
+[152.918s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.dsv
+[152.944s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/package.dsv
+[152.971s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/packages/image_view
+[153.001s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[153.033s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[153.067s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[153.096s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[153.121s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[153.147s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[153.172s] -- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/package.xml
+[153.202s] Invoked command in '/home/pi/CaveBot-ros/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_view

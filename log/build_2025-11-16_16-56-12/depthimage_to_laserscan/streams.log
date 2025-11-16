@@ -1,0 +1,118 @@
+[0.024s] Invoking command in '/home/pi/CaveBot-ros/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/depthimage_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/depthimage_to_laserscan
+[0.221s] -- The C compiler identification is GNU 13.3.0
+[0.382s] -- The CXX compiler identification is GNU 13.3.0
+[0.438s] -- Detecting C compiler ABI info
+[0.707s] -- Detecting C compiler ABI info - done
+[0.734s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.734s] -- Detecting C compile features
+[0.734s] -- Detecting C compile features - done
+[0.756s] -- Detecting CXX compiler ABI info
+[1.055s] -- Detecting CXX compiler ABI info - done
+[1.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.081s] -- Detecting CXX compile features
+[1.083s] -- Detecting CXX compile features - done
+[1.097s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.635s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.894s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.027s] -- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+[2.165s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.205s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.496s] -- Found OpenCV: /usr (found version "4.6.0") found components: core 
+[2.524s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.630s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.640s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.929s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.981s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.203s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.293s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.583s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.593s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.931s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.932s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[4.193s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.209s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.540s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.553s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.830s] -- Found Threads: TRUE  
+[4.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.867s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.867s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pi/CaveBot-ros/src/depthimage_to_laserscan/include>
+[4.868s] -- Configured cppcheck exclude dirs and/or files: 
+[4.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.889s] -- Configured cpplint exclude dirs and/or files: 
+[4.895s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.896s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.903s] -- Added test 'lint_cmake' to check CMake code style
+[4.909s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.921s] -- Added test 'uncrustify' to check C / C++ code style
+[4.922s] -- Configured uncrustify additional arguments: 
+[4.925s] -- Added test 'xmllint' to check XML markup files
+[4.939s] -- Configuring done (4.9s)
+[5.016s] -- Generating done (0.1s)
+[5.037s] -- Build files have been written to: /home/pi/CaveBot-ros/build/depthimage_to_laserscan
+[5.075s] Invoked command in '/home/pi/CaveBot-ros/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/CaveBot-ros/src/depthimage_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/depthimage_to_laserscan
+[5.077s] Invoking command in '/home/pi/CaveBot-ros/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/depthimage_to_laserscan -- -j4 -l4
+[5.226s] [  8%] Building CXX object CMakeFiles/DepthImageToLaserScan.dir/src/DepthImageToLaserScan.cpp.o
+[12.661s] [ 16%] Linking CXX shared library libDepthImageToLaserScan.so
+[13.114s] [ 16%] Built target DepthImageToLaserScan
+[13.177s] [ 25%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[24.216s] [ 33%] Linking CXX static library libgtest.a
+[24.678s] [ 33%] Built target gtest
+[24.732s] [ 41%] Building CXX object CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o
+[59.290s] [ 50%] Linking CXX shared library libDepthImageToLaserScanROS.so
+[60.973s] [ 50%] Built target DepthImageToLaserScanROS
+[61.034s] [ 58%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[63.576s] [ 66%] Linking CXX static library libgtest_main.a
+[63.662s] [ 66%] Built target gtest_main
+[63.714s] [ 75%] Building CXX object CMakeFiles/depthimage_to_laserscan_node.dir/src/depthimage_to_laserscan.cpp.o
+[75.448s] [ 83%] Linking CXX executable depthimage_to_laserscan_node
+[77.010s] [ 83%] Built target depthimage_to_laserscan_node
+[77.142s] [ 91%] Building CXX object CMakeFiles/depthimage_to_laserscan-test.dir/test/DepthImageToLaserScanTest.cpp.o
+[88.739s] [100%] Linking CXX executable depthimage_to_laserscan-test
+[89.439s] [100%] Built target depthimage_to_laserscan-test
+[89.480s] Invoked command in '/home/pi/CaveBot-ros/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/depthimage_to_laserscan -- -j4 -l4
+[89.481s] Invoking command in '/home/pi/CaveBot-ros/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/depthimage_to_laserscan
+[89.505s] -- Install configuration: ""
+[89.508s] -- Execute custom install script
+[89.511s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan.hpp
+[89.538s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp
+[89.567s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/depth_traits.hpp
+[89.589s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py
+[89.611s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py
+[89.634s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml
+[89.655s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node
+[89.692s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan_export.h
+[89.720s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h
+[89.741s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh
+[89.768s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.dsv
+[89.800s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan
+[89.828s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan
+[89.862s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh
+[89.895s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.dsv
+[89.925s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh
+[89.958s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.dsv
+[89.992s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash
+[90.031s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh
+[90.059s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh
+[90.092s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.dsv
+[90.123s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv
+[90.158s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan
+[90.189s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan
+[90.216s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[90.246s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[90.271s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[90.306s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[90.332s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake
+[90.364s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake
+[90.395s] -- Symlinking: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml
+[90.417s] -- Installing: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so
+[90.420s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so" to ""
+[90.424s] -- Installing: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so
+[90.449s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so" to ""
+[90.450s] -- Installing: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport.cmake
+[90.451s] -- Installing: /home/pi/CaveBot-ros/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport-noconfig.cmake
+[90.457s] Invoked command in '/home/pi/CaveBot-ros/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/depthimage_to_laserscan

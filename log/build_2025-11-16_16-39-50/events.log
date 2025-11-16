@@ -1,0 +1,728 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (camera_calibration) JobQueued: {'identifier': 'camera_calibration', 'dependencies': OrderedDict()}
+[0.000194] (depthimage_to_laserscan) JobQueued: {'identifier': 'depthimage_to_laserscan', 'dependencies': OrderedDict()}
+[0.000218] (image_publisher) JobQueued: {'identifier': 'image_publisher', 'dependencies': OrderedDict()}
+[0.000238] (image_rotate) JobQueued: {'identifier': 'image_rotate', 'dependencies': OrderedDict()}
+[0.000393] (image_view) JobQueued: {'identifier': 'image_view', 'dependencies': OrderedDict()}
+[0.001546] (libcamera) JobQueued: {'identifier': 'libcamera', 'dependencies': OrderedDict()}
+[0.001718] (nav2_common) JobQueued: {'identifier': 'nav2_common', 'dependencies': OrderedDict()}
+[0.001940] (nav_2d_msgs) JobQueued: {'identifier': 'nav_2d_msgs', 'dependencies': OrderedDict()}
+[0.002093] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.002158] (tracetools_image_pipeline) JobQueued: {'identifier': 'tracetools_image_pipeline', 'dependencies': OrderedDict()}
+[0.002180] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict({'image_view': '/home/pi/CaveBot-ros/install/image_view', 'libcamera': '/home/pi/CaveBot-ros/install/libcamera'})}
+[0.002227] (dwb_msgs) JobQueued: {'identifier': 'dwb_msgs', 'dependencies': OrderedDict({'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs'})}
+[0.002251] (image_proc) JobQueued: {'identifier': 'image_proc', 'dependencies': OrderedDict({'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline'})}
+[0.002273] (nav2_msgs) JobQueued: {'identifier': 'nav2_msgs', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common'})}
+[0.002538] (nav2_voxel_grid) JobQueued: {'identifier': 'nav2_voxel_grid', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common'})}
+[0.002562] (depth_image_proc) JobQueued: {'identifier': 'depth_image_proc', 'dependencies': OrderedDict({'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc'})}
+[0.002585] (dualcam_launch) JobQueued: {'identifier': 'dualcam_launch', 'dependencies': OrderedDict({'image_view': '/home/pi/CaveBot-ros/install/image_view', 'libcamera': '/home/pi/CaveBot-ros/install/libcamera', 'camera_ros': '/home/pi/CaveBot-ros/install/camera_ros'})}
+[0.002683] (nav2_simple_commander) JobQueued: {'identifier': 'nav2_simple_commander', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs'})}
+[0.002707] (nav2_util) JobQueued: {'identifier': 'nav2_util', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs'})}
+[0.002738] (stereo_image_proc) JobQueued: {'identifier': 'stereo_image_proc', 'dependencies': OrderedDict({'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc'})}
+[0.002764] (image_pipeline) JobQueued: {'identifier': 'image_pipeline', 'dependencies': OrderedDict({'camera_calibration': '/home/pi/CaveBot-ros/install/camera_calibration', 'image_publisher': '/home/pi/CaveBot-ros/install/image_publisher', 'image_rotate': '/home/pi/CaveBot-ros/install/image_rotate', 'image_view': '/home/pi/CaveBot-ros/install/image_view', 'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc', 'depth_image_proc': '/home/pi/CaveBot-ros/install/depth_image_proc', 'stereo_image_proc': '/home/pi/CaveBot-ros/install/stereo_image_proc'})}
+[0.002809] (nav2_amcl) JobQueued: {'identifier': 'nav2_amcl', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.002835] (nav2_behavior_tree) JobQueued: {'identifier': 'nav2_behavior_tree', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.002874] (nav2_lifecycle_manager) JobQueued: {'identifier': 'nav2_lifecycle_manager', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.002897] (nav2_loopback_sim) JobQueued: {'identifier': 'nav2_loopback_sim', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_simple_commander': '/home/pi/CaveBot-ros/install/nav2_simple_commander'})}
+[0.003075] (nav2_map_server) JobQueued: {'identifier': 'nav2_map_server', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.003166] (nav2_velocity_smoother) JobQueued: {'identifier': 'nav2_velocity_smoother', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.003194] (nav_2d_utils) JobQueued: {'identifier': 'nav_2d_utils', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.003220] (opennav_docking_core) JobQueued: {'identifier': 'opennav_docking_core', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util'})}
+[0.003243] (nav2_costmap_2d) JobQueued: {'identifier': 'nav2_costmap_2d', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server'})}
+[0.003288] (nav2_rviz_plugins) JobQueued: {'identifier': 'nav2_rviz_plugins', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager'})}
+[0.003334] (costmap_queue) JobQueued: {'identifier': 'costmap_queue', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d'})}
+[0.003365] (nav2_collision_monitor) JobQueued: {'identifier': 'nav2_collision_monitor', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d'})}
+[0.003399] (nav2_core) JobQueued: {'identifier': 'nav2_core', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d'})}
+[0.003440] (dwb_core) JobQueued: {'identifier': 'dwb_core', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.003989] (nav2_behaviors) JobQueued: {'identifier': 'nav2_behaviors', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004056] (nav2_bt_navigator) JobQueued: {'identifier': 'nav2_bt_navigator', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004145] (nav2_constrained_smoother) JobQueued: {'identifier': 'nav2_constrained_smoother', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004286] (nav2_controller) JobQueued: {'identifier': 'nav2_controller', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004343] (nav2_mppi_controller) JobQueued: {'identifier': 'nav2_mppi_controller', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004378] (nav2_navfn_planner) JobQueued: {'identifier': 'nav2_navfn_planner', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004412] (nav2_planner) JobQueued: {'identifier': 'nav2_planner', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004444] (nav2_regulated_pure_pursuit_controller) JobQueued: {'identifier': 'nav2_regulated_pure_pursuit_controller', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004478] (nav2_route) JobQueued: {'identifier': 'nav2_route', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004512] (nav2_smac_planner) JobQueued: {'identifier': 'nav2_smac_planner', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004548] (nav2_smoother) JobQueued: {'identifier': 'nav2_smoother', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004585] (nav2_theta_star_planner) JobQueued: {'identifier': 'nav2_theta_star_planner', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004700] (nav2_waypoint_follower) JobQueued: {'identifier': 'nav2_waypoint_follower', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004738] (opennav_docking_bt) JobQueued: {'identifier': 'opennav_docking_bt', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core'})}
+[0.004768] (dwb_critics) JobQueued: {'identifier': 'dwb_critics', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'costmap_queue': '/home/pi/CaveBot-ros/install/costmap_queue', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'dwb_core': '/home/pi/CaveBot-ros/install/dwb_core'})}
+[0.004808] (dwb_plugins) JobQueued: {'identifier': 'dwb_plugins', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'dwb_core': '/home/pi/CaveBot-ros/install/dwb_core'})}
+[0.004850] (nav2_graceful_controller) JobQueued: {'identifier': 'nav2_graceful_controller', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'nav2_controller': '/home/pi/CaveBot-ros/install/nav2_controller'})}
+[0.004886] (nav2_rotation_shim_controller) JobQueued: {'identifier': 'nav2_rotation_shim_controller', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'nav2_controller': '/home/pi/CaveBot-ros/install/nav2_controller', 'nav2_regulated_pure_pursuit_controller': '/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller'})}
+[0.004925] (nav2_dwb_controller) JobQueued: {'identifier': 'nav2_dwb_controller', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'costmap_queue': '/home/pi/CaveBot-ros/install/costmap_queue', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'dwb_core': '/home/pi/CaveBot-ros/install/dwb_core', 'dwb_critics': '/home/pi/CaveBot-ros/install/dwb_critics', 'dwb_plugins': '/home/pi/CaveBot-ros/install/dwb_plugins'})}
+[0.004968] (opennav_docking) JobQueued: {'identifier': 'opennav_docking', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'opennav_docking_core': '/home/pi/CaveBot-ros/install/opennav_docking_core', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'nav2_controller': '/home/pi/CaveBot-ros/install/nav2_controller', 'nav2_graceful_controller': '/home/pi/CaveBot-ros/install/nav2_graceful_controller'})}
+[0.005059] (navigation2) JobQueued: {'identifier': 'navigation2', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_simple_commander': '/home/pi/CaveBot-ros/install/nav2_simple_commander', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_amcl': '/home/pi/CaveBot-ros/install/nav2_amcl', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_velocity_smoother': '/home/pi/CaveBot-ros/install/nav2_velocity_smoother', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'opennav_docking_core': '/home/pi/CaveBot-ros/install/opennav_docking_core', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_rviz_plugins': '/home/pi/CaveBot-ros/install/nav2_rviz_plugins', 'costmap_queue': '/home/pi/CaveBot-ros/install/costmap_queue', 'nav2_collision_monitor': '/home/pi/CaveBot-ros/install/nav2_collision_monitor', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'dwb_core': '/home/pi/CaveBot-ros/install/dwb_core', 'nav2_behaviors': '/home/pi/CaveBot-ros/install/nav2_behaviors', 'nav2_bt_navigator': '/home/pi/CaveBot-ros/install/nav2_bt_navigator', 'nav2_constrained_smoother': '/home/pi/CaveBot-ros/install/nav2_constrained_smoother', 'nav2_controller': '/home/pi/CaveBot-ros/install/nav2_controller', 'nav2_mppi_controller': '/home/pi/CaveBot-ros/install/nav2_mppi_controller', 'nav2_navfn_planner': '/home/pi/CaveBot-ros/install/nav2_navfn_planner', 'nav2_planner': '/home/pi/CaveBot-ros/install/nav2_planner', 'nav2_regulated_pure_pursuit_controller': '/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller', 'nav2_route': '/home/pi/CaveBot-ros/install/nav2_route', 'nav2_smac_planner': '/home/pi/CaveBot-ros/install/nav2_smac_planner', 'nav2_smoother': '/home/pi/CaveBot-ros/install/nav2_smoother', 'nav2_theta_star_planner': '/home/pi/CaveBot-ros/install/nav2_theta_star_planner', 'nav2_waypoint_follower': '/home/pi/CaveBot-ros/install/nav2_waypoint_follower', 'opennav_docking_bt': '/home/pi/CaveBot-ros/install/opennav_docking_bt', 'dwb_critics': '/home/pi/CaveBot-ros/install/dwb_critics', 'dwb_plugins': '/home/pi/CaveBot-ros/install/dwb_plugins', 'nav2_graceful_controller': '/home/pi/CaveBot-ros/install/nav2_graceful_controller', 'nav2_rotation_shim_controller': '/home/pi/CaveBot-ros/install/nav2_rotation_shim_controller', 'nav2_dwb_controller': '/home/pi/CaveBot-ros/install/nav2_dwb_controller', 'opennav_docking': '/home/pi/CaveBot-ros/install/opennav_docking'})}
+[0.005181] (nav2_bringup) JobQueued: {'identifier': 'nav2_bringup', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'slam_toolbox': '/home/pi/CaveBot-ros/install/slam_toolbox', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_simple_commander': '/home/pi/CaveBot-ros/install/nav2_simple_commander', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_amcl': '/home/pi/CaveBot-ros/install/nav2_amcl', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_velocity_smoother': '/home/pi/CaveBot-ros/install/nav2_velocity_smoother', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'opennav_docking_core': '/home/pi/CaveBot-ros/install/opennav_docking_core', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_rviz_plugins': '/home/pi/CaveBot-ros/install/nav2_rviz_plugins', 'costmap_queue': '/home/pi/CaveBot-ros/install/costmap_queue', 'nav2_collision_monitor': '/home/pi/CaveBot-ros/install/nav2_collision_monitor', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'dwb_core': '/home/pi/CaveBot-ros/install/dwb_core', 'nav2_behaviors': '/home/pi/CaveBot-ros/install/nav2_behaviors', 'nav2_bt_navigator': '/home/pi/CaveBot-ros/install/nav2_bt_navigator', 'nav2_constrained_smoother': '/home/pi/CaveBot-ros/install/nav2_constrained_smoother', 'nav2_controller': '/home/pi/CaveBot-ros/install/nav2_controller', 'nav2_mppi_controller': '/home/pi/CaveBot-ros/install/nav2_mppi_controller', 'nav2_navfn_planner': '/home/pi/CaveBot-ros/install/nav2_navfn_planner', 'nav2_planner': '/home/pi/CaveBot-ros/install/nav2_planner', 'nav2_regulated_pure_pursuit_controller': '/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller', 'nav2_route': '/home/pi/CaveBot-ros/install/nav2_route', 'nav2_smac_planner': '/home/pi/CaveBot-ros/install/nav2_smac_planner', 'nav2_smoother': '/home/pi/CaveBot-ros/install/nav2_smoother', 'nav2_theta_star_planner': '/home/pi/CaveBot-ros/install/nav2_theta_star_planner', 'nav2_waypoint_follower': '/home/pi/CaveBot-ros/install/nav2_waypoint_follower', 'opennav_docking_bt': '/home/pi/CaveBot-ros/install/opennav_docking_bt', 'dwb_critics': '/home/pi/CaveBot-ros/install/dwb_critics', 'dwb_plugins': '/home/pi/CaveBot-ros/install/dwb_plugins', 'nav2_graceful_controller': '/home/pi/CaveBot-ros/install/nav2_graceful_controller', 'nav2_rotation_shim_controller': '/home/pi/CaveBot-ros/install/nav2_rotation_shim_controller', 'nav2_dwb_controller': '/home/pi/CaveBot-ros/install/nav2_dwb_controller', 'opennav_docking': '/home/pi/CaveBot-ros/install/opennav_docking', 'navigation2': '/home/pi/CaveBot-ros/install/navigation2'})}
+[0.005263] (nav2_system_tests) JobQueued: {'identifier': 'nav2_system_tests', 'dependencies': OrderedDict({'nav2_common': '/home/pi/CaveBot-ros/install/nav2_common', 'nav_2d_msgs': '/home/pi/CaveBot-ros/install/nav_2d_msgs', 'slam_toolbox': '/home/pi/CaveBot-ros/install/slam_toolbox', 'dwb_msgs': '/home/pi/CaveBot-ros/install/dwb_msgs', 'nav2_msgs': '/home/pi/CaveBot-ros/install/nav2_msgs', 'nav2_voxel_grid': '/home/pi/CaveBot-ros/install/nav2_voxel_grid', 'nav2_simple_commander': '/home/pi/CaveBot-ros/install/nav2_simple_commander', 'nav2_util': '/home/pi/CaveBot-ros/install/nav2_util', 'nav2_amcl': '/home/pi/CaveBot-ros/install/nav2_amcl', 'nav2_behavior_tree': '/home/pi/CaveBot-ros/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/pi/CaveBot-ros/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/pi/CaveBot-ros/install/nav2_map_server', 'nav2_velocity_smoother': '/home/pi/CaveBot-ros/install/nav2_velocity_smoother', 'nav_2d_utils': '/home/pi/CaveBot-ros/install/nav_2d_utils', 'opennav_docking_core': '/home/pi/CaveBot-ros/install/opennav_docking_core', 'nav2_costmap_2d': '/home/pi/CaveBot-ros/install/nav2_costmap_2d', 'nav2_rviz_plugins': '/home/pi/CaveBot-ros/install/nav2_rviz_plugins', 'costmap_queue': '/home/pi/CaveBot-ros/install/costmap_queue', 'nav2_collision_monitor': '/home/pi/CaveBot-ros/install/nav2_collision_monitor', 'nav2_core': '/home/pi/CaveBot-ros/install/nav2_core', 'dwb_core': '/home/pi/CaveBot-ros/install/dwb_core', 'nav2_behaviors': '/home/pi/CaveBot-ros/install/nav2_behaviors', 'nav2_bt_navigator': '/home/pi/CaveBot-ros/install/nav2_bt_navigator', 'nav2_constrained_smoother': '/home/pi/CaveBot-ros/install/nav2_constrained_smoother', 'nav2_controller': '/home/pi/CaveBot-ros/install/nav2_controller', 'nav2_mppi_controller': '/home/pi/CaveBot-ros/install/nav2_mppi_controller', 'nav2_navfn_planner': '/home/pi/CaveBot-ros/install/nav2_navfn_planner', 'nav2_planner': '/home/pi/CaveBot-ros/install/nav2_planner', 'nav2_regulated_pure_pursuit_controller': '/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller', 'nav2_route': '/home/pi/CaveBot-ros/install/nav2_route', 'nav2_smac_planner': '/home/pi/CaveBot-ros/install/nav2_smac_planner', 'nav2_smoother': '/home/pi/CaveBot-ros/install/nav2_smoother', 'nav2_theta_star_planner': '/home/pi/CaveBot-ros/install/nav2_theta_star_planner', 'nav2_waypoint_follower': '/home/pi/CaveBot-ros/install/nav2_waypoint_follower', 'opennav_docking_bt': '/home/pi/CaveBot-ros/install/opennav_docking_bt', 'dwb_critics': '/home/pi/CaveBot-ros/install/dwb_critics', 'dwb_plugins': '/home/pi/CaveBot-ros/install/dwb_plugins', 'nav2_graceful_controller': '/home/pi/CaveBot-ros/install/nav2_graceful_controller', 'nav2_rotation_shim_controller': '/home/pi/CaveBot-ros/install/nav2_rotation_shim_controller', 'nav2_dwb_controller': '/home/pi/CaveBot-ros/install/nav2_dwb_controller', 'opennav_docking': '/home/pi/CaveBot-ros/install/opennav_docking', 'navigation2': '/home/pi/CaveBot-ros/install/navigation2', 'nav2_bringup': '/home/pi/CaveBot-ros/install/nav2_bringup'})}
+[0.005333] (nav2_common) JobStarted: {'identifier': 'nav2_common'}
+[0.011631] (nav_2d_msgs) JobStarted: {'identifier': 'nav_2d_msgs'}
+[0.016793] (tracetools_image_pipeline) JobStarted: {'identifier': 'tracetools_image_pipeline'}
+[0.022214] (image_view) JobStarted: {'identifier': 'image_view'}
+[0.029313] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'cmake'}
+[0.030185] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/CaveBot-ros/src/navigation2/nav2_common', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_common'], 'cwd': '/home/pi/CaveBot-ros/build/nav2_common', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/nav2_common', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.031845] (nav_2d_msgs) JobProgress: {'identifier': 'nav_2d_msgs', 'progress': 'cmake'}
+[0.032555] (nav_2d_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/CaveBot-ros/src/navigation2/nav2_dwb_controller/nav_2d_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav_2d_msgs'], 'cwd': '/home/pi/CaveBot-ros/build/nav_2d_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/nav_2d_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.034409] (tracetools_image_pipeline) JobProgress: {'identifier': 'tracetools_image_pipeline', 'progress': 'cmake'}
+[0.037226] (tracetools_image_pipeline) JobProgress: {'identifier': 'tracetools_image_pipeline', 'progress': 'build'}
+[0.038460] (tracetools_image_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.044133] (image_view) JobProgress: {'identifier': 'image_view', 'progress': 'cmake'}
+[0.047073] (image_view) JobProgress: {'identifier': 'image_view', 'progress': 'build'}
+[0.047175] (image_view) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/image_view', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/image_view', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/image_view', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.074075] (nav2_common) StdoutLine: {'line': b'-- Found ament_cmake_core: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_core/cmake)\n'}
+[0.099546] (-) TimerEvent: {}
+[0.163377] (tracetools_image_pipeline) StdoutLine: {'line': b'[ 66%] Built target tracetools_image_pipeline\n'}
+[0.175377] (nav_2d_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.201205] (-) TimerEvent: {}
+[0.207583] (image_view) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o\n'}
+[0.218466] (image_view) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o\n'}
+[0.225132] (image_view) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o\n'}
+[0.226705] (image_view) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o\n'}
+[0.252415] (tracetools_image_pipeline) StdoutLine: {'line': b'[100%] Built target status\n'}
+[0.303097] (-) TimerEvent: {}
+[0.308825] (tracetools_image_pipeline) CommandEnded: {'returncode': 0}
+[0.309296] (tracetools_image_pipeline) JobProgress: {'identifier': 'tracetools_image_pipeline', 'progress': 'install'}
+[0.351430] (tracetools_image_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/CaveBot-ros/build/tracetools_image_pipeline'], 'cwd': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.391027] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.393256] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.393502] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh\n'}
+[0.393603] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv\n'}
+[0.393687] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status\n'}
+[0.400050] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h\n'}
+[0.400607] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tp_call.h\n'}
+[0.400725] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h\n'}
+[0.400825] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp\n'}
+[0.400914] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp\n'}
+[0.401025] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline\n'}
+[0.401124] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline\n'}
+[0.401221] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh\n'}
+[0.401346] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv\n'}
+[0.401438] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh\n'}
+[0.401536] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv\n'}
+[0.401621] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash\n'}
+[0.401700] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh\n'}
+[0.408106] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh\n'}
+[0.408429] (-) TimerEvent: {}
+[0.408454] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv\n'}
+[0.408582] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv\n'}
+[0.408677] (nav_2d_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.441228] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline\n'}
+[0.442365] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.442526] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.448158] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.448436] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_link_flags-extras.cmake\n'}
+[0.448546] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake\n'}
+[0.448640] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake\n'}
+[0.448725] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml\n'}
+[0.448813] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so\n'}
+[0.448897] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake\n'}
+[0.449045] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake\n'}
+[0.458030] (tracetools_image_pipeline) CommandEnded: {'returncode': 0}
+[0.512514] (-) TimerEvent: {}
+[0.564252] (tracetools_image_pipeline) JobEnded: {'identifier': 'tracetools_image_pipeline', 'rc': 0}
+[0.565368] (image_proc) JobStarted: {'identifier': 'image_proc'}
+[0.580529] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.597322] (image_proc) JobProgress: {'identifier': 'image_proc', 'progress': 'cmake'}
+[0.601240] (image_proc) JobProgress: {'identifier': 'image_proc', 'progress': 'build'}
+[0.601345] (image_proc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/image_proc', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/image_proc', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/image_proc', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.614093] (-) TimerEvent: {}
+[0.709821] (nav2_common) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.716072] (-) TimerEvent: {}
+[0.816397] (-) TimerEvent: {}
+[0.890267] (image_proc) StdoutLine: {'line': b'[  5%] Built target rectify_node\n'}
+[0.903082] (image_proc) StdoutLine: {'line': b'[ 11%] Built target image_proc\n'}
+[0.916506] (-) TimerEvent: {}
+[0.923273] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.923595] (image_proc) StdoutLine: {'line': b'[ 17%] Built target debayer_node\n'}
+[0.941204] (image_proc) StdoutLine: {'line': b'[ 22%] Built target resize_node\n'}
+[0.978196] (nav_2d_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.978460] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.982633] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.009661] (image_proc) StdoutLine: {'line': b'[ 28%] Built target crop_decimate_node\n'}
+[1.019070] (-) TimerEvent: {}
+[1.027858] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.052423] (image_proc) StdoutLine: {'line': b'[ 34%] Built target gtest_main\n'}
+[1.061041] (image_proc) StdoutLine: {'line': b'[ 40%] Built target track_marker_node\n'}
+[1.070354] (image_proc) StdoutLine: {'line': b'[ 45%] Built target crop_non_zero_node\n'}
+[1.119210] (-) TimerEvent: {}
+[1.130093] (image_proc) StdoutLine: {'line': b'[ 51%] Built target gtest\n'}
+[1.167132] (image_proc) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o\n'}
+[1.184265] (nav2_common) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.207619] (nav2_common) StdoutLine: {'line': b'-- Found ament_cmake_python: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_python/cmake)\n'}
+[1.222079] (-) TimerEvent: {}
+[1.322356] (-) TimerEvent: {}
+[1.422686] (-) TimerEvent: {}
+[1.451801] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.507438] (nav_2d_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.507759] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.519057] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.524769] (nav_2d_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.525352] (-) TimerEvent: {}
+[1.625526] (-) TimerEvent: {}
+[1.727086] (-) TimerEvent: {}
+[1.827345] (-) TimerEvent: {}
+[1.927577] (-) TimerEvent: {}
+[2.029092] (-) TimerEvent: {}
+[2.131122] (-) TimerEvent: {}
+[2.231417] (-) TimerEvent: {}
+[2.231929] (nav_2d_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.279255] (nav2_common) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.291916] (nav2_common) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.299139] (nav2_common) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_common\n'}
+[2.309541] (nav2_common) CommandEnded: {'returncode': 0}
+[2.313090] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'build'}
+[2.313222] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/nav2_common', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/nav2_common', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/nav2_common', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.334079] (-) TimerEvent: {}
+[2.434334] (-) TimerEvent: {}
+[2.534602] (-) TimerEvent: {}
+[2.543439] (nav_2d_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.579817] (nav2_common) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_nav2_common\n'}
+[2.635132] (-) TimerEvent: {}
+[2.739019] (-) TimerEvent: {}
+[2.839248] (-) TimerEvent: {}
+[2.939623] (-) TimerEvent: {}
+[2.940204] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.030236] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.039747] (-) TimerEvent: {}
+[3.127222] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.144072] (-) TimerEvent: {}
+[3.146502] (nav2_common) StdoutLine: {'line': b'running egg_info\n'}
+[3.148268] (nav2_common) StdoutLine: {'line': b'creating nav2_common.egg-info\n'}
+[3.194454] (nav2_common) StdoutLine: {'line': b'writing nav2_common.egg-info/PKG-INFO\n'}
+[3.194933] (nav2_common) StdoutLine: {'line': b'writing dependency_links to nav2_common.egg-info/dependency_links.txt\n'}
+[3.196719] (nav2_common) StdoutLine: {'line': b'writing top-level names to nav2_common.egg-info/top_level.txt\n'}
+[3.197031] (nav2_common) StdoutLine: {'line': b"writing manifest file 'nav2_common.egg-info/SOURCES.txt'\n"}
+[3.218360] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.244757] (-) TimerEvent: {}
+[3.320869] (nav2_common) StdoutLine: {'line': b"reading manifest file 'nav2_common.egg-info/SOURCES.txt'\n"}
+[3.323020] (nav2_common) StdoutLine: {'line': b"writing manifest file 'nav2_common.egg-info/SOURCES.txt'\n"}
+[3.344892] (-) TimerEvent: {}
+[3.441334] (nav2_common) StdoutLine: {'line': b'Built target ament_cmake_python_build_nav2_common_egg\n'}
+[3.446704] (-) TimerEvent: {}
+[3.511124] (nav2_common) CommandEnded: {'returncode': 0}
+[3.511674] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'install'}
+[3.511709] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/CaveBot-ros/build/nav2_common'], 'cwd': '/home/pi/CaveBot-ros/build/nav2_common', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/nav2_common', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.518676] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.545298] (nav2_common) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.550545] (nav2_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.550830] (-) TimerEvent: {}
+[3.550858] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/pythonpath.sh\n'}
+[3.577263] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.593498] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/pythonpath.dsv\n'}
+[3.612268] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/PKG-INFO\n'}
+[3.633825] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/SOURCES.txt\n'}
+[3.654036] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/dependency_links.txt\n'}
+[3.654339] (-) TimerEvent: {}
+[3.674921] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.10-py3.12.egg-info/top_level.txt\n'}
+[3.699203] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py\n'}
+[3.720107] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py\n'}
+[3.746105] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py\n'}
+[3.754462] (-) TimerEvent: {}
+[3.765065] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py\n'}
+[3.791129] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py\n'}
+[3.809917] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py\n'}
+[3.835595] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common\n'}
+[3.855526] (-) TimerEvent: {}
+[3.858254] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common\n'}
+[3.881585] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh\n'}
+[3.906084] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv\n'}
+[3.924647] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/path.sh\n'}
+[3.948020] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/environment/path.dsv\n'}
+[3.955657] (-) TimerEvent: {}
+[3.969878] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.bash\n'}
+[3.993775] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.sh\n'}
+[4.017367] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.zsh\n'}
+[4.039760] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/local_setup.dsv\n'}
+[4.055794] (-) TimerEvent: {}
+[4.068115] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/package.dsv\n'}
+[4.085785] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/ament_index/resource_index/packages/nav2_common\n'}
+[4.110382] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake\n'}
+[4.131233] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake\n'}
+[4.157108] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake\n'}
+[4.157444] (-) TimerEvent: {}
+[4.177617] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/package.xml\n'}
+[4.200212] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake\n'}
+[4.257657] (-) TimerEvent: {}
+[4.360056] (-) TimerEvent: {}
+[4.437340] (nav2_common) StdoutLine: {'line': b"Listing '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common'...\n"}
+[4.437645] (nav2_common) StdoutLine: {'line': b"Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py'...\n"}
+[4.437792] (nav2_common) StdoutLine: {'line': b"Listing '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch'...\n"}
+[4.438323] (nav2_common) StdoutLine: {'line': b"Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py'...\n"}
+[4.438522] (nav2_common) StdoutLine: {'line': b"Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py'...\n"}
+[4.438650] (nav2_common) StdoutLine: {'line': b"Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py'...\n"}
+[4.438767] (nav2_common) StdoutLine: {'line': b"Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py'...\n"}
+[4.438864] (nav2_common) StdoutLine: {'line': b"Compiling '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py'...\n"}
+[4.462099] (-) TimerEvent: {}
+[4.463458] (nav2_common) CommandEnded: {'returncode': 0}
+[4.535090] (nav2_common) JobEnded: {'identifier': 'nav2_common', 'rc': 0}
+[4.535896] (nav2_msgs) JobStarted: {'identifier': 'nav2_msgs'}
+[4.562228] (-) TimerEvent: {}
+[4.566507] (nav2_msgs) JobProgress: {'identifier': 'nav2_msgs', 'progress': 'cmake'}
+[4.570568] (nav2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/CaveBot-ros/src/navigation2/nav2_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_msgs'], 'cwd': '/home/pi/CaveBot-ros/build/nav2_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 45058 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-066a2d3d-d15e-4569-bdd7-375561ccb4b9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '39', 'VSCODE_CLI_REQUIRE_TOKEN': '10f9bf00-0713-437f-a05c-ddf85264545e', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/nav2_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 45058 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.665069] (-) TimerEvent: {}
+[4.766099] (-) TimerEvent: {}
+[4.852281] (nav2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.866229] (-) TimerEvent: {}
+[4.966508] (-) TimerEvent: {}
+[5.044136] (nav2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.069082] (-) TimerEvent: {}
+[5.130250] (nav2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.169203] (-) TimerEvent: {}
+[5.269465] (-) TimerEvent: {}
+[5.369736] (-) TimerEvent: {}
+[5.470043] (nav2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.470344] (-) TimerEvent: {}
+[5.505249] (nav2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.506438] (nav2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.507573] (nav2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.543598] (nav2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.570492] (-) TimerEvent: {}
+[5.670748] (-) TimerEvent: {}
+[5.776113] (-) TimerEvent: {}
+[5.876372] (-) TimerEvent: {}
+[5.948227] (nav2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.976522] (-) TimerEvent: {}
+[5.987648] (nav2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.989375] (nav2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.997057] (nav2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.001881] (nav2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.079063] (-) TimerEvent: {}
+[6.156321] (nav_2d_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[6.180071] (-) TimerEvent: {}
+[6.281248] (-) TimerEvent: {}
+[6.381476] (-) TimerEvent: {}
+[6.481739] (-) TimerEvent: {}
+[6.582038] (-) TimerEvent: {}
+[6.607393] (nav2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.686098] (-) TimerEvent: {}
+[6.786331] (-) TimerEvent: {}
+[6.886599] (-) TimerEvent: {}
+[6.961292] (nav2_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.989066] (-) TimerEvent: {}
+[7.065072] (nav2_msgs) StdoutLine: {'line': b'-- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)\n'}
+[7.069467] (nav2_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[7.090083] (-) TimerEvent: {}
+[7.139183] (nav2_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[7.175237] (nav2_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[7.190199] (-) TimerEvent: {}
+[7.246429] (nav2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.290314] (-) TimerEvent: {}
+[7.325410] (nav2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.390445] (-) TimerEvent: {}
+[7.403510] (nav2_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[7.493098] (-) TimerEvent: {}
+[7.593367] (-) TimerEvent: {}
+[7.693639] (-) TimerEvent: {}
+[7.770331] (nav2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[7.796158] (-) TimerEvent: {}
+[7.865264] (nav2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[7.896284] (-) TimerEvent: {}
+[7.909363] (nav2_msgs) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:11 (find_package):\n'}
+[7.909755] (nav2_msgs) StderrLine: {'line': b'  By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.909902] (nav2_msgs) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.910082] (nav2_msgs) StderrLine: {'line': b'  "geographic_msgs", but CMake did not find one.\n'}
+[7.910214] (nav2_msgs) StderrLine: {'line': b'\n'}
+[7.910324] (nav2_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "geographic_msgs"\n'}
+[7.910429] (nav2_msgs) StderrLine: {'line': b'  with any of the following names:\n'}
+[7.910521] (nav2_msgs) StderrLine: {'line': b'\n'}
+[7.910617] (nav2_msgs) StderrLine: {'line': b'    geographic_msgsConfig.cmake\n'}
+[7.910706] (nav2_msgs) StderrLine: {'line': b'    geographic_msgs-config.cmake\n'}
+[7.910803] (nav2_msgs) StderrLine: {'line': b'\n'}
+[7.910901] (nav2_msgs) StderrLine: {'line': b'  Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or\n'}
+[7.911050] (nav2_msgs) StderrLine: {'line': b'  set "geographic_msgs_DIR" to a directory containing one of the above files.\n'}
+[7.911185] (nav2_msgs) StderrLine: {'line': b'  If "geographic_msgs" provides a separate development package or SDK, be\n'}
+[7.911294] (nav2_msgs) StderrLine: {'line': b'  sure it has been installed.\n'}
+[7.911394] (nav2_msgs) StderrLine: {'line': b'\n'}
+[7.911490] (nav2_msgs) StderrLine: {'line': b'\n'}
+[7.921125] (nav2_msgs) StdoutLine: {'line': b'-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[7.999085] (-) TimerEvent: {}
+[8.099379] (-) TimerEvent: {}
+[8.139186] (nav2_msgs) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[8.199503] (-) TimerEvent: {}
+[8.301113] (-) TimerEvent: {}
+[8.401362] (-) TimerEvent: {}
+[8.504078] (-) TimerEvent: {}
+[8.604333] (-) TimerEvent: {}
+[8.704603] (-) TimerEvent: {}
+[8.804890] (-) TimerEvent: {}
+[8.908082] (-) TimerEvent: {}
+[9.008363] (-) TimerEvent: {}
+[9.110073] (-) TimerEvent: {}
+[9.212068] (-) TimerEvent: {}
+[9.312304] (-) TimerEvent: {}
+[9.412552] (-) TimerEvent: {}
+[9.512802] (-) TimerEvent: {}
+[9.613071] (-) TimerEvent: {}
+[9.713310] (-) TimerEvent: {}
+[9.813646] (-) TimerEvent: {}
+[9.873344] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.916055] (-) TimerEvent: {}
+[10.016298] (-) TimerEvent: {}
+[10.116526] (-) TimerEvent: {}
+[10.216796] (-) TimerEvent: {}
+[10.320066] (-) TimerEvent: {}
+[10.422069] (-) TimerEvent: {}
+[10.438270] (nav2_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:192 (message):\n'}
+[10.439244] (nav2_msgs) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed dependency 'geographic_msgs' has\n"}
+[10.439571] (nav2_msgs) StderrLine: {'line': b'  not been found before using find_package()\n'}
+[10.439916] (nav2_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.440148] (nav2_msgs) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[10.440289] (nav2_msgs) StderrLine: {'line': b'\n'}
+[10.443074] (nav2_msgs) StderrLine: {'line': b'\n'}
+[10.444053] (nav2_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.496325] (nav2_msgs) CommandEnded: {'returncode': 1}
+[10.524081] (-) TimerEvent: {}
+[10.566566] (nav2_msgs) JobEnded: {'identifier': 'nav2_msgs', 'rc': 1}
+[10.626063] (-) TimerEvent: {}
+[10.730081] (-) TimerEvent: {}
+[10.830342] (-) TimerEvent: {}
+[10.883103] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp: In constructor \xe2\x80\x98image_view::ImageSaverNode::ImageSaverNode(const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[10.883494] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:77:46: error: no matching function for call to \xe2\x80\x98image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[10.883633] (image_view) StderrLine: {'line': b'   77 |   image_transport::TransportHints hints{*this};\n'}
+[10.883749] (image_view) StderrLine: {'line': b'      |                                              ^\n'}
+[10.883862] (image_view) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,\n'}
+[10.883965] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_saver_node.hpp:56,\n'}
+[10.884121] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:56:\n'}
+[10.884232] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)\xe2\x80\x99\n'}
+[10.884345] (image_view) StderrLine: {'line': b'   61 |   TransportHints(\n'}
+[10.884455] (image_view) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~\n'}
+[10.884559] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ImageSaverNode\xe2\x80\x99 to \xe2\x80\x98const rclcpp::Node*\xe2\x80\x99\n'}
+[10.884653] (image_view) StderrLine: {'line': b'   62 |     const rclcpp::Node * node,\n'}
+[10.884742] (image_view) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~^~~~\n'}
+[10.884840] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)\xe2\x80\x99\n'}
+[10.884946] (image_view) StderrLine: {'line': b'   45 | class TransportHints\n'}
+[10.885098] (image_view) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[10.885204] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ImageSaverNode\xe2\x80\x99 to \xe2\x80\x98const image_transport::TransportHints&\xe2\x80\x99\n'}
+[10.885310] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)\xe2\x80\x99\n'}
+[10.885416] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ImageSaverNode\xe2\x80\x99 to \xe2\x80\x98image_transport::TransportHints&&\xe2\x80\x99\n'}
+[10.896155] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:86:5: error: cannot convert \xe2\x80\x98image_view::ImageSaverNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[10.896695] (image_view) StderrLine: {'line': b'   86 |     *this, topic, std::bind(\n'}
+[10.896873] (image_view) StderrLine: {'line': b'      |     ^~~~~\n'}
+[10.897124] (image_view) StderrLine: {'line': b'      |     |\n'}
+[10.897292] (image_view) StderrLine: {'line': b'      |     image_view::ImageSaverNode\n'}
+[10.897440] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18: note:   initializing argument 1 of \xe2\x80\x98image_transport::CameraSubscriber image_transport::create_camera_subscription(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)\xe2\x80\x99\n'}
+[10.897594] (image_view) StderrLine: {'line': b'   86 |   rclcpp::Node * node,\n'}
+[10.897780] (image_view) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~\n'}
+[10.903177] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:92:5: error: cannot convert \xe2\x80\x98image_view::ImageSaverNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[10.903632] (image_view) StderrLine: {'line': b'   92 |     *this, topic, std::bind(\n'}
+[10.903835] (image_view) StderrLine: {'line': b'      |     ^~~~~\n'}
+[10.904051] (image_view) StderrLine: {'line': b'      |     |\n'}
+[10.904178] (image_view) StderrLine: {'line': b'      |     image_view::ImageSaverNode\n'}
+[10.904285] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18: note:   initializing argument 1 of \xe2\x80\x98image_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\xe2\x80\x99\n'}
+[10.904423] (image_view) StderrLine: {'line': b'   64 |   rclcpp::Node * node,\n'}
+[10.904536] (image_view) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~\n'}
+[10.933086] (-) TimerEvent: {}
+[11.033346] (-) TimerEvent: {}
+[11.133754] (-) TimerEvent: {}
+[11.237080] (-) TimerEvent: {}
+[11.337347] (-) TimerEvent: {}
+[11.440189] (-) TimerEvent: {}
+[11.503144] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.519498] (nav_2d_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[11.542100] (-) TimerEvent: {}
+[11.645079] (-) TimerEvent: {}
+[11.745385] (-) TimerEvent: {}
+[11.845661] (-) TimerEvent: {}
+[11.945963] (-) TimerEvent: {}
+[11.974391] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp: In constructor \xe2\x80\x98image_view::ExtractImagesNode::ExtractImagesNode(const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[11.974735] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:79:46: error: no matching function for call to \xe2\x80\x98image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[11.974899] (image_view) StderrLine: {'line': b'   79 |   image_transport::TransportHints hints{*this};\n'}
+[11.975043] (image_view) StderrLine: {'line': b'      |                                              ^\n'}
+[11.975164] (image_view) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,\n'}
+[11.975278] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:58:\n'}
+[11.975419] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)\xe2\x80\x99\n'}
+[11.975531] (image_view) StderrLine: {'line': b'   61 |   TransportHints(\n'}
+[11.975629] (image_view) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~\n'}
+[11.975752] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ExtractImagesNode\xe2\x80\x99 to \xe2\x80\x98const rclcpp::Node*\xe2\x80\x99\n'}
+[11.975876] (image_view) StderrLine: {'line': b'   62 |     const rclcpp::Node * node,\n'}
+[11.976020] (image_view) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~^~~~\n'}
+[11.976196] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)\xe2\x80\x99\n'}
+[11.976346] (image_view) StderrLine: {'line': b'   45 | class TransportHints\n'}
+[11.976451] (image_view) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[11.976559] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ExtractImagesNode\xe2\x80\x99 to \xe2\x80\x98const image_transport::TransportHints&\xe2\x80\x99\n'}
+[11.976679] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)\xe2\x80\x99\n'}
+[11.976785] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ExtractImagesNode\xe2\x80\x99 to \xe2\x80\x98image_transport::TransportHints&&\xe2\x80\x99\n'}
+[11.986333] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp: In constructor \xe2\x80\x98image_view::StereoViewNode::StereoViewNode(const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[11.986631] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:102:46: error: no matching function for call to \xe2\x80\x98image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[11.986763] (image_view) StderrLine: {'line': b'  102 |   image_transport::TransportHints hints{*this};\n'}
+[11.986869] (image_view) StderrLine: {'line': b'      |                                              ^\n'}
+[11.986992] (image_view) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,\n'}
+[11.987127] (image_view) StderrLine: {'line': b'                 from /opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:39,\n'}
+[11.987235] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/stereo_view_node.hpp:63,\n'}
+[11.987349] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:61:\n'}
+[11.987458] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)\xe2\x80\x99\n'}
+[11.987576] (image_view) StderrLine: {'line': b'   61 |   TransportHints(\n'}
+[11.987678] (image_view) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~\n'}
+[11.987777] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::StereoViewNode\xe2\x80\x99 to \xe2\x80\x98const rclcpp::Node*\xe2\x80\x99\n'}
+[11.987905] (image_view) StderrLine: {'line': b'   62 |     const rclcpp::Node * node,\n'}
+[11.988071] (image_view) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~^~~~\n'}
+[11.988203] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)\xe2\x80\x99\n'}
+[11.988325] (image_view) StderrLine: {'line': b'   45 | class TransportHints\n'}
+[11.988430] (image_view) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[11.988543] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::StereoViewNode\xe2\x80\x99 to \xe2\x80\x98const image_transport::TransportHints&\xe2\x80\x99\n'}
+[11.988661] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)\xe2\x80\x99\n'}
+[11.988785] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::StereoViewNode\xe2\x80\x99 to \xe2\x80\x98image_transport::TransportHints&&\xe2\x80\x99\n'}
+[11.988900] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:131:23: error: cannot convert \xe2\x80\x98image_view::StereoViewNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[11.998484] (image_view) StderrLine: {'line': b'  131 |   left_sub_.subscribe(*this, left_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());\n'}
+[11.998671] (image_view) StderrLine: {'line': b'      |                       ^~~~~\n'}
+[11.998788] (image_view) StderrLine: {'line': b'      |                       |\n'}
+[11.998921] (image_view) StderrLine: {'line': b'      |                       image_view::StereoViewNode\n'}
+[11.999087] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20: note:   initializing argument 1 of \xe2\x80\x98void image_transport::SubscriberFilter::subscribe(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\xe2\x80\x99\n'}
+[11.999208] (image_view) StderrLine: {'line': b'  110 |     rclcpp::Node * node,\n'}
+[11.999323] (image_view) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~^~~~\n'}
+[11.999424] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:132:24: error: cannot convert \xe2\x80\x98image_view::StereoViewNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[11.999522] (image_view) StderrLine: {'line': b'  132 |   right_sub_.subscribe(*this, right_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());\n'}
+[11.999635] (image_view) StderrLine: {'line': b'      |                        ^~~~~\n'}
+[11.999741] (image_view) StderrLine: {'line': b'      |                        |\n'}
+[11.999842] (image_view) StderrLine: {'line': b'      |                        image_view::StereoViewNode\n'}
+[11.999948] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20: note:   initializing argument 1 of \xe2\x80\x98void image_transport::SubscriberFilter::subscribe(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\xe2\x80\x99\n'}
+[12.000110] (image_view) StderrLine: {'line': b'  110 |     rclcpp::Node * node,\n'}
+[12.000229] (image_view) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~^~~~\n'}
+[12.000341] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:133:27: error: no matching function for call to \xe2\x80\x98message_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::subscribe(image_view::StereoViewNode*, std::string&, rclcpp::QoS)\xe2\x80\x99\n'}
+[12.000473] (image_view) StderrLine: {'line': b'  133 |   disparity_sub_.subscribe(this, disparity_topic, rclcpp::QoS(10));\n'}
+[12.000608] (image_view) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[12.000744] (image_view) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32,\n'}
+[12.000857] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:56:\n'}
+[12.000963] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8: note: candidate: \xe2\x80\x98void message_filters::Subscriber<M, NodeType>::subscribe(NodePtr, const std::string&, rmw_qos_profile_t) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\xe2\x80\x99\n'}
+[12.010502] (image_view) StderrLine: {'line': b'  240 |   void subscribe(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[12.010679] (image_view) StderrLine: {'line': b'      |        ^~~~~~~~~\n'}
+[12.010827] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::StereoViewNode*\xe2\x80\x99 to \xe2\x80\x98message_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::NodePtr\xe2\x80\x99 {aka \xe2\x80\x98std::shared_ptr<rclcpp::Node>\xe2\x80\x99}\n'}
+[12.011044] (image_view) StderrLine: {'line': b'  240 |   void subscribe(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[12.011241] (image_view) StderrLine: {'line': b'      |                  ~~~~~~~~^~~~\n'}
+[12.011413] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8: note: candidate: \xe2\x80\x98void message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const std::string&, rmw_qos_profile_t) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\xe2\x80\x99\n'}
+[12.011574] (image_view) StderrLine: {'line': b'  255 |   void subscribe(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[12.011704] (image_view) StderrLine: {'line': b'      |        ^~~~~~~~~\n'}
+[12.011857] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85: note:   no known conversion for argument 3 from \xe2\x80\x98rclcpp::QoS\xe2\x80\x99 to \xe2\x80\x98rmw_qos_profile_t\xe2\x80\x99 {aka \xe2\x80\x98rmw_qos_profile_s\xe2\x80\x99}\n'}
+[12.012083] (image_view) StderrLine: {'line': b'  255 |   void subscribe(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[12.012268] (image_view) StderrLine: {'line': b'      |                                                             ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[12.012449] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8: note: candidate: \xe2\x80\x98void message_filters::Subscriber<M, NodeType>::subscribe(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\xe2\x80\x99\n'}
+[12.012626] (image_view) StderrLine: {'line': b'  270 |   void subscribe(\n'}
+[12.012757] (image_view) StderrLine: {'line': b'      |        ^~~~~~~~~\n'}
+[12.012906] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8: note:   candidate expects 4 arguments, 3 provided\n'}
+[12.022288] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8: note: candidate: \xe2\x80\x98void message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\xe2\x80\x99\n'}
+[12.022457] (image_view) StderrLine: {'line': b'  292 |   void subscribe(\n'}
+[12.022596] (image_view) StderrLine: {'line': b'      |        ^~~~~~~~~\n'}
+[12.022700] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8: note:   candidate expects 4 arguments, 3 provided\n'}
+[12.022801] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8: note: candidate: \xe2\x80\x98void message_filters::Subscriber<M, NodeType>::subscribe() [with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node]\xe2\x80\x99\n'}
+[12.022914] (image_view) StderrLine: {'line': b'  319 |   void subscribe() override\n'}
+[12.023073] (image_view) StderrLine: {'line': b'      |        ^~~~~~~~~\n'}
+[12.023173] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8: note:   candidate expects 0 arguments, 3 provided\n'}
+[12.023262] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:83:5: error: cannot convert \xe2\x80\x98image_view::ExtractImagesNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[12.023355] (image_view) StderrLine: {'line': b'   83 |     *this, topic, std::bind(\n'}
+[12.023442] (image_view) StderrLine: {'line': b'      |     ^~~~~\n'}
+[12.023540] (image_view) StderrLine: {'line': b'      |     |\n'}
+[12.023632] (image_view) StderrLine: {'line': b'      |     image_view::ExtractImagesNode\n'}
+[12.023711] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18: note:   initializing argument 1 of \xe2\x80\x98image_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\xe2\x80\x99\n'}
+[12.023795] (image_view) StderrLine: {'line': b'   64 |   rclcpp::Node * node,\n'}
+[12.023893] (image_view) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~\n'}
+[12.024949] (nav_2d_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[12.046089] (-) TimerEvent: {}
+[12.146337] (-) TimerEvent: {}
+[12.246594] (-) TimerEvent: {}
+[12.348232] (-) TimerEvent: {}
+[12.448500] (-) TimerEvent: {}
+[12.551070] (-) TimerEvent: {}
+[12.651308] (-) TimerEvent: {}
+[12.753063] (-) TimerEvent: {}
+[12.853308] (-) TimerEvent: {}
+[12.897285] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp: In constructor \xe2\x80\x98image_view::ImageViewNode::ImageViewNode(const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[12.897650] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:110:46: error: no matching function for call to \xe2\x80\x98image_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[12.897832] (image_view) StderrLine: {'line': b'  110 |   image_transport::TransportHints hints{*this};\n'}
+[12.897960] (image_view) StderrLine: {'line': b'      |                                              ^\n'}
+[12.899550] (image_view) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,\n'}
+[12.899816] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_view_node.hpp:29,\n'}
+[12.899958] (image_view) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:59:\n'}
+[12.900130] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)\xe2\x80\x99\n'}
+[12.900264] (image_view) StderrLine: {'line': b'   61 |   TransportHints(\n'}
+[12.900378] (image_view) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~\n'}
+[12.905274] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ImageViewNode\xe2\x80\x99 to \xe2\x80\x98const rclcpp::Node*\xe2\x80\x99\n'}
+[12.905608] (image_view) StderrLine: {'line': b'   62 |     const rclcpp::Node * node,\n'}
+[12.905754] (image_view) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~^~~~\n'}
+[12.906032] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)\xe2\x80\x99\n'}
+[12.906225] (image_view) StderrLine: {'line': b'   45 | class TransportHints\n'}
+[12.906321] (image_view) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[12.906428] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ImageViewNode\xe2\x80\x99 to \xe2\x80\x98const image_transport::TransportHints&\xe2\x80\x99\n'}
+[12.906544] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)\xe2\x80\x99\n'}
+[12.906678] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_view::ImageViewNode\xe2\x80\x99 to \xe2\x80\x98image_transport::TransportHints&&\xe2\x80\x99\n'}
+[12.916566] (image_view) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:120:5: error: cannot convert \xe2\x80\x98image_view::ImageViewNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[12.916878] (image_view) StderrLine: {'line': b'  120 |     *this, topic, std::bind(&ImageViewNode::imageCb, this, std::placeholders::_1),\n'}
+[12.917047] (image_view) StderrLine: {'line': b'      |     ^~~~~\n'}
+[12.917182] (image_view) StderrLine: {'line': b'      |     |\n'}
+[12.917284] (image_view) StderrLine: {'line': b'      |     image_view::ImageViewNode\n'}
+[12.919004] (image_view) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18: note:   initializing argument 1 of \xe2\x80\x98image_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\xe2\x80\x99\n'}
+[12.919285] (image_view) StderrLine: {'line': b'   64 |   rclcpp::Node * node,\n'}
+[12.919427] (image_view) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~\n'}
+[12.954087] (-) TimerEvent: {}
+[13.057076] (-) TimerEvent: {}
+[13.157337] (-) TimerEvent: {}
+[13.257584] (-) TimerEvent: {}
+[13.357863] (-) TimerEvent: {}
+[13.458152] (-) TimerEvent: {}
+[13.561071] (-) TimerEvent: {}
+[13.661340] (-) TimerEvent: {}
+[13.761594] (-) TimerEvent: {}
+[13.861891] (-) TimerEvent: {}
+[13.893465] (nav_2d_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[13.964229] (-) TimerEvent: {}
+[14.064488] (-) TimerEvent: {}
+[14.165462] (-) TimerEvent: {}
+[14.187966] (nav_2d_msgs) StdoutLine: {'line': b'-- Configuring done (14.1s)\n'}
+[14.265671] (-) TimerEvent: {}
+[14.370098] (-) TimerEvent: {}
+[14.470370] (-) TimerEvent: {}
+[14.479162] (nav_2d_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[14.531928] (nav_2d_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/CaveBot-ros/build/nav_2d_msgs\n'}
+[14.570506] (-) TimerEvent: {}
+[14.593724] (nav_2d_msgs) JobEnded: {'identifier': 'nav_2d_msgs', 'rc': 'SIGINT'}
+[14.672094] (-) TimerEvent: {}
+[14.688312] (image_proc) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp: In lambda function:\n'}
+[14.688689] (image_proc) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:79:52: error: no matching function for call to \xe2\x80\x98image_transport::TransportHints::TransportHints(image_proc::RectifyNode&)\xe2\x80\x99\n'}
+[14.688831] (image_proc) StderrLine: {'line': b'   79 |         image_transport::TransportHints hints(*this);\n'}
+[14.688950] (image_proc) StderrLine: {'line': b'      |                                                    ^\n'}
+[14.689107] (image_proc) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,\n'}
+[14.689231] (image_proc) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_proc/include/image_proc/rectify.hpp:41,\n'}
+[14.689350] (image_proc) StderrLine: {'line': b'                 from /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:40:\n'}
+[14.689466] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)\xe2\x80\x99\n'}
+[14.689582] (image_proc) StderrLine: {'line': b'   61 |   TransportHints(\n'}
+[14.689688] (image_proc) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~\n'}
+[14.689793] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from \xe2\x80\x98image_proc::RectifyNode\xe2\x80\x99 to \xe2\x80\x98const rclcpp::Node*\xe2\x80\x99\n'}
+[14.689904] (image_proc) StderrLine: {'line': b'   62 |     const rclcpp::Node * node,\n'}
+[14.690069] (image_proc) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~^~~~\n'}
+[14.690183] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)\xe2\x80\x99\n'}
+[14.690294] (image_proc) StderrLine: {'line': b'   45 | class TransportHints\n'}
+[14.690402] (image_proc) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[14.690517] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_proc::RectifyNode\xe2\x80\x99 to \xe2\x80\x98const image_transport::TransportHints&\xe2\x80\x99\n'}
+[14.690628] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: \xe2\x80\x98image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)\xe2\x80\x99\n'}
+[14.690743] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from \xe2\x80\x98image_proc::RectifyNode\xe2\x80\x99 to \xe2\x80\x98image_transport::TransportHints&&\xe2\x80\x99\n'}
+[14.721067] (image_proc) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:81:11: error: cannot convert \xe2\x80\x98image_proc::RectifyNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[14.721420] (image_proc) StderrLine: {'line': b'   81 |           *this, image_topic_, std::bind(\n'}
+[14.721562] (image_proc) StderrLine: {'line': b'      |           ^~~~~\n'}
+[14.721677] (image_proc) StderrLine: {'line': b'      |           |\n'}
+[14.721797] (image_proc) StderrLine: {'line': b'      |           image_proc::RectifyNode\n'}
+[14.722618] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18: note:   initializing argument 1 of \xe2\x80\x98image_transport::CameraSubscriber image_transport::create_camera_subscription(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)\xe2\x80\x99\n'}
+[14.722952] (image_proc) StderrLine: {'line': b'   86 |   rclcpp::Node * node,\n'}
+[14.723169] (image_proc) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~\n'}
+[14.728053] (image_proc) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp: In constructor \xe2\x80\x98image_proc::RectifyNode::RectifyNode(const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[14.728422] (image_proc) StderrLine: {'line': b'/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:89:49: error: cannot convert \xe2\x80\x98image_proc::RectifyNode\xe2\x80\x99 to \xe2\x80\x98rclcpp::Node*\xe2\x80\x99\n'}
+[14.728557] (image_proc) StderrLine: {'line': b'   89 |   pub_rect_ = image_transport::create_publisher(*this, rect_topic, rclcpp::SystemDefaultsQoS(),\n'}
+[14.728687] (image_proc) StderrLine: {'line': b'      |                                                 ^~~~~\n'}
+[14.728797] (image_proc) StderrLine: {'line': b'      |                                                 |\n'}
+[14.728890] (image_proc) StderrLine: {'line': b'      |                                                 image_proc::RectifyNode\n'}
+[14.728997] (image_proc) StderrLine: {'line': b'/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18: note:   initializing argument 1 of \xe2\x80\x98image_transport::Publisher image_transport::create_publisher(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)\xe2\x80\x99\n'}
+[14.729125] (image_proc) StderrLine: {'line': b'   54 |   rclcpp::Node * node,\n'}
+[14.729220] (image_proc) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~\n'}
+[14.772223] (-) TimerEvent: {}
+[14.872534] (-) TimerEvent: {}
+[14.888963] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:118: CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o] Error 1\n'}
+[14.889363] (image_view) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[14.972647] (-) TimerEvent: {}
+[15.072920] (-) TimerEvent: {}
+[15.176075] (-) TimerEvent: {}
+[15.276342] (-) TimerEvent: {}
+[15.376607] (-) TimerEvent: {}
+[15.476876] (-) TimerEvent: {}
+[15.577139] (-) TimerEvent: {}
+[15.677546] (-) TimerEvent: {}
+[15.777961] (-) TimerEvent: {}
+[15.880255] (-) TimerEvent: {}
+[15.980511] (-) TimerEvent: {}
+[16.080777] (-) TimerEvent: {}
+[16.181062] (-) TimerEvent: {}
+[16.270473] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:90: CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o] Error 1\n'}
+[16.281181] (-) TimerEvent: {}
+[16.381567] (-) TimerEvent: {}
+[16.481819] (-) TimerEvent: {}
+[16.582071] (-) TimerEvent: {}
+[16.682466] (-) TimerEvent: {}
+[16.782714] (-) TimerEvent: {}
+[16.883012] (-) TimerEvent: {}
+[16.983281] (-) TimerEvent: {}
+[17.083532] (-) TimerEvent: {}
+[17.183785] (-) TimerEvent: {}
+[17.284097] (-) TimerEvent: {}
+[17.335353] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:104: CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o] Error 1\n'}
+[17.384205] (-) TimerEvent: {}
+[17.484434] (-) TimerEvent: {}
+[17.584671] (-) TimerEvent: {}
+[17.684949] (-) TimerEvent: {}
+[17.727429] (image_proc) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rectify.dir/build.make:76: CMakeFiles/rectify.dir/src/rectify.cpp.o] Error 1\n'}
+[17.728067] (image_proc) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/rectify.dir/all] Error 2\n'}
+[17.728364] (image_proc) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.731250] (image_proc) JobEnded: {'identifier': 'image_proc', 'rc': 'SIGINT'}
+[17.785061] (-) TimerEvent: {}
+[17.885272] (-) TimerEvent: {}
+[17.985488] (-) TimerEvent: {}
+[18.085707] (-) TimerEvent: {}
+[18.185925] (-) TimerEvent: {}
+[18.286162] (-) TimerEvent: {}
+[18.386384] (-) TimerEvent: {}
+[18.486600] (-) TimerEvent: {}
+[18.586817] (-) TimerEvent: {}
+[18.687051] (-) TimerEvent: {}
+[18.787272] (-) TimerEvent: {}
+[18.887476] (-) TimerEvent: {}
+[18.987705] (-) TimerEvent: {}
+[19.087963] (-) TimerEvent: {}
+[19.188221] (-) TimerEvent: {}
+[19.288440] (-) TimerEvent: {}
+[19.388655] (-) TimerEvent: {}
+[19.488878] (-) TimerEvent: {}
+[19.538518] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:132: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o] Error 1\n'}
+[19.538947] (image_view) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/image_view_nodes.dir/all] Error 2\n'}
+[19.539296] (image_view) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.542195] (image_view) JobEnded: {'identifier': 'image_view', 'rc': 'SIGINT'}
+[19.552948] (camera_calibration) JobSkipped: {'identifier': 'camera_calibration'}
+[19.553021] (depthimage_to_laserscan) JobSkipped: {'identifier': 'depthimage_to_laserscan'}
+[19.553047] (image_publisher) JobSkipped: {'identifier': 'image_publisher'}
+[19.553068] (image_rotate) JobSkipped: {'identifier': 'image_rotate'}
+[19.553088] (libcamera) JobSkipped: {'identifier': 'libcamera'}
+[19.553107] (slam_toolbox) JobSkipped: {'identifier': 'slam_toolbox'}
+[19.553127] (camera_ros) JobSkipped: {'identifier': 'camera_ros'}
+[19.553146] (dwb_msgs) JobSkipped: {'identifier': 'dwb_msgs'}
+[19.553165] (nav2_voxel_grid) JobSkipped: {'identifier': 'nav2_voxel_grid'}
+[19.553184] (depth_image_proc) JobSkipped: {'identifier': 'depth_image_proc'}
+[19.553203] (dualcam_launch) JobSkipped: {'identifier': 'dualcam_launch'}
+[19.553222] (nav2_simple_commander) JobSkipped: {'identifier': 'nav2_simple_commander'}
+[19.553242] (nav2_util) JobSkipped: {'identifier': 'nav2_util'}
+[19.553260] (stereo_image_proc) JobSkipped: {'identifier': 'stereo_image_proc'}
+[19.553279] (image_pipeline) JobSkipped: {'identifier': 'image_pipeline'}
+[19.553298] (nav2_amcl) JobSkipped: {'identifier': 'nav2_amcl'}
+[19.553317] (nav2_behavior_tree) JobSkipped: {'identifier': 'nav2_behavior_tree'}
+[19.553336] (nav2_lifecycle_manager) JobSkipped: {'identifier': 'nav2_lifecycle_manager'}
+[19.553355] (nav2_loopback_sim) JobSkipped: {'identifier': 'nav2_loopback_sim'}
+[19.553374] (nav2_map_server) JobSkipped: {'identifier': 'nav2_map_server'}
+[19.553393] (nav2_velocity_smoother) JobSkipped: {'identifier': 'nav2_velocity_smoother'}
+[19.553412] (nav_2d_utils) JobSkipped: {'identifier': 'nav_2d_utils'}
+[19.553431] (opennav_docking_core) JobSkipped: {'identifier': 'opennav_docking_core'}
+[19.553450] (nav2_costmap_2d) JobSkipped: {'identifier': 'nav2_costmap_2d'}
+[19.553469] (nav2_rviz_plugins) JobSkipped: {'identifier': 'nav2_rviz_plugins'}
+[19.553488] (costmap_queue) JobSkipped: {'identifier': 'costmap_queue'}
+[19.553506] (nav2_collision_monitor) JobSkipped: {'identifier': 'nav2_collision_monitor'}
+[19.553525] (nav2_core) JobSkipped: {'identifier': 'nav2_core'}
+[19.553544] (dwb_core) JobSkipped: {'identifier': 'dwb_core'}
+[19.553563] (nav2_behaviors) JobSkipped: {'identifier': 'nav2_behaviors'}
+[19.553582] (nav2_bt_navigator) JobSkipped: {'identifier': 'nav2_bt_navigator'}
+[19.553601] (nav2_constrained_smoother) JobSkipped: {'identifier': 'nav2_constrained_smoother'}
+[19.553620] (nav2_controller) JobSkipped: {'identifier': 'nav2_controller'}
+[19.553639] (nav2_mppi_controller) JobSkipped: {'identifier': 'nav2_mppi_controller'}
+[19.553658] (nav2_navfn_planner) JobSkipped: {'identifier': 'nav2_navfn_planner'}
+[19.553676] (nav2_planner) JobSkipped: {'identifier': 'nav2_planner'}
+[19.553695] (nav2_regulated_pure_pursuit_controller) JobSkipped: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[19.553715] (nav2_route) JobSkipped: {'identifier': 'nav2_route'}
+[19.553734] (nav2_smac_planner) JobSkipped: {'identifier': 'nav2_smac_planner'}
+[19.553753] (nav2_smoother) JobSkipped: {'identifier': 'nav2_smoother'}
+[19.553772] (nav2_theta_star_planner) JobSkipped: {'identifier': 'nav2_theta_star_planner'}
+[19.553791] (nav2_waypoint_follower) JobSkipped: {'identifier': 'nav2_waypoint_follower'}
+[19.553810] (opennav_docking_bt) JobSkipped: {'identifier': 'opennav_docking_bt'}
+[19.553829] (dwb_critics) JobSkipped: {'identifier': 'dwb_critics'}
+[19.553865] (dwb_plugins) JobSkipped: {'identifier': 'dwb_plugins'}
+[19.553884] (nav2_graceful_controller) JobSkipped: {'identifier': 'nav2_graceful_controller'}
+[19.553903] (nav2_rotation_shim_controller) JobSkipped: {'identifier': 'nav2_rotation_shim_controller'}
+[19.553925] (nav2_dwb_controller) JobSkipped: {'identifier': 'nav2_dwb_controller'}
+[19.553946] (opennav_docking) JobSkipped: {'identifier': 'opennav_docking'}
+[19.553965] (navigation2) JobSkipped: {'identifier': 'navigation2'}
+[19.553992] (nav2_bringup) JobSkipped: {'identifier': 'nav2_bringup'}
+[19.554014] (nav2_system_tests) JobSkipped: {'identifier': 'nav2_system_tests'}
+[19.554035] (-) EventReactorShutdown: {}

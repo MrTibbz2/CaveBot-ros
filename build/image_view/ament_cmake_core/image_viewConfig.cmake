@@ -16,7 +16,7 @@ set(_image_view_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT image_view_FIND_QUIETLY)
-  message(STATUS "Found image_view: 7.1.2 (${image_view_DIR})")
+  message(STATUS "Found image_view: 5.0.11 (${image_view_DIR})")
 endif()
 
 # warn when using a deprecated package

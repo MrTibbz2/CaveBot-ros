@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_DEFINES = -DROS_PACKAGE_NAME=\"tracetools_image_pipeline\" -Dtracetools_image_pipeline_EXPORTS -Dtracetools_image_pipeline_VERSION=\"7.1.2\"
+C_DEFINES = -DROS_PACKAGE_NAME=\"tracetools_image_pipeline\" -Dtracetools_image_pipeline_EXPORTS -Dtracetools_image_pipeline_VERSION=\"5.0.11\"
 
 C_INCLUDES = -I/home/pi/CaveBot-ros/build/tracetools_image_pipeline/include
 
 C_FLAGS = -fPIC -Wall -Wextra -Wpedantic
 
-CXX_DEFINES = -DROS_PACKAGE_NAME=\"tracetools_image_pipeline\" -Dtracetools_image_pipeline_EXPORTS -Dtracetools_image_pipeline_VERSION=\"7.1.2\"
+CXX_DEFINES = -DROS_PACKAGE_NAME=\"tracetools_image_pipeline\" -Dtracetools_image_pipeline_EXPORTS -Dtracetools_image_pipeline_VERSION=\"5.0.11\"
 
 CXX_INCLUDES = -I/home/pi/CaveBot-ros/build/tracetools_image_pipeline/include
 

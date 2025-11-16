@@ -1,0 +1,75 @@
+[0.022s] Invoking command in '/home/pi/CaveBot-ros/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_rotate -- -j4 -l4
+[0.093s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.737s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.117s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.142s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.453s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.458s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.882s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.884s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.091s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.119s] In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/image_rotate` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+[2.167s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.178s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.179s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/image_rotate/include
+[2.184s] -- Configured cppcheck exclude dirs and/or files: 
+[2.188s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.191s] -- Configured cpplint exclude dirs and/or files: 
+[2.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.197s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.202s] -- Added test 'lint_cmake' to check CMake code style
+[2.202s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.209s] -- Added test 'uncrustify' to check C / C++ code style
+[2.211s] -- Configured uncrustify additional arguments: 
+[2.215s] -- Added test 'xmllint' to check XML markup files
+[2.234s] -- Configuring done (2.2s)
+[2.383s] -- Generating done (0.1s)
+[2.449s] -- Build files have been written to: /home/pi/CaveBot-ros/build/image_rotate
+[2.666s] [ 12%] Building CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o
+[25.000s] [ 25%] Linking CXX shared library libimage_rotate.so
+[26.483s] [ 25%] Built target image_rotate
+[26.551s] [ 50%] Built target image_flip_node
+[26.602s] [ 62%] Building CXX object CMakeFiles/image_flip.dir/src/image_flip.cpp.o
+[50.153s] [ 75%] Linking CXX shared library libimage_flip.so
+[51.579s] [ 75%] Built target image_flip
+[51.642s] [ 87%] Building CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o
+[61.866s] [100%] Linking CXX executable image_rotate
+[63.676s] [100%] Built target image_rotate_bin
+[63.710s] Invoked command in '/home/pi/CaveBot-ros/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_rotate -- -j4 -l4
+[63.713s] Invoking command in '/home/pi/CaveBot-ros/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_rotate
+[63.732s] -- Install configuration: ""
+[63.734s] -- Execute custom install script
+[63.737s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/lib/image_rotate/image_flip_node
+[63.762s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/include/image_rotate/image_flip.hpp
+[63.793s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[63.824s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/include/image_rotate/visibility.h
+[63.855s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/environment/library_path.sh
+[63.883s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[63.908s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/lib/libimage_rotate.so
+[63.933s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/lib/libimage_flip.so
+[63.959s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/lib/image_rotate/image_rotate
+[63.987s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/launch/image_flip.launch.py
+[64.031s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[64.061s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[64.089s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[64.129s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[64.157s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[64.183s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/environment/path.sh
+[64.208s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/environment/path.dsv
+[64.234s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/local_setup.bash
+[64.263s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/local_setup.sh
+[64.296s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/local_setup.zsh
+[64.327s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/local_setup.dsv
+[64.359s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/package.dsv
+[64.387s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[64.422s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[64.452s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.482s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[64.514s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[64.546s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[64.577s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[64.604s] -- Symlinking: /home/pi/CaveBot-ros/install/image_rotate/share/image_rotate/package.xml
+[64.633s] Invoked command in '/home/pi/CaveBot-ros/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_rotate

@@ -1,0 +1,50 @@
+[0.037s] Invoking command in '/home/pi/CaveBot-ros/build/image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_proc -- -j4 -l4
+[0.325s] [  5%] Built target rectify_node
+[0.338s] [ 11%] Built target image_proc
+[0.358s] [ 17%] Built target debayer_node
+[0.376s] [ 22%] Built target resize_node
+[0.444s] [ 28%] Built target crop_decimate_node
+[0.487s] [ 34%] Built target gtest_main
+[0.496s] [ 40%] Built target track_marker_node
+[0.505s] [ 45%] Built target crop_non_zero_node
+[0.565s] [ 51%] Built target gtest
+[0.602s] [ 54%] Building CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o
+[14.123s] /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp: In lambda function:
+[14.123s] /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:79:52: error: no matching function for call to ‘image_transport::TransportHints::TransportHints(image_proc::RectifyNode&)’
+[14.124s]    79 |         image_transport::TransportHints hints(*this);
+[14.124s]       |                                                    ^
+[14.124s] In file included from /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43,
+[14.124s]                  from /home/pi/CaveBot-ros/src/image_pipeline/image_proc/include/image_proc/rectify.hpp:41,
+[14.124s]                  from /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:40:
+[14.124s] /opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3: note: candidate: ‘image_transport::TransportHints::TransportHints(const rclcpp::Node*, const std::string&, const std::string&)’
+[14.124s]    61 |   TransportHints(
+[14.124s]       |   ^~~~~~~~~~~~~~
+[14.124s] /opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26: note:   no known conversion for argument 1 from ‘image_proc::RectifyNode’ to ‘const rclcpp::Node*’
+[14.125s]    62 |     const rclcpp::Node * node,
+[14.125s]       |     ~~~~~~~~~~~~~~~~~~~~~^~~~
+[14.125s] /opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(const image_transport::TransportHints&)’
+[14.125s]    45 | class TransportHints
+[14.125s]       |       ^~~~~~~~~~~~~~
+[14.125s] /opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_proc::RectifyNode’ to ‘const image_transport::TransportHints&’
+[14.125s] /opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note: candidate: ‘image_transport::TransportHints::TransportHints(image_transport::TransportHints&&)’
+[14.125s] /opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7: note:   no known conversion for argument 1 from ‘image_proc::RectifyNode’ to ‘image_transport::TransportHints&&’
+[14.156s] /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:81:11: error: cannot convert ‘image_proc::RectifyNode’ to ‘rclcpp::Node*’
+[14.156s]    81 |           *this, image_topic_, std::bind(
+[14.156s]       |           ^~~~~
+[14.156s]       |           |
+[14.156s]       |           image_proc::RectifyNode
+[14.157s] /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18: note:   initializing argument 1 of ‘image_transport::CameraSubscriber image_transport::create_camera_subscription(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)’
+[14.158s]    86 |   rclcpp::Node * node,
+[14.158s]       |   ~~~~~~~~~~~~~~~^~~~
+[14.163s] /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp: In constructor ‘image_proc::RectifyNode::RectifyNode(const rclcpp::NodeOptions&)’:
+[14.163s] /home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:89:49: error: cannot convert ‘image_proc::RectifyNode’ to ‘rclcpp::Node*’
+[14.163s]    89 |   pub_rect_ = image_transport::create_publisher(*this, rect_topic, rclcpp::SystemDefaultsQoS(),
+[14.163s]       |                                                 ^~~~~
+[14.163s]       |                                                 |
+[14.164s]       |                                                 image_proc::RectifyNode
+[14.164s] /opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18: note:   initializing argument 1 of ‘image_transport::Publisher image_transport::create_publisher(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)’
+[14.164s]    54 |   rclcpp::Node * node,
+[14.164s]       |   ~~~~~~~~~~~~~~~^~~~
+[17.162s] gmake[2]: *** [CMakeFiles/rectify.dir/build.make:76: CMakeFiles/rectify.dir/src/rectify.cpp.o] Error 1
+[17.163s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/rectify.dir/all] Error 2
+[17.163s] gmake: *** [Makefile:146: all] Error 2

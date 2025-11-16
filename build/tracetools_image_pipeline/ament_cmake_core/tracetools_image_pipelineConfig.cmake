@@ -16,7 +16,7 @@ set(_tracetools_image_pipeline_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT tracetools_image_pipeline_FIND_QUIETLY)
-  message(STATUS "Found tracetools_image_pipeline: 7.1.2 (${tracetools_image_pipeline_DIR})")
+  message(STATUS "Found tracetools_image_pipeline: 5.0.11 (${tracetools_image_pipeline_DIR})")
 endif()
 
 # warn when using a deprecated package

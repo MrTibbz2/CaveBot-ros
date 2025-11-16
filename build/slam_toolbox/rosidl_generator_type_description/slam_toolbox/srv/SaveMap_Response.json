@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "slam_toolbox/srv/SaveMap_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "slam_toolbox/srv/SaveMap_Response",
+      "hash_string": "RIHS01_713758aaa982f631420bcd79707de16f6729ecd6ba855070267104bdcdee6b22"
+    }
+  ]
+}

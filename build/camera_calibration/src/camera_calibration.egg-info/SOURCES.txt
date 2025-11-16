@@ -6,8 +6,6 @@ src/camera_calibration/__init__.py
 src/camera_calibration/calibrator.py
 src/camera_calibration/camera_calibrator.py
 src/camera_calibration/camera_checker.py
-src/camera_calibration/mono_calibrator.py
-src/camera_calibration/stereo_calibrator.py
 src/camera_calibration.egg-info/PKG-INFO
 src/camera_calibration.egg-info/SOURCES.txt
 src/camera_calibration.egg-info/dependency_links.txt

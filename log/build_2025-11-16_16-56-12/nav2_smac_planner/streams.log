@@ -1,0 +1,193 @@
+[0.060s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_smac_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_smac_planner
+[0.240s] -- The C compiler identification is GNU 13.3.0
+[0.401s] -- The CXX compiler identification is GNU 13.3.0
+[0.483s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.823s] -- Detecting C compile features
+[0.825s] -- Detecting C compile features - done
+[0.860s] -- Detecting CXX compiler ABI info
+[1.184s] -- Detecting CXX compiler ABI info - done
+[1.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.230s] -- Detecting CXX compile features
+[1.235s] -- Detecting CXX compile features - done
+[1.248s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.691s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.932s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.053s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[2.063s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.206s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.257s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.580s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.591s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.829s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.883s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.171s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.323s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[3.410s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.452s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.644s] -- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+[4.107s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.115s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.115s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.356s] -- Found nav2_core: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_core/share/nav2_core/cmake)
+[4.818s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: serialization filesystem system 
+[5.126s] -- Found ompl: /opt/ros/jazzy/include/ompl-1.7;/usr/include;/usr/include/eigen3  
+[5.394s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.824s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.835s] -- Found Threads: TRUE  
+[6.867s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.879s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_smac_planner/include
+[6.883s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[6.890s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.890s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[6.894s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.894s] -- Configured 'flake8' exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[6.900s] -- Added test 'lint_cmake' to check CMake code style
+[6.905s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.911s] -- Added test 'uncrustify' to check C / C++ code style
+[6.913s] -- Configured uncrustify additional arguments: 
+[6.916s] -- Added test 'xmllint' to check XML markup files
+[6.933s] -- Configuring done (6.9s)
+[9.359s] -- Generating done (2.1s)
+[9.540s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_smac_planner
+[9.604s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_smac_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_smac_planner
+[9.604s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_smac_planner -- -j4 -l4
+[9.783s] [  1%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o
+[70.951s] [  3%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o
+[98.943s] [  4%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o
+[113.750s] [  6%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o
+[132.649s] [  8%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o
+[158.442s] [  9%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o
+[182.701s] [ 11%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o
+[215.987s] [ 13%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o
+[229.388s] [ 14%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o
+[246.440s] [ 16%] Building CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o
+[266.559s] [ 18%] Linking CXX shared library libnav2_smac_planner.so
+[270.022s] [ 18%] Built target nav2_smac_planner
+[270.089s] [ 19%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[272.616s] [ 21%] Linking CXX static library libgtest_main.a
+[272.726s] [ 21%] Built target gtest_main
+[272.791s] [ 22%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[298.801s] [ 24%] Linking CXX static library libgtest.a
+[298.995s] [ 24%] Built target gtest
+[299.073s] [ 26%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o
+[341.185s] [ 27%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o
+[368.406s] [ 29%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o
+[386.045s] [ 31%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o
+[400.249s] [ 32%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o
+[424.799s] [ 34%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o
+[448.086s] [ 36%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o
+[481.004s] [ 37%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o
+[497.318s] [ 39%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o
+[514.873s] [ 40%] Building CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o
+[536.488s] [ 42%] Linking CXX shared library libnav2_smac_planner_lattice.so
+[539.958s] [ 42%] Built target nav2_smac_planner_lattice
+[540.035s] [ 44%] Building CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o
+[554.580s] [ 45%] Linking CXX executable test_costmap_downsampler
+[557.676s] [ 45%] Built target test_costmap_downsampler
+[557.752s] [ 47%] Building CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o
+[579.006s] [ 49%] Linking CXX executable test_node2d
+[581.888s] [ 49%] Built target test_node2d
+[581.964s] [ 50%] Building CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o
+[604.901s] [ 52%] Linking CXX executable test_nodehybrid
+[607.871s] [ 52%] Built target test_nodehybrid
+[607.932s] [ 54%] Building CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o
+[631.790s] [ 55%] Linking CXX executable test_nodebasic
+[633.349s] [ 55%] Built target test_nodebasic
+[633.409s] [ 57%] Building CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o
+[649.477s] [ 59%] Linking CXX executable test_collision_checker
+[652.294s] [ 59%] Built target test_collision_checker
+[652.354s] [ 60%] Building CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o
+[680.986s] [ 62%] Linking CXX executable test_a_star
+[683.703s] [ 62%] Built target test_a_star
+[683.766s] [ 63%] Building CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o
+[713.953s] [ 65%] Linking CXX executable test_smac_hybrid
+[717.626s] [ 65%] Built target test_smac_hybrid
+[717.714s] [ 67%] Building CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o
+[747.529s] [ 68%] Linking CXX executable test_smac_lattice
+[750.354s] [ 68%] Built target test_smac_lattice
+[750.415s] [ 70%] Building CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o
+[783.212s] [ 72%] Linking CXX executable test_lattice_node
+[786.118s] [ 72%] Built target test_lattice_node
+[786.170s] [ 73%] Building CXX object test/CMakeFiles/test_utils.dir/test_utils.cpp.o
+[807.298s] [ 75%] Linking CXX executable test_utils
+[809.760s] [ 75%] Built target test_utils
+[809.845s] [ 77%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o
+[841.865s] [ 78%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o
+[856.232s] [ 80%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o
+[882.156s] [ 81%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o
+[905.534s] [ 83%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o
+[938.058s] [ 85%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o
+[948.405s] [ 86%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o
+[965.467s] [ 88%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o
+[986.508s] [ 90%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o
+[1004.019s] [ 91%] Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o
+[1040.180s] [ 93%] Linking CXX shared library libnav2_smac_planner_2d.so
+[1043.189s] [ 93%] Built target nav2_smac_planner_2d
+[1043.251s] [ 95%] Building CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o
+[1065.834s] [ 96%] Linking CXX executable test_smac_2d
+[1069.307s] [ 96%] Built target test_smac_2d
+[1069.431s] [ 98%] Building CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o
+[1115.205s] [100%] Linking CXX executable test_smoother
+[1117.405s] [100%] Built target test_smoother
+[1117.444s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_smac_planner -- -j4 -l4
+[1117.445s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_smac_planner
+[1117.467s] -- Install configuration: "Release"
+[1117.468s] -- Execute custom install script
+[1117.469s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_hybrid.xml
+[1117.493s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_2d.xml
+[1117.515s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_lattice.xml
+[1117.539s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[1117.564s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[1117.587s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[1117.615s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[1117.638s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[1117.661s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[1117.687s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[1117.716s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[1117.750s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[1117.782s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[1117.804s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[1117.832s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[1117.856s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[1117.880s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[1117.903s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[1117.931s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[1117.955s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[1117.979s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[1118.004s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[1118.029s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[1118.050s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[1118.074s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[1118.095s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[1118.122s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[1118.146s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[1118.169s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[1118.197s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[1118.228s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[1118.265s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[1118.298s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[1118.332s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[1118.368s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[1118.403s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[1118.448s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[1118.485s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[1118.532s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[1118.573s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[1118.609s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[1118.649s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[1118.691s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[1118.727s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[1118.762s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[1118.796s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[1118.829s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[1118.869s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[1118.908s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[1118.949s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[1118.987s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[1119.032s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_smac_planner

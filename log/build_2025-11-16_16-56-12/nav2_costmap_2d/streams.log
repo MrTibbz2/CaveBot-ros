@@ -1,0 +1,274 @@
+[0.060s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_costmap_2d
+[0.272s] -- The C compiler identification is GNU 13.3.0
+[0.502s] -- The CXX compiler identification is GNU 13.3.0
+[0.543s] -- Detecting C compiler ABI info
+[0.853s] -- Detecting C compiler ABI info - done
+[0.892s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.896s] -- Detecting C compile features
+[0.897s] -- Detecting C compile features - done
+[0.934s] -- Detecting CXX compiler ABI info
+[1.271s] -- Detecting CXX compiler ABI info - done
+[1.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.301s] -- Detecting CXX compile features
+[1.302s] -- Detecting CXX compile features - done
+[1.307s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.744s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.993s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.100s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.199s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.247s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.492s] -- Found laser_geometry: 2.7.2 (/opt/ros/jazzy/share/laser_geometry/cmake)
+[2.640s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[2.793s] -- Found message_filters: 4.11.8 (/opt/ros/jazzy/share/message_filters/cmake)
+[2.932s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.941s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.207s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.262s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.520s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[3.526s] -- Found nav2_msgs: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.861s] -- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+[4.087s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.087s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.087s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.292s] -- Found nav2_voxel_grid: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+[4.308s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[4.331s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.379s] -- Found tf2_sensor_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[4.396s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[4.475s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[4.490s] -- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.3") 
+[4.490s] -- Setting build type to Release as none was specified.
+[4.637s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.997s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[5.204s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.460s] -- Found Threads: TRUE  
+[5.538s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.587s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.669s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.672s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/include>
+[5.672s] -- Configured cppcheck exclude dirs and/or files: 
+[5.676s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.679s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.684s] -- Added test 'lint_cmake' to check CMake code style
+[5.689s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.703s] -- Added test 'uncrustify' to check C / C++ code style
+[5.703s] -- Configured uncrustify additional arguments: 
+[5.710s] -- Added test 'xmllint' to check XML markup files
+[5.727s] -- Configuring done (5.6s)
+[6.839s] -- Generating done (0.9s)
+[7.103s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_costmap_2d
+[7.172s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_costmap_2d
+[7.173s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_costmap_2d -- -j4 -l4
+[7.420s] [  1%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o
+[10.216s] [  2%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o
+[20.669s] [  3%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o
+[30.666s] /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/layered_costmap.cpp: In member function ‘void nav2_costmap_2d::LayeredCostmap::setFootprint(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)’:
+[30.666s] /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/layered_costmap.cpp:279:19: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[30.666s]   279 |     footprint_spec);
+[30.667s]       |                   ^
+[32.069s] [  4%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o
+[97.022s] [  5%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o
+[132.480s] [  6%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o
+[134.456s] [  7%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o
+[141.316s] /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/footprint.cpp: In function ‘std::pair<double, double> nav2_costmap_2d::calculateMinAndMaxDistances(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)’:
+[141.316s] /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/src/footprint.cpp:44:59: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[141.316s]    44 |   const std::vector<geometry_msgs::msg::Point> & footprint)
+[141.317s]       |                                                           ^
+[144.814s] [  8%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o
+[154.239s] [ 10%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o
+[170.867s] [ 11%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o
+[193.497s] [ 12%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o
+[204.076s] [ 13%] Building CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o
+[221.824s] [ 14%] Linking CXX shared library libnav2_costmap_2d_core.so
+[224.822s] [ 14%] Built target nav2_costmap_2d_core
+[224.897s] [ 15%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[252.411s] [ 16%] Linking CXX static library libgtest.a
+[252.605s] [ 16%] Built target gtest
+[252.670s] [ 17%] Building CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o
+[296.304s] [ 18%] Building CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o
+[342.754s] [ 20%] Building CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o
+[388.860s] [ 21%] Linking CXX shared library libfilters.so
+[390.220s] [ 21%] Built target filters
+[390.280s] [ 22%] Building CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o
+[421.704s] [ 23%] Building CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o
+[449.388s] [ 24%] Building CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o
+[451.471s] [ 25%] Building CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o
+[453.549s] [ 26%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[459.982s] [ 27%] Linking CXX static library libgtest_main.a
+[460.078s] [ 27%] Built target gtest_main
+[473.267s] [ 28%] Building CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o
+[493.389s] [ 30%] Linking CXX shared library libnav2_costmap_2d_client.so
+[494.146s] [ 31%] Building CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o
+[495.905s] [ 31%] Built target nav2_costmap_2d_client
+[502.126s] [ 32%] Linking CXX executable nav2_costmap_2d_markers
+[503.110s] [ 32%] Built target nav2_costmap_2d_markers
+[536.761s] [ 33%] Building CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o
+[559.821s] [ 34%] Building CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o
+[560.914s] [ 35%] Building CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o
+[561.946s] [ 36%] Building CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o
+[579.708s] [ 37%] Linking CXX executable costmap_convesion_test
+[581.320s] /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/test/unit/footprint_collision_checker_test.cpp: In member function ‘virtual void collision_footprint_not_enough_points_Test::TestBody()’:
+[581.320s] /home/pi/CaveBot-ros/src/navigation2/nav2_costmap_2d/test/unit/footprint_collision_checker_test.cpp:175:78: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[581.320s]   175 |   std::tie(min_dist, max_dist) = nav2_costmap_2d::calculateMinAndMaxDistances(footprint);
+[581.321s]       |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+[581.903s] [ 37%] Built target costmap_convesion_test
+[587.789s] [ 38%] Linking CXX executable collision_footprint_test
+[588.691s] [ 38%] Built target collision_footprint_test
+[597.798s] [ 40%] Building CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o
+[608.705s] [ 41%] Linking CXX executable nav2_costmap_2d_cloud
+[609.413s] [ 41%] Built target nav2_costmap_2d_cloud
+[611.331s] [ 42%] Building CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o
+[629.890s] [ 43%] Building CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o
+[639.493s] [ 44%] Building CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o
+[640.550s] [ 45%] Building CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o
+[641.626s] [ 46%] Building CXX object test/unit/CMakeFiles/costmap_cost_service_test.dir/costmap_cost_service_test.cpp.o
+[665.790s] [ 47%] Linking CXX executable costmap_filter_test
+[668.531s] [ 47%] Built target costmap_filter_test
+[668.664s] [ 48%] Linking CXX executable costmap_cost_service_test
+[671.098s] [ 48%] Built target costmap_cost_service_test
+[674.994s] [ 50%] Linking CXX executable declare_parameter_test
+[676.585s] [ 51%] Building CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o
+[676.689s] [ 51%] Built target declare_parameter_test
+[688.200s] [ 52%] Building CXX object CMakeFiles/layers.dir/plugins/plugin_container_layer.cpp.o
+[711.218s] [ 53%] Linking CXX shared library liblayers.so
+[712.517s] [ 53%] Built target layers
+[712.563s] [ 54%] Building CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o
+[714.593s] [ 55%] Building CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o
+[716.702s] [ 56%] Building CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o
+[718.766s] [ 57%] Building CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o
+[730.049s] [ 58%] Linking CXX executable copy_window_test
+[731.166s] [ 58%] Built target copy_window_test
+[758.161s] [ 60%] Linking CXX executable keepout_filter_test
+[759.683s] [ 60%] Built target keepout_filter_test
+[763.387s] [ 61%] Linking CXX executable binary_filter_test
+[764.950s] [ 61%] Built target binary_filter_test
+[773.664s] [ 62%] Linking CXX executable speed_filter_test
+[774.817s] [ 62%] Built target speed_filter_test
+[774.859s] [ 63%] Building CXX object test/unit/CMakeFiles/lifecycle_test.dir/lifecycle_test.cpp.o
+[784.997s] [ 64%] Linking CXX executable lifecycle_test
+[785.643s] [ 64%] Built target lifecycle_test
+[785.698s] [ 65%] Building CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o
+[789.727s] [ 66%] Building CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o
+[790.830s] [ 67%] Building CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o
+[791.876s] [ 68%] Building CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o
+[805.741s] [ 70%] Linking CXX executable footprint_tests_exec
+[808.211s] [ 70%] Built target footprint_tests_exec
+[821.665s] [ 71%] Building CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o
+[824.029s] [ 72%] Linking CXX executable costmap_filter_service_test
+[826.462s] [ 72%] Built target costmap_filter_service_test
+[829.838s] [ 73%] Building CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o
+[842.869s] [ 74%] Linking CXX executable denoise_layer_test
+[844.556s] [ 74%] Built target denoise_layer_test
+[851.874s] [ 75%] Linking CXX executable test_collision_checker_exec
+[853.185s] [ 75%] Built target test_collision_checker_exec
+[853.229s] [ 76%] Building CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o
+[879.298s] [ 77%] Linking CXX executable range_tests_exec
+[880.293s] [ 78%] Building CXX object test/integration/CMakeFiles/plugin_container_tests_exec.dir/plugin_container_tests.cpp.o
+[880.426s] [ 78%] Built target range_tests_exec
+[880.485s] [ 80%] Building CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o
+[880.512s] [ 81%] Building CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o
+[881.615s] [ 82%] Building CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o
+[934.878s] [ 83%] Linking CXX executable dyn_params_tests
+[936.769s] [ 83%] Built target dyn_params_tests
+[950.399s] [ 84%] Linking CXX executable plugin_container_tests_exec
+[952.042s] [ 84%] Built target plugin_container_tests_exec
+[952.816s] [ 85%] Linking CXX executable obstacle_tests_exec
+[954.156s] [ 85%] Built target obstacle_tests_exec
+[957.639s] [ 86%] Linking CXX executable inflation_tests_exec
+[958.733s] [ 86%] Built target inflation_tests_exec
+[958.777s] [ 87%] Building CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o
+[961.508s] [ 88%] Linking CXX executable costmap_bresenham_2d
+[962.026s] [ 88%] Built target costmap_bresenham_2d
+[962.071s] [ 90%] Building CXX object test/regression/CMakeFiles/order_layer.dir/order_layer.cpp.o
+[968.754s] [ 91%] Linking CXX shared library liborder_layer.so
+[969.106s] [ 91%] Built target order_layer
+[969.165s] [ 92%] Building CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o
+[979.007s] [ 93%] Linking CXX executable plugin_api_order
+[979.638s] [ 93%] Built target plugin_api_order
+[979.683s] [ 94%] Building CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o
+[988.860s] [ 95%] Linking CXX executable nav2_costmap_2d
+[989.441s] [ 95%] Built target nav2_costmap_2d
+[989.492s] [ 96%] Building CXX object test/integration/CMakeFiles/test_costmap_subscriber_exec.dir/test_costmap_subscriber.cpp.o
+[1031.097s] [ 97%] Linking CXX executable test_costmap_subscriber_exec
+[1033.224s] [ 97%] Built target test_costmap_subscriber_exec
+[1033.287s] [ 98%] Building CXX object test/integration/CMakeFiles/test_costmap_publisher_exec.dir/test_costmap_2d_publisher.cpp.o
+[1066.232s] [100%] Linking CXX executable test_costmap_publisher_exec
+[1068.031s] [100%] Built target test_costmap_publisher_exec
+[1068.137s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_costmap_2d -- -j4 -l4
+[1068.155s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_costmap_2d
+[1068.214s] -- Install configuration: "Release"
+[1068.219s] -- Execute custom install script
+[1068.222s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[1068.268s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[1068.323s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[1068.389s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[1068.436s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[1068.469s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[1068.498s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[1068.519s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[1068.545s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[1068.572s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[1068.598s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[1068.628s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[1068.661s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[1068.692s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[1068.724s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[1068.755s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[1068.786s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[1068.817s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[1068.849s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[1068.879s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[1068.912s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[1068.945s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[1068.973s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[1069.008s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[1069.058s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[1069.109s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[1069.167s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[1069.227s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[1069.289s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[1069.352s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[1069.410s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[1069.457s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/plugin_container_layer.hpp
+[1069.507s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[1069.538s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[1069.602s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[1069.663s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/liborder_layer.so
+[1069.727s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[1069.772s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[1069.825s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[1069.891s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[1069.891s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[1069.956s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[1070.035s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[1070.084s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[1070.145s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[1070.209s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[1070.271s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[1070.336s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[1070.384s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[1070.438s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[1070.488s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[1070.543s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[1070.611s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[1070.672s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[1070.739s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[1070.804s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[1070.850s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[1070.877s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[1070.899s] -- Installing: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/liblayers.so
+[1070.912s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[1070.912s] -- Installing: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/libfilters.so
+[1070.933s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/libfilters.so" to ""
+[1070.933s] -- Installing: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[1070.994s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[1070.994s] -- Installing: /home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[1071.006s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[1071.009s] -- Installing: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[1071.010s] -- Installing: /home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[1071.033s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_costmap_2d

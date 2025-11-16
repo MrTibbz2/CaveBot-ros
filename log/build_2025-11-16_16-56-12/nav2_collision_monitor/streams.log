@@ -1,0 +1,158 @@
+[0.162s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_collision_monitor
+[0.543s] -- The C compiler identification is GNU 13.3.0
+[0.930s] -- The CXX compiler identification is GNU 13.3.0
+[1.022s] -- Detecting C compiler ABI info
+[1.669s] -- Detecting C compiler ABI info - done
+[1.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.741s] -- Detecting C compile features
+[1.744s] -- Detecting C compile features - done
+[1.795s] -- Detecting CXX compiler ABI info
+[2.421s] -- Detecting CXX compiler ABI info - done
+[2.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.492s] -- Detecting CXX compile features
+[2.492s] -- Detecting CXX compile features - done
+[2.510s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.349s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.856s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.103s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.388s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.510s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.304s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.343s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.911s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.023s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.167s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.684s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[6.912s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[7.226s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[7.248s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[7.754s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[7.868s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.885s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.886s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.897s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[7.910s] -- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+[9.064s] -- Found nav2_costmap_2d: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[9.743s] -- Setting build type to Release as none was specified.
+[9.832s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.353s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.823s] -- Found Threads: TRUE  
+[10.958s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.961s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_collision_monitor/include
+[10.962s] -- Configured cppcheck exclude dirs and/or files: 
+[10.965s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.966s] -- Configured 'flake8' exclude dirs and/or files: 
+[10.971s] -- Added test 'lint_cmake' to check CMake code style
+[10.973s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.981s] -- Added test 'uncrustify' to check C / C++ code style
+[10.982s] -- Configured uncrustify additional arguments: 
+[10.982s] -- Added test 'xmllint' to check XML markup files
+[11.006s] -- Configuring done (10.8s)
+[11.527s] -- Generating done (0.4s)
+[11.696s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_collision_monitor
+[11.797s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_collision_monitor
+[11.798s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_collision_monitor -- -j4 -l4
+[11.985s] [  2%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o
+[82.278s] [  4%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o
+[114.926s] [  7%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/velocity_polygon.cpp.o
+[131.038s] [  9%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o
+[160.372s] [ 11%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o
+[176.157s] [ 14%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o
+[200.036s] [ 16%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o
+[231.512s] [ 19%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/polygon_source.cpp.o
+[257.799s] [ 21%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o
+[288.442s] [ 23%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o
+[289.210s] [ 26%] Linking CXX shared library libcollision_monitor_core.so
+[290.724s] [ 26%] Built target collision_monitor_core
+[290.771s] [ 28%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[316.983s] [ 30%] Linking CXX static library libgtest.a
+[317.189s] [ 30%] Built target gtest
+[317.259s] [ 33%] Building CXX object CMakeFiles/collision_monitor.dir/src/collision_monitor_main.cpp.o
+[332.227s] [ 35%] Linking CXX executable collision_monitor
+[333.503s] [ 35%] Built target collision_monitor
+[333.604s] [ 38%] Building CXX object CMakeFiles/collision_detector_core.dir/src/collision_detector_node.cpp.o
+[333.616s] [ 40%] Building CXX object CMakeFiles/collision_detector_core.dir/src/polygon.cpp.o
+[333.638s] [ 42%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[335.680s] [ 45%] Building CXX object CMakeFiles/collision_detector_core.dir/src/velocity_polygon.cpp.o
+[335.912s] [ 47%] Linking CXX static library libgtest_main.a
+[336.152s] [ 47%] Built target gtest_main
+[337.217s] [ 50%] Building CXX object CMakeFiles/collision_detector_core.dir/src/circle.cpp.o
+[398.386s] [ 52%] Building CXX object CMakeFiles/collision_detector_core.dir/src/scan.cpp.o
+[417.443s] [ 54%] Building CXX object CMakeFiles/collision_detector_core.dir/src/source.cpp.o
+[424.580s] [ 57%] Building CXX object CMakeFiles/collision_detector_core.dir/src/pointcloud.cpp.o
+[428.493s] [ 59%] Building CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o
+[429.579s] [ 61%] Building CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o
+[430.668s] [ 64%] Building CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o
+[452.704s] [ 66%] Linking CXX executable kinematics_test
+[455.937s] [ 66%] Built target kinematics_test
+[475.632s] [ 69%] Building CXX object CMakeFiles/collision_detector_core.dir/src/polygon_source.cpp.o
+[497.949s] [ 71%] Linking CXX executable sources_test
+[499.699s] [ 71%] Built target sources_test
+[505.050s] [ 73%] Linking CXX executable polygons_test
+[506.632s] [ 73%] Built target polygons_test
+[508.933s] [ 76%] Building CXX object CMakeFiles/collision_detector_core.dir/src/kinematics.cpp.o
+[509.732s] [ 78%] Building CXX object CMakeFiles/collision_detector_core.dir/src/range.cpp.o
+[528.937s] [ 80%] Linking CXX shared library libcollision_detector_core.so
+[530.336s] [ 80%] Built target collision_detector_core
+[530.380s] [ 83%] Building CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o
+[618.120s] [ 85%] Linking CXX executable collision_monitor_node_test
+[619.870s] [ 85%] Built target collision_monitor_node_test
+[619.952s] [ 88%] Building CXX object CMakeFiles/collision_detector.dir/src/collision_detector_main.cpp.o
+[619.958s] [ 90%] Building CXX object test/CMakeFiles/velocity_polygons_test.dir/velocity_polygons_test.cpp.o
+[619.965s] [ 92%] Building CXX object test/CMakeFiles/collision_detector_node_test.dir/collision_detector_node_test.cpp.o
+[632.741s] [ 95%] Linking CXX executable collision_detector
+[633.797s] [ 95%] Built target collision_detector
+[667.910s] [ 97%] Linking CXX executable velocity_polygons_test
+[670.156s] [ 97%] Built target velocity_polygons_test
+[695.021s] [100%] Linking CXX executable collision_detector_node_test
+[696.958s] [100%] Built target collision_detector_node_test
+[697.009s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_collision_monitor -- -j4 -l4
+[697.010s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_collision_monitor
+[697.039s] -- Install configuration: "Release"
+[697.043s] -- Execute custom install script
+[697.047s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[697.079s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/libcollision_detector_core.so
+[697.111s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[697.145s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_detector
+[697.179s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[697.216s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_detector_node.hpp
+[697.245s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[697.295s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[697.331s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[697.365s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[697.389s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon_source.hpp
+[697.422s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[697.455s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[697.486s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[697.514s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[697.540s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/velocity_polygon.hpp
+[697.567s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_detector_node.launch.py
+[697.593s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[697.627s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_detector_params.yaml
+[697.659s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[697.696s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[697.723s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[697.757s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[697.800s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[697.833s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[697.859s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[697.884s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[697.913s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[697.944s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[697.978s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[698.007s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[698.033s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[698.058s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[698.119s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[698.119s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[698.138s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[698.170s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[698.204s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[698.229s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[698.256s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[698.283s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[698.332s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_collision_monitor

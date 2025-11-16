@@ -1,0 +1,53 @@
+[0.036s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_msgs': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_msgs
+[0.317s] -- The C compiler identification is GNU 13.3.0
+[0.509s] -- The CXX compiler identification is GNU 13.3.0
+[0.595s] -- Detecting C compiler ABI info
+[0.934s] -- Detecting C compiler ABI info - done
+[0.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.971s] -- Detecting C compile features
+[0.972s] -- Detecting C compile features - done
+[1.008s] -- Detecting CXX compiler ABI info
+[1.413s] -- Detecting CXX compiler ABI info - done
+[1.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.454s] -- Detecting CXX compile features
+[1.461s] -- Detecting CXX compile features - done
+[1.466s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.072s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.426s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.529s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[2.534s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.604s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.640s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.868s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.235s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.330s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.374s] CMake Warning at CMakeLists.txt:11 (find_package):
+[3.374s]   By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this
+[3.374s]   project has asked CMake to find a package configuration file provided by
+[3.374s]   "geographic_msgs", but CMake did not find one.
+[3.374s] 
+[3.374s]   Could not find a package configuration file provided by "geographic_msgs"
+[3.375s]   with any of the following names:
+[3.375s] 
+[3.375s]     geographic_msgsConfig.cmake
+[3.375s]     geographic_msgs-config.cmake
+[3.375s] 
+[3.375s]   Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or
+[3.375s]   set "geographic_msgs_DIR" to a directory containing one of the above files.
+[3.375s]   If "geographic_msgs" provides a separate development package or SDK, be
+[3.375s]   sure it has been installed.
+[3.376s] 
+[3.376s] 
+[3.388s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[3.604s] -- Setting build type to Release as none was specified.
+[5.903s] CMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:192 (message):
+[5.904s]   rosidl_generate_interfaces() the passed dependency 'geographic_msgs' has
+[5.904s]   not been found before using find_package()
+[5.904s] Call Stack (most recent call first):
+[5.904s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[5.904s] 
+[5.907s] 
+[5.908s] -- Configuring incomplete, errors occurred!
+[5.961s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_msgs' returned '1': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_msgs

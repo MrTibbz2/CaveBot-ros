@@ -16,7 +16,7 @@ set(_image_rotate_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT image_rotate_FIND_QUIETLY)
-  message(STATUS "Found image_rotate: 7.1.2 (${image_rotate_DIR})")
+  message(STATUS "Found image_rotate: 5.0.11 (${image_rotate_DIR})")
 endif()
 
 # warn when using a deprecated package

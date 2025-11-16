@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9aba6c1df202fef65720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_bt_navigator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_navigator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_navigator-Release-672254d7ef30ab12e320.json",
+					"name" : "bt_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_navigator_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_navigator_core-Release-12e72f8a5916c9688cf3.json",
+					"name" : "bt_navigator_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_bt_navigator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_bt_navigator_uninstall-Release-6db6564177c4108b5bcf.json",
+					"name" : "nav2_bt_navigator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_navigate_through_poses::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_navigate_through_poses-Release-e4709e70a8fa73fee97c.json",
+					"name" : "nav2_navigate_through_poses",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_navigate_to_pose_navigator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_navigate_to_pose_navigator-Release-5fad055ebc7b06a0df84.json",
+					"name" : "nav2_navigate_to_pose_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7b2889c6709550986b02.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/CaveBot-ros/build/nav2_bt_navigator",
+		"source" : "/home/pi/CaveBot-ros/src/navigation2/nav2_bt_navigator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

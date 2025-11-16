@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/CaveBot-ros/build/nav2_system_tests/libsmoother.so" "TARGETS" "smoother" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/nav2_system_tests")

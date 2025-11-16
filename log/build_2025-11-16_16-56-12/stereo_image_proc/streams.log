@@ -1,0 +1,94 @@
+[0.040s] Invoking command in '/home/pi/CaveBot-ros/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/image_pipeline/stereo_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/stereo_image_proc
+[0.206s] -- The C compiler identification is GNU 13.3.0
+[0.414s] -- The CXX compiler identification is GNU 13.3.0
+[0.485s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.754s] -- Detecting C compile features
+[0.756s] -- Detecting C compile features - done
+[0.791s] -- Detecting CXX compiler ABI info
+[1.090s] -- Detecting CXX compiler ABI info - done
+[1.127s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.129s] -- Detecting CXX compile features
+[1.131s] -- Detecting CXX compile features - done
+[1.141s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.564s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.760s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.210s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.245s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.660s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.668s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.910s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.952s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.214s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.380s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.386s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.387s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.719s] -- Found OpenCV: /usr (found version "4.6.0") 
+[3.760s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.863s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.261s] -- Found PythonExtra: /usr/bin/python3  
+[6.944s] In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/stereo_image_proc` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+[6.971s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.980s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.980s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/stereo_image_proc/include
+[6.981s] -- Configured cppcheck exclude dirs and/or files: 
+[6.986s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.986s] -- Configured cpplint exclude dirs and/or files: 
+[6.989s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.989s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.994s] -- Added test 'lint_cmake' to check CMake code style
+[6.995s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.999s] -- Added test 'uncrustify' to check C / C++ code style
+[6.999s] -- Configured uncrustify additional arguments: 
+[7.006s] -- Added test 'xmllint' to check XML markup files
+[7.014s] -- Configuring done (6.9s)
+[7.157s] -- Generating done (0.1s)
+[7.183s] -- Build files have been written to: /home/pi/CaveBot-ros/build/stereo_image_proc
+[7.232s] Invoked command in '/home/pi/CaveBot-ros/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/image_pipeline/stereo_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/stereo_image_proc
+[7.233s] Invoking command in '/home/pi/CaveBot-ros/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/stereo_image_proc -- -j4 -l4
+[7.395s] [ 12%] Building CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/stereo_processor.cpp.o
+[16.052s] [ 25%] Building CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/disparity_node.cpp.o
+[55.673s] [ 37%] Building CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/point_cloud_node.cpp.o
+[101.600s] [ 50%] Linking CXX shared library libstereo_image_proc.so
+[106.442s] [ 50%] Built target stereo_image_proc
+[106.509s] [ 62%] Building CXX object CMakeFiles/point_cloud_node.dir/rclcpp_components/node_main_point_cloud_node.cpp.o
+[116.285s] [ 75%] Linking CXX executable point_cloud_node
+[116.714s] [ 75%] Built target point_cloud_node
+[116.771s] [ 87%] Building CXX object CMakeFiles/disparity_node.dir/rclcpp_components/node_main_disparity_node.cpp.o
+[126.197s] [100%] Linking CXX executable disparity_node
+[126.650s] [100%] Built target disparity_node
+[126.688s] Invoked command in '/home/pi/CaveBot-ros/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/stereo_image_proc -- -j4 -l4
+[126.688s] Invoking command in '/home/pi/CaveBot-ros/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/stereo_image_proc
+[126.711s] -- Install configuration: ""
+[126.713s] -- Execute custom install script
+[126.716s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/lib/stereo_image_proc/disparity_node
+[126.740s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/lib/stereo_image_proc/point_cloud_node
+[126.766s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/include/stereo_image_proc/stereo_processor.hpp
+[126.794s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.sh
+[126.825s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.dsv
+[126.853s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/lib/libstereo_image_proc.so
+[126.887s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/launch/stereo_image_proc.launch.py
+[126.911s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/ament_index/resource_index/package_run_dependencies/stereo_image_proc
+[126.938s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/ament_index/resource_index/parent_prefix_path/stereo_image_proc
+[126.967s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.sh
+[126.994s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.dsv
+[127.024s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/environment/path.sh
+[127.057s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/environment/path.dsv
+[127.087s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/local_setup.bash
+[127.120s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/local_setup.sh
+[127.150s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/local_setup.zsh
+[127.184s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/local_setup.dsv
+[127.210s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/package.dsv
+[127.237s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/ament_index/resource_index/packages/stereo_image_proc
+[127.260s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/ament_index/resource_index/rclcpp_components/stereo_image_proc
+[127.286s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[127.313s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[127.343s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[127.376s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig.cmake
+[127.402s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig-version.cmake
+[127.429s] -- Symlinking: /home/pi/CaveBot-ros/install/stereo_image_proc/share/stereo_image_proc/package.xml
+[127.458s] Invoked command in '/home/pi/CaveBot-ros/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/stereo_image_proc

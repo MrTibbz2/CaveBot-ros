@@ -1,0 +1,117 @@
+[0.034s] Invoking command in '/home/pi/CaveBot-ros/build/image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_proc -- -j4 -l4
+[0.106s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.596s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.912s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.936s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.120s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.124s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.516s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.670s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.678s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.926s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.326s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.328s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.355s] In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/image_proc` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+[2.379s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.553s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/image_proc/include
+[2.553s] -- Configured cppcheck exclude dirs and/or files: 
+[2.558s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.558s] -- Configured cpplint exclude dirs and/or files: 
+[2.560s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.560s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.560s] -- Added test 'lint_cmake' to check CMake code style
+[2.561s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.565s] -- Added test 'uncrustify' to check C / C++ code style
+[2.565s] -- Configured uncrustify additional arguments: 
+[2.566s] -- Added test 'xmllint' to check XML markup files
+[2.572s] -- Configuring done (2.5s)
+[3.053s] -- Generating done (0.4s)
+[3.169s] -- Build files have been written to: /home/pi/CaveBot-ros/build/image_proc
+[3.336s] [  2%] Linking CXX shared library libimage_proc.so
+[3.893s] [  5%] Built target image_proc
+[3.992s] [ 11%] Built target resize_node
+[4.073s] [ 17%] Built target crop_decimate_node
+[4.151s] [ 22%] Built target crop_non_zero_node
+[4.225s] [ 28%] Built target track_marker_node
+[4.299s] [ 34%] Built target gtest_main
+[4.374s] [ 40%] Built target gtest
+[4.451s] [ 42%] Building CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o
+[20.996s] [ 45%] Linking CXX shared library librectify.so
+[22.796s] [ 45%] Built target rectify
+[22.950s] [ 51%] Built target debayer_node
+[23.067s] [ 54%] Building CXX object CMakeFiles/debayer.dir/src/debayer.cpp.o
+[41.162s] [ 57%] Building CXX object CMakeFiles/debayer.dir/src/edge_aware.cpp.o
+[44.311s] [ 60%] Linking CXX shared library libdebayer.so
+[45.476s] [ 60%] Built target debayer
+[45.590s] [ 65%] Built target rectify_node
+[45.692s] [ 68%] Building CXX object CMakeFiles/resize.dir/src/resize.cpp.o
+[61.644s] [ 71%] Linking CXX shared library libresize.so
+[63.003s] [ 71%] Built target resize
+[63.070s] [ 74%] Building CXX object CMakeFiles/crop_decimate.dir/src/crop_decimate.cpp.o
+[78.247s] [ 77%] Linking CXX shared library libcrop_decimate.so
+[79.823s] [ 77%] Built target crop_decimate
+[79.875s] [ 80%] Building CXX object CMakeFiles/crop_non_zero.dir/src/crop_non_zero.cpp.o
+[96.171s] [ 82%] Linking CXX shared library libcrop_non_zero.so
+[97.244s] [ 82%] Built target crop_non_zero
+[97.322s] [ 85%] Building CXX object CMakeFiles/track_marker.dir/src/track_marker.cpp.o
+[117.174s] [ 88%] Linking CXX shared library libtrack_marker.so
+[119.169s] [ 88%] Built target track_marker
+[119.275s] [ 91%] Building CXX object CMakeFiles/test_rectify.dir/test/test_rectify.cpp.o
+[136.108s] [ 94%] Linking CXX executable test_rectify
+[138.482s] [ 94%] Built target test_rectify
+[138.550s] [ 97%] Building CXX object CMakeFiles/rostest.dir/test/rostest.cpp.o
+[167.624s] [100%] Linking CXX executable rostest
+[171.611s] [100%] Built target rostest
+[171.651s] Invoked command in '/home/pi/CaveBot-ros/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_proc -- -j4 -l4
+[171.655s] Invoking command in '/home/pi/CaveBot-ros/build/image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_proc
+[171.675s] -- Install configuration: ""
+[171.675s] -- Execute custom install script
+[171.678s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/image_proc/rectify_node
+[171.702s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/image_proc/debayer_node
+[171.726s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/image_proc/resize_node
+[171.751s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/image_proc/crop_decimate_node
+[171.775s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/image_proc/crop_non_zero_node
+[171.805s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/image_proc/track_marker_node
+[171.835s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/crop_decimate.hpp
+[171.862s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/crop_non_zero.hpp
+[171.890s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/debayer.hpp
+[171.921s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/edge_aware.hpp
+[171.949s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/processor.hpp
+[171.973s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/rectify.hpp
+[171.997s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/resize.hpp
+[172.021s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/track_marker.hpp
+[172.044s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/include/image_proc/utils.hpp
+[172.066s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/environment/library_path.sh
+[172.093s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/environment/library_path.dsv
+[172.121s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/libimage_proc.so
+[172.154s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/librectify.so
+[172.193s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/libdebayer.so
+[172.221s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/libresize.so
+[172.249s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/libcrop_decimate.so
+[172.271s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/libcrop_non_zero.so
+[172.297s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/lib/libtrack_marker.so
+[172.324s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/launch/image_proc.launch.py
+[172.356s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/ament_index/resource_index/package_run_dependencies/image_proc
+[172.380s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/ament_index/resource_index/parent_prefix_path/image_proc
+[172.406s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/environment/ament_prefix_path.sh
+[172.429s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/environment/ament_prefix_path.dsv
+[172.454s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/environment/path.sh
+[172.480s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/environment/path.dsv
+[172.506s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/local_setup.bash
+[172.534s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/local_setup.sh
+[172.567s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/local_setup.zsh
+[172.597s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/local_setup.dsv
+[172.638s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/package.dsv
+[172.680s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/ament_index/resource_index/packages/image_proc
+[172.723s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/ament_index/resource_index/rclcpp_components/image_proc
+[172.761s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[172.805s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[172.844s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[172.886s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/cmake/image_procConfig.cmake
+[172.921s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/cmake/image_procConfig-version.cmake
+[172.955s] -- Symlinking: /home/pi/CaveBot-ros/install/image_proc/share/image_proc/package.xml
+[172.998s] Invoked command in '/home/pi/CaveBot-ros/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/image_proc

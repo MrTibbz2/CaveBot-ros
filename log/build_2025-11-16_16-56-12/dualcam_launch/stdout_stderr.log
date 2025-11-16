@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing dualcam_launch.egg-info/PKG-INFO
+writing dependency_links to dualcam_launch.egg-info/dependency_links.txt
+writing requirements to dualcam_launch.egg-info/requires.txt
+writing top-level names to dualcam_launch.egg-info/top_level.txt
+reading manifest file 'dualcam_launch.egg-info/SOURCES.txt'
+writing manifest file 'dualcam_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam-launch.egg-link (link to .)
+
+Installed /home/pi/CaveBot-ros/build/dualcam_launch
+running symlink_data
+symbolically linking /home/pi/CaveBot-ros/build/dualcam_launch/resource/dualcam_launch -> /home/pi/CaveBot-ros/install/dualcam_launch/share/ament_index/resource_index/packages
+symbolically linking /home/pi/CaveBot-ros/build/dualcam_launch/package.xml -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch
+symbolically linking /home/pi/CaveBot-ros/build/dualcam_launch/launch/dualcam.launch.py -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch

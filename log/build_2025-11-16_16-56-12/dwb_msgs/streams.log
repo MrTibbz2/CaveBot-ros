@@ -1,0 +1,438 @@
+[0.046s] Invoking command in '/home/pi/CaveBot-ros/build/dwb_msgs': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_dwb_controller/dwb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/dwb_msgs
+[0.564s] -- The C compiler identification is GNU 13.3.0
+[0.912s] -- The CXX compiler identification is GNU 13.3.0
+[0.987s] -- Detecting C compiler ABI info
+[1.385s] -- Detecting C compiler ABI info - done
+[1.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.421s] -- Detecting C compile features
+[1.421s] -- Detecting C compile features - done
+[1.462s] -- Detecting CXX compiler ABI info
+[2.081s] -- Detecting CXX compiler ABI info - done
+[2.154s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.155s] -- Detecting CXX compile features
+[2.156s] -- Detecting CXX compile features - done
+[2.173s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.937s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.332s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.673s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.732s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.945s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.055s] -- Found nav_2d_msgs: 1.3.10 (/home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[4.133s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.314s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.374s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.315s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[13.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.882s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[15.613s] -- Found PythonExtra: /usr/bin/python3  
+[18.328s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[18.656s] -- Configuring done (18.6s)
+[19.046s] -- Generating done (0.3s)
+[19.123s] -- Build files have been written to: /home/pi/CaveBot-ros/build/dwb_msgs
+[19.182s] Invoked command in '/home/pi/CaveBot-ros/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_dwb_controller/dwb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/dwb_msgs
+[19.186s] Invoking command in '/home/pi/CaveBot-ros/build/dwb_msgs': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/dwb_msgs -- -j4 -l4
+[19.480s] [  1%] Generating type hashes for ROS interfaces
+[19.532s] [  1%] Built target ament_cmake_python_symlink_dwb_msgs
+[21.264s] running egg_info
+[21.270s] creating dwb_msgs.egg-info
+[21.365s] writing dwb_msgs.egg-info/PKG-INFO
+[21.366s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[21.368s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[21.374s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[21.733s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[21.742s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[21.991s] [  1%] Built target ament_cmake_python_build_dwb_msgs_egg
+[22.509s] [  1%] Built target dwb_msgs__rosidl_generator_type_description
+[22.560s] [  2%] Generating C code for ROS interfaces
+[22.619s] [  2%] Generating C++ code for ROS interfaces
+[27.622s] [  2%] Built target dwb_msgs__cpp
+[29.667s] [  3%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__description.c.o
+[29.882s] [  4%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__description.c.o
+[30.105s] [  5%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o
+[30.358s] [  5%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o
+[30.445s] [  6%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__description.c.o
+[30.546s] [  7%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o
+[30.722s] [  8%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o
+[30.802s] [  9%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__description.c.o
+[30.909s] [ 10%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o
+[31.038s] [ 11%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o
+[31.118s] [ 12%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__description.c.o
+[31.303s] [ 12%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o
+[31.504s] [ 13%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o
+[31.603s] [ 14%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__description.c.o
+[31.775s] [ 15%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o
+[31.970s] [ 16%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o
+[32.075s] [ 17%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__description.c.o
+[32.212s] [ 18%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o
+[32.417s] [ 19%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o
+[32.533s] [ 19%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__description.c.o
+[32.702s] [ 20%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o
+[32.890s] [ 21%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o
+[32.996s] [ 22%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__description.c.o
+[33.168s] [ 23%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o
+[33.374s] [ 24%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o
+[33.472s] [ 25%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__type_support.c.o
+[33.544s] [ 26%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o
+[33.679s] [ 27%] Linking C shared library libdwb_msgs__rosidl_generator_c.so
+[33.843s] [ 27%] Built target dwb_msgs__rosidl_generator_c
+[33.873s] [ 28%] Generating C++ type support for eProsima Fast-RTPS
+[36.278s] [ 29%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o
+[37.457s] [ 30%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o
+[38.744s] [ 31%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o
+[39.961s] [ 32%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o
+[40.971s] [ 33%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o
+[42.464s] [ 33%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o
+[43.952s] [ 34%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o
+[45.329s] [ 35%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o
+[46.953s] [ 36%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o
+[48.547s] [ 37%] Linking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[48.837s] [ 37%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[48.858s] [ 37%] Generating C++ introspection for ROS interfaces
+[50.916s] [ 38%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o
+[51.634s] [ 39%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o
+[52.732s] [ 40%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o
+[53.570s] [ 41%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o
+[54.406s] [ 42%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o
+[56.025s] [ 43%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o
+[58.838s] [ 44%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o
+[59.802s] [ 44%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o
+[61.354s] [ 45%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o
+[62.762s] [ 46%] Linking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[63.036s] [ 46%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[63.057s] [ 47%] Generating C++ type support dispatch for ROS interfaces
+[64.531s] [ 48%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o
+[65.254s] [ 49%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o
+[65.948s] [ 50%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o
+[66.706s] [ 50%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o
+[67.512s] [ 51%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o
+[68.753s] [ 52%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o
+[69.809s] [ 53%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o
+[71.666s] [ 54%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o
+[73.131s] [ 55%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o
+[74.373s] [ 56%] Linking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so
+[74.671s] [ 56%] Built target dwb_msgs__rosidl_typesupport_cpp
+[74.699s] [ 57%] Generating C type support for eProsima Fast-RTPS
+[77.333s] [ 57%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o
+[78.393s] [ 58%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o
+[79.440s] [ 59%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o
+[80.566s] [ 60%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o
+[82.327s] [ 61%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o
+[84.181s] [ 62%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o
+[86.192s] [ 63%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o
+[88.041s] [ 64%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o
+[90.384s] [ 64%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o
+[91.770s] [ 65%] Linking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[91.998s] [ 65%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[92.024s] [ 66%] Generating C type support dispatch for ROS interfaces
+[93.604s] [ 67%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o
+[94.229s] [ 68%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o
+[94.327s] [ 69%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o
+[94.459s] [ 70%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o
+[94.697s] [ 70%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o
+[94.843s] [ 71%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o
+[94.950s] [ 72%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o
+[95.106s] [ 73%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o
+[95.297s] [ 74%] Building CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o
+[95.410s] [ 75%] Linking CXX shared library libdwb_msgs__rosidl_typesupport_c.so
+[95.567s] [ 75%] Built target dwb_msgs__rosidl_typesupport_c
+[95.596s] [ 76%] Generating C introspection for ROS interfaces
+[98.273s] [ 77%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o
+[98.364s] [ 78%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o
+[98.467s] [ 79%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o
+[98.613s] [ 80%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o
+[98.761s] [ 81%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o
+[98.908s] [ 82%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o
+[99.095s] [ 83%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o
+[99.211s] [ 83%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o
+[99.314s] [ 84%] Building C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o
+[99.399s] [ 85%] Linking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so
+[99.514s] [ 85%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[99.566s] [ 85%] Built target dwb_msgs
+[99.616s] [ 86%] Generating Python code for ROS interfaces
+[103.652s] [ 86%] Built target dwb_msgs__py
+[103.697s] [ 87%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o
+[104.046s] [ 88%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o
+[104.351s] [ 89%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o
+[104.724s] [ 90%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o
+[105.103s] [ 91%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o
+[105.496s] [ 92%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o
+[105.840s] [ 93%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o
+[106.233s] [ 94%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o
+[106.554s] [ 94%] Building C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o
+[106.887s] [ 94%] Linking C shared library libdwb_msgs__rosidl_generator_py.so
+[107.043s] [ 94%] Built target dwb_msgs__rosidl_generator_py
+[107.092s] [ 95%] Building C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[107.527s] [ 96%] Linking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[107.620s] [ 96%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[107.668s] [ 97%] Building C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o
+[108.270s] [ 98%] Linking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[108.405s] [ 98%] Built target dwb_msgs_s__rosidl_typesupport_c
+[108.464s] [ 99%] Building C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[109.198s] [100%] Linking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[109.331s] [100%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+[109.380s] Invoked command in '/home/pi/CaveBot-ros/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/dwb_msgs -- -j4 -l4
+[109.387s] Invoking command in '/home/pi/CaveBot-ros/build/dwb_msgs': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/dwb_msgs
+[109.420s] -- Install configuration: ""
+[109.420s] -- Execute custom install script
+[109.422s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[109.461s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.json
+[109.499s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.json
+[109.541s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.json
+[109.583s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.json
+[109.626s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.json
+[109.662s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.json
+[109.702s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.json
+[109.747s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.json
+[109.782s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.json
+[109.826s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[109.867s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[109.906s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[109.946s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[109.984s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[110.014s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[110.048s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[110.076s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[110.117s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[110.161s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[110.202s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[110.244s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[110.282s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[110.325s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[110.364s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[110.406s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[110.445s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[110.487s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[110.531s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[110.575s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[110.617s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[110.660s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[110.746s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[110.795s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[110.859s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[110.891s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[110.918s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[110.948s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[110.976s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[111.000s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[111.034s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[111.063s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[111.093s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[111.128s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[111.151s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[111.187s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[111.220s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[111.241s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[111.266s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[111.297s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[111.326s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[111.355s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[111.376s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[111.403s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[111.429s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[111.460s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[111.489s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[111.521s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[111.547s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[111.572s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[111.597s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[111.625s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[111.648s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[111.672s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[111.698s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[111.724s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[111.754s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[111.788s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[111.816s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[111.838s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[111.870s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[111.901s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[111.936s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[111.961s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[111.993s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[112.018s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[112.048s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[112.076s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[112.107s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[112.136s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[112.163s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[112.188s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[112.215s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[112.241s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[112.273s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[112.298s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[112.324s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[112.354s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[112.379s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[112.413s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[112.440s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[112.463s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[112.487s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[112.509s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[112.531s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[112.558s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[112.581s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[112.605s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[112.630s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[112.656s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[112.680s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[112.703s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[112.729s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[112.748s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[112.772s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[112.797s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[112.822s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[112.848s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[112.875s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[112.905s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[112.937s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[112.966s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[112.990s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[113.017s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[113.047s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[113.072s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[113.100s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[113.131s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[113.156s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[113.187s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[113.222s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[113.251s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[113.277s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[113.304s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[113.332s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[113.354s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[113.377s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[113.403s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[113.430s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[113.450s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[113.476s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[113.523s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[113.557s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[113.586s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[113.613s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[113.639s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[113.666s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.10-py3.12.egg-info/PKG-INFO
+[113.695s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.10-py3.12.egg-info/SOURCES.txt
+[113.716s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.10-py3.12.egg-info/dependency_links.txt
+[113.744s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.10-py3.12.egg-info/top_level.txt
+[113.770s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py
+[113.797s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[113.822s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[113.850s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[113.870s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[113.900s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[113.932s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[113.962s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py
+[113.990s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py
+[114.014s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score_s.c
+[114.042s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[114.065s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[114.092s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[114.116s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[114.141s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py
+[114.165s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[114.193s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py
+[114.224s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[114.255s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[114.286s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[114.311s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[114.336s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py
+[114.362s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[114.392s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py
+[114.415s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[114.439s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py
+[114.463s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[114.490s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[114.493s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[114.496s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[114.496s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[114.526s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[114.556s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[114.588s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[114.614s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[114.639s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[114.664s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[114.688s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[114.716s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[114.736s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[114.761s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[114.784s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[114.814s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[114.834s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[114.859s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[114.883s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[114.913s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[114.935s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[114.963s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[114.984s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[115.009s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[115.038s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[115.070s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[115.099s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[115.127s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[115.153s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[115.178s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[115.205s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[115.225s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/package.dsv
+[115.249s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[115.273s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[115.300s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[115.323s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[115.353s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[115.387s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[115.415s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[115.443s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[115.464s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[115.490s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[115.512s] -- Symlinking: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/package.xml
+[115.535s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[115.538s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[115.540s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[115.545s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[115.546s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[115.551s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[115.551s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[115.552s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[115.553s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[115.556s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[115.557s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[115.562s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[115.563s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[115.567s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[115.741s] Listing '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs'...
+[115.741s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py'...
+[115.741s] Listing '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg'...
+[115.741s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py'...
+[115.741s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py'...
+[115.742s] Listing '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[115.742s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py'...
+[115.743s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py'...
+[115.743s] Compiling '/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py'...
+[115.772s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[115.773s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[115.773s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[115.773s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[115.773s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[115.773s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[115.776s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[115.779s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[115.780s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[115.780s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[115.780s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[115.780s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[115.782s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[115.783s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[115.785s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[115.786s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[115.788s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[115.788s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[115.792s] -- Installing: /home/pi/CaveBot-ros/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[115.798s] Invoked command in '/home/pi/CaveBot-ros/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/dwb_msgs

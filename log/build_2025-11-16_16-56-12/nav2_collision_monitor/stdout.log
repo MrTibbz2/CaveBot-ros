@@ -1,0 +1,152 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+-- Found nav2_costmap_2d: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_collision_monitor/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (10.8s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_collision_monitor
+[  2%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o
+[  4%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o
+[  7%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/velocity_polygon.cpp.o
+[  9%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o
+[ 11%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o
+[ 14%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o
+[ 16%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o
+[ 19%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/polygon_source.cpp.o
+[ 21%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o
+[ 23%] Building CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o
+[ 26%] Linking CXX shared library libcollision_monitor_core.so
+[ 26%] Built target collision_monitor_core
+[ 28%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 30%] Linking CXX static library libgtest.a
+[ 30%] Built target gtest
+[ 33%] Building CXX object CMakeFiles/collision_monitor.dir/src/collision_monitor_main.cpp.o
+[ 35%] Linking CXX executable collision_monitor
+[ 35%] Built target collision_monitor
+[ 38%] Building CXX object CMakeFiles/collision_detector_core.dir/src/collision_detector_node.cpp.o
+[ 40%] Building CXX object CMakeFiles/collision_detector_core.dir/src/polygon.cpp.o
+[ 42%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 45%] Building CXX object CMakeFiles/collision_detector_core.dir/src/velocity_polygon.cpp.o
+[ 47%] Linking CXX static library libgtest_main.a
+[ 47%] Built target gtest_main
+[ 50%] Building CXX object CMakeFiles/collision_detector_core.dir/src/circle.cpp.o
+[ 52%] Building CXX object CMakeFiles/collision_detector_core.dir/src/scan.cpp.o
+[ 54%] Building CXX object CMakeFiles/collision_detector_core.dir/src/source.cpp.o
+[ 57%] Building CXX object CMakeFiles/collision_detector_core.dir/src/pointcloud.cpp.o
+[ 59%] Building CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o
+[ 61%] Building CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o
+[ 64%] Building CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o
+[ 66%] Linking CXX executable kinematics_test
+[ 66%] Built target kinematics_test
+[ 69%] Building CXX object CMakeFiles/collision_detector_core.dir/src/polygon_source.cpp.o
+[ 71%] Linking CXX executable sources_test
+[ 71%] Built target sources_test
+[ 73%] Linking CXX executable polygons_test
+[ 73%] Built target polygons_test
+[ 76%] Building CXX object CMakeFiles/collision_detector_core.dir/src/kinematics.cpp.o
+[ 78%] Building CXX object CMakeFiles/collision_detector_core.dir/src/range.cpp.o
+[ 80%] Linking CXX shared library libcollision_detector_core.so
+[ 80%] Built target collision_detector_core
+[ 83%] Building CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o
+[ 85%] Linking CXX executable collision_monitor_node_test
+[ 85%] Built target collision_monitor_node_test
+[ 88%] Building CXX object CMakeFiles/collision_detector.dir/src/collision_detector_main.cpp.o
+[ 90%] Building CXX object test/CMakeFiles/velocity_polygons_test.dir/velocity_polygons_test.cpp.o
+[ 92%] Building CXX object test/CMakeFiles/collision_detector_node_test.dir/collision_detector_node_test.cpp.o
+[ 95%] Linking CXX executable collision_detector
+[ 95%] Built target collision_detector
+[ 97%] Linking CXX executable velocity_polygons_test
+[ 97%] Built target velocity_polygons_test
+[100%] Linking CXX executable collision_detector_node_test
+[100%] Built target collision_detector_node_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/libcollision_detector_core.so
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_detector
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_detector_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon_source.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/include//nav2_collision_monitor/velocity_polygon.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_detector_node.launch.py
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_detector_params.yaml
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml

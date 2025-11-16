@@ -1,0 +1,227 @@
+[0.024s] Invoking command in '/home/pi/CaveBot-ros/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav_2d_msgs -- -j4 -l4
+[0.160s] [  1%] Built target nav_2d_msgs__rosidl_generator_type_description
+[0.160s] [  1%] Built target ament_cmake_python_symlink_nav_2d_msgs
+[0.241s] [  2%] Built target nav_2d_msgs__cpp
+[0.268s] [ 26%] Built target nav_2d_msgs__rosidl_generator_c
+[0.434s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.434s] [ 45%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.442s] [ 54%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.566s] [ 64%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.579s] [ 73%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.594s] [ 83%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.681s] [ 83%] Built target nav_2d_msgs
+[0.710s] running egg_info
+[0.745s] writing nav_2d_msgs.egg-info/PKG-INFO
+[0.746s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[0.750s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[0.775s] [ 84%] Built target nav_2d_msgs__py
+[0.890s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.890s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.914s] [ 92%] Built target nav_2d_msgs__rosidl_generator_py
+[1.025s] [ 95%] Built target nav_2d_msgs_s__rosidl_typesupport_fastrtps_c
+[1.032s] [ 95%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[1.042s] [ 97%] Built target nav_2d_msgs_s__rosidl_typesupport_introspection_c
+[1.043s] [100%] Built target nav_2d_msgs_s__rosidl_typesupport_c
+[1.083s] Invoked command in '/home/pi/CaveBot-ros/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav_2d_msgs -- -j4 -l4
+[1.111s] Invoking command in '/home/pi/CaveBot-ros/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav_2d_msgs
+[1.135s] -- Install configuration: ""
+[1.138s] -- Execute custom install script
+[1.142s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[1.167s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.json
+[1.187s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.json
+[1.210s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.json
+[1.236s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.json
+[1.261s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.json
+[1.284s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.json
+[1.315s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[1.515s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[1.515s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[1.515s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[1.515s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[1.516s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[1.516s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[1.516s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[1.516s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[1.526s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[1.557s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[1.578s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[1.598s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[1.621s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[1.658s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[1.699s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[1.736s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[1.775s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[1.813s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[1.835s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[1.868s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[1.909s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.931s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[1.963s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[1.991s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[2.032s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[2.098s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[2.142s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[2.178s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[2.217s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[2.251s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[2.278s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[2.302s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[2.378s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.412s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[2.458s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[2.500s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[2.548s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[2.593s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[2.616s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[2.665s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[2.684s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[2.795s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[2.795s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[2.795s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[2.810s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[2.831s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[2.850s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[2.884s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[2.922s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[2.952s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[2.983s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[3.007s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[3.027s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[3.055s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[3.095s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[3.123s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[3.168s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[3.198s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[3.222s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[3.252s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[3.274s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.291s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[3.311s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[3.331s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[3.375s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.411s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.435s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.465s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.509s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.551s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.600s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.626s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[3.648s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[3.697s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.773s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[3.822s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[3.863s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.908s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.947s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.992s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[4.035s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.074s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[4.118s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.157s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.198s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[4.243s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[4.285s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.10-py3.12.egg-info/PKG-INFO
+[4.328s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.10-py3.12.egg-info/SOURCES.txt
+[4.372s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.10-py3.12.egg-info/dependency_links.txt
+[4.415s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.10-py3.12.egg-info/top_level.txt
+[4.458s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/__init__.py
+[4.520s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[4.578s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.638s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.706s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/__init__.py
+[4.747s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d.py
+[4.785s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[4.837s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[4.894s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[4.932s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[4.974s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[5.014s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[5.060s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[5.105s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[5.136s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[5.183s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[5.216s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[5.254s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so
+[5.296s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.330s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so
+[5.365s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.366s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so
+[5.366s] -- Up-to-date symlink: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so
+[5.366s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[5.408s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[5.448s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[5.495s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[5.534s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[5.577s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[5.621s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[5.669s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[5.717s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[5.763s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[5.806s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[5.845s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[5.889s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[5.931s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[5.977s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[6.017s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[6.064s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[6.123s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[6.166s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[6.210s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[6.249s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[6.291s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[6.334s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[6.376s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[6.434s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[6.477s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.530s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.596s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.632s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.684s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.748s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.802s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[6.867s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[6.932s] -- Symlinking: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[7.013s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[7.013s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[7.013s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[7.022s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.022s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.023s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.023s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[7.023s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.024s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[7.028s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[7.029s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[7.035s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.035s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[7.035s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[7.250s] Listing '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs'...
+[7.250s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/__init__.py'...
+[7.253s] Listing '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg'...
+[7.254s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/__init__.py'...
+[7.254s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d.py'...
+[7.254s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[7.254s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[7.255s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[7.255s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[7.255s] Compiling '/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[7.288s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[7.288s] -- Set non-toolchain portion of runtime path of "/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[7.289s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[7.289s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.298s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.299s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.299s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[7.299s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.299s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.299s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.299s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.300s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[7.315s] -- Installing: /home/pi/CaveBot-ros/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.346s] Invoked command in '/home/pi/CaveBot-ros/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav_2d_msgs

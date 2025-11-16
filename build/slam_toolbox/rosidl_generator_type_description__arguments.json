@@ -1,0 +1,26 @@
+{
+  "package_name": "slam_toolbox",
+  "output_dir": "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_generator_type_description/slam_toolbox",
+  "idl_tuples": [
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Reset.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl",
+    "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "nav_msgs:/opt/ros/jazzy/share/nav_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "visualization_msgs:/opt/ros/jazzy/share/visualization_msgs",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs"
+  ]
+}

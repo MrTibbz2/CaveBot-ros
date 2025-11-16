@@ -1,0 +1,51 @@
+[0.026s] Invoking command in '/home/pi/CaveBot-ros/build/image_proc': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_proc -- -j4 -l4
+[0.290s] [  5%] Built target rectify_node
+[0.346s] [ 11%] Built target debayer_node
+[0.350s] [ 17%] Built target image_proc
+[0.361s] [ 22%] Built target resize_node
+[0.434s] [ 28%] Built target crop_decimate_node
+[0.510s] [ 34%] Built target crop_non_zero_node
+[0.516s] [ 40%] Built target gtest_main
+[0.520s] [ 45%] Built target track_marker_node
+[0.575s] [ 51%] Built target gtest
+[0.665s] [ 54%] [32mBuilding CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o[0m
+[21.651s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:[m[K In lambda function:
+[21.651s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:79:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(image_proc::RectifyNode&)[m[K’
+[21.651s]    79 |         image_transport::TransportHints hints(*this[01;31m[K)[m[K;
+[21.651s]       |                                                    [01;31m[K^[m[K
+[21.659s] In file included from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+[21.659s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/include/image_proc/rectify.hpp:41[m[K,
+[21.659s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:40[m[K:
+[21.659s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const rclcpp::Node*, const std::string&, const std::string&)[m[K’
+[21.659s]    61 |   [01;36m[KTransportHints[m[K(
+[21.660s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[21.660s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+[21.660s]    62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+[21.660s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[21.660s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const image_transport::TransportHints&)[m[K’
+[21.660s]    45 | class [01;36m[KTransportHints[m[K
+[21.660s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[21.661s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[21.661s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(image_transport::TransportHints&&)[m[K’
+[21.661s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[21.707s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:81:11:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[21.707s]    81 |           [01;31m[K*this[m[K, image_topic_, std::bind(
+[21.707s]       |           [01;31m[K^~~~~[m[K
+[21.707s]       |           [01;31m[K|[m[K
+[21.707s]       |           [01;31m[Kimage_proc::RectifyNode[m[K
+[21.707s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::CameraSubscriber image_transport::[01;32m[Kcreate_camera_subscription[m[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)[m[K’
+[21.708s]    86 |   [01;36m[Krclcpp::Node * node[m[K,
+[21.708s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[21.721s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:[m[K In constructor ‘[01m[Kimage_proc::RectifyNode::[01;32m[KRectifyNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[21.727s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:89:49:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[21.727s]    89 |   pub_rect_ = image_transport::create_publisher([01;31m[K*this[m[K, rect_topic, rclcpp::SystemDefaultsQoS(),
+[21.727s]       |                                                 [01;31m[K^~~~~[m[K
+[21.728s]       |                                                 [01;31m[K|[m[K
+[21.728s]       |                                                 [01;31m[Kimage_proc::RectifyNode[m[K
+[21.728s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::Publisher image_transport::[01;32m[Kcreate_publisher[m[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)[m[K’
+[21.728s]    54 |   [01;36m[Krclcpp::Node * node[m[K,
+[21.728s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[26.743s] gmake[2]: *** [CMakeFiles/rectify.dir/build.make:76: CMakeFiles/rectify.dir/src/rectify.cpp.o] Error 1
+[26.743s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/rectify.dir/all] Error 2
+[26.744s] gmake: *** [Makefile:146: all] Error 2
+[26.754s] Invoked command in '/home/pi/CaveBot-ros/build/image_proc' returned '2': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_proc -- -j4 -l4

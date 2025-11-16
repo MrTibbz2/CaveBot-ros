@@ -1,0 +1,6 @@
+/home/pi/CaveBot-ros/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Path2D.idl
+/home/pi/CaveBot-ros/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Pose2D32.idl
+/home/pi/CaveBot-ros/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Pose2DStamped.idl
+/home/pi/CaveBot-ros/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Twist2D.idl
+/home/pi/CaveBot-ros/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Twist2D32.idl
+/home/pi/CaveBot-ros/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Twist2DStamped.idl

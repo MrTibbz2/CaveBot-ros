@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/build/nav2_behavior_tree/gen/plugins_list.hpp

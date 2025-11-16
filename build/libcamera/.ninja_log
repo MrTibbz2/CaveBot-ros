@@ -317,3 +317,5 @@
 320693	367575	1762841123007494887	src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_main.cpp.o	acb021f1b8c0eb3c
 367575	367910	1762841123344474453	src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so	6295c372e9b8b4bf
 23	257	1762840704622011494	src/libcamera/version.cpp	7b24c90a30638eb0
+115	386	1762840704622011494	src/libcamera/version.cpp	7b24c90a30638eb0
+32	226	1762840704622011494	src/libcamera/version.cpp	7b24c90a30638eb0

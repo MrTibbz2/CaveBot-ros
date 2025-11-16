@@ -1,0 +1,1 @@
+/home/pi/CaveBot-ros/build/nav2_msgs/rosidl_generator_c/nav2_msgs/msg/route_node.h

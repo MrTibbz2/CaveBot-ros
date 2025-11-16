@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/CaveBot-ros/build/nav2_costmap_2d/nav2_costmap_2d_markers" "/home/pi/CaveBot-ros/build/nav2_costmap_2d/nav2_costmap_2d_cloud" "/home/pi/CaveBot-ros/build/nav2_costmap_2d/nav2_costmap_2d" "TARGETS" "nav2_costmap_2d_markers" "nav2_costmap_2d_cloud" "nav2_costmap_2d" "DESTINATION" "lib/nav2_costmap_2d")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/CaveBot-ros/build/slam_toolbox/rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "slam_toolbox_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/slam_toolbox")

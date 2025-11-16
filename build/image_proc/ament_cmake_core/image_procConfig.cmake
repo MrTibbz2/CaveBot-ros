@@ -16,7 +16,7 @@ set(_image_proc_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT image_proc_FIND_QUIETLY)
-  message(STATUS "Found image_proc: 7.1.2 (${image_proc_DIR})")
+  message(STATUS "Found image_proc: 5.0.11 (${image_proc_DIR})")
 endif()
 
 # warn when using a deprecated package

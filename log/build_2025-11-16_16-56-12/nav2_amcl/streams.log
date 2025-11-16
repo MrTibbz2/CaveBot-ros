@@ -1,0 +1,132 @@
+[0.039s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_amcl': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_amcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_amcl
+[0.197s] -- The C compiler identification is GNU 13.3.0
+[0.366s] -- The CXX compiler identification is GNU 13.3.0
+[0.434s] -- Detecting C compiler ABI info
+[0.728s] -- Detecting C compiler ABI info - done
+[0.751s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.755s] -- Detecting C compile features
+[0.757s] -- Detecting C compile features - done
+[0.778s] -- Detecting CXX compiler ABI info
+[1.110s] -- Detecting CXX compiler ABI info - done
+[1.140s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.144s] -- Detecting CXX compile features
+[1.144s] -- Detecting CXX compile features - done
+[1.155s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.576s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.809s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.906s] -- Found nav2_common: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_common/share/nav2_common/cmake)
+[1.917s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.027s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.061s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.349s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.362s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.611s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.656s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.709s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.889s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.963s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.060s] -- Found message_filters: 4.11.8 (/opt/ros/jazzy/share/message_filters/cmake)
+[3.119s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.199s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.207s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.208s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.422s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.496s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.556s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.611s] -- Found nav2_util: 1.3.10 (/home/pi/CaveBot-ros/install/nav2_util/share/nav2_util/cmake)
+[3.911s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.924s] -- Setting build type to Release as none was specified.
+[3.929s] -- Looking for drand48
+[4.213s] -- Looking for drand48 - found
+[4.282s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.643s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.648s] -- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/navigation2/nav2_amcl/include;/home/pi/CaveBot-ros/src/navigation2/nav2_amcl/src/include
+[4.648s] -- Configured cppcheck exclude dirs and/or files: 
+[4.652s] -- Added test 'lint_cmake' to check CMake code style
+[4.666s] -- Added test 'uncrustify' to check C / C++ code style
+[4.666s] -- Configured uncrustify additional arguments: 
+[4.667s] -- Added test 'xmllint' to check XML markup files
+[4.688s] -- Configuring done (4.6s)
+[4.847s] -- Generating done (0.1s)
+[4.890s] -- Build files have been written to: /home/pi/CaveBot-ros/build/nav2_amcl
+[4.936s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/CaveBot-ros/src/navigation2/nav2_amcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/CaveBot-ros/install/nav2_amcl
+[4.937s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_amcl': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_amcl -- -j4 -l4
+[5.093s] [  4%] Building C object src/map/CMakeFiles/map_lib.dir/map.c.o
+[5.282s] [  8%] Building C object src/map/CMakeFiles/map_lib.dir/map_draw.c.o
+[5.383s] [ 12%] Building CXX object src/map/CMakeFiles/map_lib.dir/map_cspace.cpp.o
+[6.353s] [ 16%] Building C object src/map/CMakeFiles/map_lib.dir/map_range.c.o
+[6.659s] [ 20%] Linking CXX shared library libmap_lib.so
+[6.912s] [ 20%] Built target map_lib
+[6.976s] [ 25%] Building C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o
+[7.444s] [ 29%] Building C object src/pf/CMakeFiles/pf_lib.dir/pf_vector.c.o
+[7.607s] [ 33%] Building C object src/pf/CMakeFiles/pf_lib.dir/eig3.c.o
+[7.977s] [ 37%] Building C object src/pf/CMakeFiles/pf_lib.dir/pf_draw.c.o
+[8.035s] [ 41%] Building C object src/pf/CMakeFiles/pf_lib.dir/pf_pdf.c.o
+[8.235s] [ 45%] Building C object src/pf/CMakeFiles/pf_lib.dir/pf_kdtree.c.o
+[8.731s] [ 50%] Linking C shared library libpf_lib.so
+[8.857s] [ 50%] Built target pf_lib
+[8.922s] [ 54%] Building CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/laser.cpp.o
+[9.863s] [ 58%] Building CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model.cpp.o
+[10.753s] [ 62%] Building CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o
+[12.170s] [ 66%] Building CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/beam_model.cpp.o
+[13.069s] [ 70%] Linking CXX shared library libsensors_lib.so
+[13.300s] [ 70%] Built target sensors_lib
+[13.371s] [ 75%] Building CXX object src/motion_model/CMakeFiles/motions_lib.dir/omni_motion_model.cpp.o
+[15.923s] [ 79%] Building CXX object src/motion_model/CMakeFiles/motions_lib.dir/differential_motion_model.cpp.o
+[18.633s] [ 83%] Linking CXX shared library libmotions_lib.so
+[19.018s] [ 83%] Built target motions_lib
+[19.072s] [ 87%] Building CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o
+[125.891s] [ 91%] Linking CXX shared library libamcl_core.so
+[127.426s] [ 91%] Built target amcl_core
+[127.488s] [ 95%] Building CXX object CMakeFiles/amcl.dir/src/main.cpp.o
+[141.392s] [100%] Linking CXX executable amcl
+[142.377s] [100%] Built target amcl
+[142.416s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/CaveBot-ros/build/nav2_amcl -- -j4 -l4
+[142.419s] Invoking command in '/home/pi/CaveBot-ros/build/nav2_amcl': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_amcl
+[142.441s] -- Install configuration: "Release"
+[142.442s] -- Execute custom install script
+[142.445s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/lib/libpf_lib.so
+[142.470s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/lib/libmap_lib.so
+[142.494s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/lib/libmotions_lib.so
+[142.524s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/lib/libsensors_lib.so
+[142.553s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/lib/libamcl_core.so
+[142.586s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/lib/nav2_amcl/amcl
+[142.621s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[142.650s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[142.683s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[142.715s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[142.748s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[142.778s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[142.811s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[142.840s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[142.874s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[142.908s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[142.942s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[142.982s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[143.008s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[143.032s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[143.065s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[143.096s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl//plugins.xml
+[143.127s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[143.159s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[143.192s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[143.228s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[143.258s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[143.280s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[143.306s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[143.336s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[143.364s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[143.396s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[143.428s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/package.dsv
+[143.470s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[143.504s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[143.536s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[143.570s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[143.601s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[143.634s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[143.659s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[143.687s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[143.712s] -- Symlinking: /home/pi/CaveBot-ros/install/nav2_amcl/share/nav2_amcl/package.xml
+[143.741s] Invoked command in '/home/pi/CaveBot-ros/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/CaveBot-ros/build/nav2_amcl

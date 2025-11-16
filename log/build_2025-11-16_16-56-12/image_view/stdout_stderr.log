@@ -1,0 +1,90 @@
+-- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/image_view` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi/CaveBot-ros/src/image_pipeline/image_view/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/pi/CaveBot-ros/build/image_view
+[  5%] Building CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o
+[ 10%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o
+[ 15%] Building CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o
+[ 21%] Building CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o
+[ 26%] Building CXX object CMakeFiles/image_view_nodes.dir/src/video_recorder_node.cpp.o
+[ 31%] Linking CXX shared library libimage_view_nodes.so
+[ 36%] Built target image_view_nodes
+[ 42%] Building CXX object CMakeFiles/disparity_view.dir/src/disparity_view.cpp.o
+[ 47%] Linking CXX executable disparity_view
+[ 47%] Built target disparity_view
+[ 52%] Building CXX object CMakeFiles/extract_images.dir/src/extract_images.cpp.o
+[ 57%] Linking CXX executable extract_images
+[ 57%] Built target extract_images
+[ 63%] Building CXX object CMakeFiles/image_saver.dir/src/image_saver.cpp.o
+[ 68%] Linking CXX executable image_saver
+[ 68%] Built target image_saver
+[ 73%] Building CXX object CMakeFiles/video_recorder.dir/src/video_recorder.cpp.o
+[ 78%] Linking CXX executable video_recorder
+[ 78%] Built target video_recorder
+[ 84%] Building CXX object CMakeFiles/stereo_view.dir/src/stereo_view.cpp.o
+[ 89%] Linking CXX executable stereo_view
+[ 89%] Built target stereo_view
+[ 94%] Building CXX object CMakeFiles/image_view.dir/src/image_view.cpp.o
+[100%] Linking CXX executable image_view
+[100%] Built target image_view
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/extract_images_sync
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/disparity_view_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/extract_images_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/image_saver_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/image_view_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/stereo_view_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/include/image_view/video_recorder_node.hpp
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/library_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/library_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/libimage_view_nodes.so
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/disparity_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/image_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/stereo_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/extract_images
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/image_saver
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/lib/image_view/video_recorder
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/path.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/environment/path.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.bash
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.sh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.zsh
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/local_setup.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/package.dsv
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/packages/image_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+-- Symlinking: /home/pi/CaveBot-ros/install/image_view/share/image_view/package.xml
