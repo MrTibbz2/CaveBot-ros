@@ -1,0 +1,11 @@
+[0.039s] Invoking command in '/home/pi/CaveBot-ros/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_view -- -j4 -l4
+[0.780s] [  5%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o[0m
+[0.781s] [ 10%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o[0m
+[0.781s] [ 15%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o[0m
+[0.781s] [ 21%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o[0m
+[8.458s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:118: CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o] Interrupt
+[8.458s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:90: CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o] Interrupt
+[8.458s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:104: CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o] Interrupt
+[8.458s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:132: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o] Interrupt
+[8.459s] gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/image_view_nodes.dir/all] Interrupt
+[8.459s] gmake: *** [Makefile:146: all] Interrupt

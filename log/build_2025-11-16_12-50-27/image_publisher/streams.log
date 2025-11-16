@@ -1,0 +1,34 @@
+[0.883s] Invoking command in '/home/pi/CaveBot-ros/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_publisher -- -j4 -l4
+[1.167s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[19.264s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:[m[K In constructor ‘[01m[Kimage_publisher::ImagePublisher::[01;32m[KImagePublisher[m[K(const rclcpp::NodeOptions&, const std::string&)[m[K’:
+[19.265s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:69:51:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_publisher::ImagePublisher[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[19.265s]    69 |   pub_ = image_transport::create_camera_publisher([01;31m[K*this[m[K, topic_name, rclcpp::SystemDefaultsQoS(),
+[19.265s]       |                                                   [01;31m[K^~~~~[m[K
+[19.265s]       |                                                   [01;31m[K|[m[K
+[19.265s]       |                                                   [01;31m[Kimage_publisher::ImagePublisher[m[K
+[19.265s] In file included from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/include/image_publisher/image_publisher.hpp:38[m[K,
+[19.269s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:48[m[K:
+[19.269s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:76:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::CameraPublisher image_transport::[01;32m[Kcreate_camera_publisher[m[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)[m[K’
+[19.272s]    76 |   [01;36m[Krclcpp::Node * node[m[K,
+[19.272s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[19.343s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:[m[K In member function ‘[01m[Kvoid image_publisher::ImagePublisher::[01;32m[KreconfigureCallback[m[K()[m[K’:
+[19.343s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:147:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcamera_info_manager::CameraInfoManager::CameraInfoManager(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeServicesInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, const char [7], const char [1], rclcpp::SystemDefaultsQoS, const char [1])[m[K’
+[19.346s]   147 |     ""[01;31m[K)[m[K;
+[19.346s]       |       [01;31m[K^[m[K
+[19.346s] In file included from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:47[m[K:
+[19.346s] [01m[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:198:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcamera_info_manager::CameraInfoManager::[01;32m[KCameraInfoManager[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeServicesInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, const std::string&, const std::string&, rmw_qos_profile_t)[m[K’
+[19.346s]   198 |   [01;36m[KCameraInfoManager[m[K(
+[19.346s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[19.346s] [01m[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:198:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 7 provided
+[19.346s] [01m[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:192:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcamera_info_manager::CameraInfoManager::[01;32m[KCameraInfoManager[m[K(rclcpp_lifecycle::LifecycleNode*, const std::string&, const std::string&)[m[K’
+[19.347s]   192 |   [01;36m[KCameraInfoManager[m[K(
+[19.347s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[19.347s] [01m[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:192:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 7 provided
+[19.347s] [01m[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:186:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcamera_info_manager::CameraInfoManager::[01;32m[KCameraInfoManager[m[K(rclcpp::Node*, const std::string&, const std::string&)[m[K’
+[19.347s]   186 |   [01;36m[KCameraInfoManager[m[K(
+[19.347s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[19.347s] [01m[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:186:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 7 provided
+[28.490s] gmake[2]: *** [CMakeFiles/image_publisher.dir/build.make:76: CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o] Error 1
+[28.497s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_publisher.dir/all] Error 2
+[28.498s] gmake: *** [Makefile:146: all] Error 2
+[28.519s] Invoked command in '/home/pi/CaveBot-ros/build/image_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_publisher -- -j4 -l4

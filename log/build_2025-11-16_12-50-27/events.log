@@ -1,0 +1,756 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (camera_calibration) JobQueued: {'identifier': 'camera_calibration', 'dependencies': OrderedDict()}
+[0.000290] (image_publisher) JobQueued: {'identifier': 'image_publisher', 'dependencies': OrderedDict()}
+[0.000314] (image_rotate) JobQueued: {'identifier': 'image_rotate', 'dependencies': OrderedDict()}
+[0.000334] (image_view) JobQueued: {'identifier': 'image_view', 'dependencies': OrderedDict()}
+[0.000520] (libcamera) JobQueued: {'identifier': 'libcamera', 'dependencies': OrderedDict()}
+[0.000542] (tracetools_image_pipeline) JobQueued: {'identifier': 'tracetools_image_pipeline', 'dependencies': OrderedDict()}
+[0.000562] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict({'image_view': '/home/pi/CaveBot-ros/install/image_view', 'libcamera': '/home/pi/CaveBot-ros/install/libcamera'})}
+[0.000601] (image_proc) JobQueued: {'identifier': 'image_proc', 'dependencies': OrderedDict({'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline'})}
+[0.000630] (depth_image_proc) JobQueued: {'identifier': 'depth_image_proc', 'dependencies': OrderedDict({'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc'})}
+[0.000664] (stereo_image_proc) JobQueued: {'identifier': 'stereo_image_proc', 'dependencies': OrderedDict({'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc'})}
+[0.000694] (image_pipeline) JobQueued: {'identifier': 'image_pipeline', 'dependencies': OrderedDict({'camera_calibration': '/home/pi/CaveBot-ros/install/camera_calibration', 'image_publisher': '/home/pi/CaveBot-ros/install/image_publisher', 'image_rotate': '/home/pi/CaveBot-ros/install/image_rotate', 'image_view': '/home/pi/CaveBot-ros/install/image_view', 'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc', 'depth_image_proc': '/home/pi/CaveBot-ros/install/depth_image_proc', 'stereo_image_proc': '/home/pi/CaveBot-ros/install/stereo_image_proc'})}
+[0.001880] (tracetools_image_pipeline) JobStarted: {'identifier': 'tracetools_image_pipeline'}
+[0.016704] (image_view) JobStarted: {'identifier': 'image_view'}
+[0.028984] (camera_calibration) JobStarted: {'identifier': 'camera_calibration'}
+[0.043634] (image_publisher) JobStarted: {'identifier': 'image_publisher'}
+[0.054704] (tracetools_image_pipeline) JobProgress: {'identifier': 'tracetools_image_pipeline', 'progress': 'cmake'}
+[0.057789] (tracetools_image_pipeline) JobProgress: {'identifier': 'tracetools_image_pipeline', 'progress': 'build'}
+[0.057879] (tracetools_image_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.070256] (image_view) JobProgress: {'identifier': 'image_view', 'progress': 'cmake'}
+[0.072363] (image_view) JobProgress: {'identifier': 'image_view', 'progress': 'build'}
+[0.072800] (image_view) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/image_view', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/image_view', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/image_view', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.103673] (-) TimerEvent: {}
+[0.204267] (-) TimerEvent: {}
+[0.305036] (-) TimerEvent: {}
+[0.411729] (-) TimerEvent: {}
+[0.514678] (-) TimerEvent: {}
+[0.615063] (-) TimerEvent: {}
+[0.715419] (-) TimerEvent: {}
+[0.816027] (-) TimerEvent: {}
+[0.914461] (tracetools_image_pipeline) StdoutLine: {'line': b'[ 66%] Built target tracetools_image_pipeline\n'}
+[0.914860] (tracetools_image_pipeline) StdoutLine: {'line': b'[100%] Built target status\n'}
+[0.914976] (image_view) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o\x1b[0m\n'}
+[0.915113] (image_view) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o\x1b[0m\n'}
+[0.915202] (image_view) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o\x1b[0m\n'}
+[0.915283] (image_view) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o\x1b[0m\n'}
+[0.915420] (image_publisher) JobProgress: {'identifier': 'image_publisher', 'progress': 'cmake'}
+[0.918984] (-) TimerEvent: {}
+[0.925436] (image_publisher) JobProgress: {'identifier': 'image_publisher', 'progress': 'build'}
+[0.926756] (image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/image_publisher', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/image_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/image_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.932272] (tracetools_image_pipeline) CommandEnded: {'returncode': 0}
+[0.933043] (tracetools_image_pipeline) JobProgress: {'identifier': 'tracetools_image_pipeline', 'progress': 'install'}
+[0.967858] (tracetools_image_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/CaveBot-ros/build/tracetools_image_pipeline'], 'cwd': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/tracetools_image_pipeline', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.021527] (-) TimerEvent: {}
+[1.036435] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.040466] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.045095] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh\n'}
+[1.045599] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv\n'}
+[1.046702] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status\n'}
+[1.054427] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h\n'}
+[1.061485] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tp_call.h\n'}
+[1.061917] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h\n'}
+[1.065221] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp\n'}
+[1.066915] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp\n'}
+[1.083505] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline\n'}
+[1.083812] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline\n'}
+[1.083924] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh\n'}
+[1.090470] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv\n'}
+[1.098537] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh\n'}
+[1.105611] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv\n'}
+[1.114433] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash\n'}
+[1.114768] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh\n'}
+[1.114921] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh\n'}
+[1.115641] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv\n'}
+[1.116288] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Symlinking: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv\n'}
+[1.123478] (-) TimerEvent: {}
+[1.210458] (image_publisher) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[1.224607] (-) TimerEvent: {}
+[1.228298] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline\n'}
+[1.228615] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.231426] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.237981] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.238456] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_link_flags-extras.cmake\n'}
+[1.238635] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake\n'}
+[1.238782] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake\n'}
+[1.239678] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml\n'}
+[1.262502] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so\n'}
+[1.263180] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake\n'}
+[1.263638] (tracetools_image_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CaveBot-ros/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake\n'}
+[1.290156] (tracetools_image_pipeline) CommandEnded: {'returncode': 0}
+[1.327444] (-) TimerEvent: {}
+[1.437483] (-) TimerEvent: {}
+[1.477547] (tracetools_image_pipeline) JobEnded: {'identifier': 'tracetools_image_pipeline', 'rc': 0}
+[1.479418] (image_proc) JobStarted: {'identifier': 'image_proc'}
+[1.510754] (image_proc) JobProgress: {'identifier': 'image_proc', 'progress': 'cmake'}
+[1.513614] (image_proc) JobProgress: {'identifier': 'image_proc', 'progress': 'build'}
+[1.514273] (image_proc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/image_proc', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/image_proc', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/image_proc', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.538893] (-) TimerEvent: {}
+[1.642849] (-) TimerEvent: {}
+[1.751421] (image_proc) StdoutLine: {'line': b'[  5%] Built target debayer_node\n'}
+[1.751734] (-) TimerEvent: {}
+[1.819776] (image_proc) StdoutLine: {'line': b'[ 11%] Built target resize_node\n'}
+[1.849639] (image_proc) StdoutLine: {'line': b'[ 17%] Built target rectify_node\n'}
+[1.855755] (-) TimerEvent: {}
+[1.875421] (image_proc) StdoutLine: {'line': b'[ 22%] Built target image_proc\n'}
+[1.882562] (image_proc) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/crop_decimate_node.dir/rclcpp_components/node_main_crop_decimate_node.cpp.o\x1b[0m\n'}
+[1.957728] (-) TimerEvent: {}
+[1.969982] (image_proc) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/crop_non_zero_node.dir/rclcpp_components/node_main_crop_non_zero_node.cpp.o\x1b[0m\n'}
+[2.012977] (image_proc) StdoutLine: {'line': b'[ 34%] Built target track_marker_node\n'}
+[2.017604] (image_proc) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[2.062466] (-) TimerEvent: {}
+[2.166493] (-) TimerEvent: {}
+[2.167166] (image_proc) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o\x1b[0m\n'}
+[2.191462] (image_proc) StdoutLine: {'line': b'[ 48%] Built target gtest\n'}
+[2.268428] (-) TimerEvent: {}
+[2.369033] (-) TimerEvent: {}
+[2.475435] (-) TimerEvent: {}
+[2.577466] (-) TimerEvent: {}
+[2.678105] (-) TimerEvent: {}
+[2.789995] (-) TimerEvent: {}
+[2.890561] (-) TimerEvent: {}
+[2.991138] (-) TimerEvent: {}
+[3.099056] (-) TimerEvent: {}
+[3.204500] (-) TimerEvent: {}
+[3.305097] (-) TimerEvent: {}
+[3.408388] (-) TimerEvent: {}
+[3.512440] (-) TimerEvent: {}
+[3.612979] (-) TimerEvent: {}
+[3.717443] (-) TimerEvent: {}
+[3.820912] (-) TimerEvent: {}
+[3.926467] (-) TimerEvent: {}
+[4.033435] (-) TimerEvent: {}
+[4.134029] (-) TimerEvent: {}
+[4.241452] (-) TimerEvent: {}
+[4.344467] (-) TimerEvent: {}
+[4.451479] (-) TimerEvent: {}
+[4.558452] (-) TimerEvent: {}
+[4.661459] (-) TimerEvent: {}
+[4.761903] (-) TimerEvent: {}
+[4.862384] (-) TimerEvent: {}
+[4.965477] (-) TimerEvent: {}
+[5.075467] (-) TimerEvent: {}
+[5.175928] (-) TimerEvent: {}
+[5.279446] (-) TimerEvent: {}
+[5.386207] (-) TimerEvent: {}
+[5.488451] (-) TimerEvent: {}
+[5.590477] (-) TimerEvent: {}
+[5.698455] (-) TimerEvent: {}
+[5.803466] (camera_calibration) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/CaveBot-ros/build/camera_calibration/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/CaveBot-ros/build/camera_calibration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/camera_calibration', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.804870] (-) TimerEvent: {}
+[5.907470] (-) TimerEvent: {}
+[6.008300] (-) TimerEvent: {}
+[6.112694] (-) TimerEvent: {}
+[6.214625] (-) TimerEvent: {}
+[6.315258] (-) TimerEvent: {}
+[6.422690] (-) TimerEvent: {}
+[6.528431] (-) TimerEvent: {}
+[6.629496] (-) TimerEvent: {}
+[6.731699] (-) TimerEvent: {}
+[6.832264] (-) TimerEvent: {}
+[6.932870] (-) TimerEvent: {}
+[7.030197] (camera_calibration) StdoutLine: {'line': b'running develop\n'}
+[7.033470] (-) TimerEvent: {}
+[7.136640] (-) TimerEvent: {}
+[7.240671] (-) TimerEvent: {}
+[7.341193] (-) TimerEvent: {}
+[7.441978] (-) TimerEvent: {}
+[7.545818] (-) TimerEvent: {}
+[7.646295] (-) TimerEvent: {}
+[7.749426] (-) TimerEvent: {}
+[7.852833] (-) TimerEvent: {}
+[7.953440] (-) TimerEvent: {}
+[8.054097] (-) TimerEvent: {}
+[8.160442] (-) TimerEvent: {}
+[8.261477] (-) TimerEvent: {}
+[8.362243] (-) TimerEvent: {}
+[8.462709] (-) TimerEvent: {}
+[8.565440] (-) TimerEvent: {}
+[8.670425] (-) TimerEvent: {}
+[8.775439] (-) TimerEvent: {}
+[8.823770] (camera_calibration) StdoutLine: {'line': b'running egg_info\n'}
+[8.875564] (-) TimerEvent: {}
+[8.926104] (camera_calibration) StdoutLine: {'line': b'writing src/camera_calibration.egg-info/PKG-INFO\n'}
+[8.927321] (camera_calibration) StdoutLine: {'line': b'writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt\n'}
+[8.932996] (camera_calibration) StdoutLine: {'line': b'writing entry points to src/camera_calibration.egg-info/entry_points.txt\n'}
+[8.933388] (camera_calibration) StdoutLine: {'line': b'writing requirements to src/camera_calibration.egg-info/requires.txt\n'}
+[8.933539] (camera_calibration) StdoutLine: {'line': b'writing top-level names to src/camera_calibration.egg-info/top_level.txt\n'}
+[8.975688] (-) TimerEvent: {}
+[9.083448] (-) TimerEvent: {}
+[9.174591] (camera_calibration) StdoutLine: {'line': b"reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'\n"}
+[9.185435] (camera_calibration) StdoutLine: {'line': b"writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'\n"}
+[9.185814] (-) TimerEvent: {}
+[9.286161] (-) TimerEvent: {}
+[9.365765] (camera_calibration) StdoutLine: {'line': b'running build_ext\n'}
+[9.366390] (camera_calibration) StdoutLine: {'line': b'Creating /home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages/camera-calibration.egg-link (link to src)\n'}
+[9.368455] (camera_calibration) StdoutLine: {'line': b'Installing cameracalibrator script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration\n'}
+[9.383544] (camera_calibration) StdoutLine: {'line': b'Installing cameracheck script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration\n'}
+[9.383862] (camera_calibration) StdoutLine: {'line': b'Installing tarfile_calibration script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration\n'}
+[9.383980] (camera_calibration) StdoutLine: {'line': b'\n'}
+[9.384076] (camera_calibration) StdoutLine: {'line': b'Installed /home/pi/CaveBot-ros/build/camera_calibration/src\n'}
+[9.384171] (camera_calibration) StdoutLine: {'line': b'running symlink_data\n'}
+[9.390445] (-) TimerEvent: {}
+[9.492465] (-) TimerEvent: {}
+[9.593053] (-) TimerEvent: {}
+[9.696590] (-) TimerEvent: {}
+[9.805472] (-) TimerEvent: {}
+[9.913562] (-) TimerEvent: {}
+[10.009478] (camera_calibration) CommandEnded: {'returncode': 0}
+[10.013953] (-) TimerEvent: {}
+[10.075063] (camera_calibration) JobEnded: {'identifier': 'camera_calibration', 'rc': 0}
+[10.078641] (image_rotate) JobStarted: {'identifier': 'image_rotate'}
+[10.121664] (image_rotate) JobProgress: {'identifier': 'image_rotate', 'progress': 'cmake'}
+[10.121856] (-) TimerEvent: {}
+[10.126978] (image_rotate) JobProgress: {'identifier': 'image_rotate', 'progress': 'build'}
+[10.129534] (image_rotate) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CaveBot-ros/build/image_rotate', '--', '-j4', '-l4'], 'cwd': '/home/pi/CaveBot-ros/build/image_rotate', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4342', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/CaveBot-ros:@/tmp/.ICE-unix/4342,unix/CaveBot-ros:/tmp/.ICE-unix/4342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/144e3bd6_8fda_43f1_8042_f659e22dd53f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2W6F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/CaveBot-ros/build/image_rotate', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d359b217af31ef4a37719f92691929c0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.236435] (-) TimerEvent: {}
+[10.353464] (-) TimerEvent: {}
+[10.384946] (image_rotate) StdoutLine: {'line': b'[ 25%] Built target image_flip_node\n'}
+[10.430707] (image_rotate) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o\x1b[0m\n'}
+[10.453620] (-) TimerEvent: {}
+[10.557457] (-) TimerEvent: {}
+[10.660444] (-) TimerEvent: {}
+[10.761014] (-) TimerEvent: {}
+[10.867433] (-) TimerEvent: {}
+[10.972443] (-) TimerEvent: {}
+[11.072907] (-) TimerEvent: {}
+[11.173418] (-) TimerEvent: {}
+[11.274509] (-) TimerEvent: {}
+[11.375004] (-) TimerEvent: {}
+[11.481438] (-) TimerEvent: {}
+[11.584634] (-) TimerEvent: {}
+[11.687444] (-) TimerEvent: {}
+[11.788004] (-) TimerEvent: {}
+[11.888741] (-) TimerEvent: {}
+[11.991399] (-) TimerEvent: {}
+[12.094645] (-) TimerEvent: {}
+[12.195129] (-) TimerEvent: {}
+[12.295823] (-) TimerEvent: {}
+[12.415441] (-) TimerEvent: {}
+[12.519450] (-) TimerEvent: {}
+[12.619989] (-) TimerEvent: {}
+[12.725453] (-) TimerEvent: {}
+[12.825925] (-) TimerEvent: {}
+[12.926392] (-) TimerEvent: {}
+[13.031448] (-) TimerEvent: {}
+[13.131883] (-) TimerEvent: {}
+[13.232334] (-) TimerEvent: {}
+[13.334467] (-) TimerEvent: {}
+[13.434974] (-) TimerEvent: {}
+[13.539476] (-) TimerEvent: {}
+[13.639979] (-) TimerEvent: {}
+[13.740454] (-) TimerEvent: {}
+[13.840922] (-) TimerEvent: {}
+[13.947439] (-) TimerEvent: {}
+[14.050451] (-) TimerEvent: {}
+[14.150944] (-) TimerEvent: {}
+[14.252445] (-) TimerEvent: {}
+[14.362656] (-) TimerEvent: {}
+[14.464629] (-) TimerEvent: {}
+[14.567817] (-) TimerEvent: {}
+[14.668285] (-) TimerEvent: {}
+[14.768812] (-) TimerEvent: {}
+[14.874443] (-) TimerEvent: {}
+[14.974914] (-) TimerEvent: {}
+[15.079664] (-) TimerEvent: {}
+[15.180145] (-) TimerEvent: {}
+[15.280668] (-) TimerEvent: {}
+[15.383464] (-) TimerEvent: {}
+[15.483975] (-) TimerEvent: {}
+[15.592450] (-) TimerEvent: {}
+[15.693042] (-) TimerEvent: {}
+[15.793612] (-) TimerEvent: {}
+[15.894106] (-) TimerEvent: {}
+[15.994627] (-) TimerEvent: {}
+[16.095300] (-) TimerEvent: {}
+[16.199664] (-) TimerEvent: {}
+[16.300154] (-) TimerEvent: {}
+[16.400651] (-) TimerEvent: {}
+[16.501149] (-) TimerEvent: {}
+[16.606660] (-) TimerEvent: {}
+[16.707234] (-) TimerEvent: {}
+[16.807704] (-) TimerEvent: {}
+[16.913654] (-) TimerEvent: {}
+[17.015456] (-) TimerEvent: {}
+[17.115910] (-) TimerEvent: {}
+[17.219705] (-) TimerEvent: {}
+[17.320162] (-) TimerEvent: {}
+[17.420793] (-) TimerEvent: {}
+[17.523922] (-) TimerEvent: {}
+[17.624435] (-) TimerEvent: {}
+[17.726685] (-) TimerEvent: {}
+[17.831668] (-) TimerEvent: {}
+[17.933639] (-) TimerEvent: {}
+[18.034124] (-) TimerEvent: {}
+[18.140443] (-) TimerEvent: {}
+[18.242445] (-) TimerEvent: {}
+[18.296710] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[18.297087] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:79:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::TransportHints(image_proc::RectifyNode&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.297231] (image_proc) StderrLine: {'line': b'   79 |         image_transport::TransportHints hints(*this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.297374] (image_proc) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.300671] (image_proc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[18.308444] (image_proc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/include/image_proc/rectify.hpp:41\x1b[m\x1b[K,\n'}
+[18.308763] (image_proc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:40\x1b[m\x1b[K:\n'}
+[18.308892] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.309014] (image_proc) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K(\n'}
+[18.309118] (image_proc) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.309228] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.309335] (image_proc) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst rclcpp::Node * node\x1b[m\x1b[K,\n'}
+[18.309479] (image_proc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.309565] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const image_transport::TransportHints&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.309657] (image_proc) StderrLine: {'line': b'   45 | class \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K\n'}
+[18.309753] (image_proc) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.309848] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst image_transport::TransportHints&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.309946] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(image_transport::TransportHints&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.310045] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.354439] (-) TimerEvent: {}
+[18.359855] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:81:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.362587] (image_proc) StderrLine: {'line': b'   81 |           \x1b[01;31m\x1b[K*this\x1b[m\x1b[K, image_topic_, std::bind(\n'}
+[18.365571] (image_proc) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[18.365963] (image_proc) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[18.372583] (image_proc) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\n'}
+[18.372871] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::CameraSubscriber image_transport::\x1b[01;32m\x1b[Kcreate_camera_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.372992] (image_proc) StderrLine: {'line': b'   86 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[18.373087] (image_proc) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.383597] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_proc::RectifyNode::\x1b[01;32m\x1b[KRectifyNode\x1b[m\x1b[K(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.383959] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:89:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.384099] (image_proc) StderrLine: {'line': b'   89 |   pub_rect_ = image_transport::create_publisher(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, rect_topic, rclcpp::SystemDefaultsQoS(),\n'}
+[18.384233] (image_proc) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[18.384449] (image_proc) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[18.392445] (image_proc) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[Kimage_proc::RectifyNode\x1b[m\x1b[K\n'}
+[18.392807] (image_proc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Publisher image_transport::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.392948] (image_proc) StderrLine: {'line': b'   54 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[18.393046] (image_proc) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.456358] (-) TimerEvent: {}
+[18.557014] (-) TimerEvent: {}
+[18.662448] (-) TimerEvent: {}
+[18.762894] (-) TimerEvent: {}
+[18.868431] (-) TimerEvent: {}
+[18.971637] (-) TimerEvent: {}
+[19.072095] (-) TimerEvent: {}
+[19.172589] (-) TimerEvent: {}
+[19.282453] (-) TimerEvent: {}
+[19.307824] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_publisher::ImagePublisher::\x1b[01;32m\x1b[KImagePublisher\x1b[m\x1b[K(const rclcpp::NodeOptions&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.308677] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:69:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_publisher::ImagePublisher\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.309047] (image_publisher) StderrLine: {'line': b'   69 |   pub_ = image_transport::create_camera_publisher(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, topic_name, rclcpp::SystemDefaultsQoS(),\n'}
+[19.309208] (image_publisher) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[19.309327] (image_publisher) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[19.309487] (image_publisher) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[Kimage_publisher::ImagePublisher\x1b[m\x1b[K\n'}
+[19.309609] (image_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/include/image_publisher/image_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[19.312720] (image_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:48\x1b[m\x1b[K:\n'}
+[19.313431] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:76:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::CameraPublisher image_transport::\x1b[01;32m\x1b[Kcreate_camera_publisher\x1b[m\x1b[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.313670] (image_publisher) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[19.316287] (image_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[19.383456] (-) TimerEvent: {}
+[19.386904] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid image_publisher::ImagePublisher::\x1b[01;32m\x1b[KreconfigureCallback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.387408] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:147:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcamera_info_manager::CameraInfoManager::CameraInfoManager(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeServicesInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, const char [7], const char [1], rclcpp::SystemDefaultsQoS, const char [1])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.389603] (image_publisher) StderrLine: {'line': b'  147 |     ""\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[19.389884] (image_publisher) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[19.390004] (image_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/src/image_publisher.cpp:47\x1b[m\x1b[K:\n'}
+[19.390109] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:198:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcamera_info_manager::CameraInfoManager::\x1b[01;32m\x1b[KCameraInfoManager\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeServicesInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, const std::string&, const std::string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.390250] (image_publisher) StderrLine: {'line': b'  198 |   \x1b[01;36m\x1b[KCameraInfoManager\x1b[m\x1b[K(\n'}
+[19.390394] (image_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.390543] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:198:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 7 provided\n'}
+[19.390656] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:192:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcamera_info_manager::CameraInfoManager::\x1b[01;32m\x1b[KCameraInfoManager\x1b[m\x1b[K(rclcpp_lifecycle::LifecycleNode*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.390781] (image_publisher) StderrLine: {'line': b'  192 |   \x1b[01;36m\x1b[KCameraInfoManager\x1b[m\x1b[K(\n'}
+[19.390926] (image_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.391041] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:192:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 7 provided\n'}
+[19.391147] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:186:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcamera_info_manager::CameraInfoManager::\x1b[01;32m\x1b[KCameraInfoManager\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.391268] (image_publisher) StderrLine: {'line': b'  186 |   \x1b[01;36m\x1b[KCameraInfoManager\x1b[m\x1b[K(\n'}
+[19.391396] (image_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.391516] (image_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:186:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 7 provided\n'}
+[19.489468] (-) TimerEvent: {}
+[19.590045] (-) TimerEvent: {}
+[19.696465] (-) TimerEvent: {}
+[19.796926] (-) TimerEvent: {}
+[19.898653] (-) TimerEvent: {}
+[19.999148] (-) TimerEvent: {}
+[20.104435] (-) TimerEvent: {}
+[20.206476] (-) TimerEvent: {}
+[20.307117] (-) TimerEvent: {}
+[20.407608] (-) TimerEvent: {}
+[20.510444] (-) TimerEvent: {}
+[20.610929] (-) TimerEvent: {}
+[20.711432] (-) TimerEvent: {}
+[20.814874] (-) TimerEvent: {}
+[20.920378] (-) TimerEvent: {}
+[21.022365] (-) TimerEvent: {}
+[21.127180] (-) TimerEvent: {}
+[21.227822] (-) TimerEvent: {}
+[21.337443] (-) TimerEvent: {}
+[21.439444] (-) TimerEvent: {}
+[21.539912] (-) TimerEvent: {}
+[21.643697] (-) TimerEvent: {}
+[21.670626] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageSaverNode::\x1b[01;32m\x1b[KImageSaverNode\x1b[m\x1b[K(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.670950] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:77:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.671074] (image_view) StderrLine: {'line': b'   77 |   image_transport::TransportHints hints{*this\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[21.671172] (image_view) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[21.671278] (image_view) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[21.671408] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_saver_node.hpp:56\x1b[m\x1b[K,\n'}
+[21.671504] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:56\x1b[m\x1b[K:\n'}
+[21.671589] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.671677] (image_view) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K(\n'}
+[21.671758] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.671836] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.671920] (image_view) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst rclcpp::Node * node\x1b[m\x1b[K,\n'}
+[21.671998] (image_view) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[21.672073] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const image_transport::TransportHints&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.672156] (image_view) StderrLine: {'line': b'   45 | class \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K\n'}
+[21.672234] (image_view) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.672308] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst image_transport::TransportHints&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.672431] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(image_transport::TransportHints&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.672518] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.729054] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:86:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.729376] (image_view) StderrLine: {'line': b'   86 |     \x1b[01;31m\x1b[K*this\x1b[m\x1b[K, topic, std::bind(\n'}
+[21.729493] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.729600] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[21.729681] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\n'}
+[21.729772] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::CameraSubscriber image_transport::\x1b[01;32m\x1b[Kcreate_camera_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.729862] (image_view) StderrLine: {'line': b'   86 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[21.729940] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[21.746434] (-) TimerEvent: {}
+[21.772533] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:92:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.776144] (image_view) StderrLine: {'line': b'   92 |     \x1b[01;31m\x1b[K*this\x1b[m\x1b[K, topic, std::bind(\n'}
+[21.776481] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.776624] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[21.776732] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[Kimage_view::ImageSaverNode\x1b[m\x1b[K\n'}
+[21.776839] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.776989] (image_view) StderrLine: {'line': b'   64 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[21.777096] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[21.849461] (-) TimerEvent: {}
+[21.955437] (-) TimerEvent: {}
+[22.055999] (-) TimerEvent: {}
+[22.156448] (-) TimerEvent: {}
+[22.256920] (-) TimerEvent: {}
+[22.362462] (-) TimerEvent: {}
+[22.463070] (-) TimerEvent: {}
+[22.563528] (-) TimerEvent: {}
+[22.664163] (-) TimerEvent: {}
+[22.767790] (-) TimerEvent: {}
+[22.868225] (-) TimerEvent: {}
+[22.968717] (-) TimerEvent: {}
+[23.076445] (-) TimerEvent: {}
+[23.176884] (-) TimerEvent: {}
+[23.282454] (-) TimerEvent: {}
+[23.382939] (-) TimerEvent: {}
+[23.483443] (-) TimerEvent: {}
+[23.591444] (-) TimerEvent: {}
+[23.710565] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode::\x1b[01;32m\x1b[KStereoViewNode\x1b[m\x1b[K(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.713590] (-) TimerEvent: {}
+[23.713909] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:102:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.714159] (image_view) StderrLine: {'line': b'  102 |   image_transport::TransportHints hints{*this\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[23.714297] (image_view) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.714455] (image_view) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[23.714601] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:39\x1b[m\x1b[K,\n'}
+[23.714700] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/stereo_view_node.hpp:63\x1b[m\x1b[K,\n'}
+[23.714802] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:61\x1b[m\x1b[K:\n'}
+[23.714887] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.714983] (image_view) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K(\n'}
+[23.715076] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.715164] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.715265] (image_view) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst rclcpp::Node * node\x1b[m\x1b[K,\n'}
+[23.721499] (image_view) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.721724] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const image_transport::TransportHints&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.721847] (image_view) StderrLine: {'line': b'   45 | class \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K\n'}
+[23.721943] (image_view) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.722033] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst image_transport::TransportHints&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.722129] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(image_transport::TransportHints&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.722252] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.722420] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:131:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.722546] (image_view) StderrLine: {'line': b'  131 |   left_sub_.subscribe(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, left_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());\n'}
+[23.722672] (image_view) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[23.722764] (image_view) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[23.722864] (image_view) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\n'}
+[23.722961] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid image_transport::SubscriberFilter::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.723078] (image_view) StderrLine: {'line': b'  110 |     \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[23.723167] (image_view) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.723255] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:132:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.723372] (image_view) StderrLine: {'line': b'  132 |   right_sub_.subscribe(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, right_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());\n'}
+[23.723498] (image_view) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[23.723597] (image_view) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[23.723689] (image_view) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[Kimage_view::StereoViewNode\x1b[m\x1b[K\n'}
+[23.723781] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid image_transport::SubscriberFilter::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.723880] (image_view) StderrLine: {'line': b'  110 |     \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[23.723965] (image_view) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.724050] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:133:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::subscribe(image_view::StereoViewNode*, std::string&, rclcpp::QoS)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.724153] (image_view) StderrLine: {'line': b'  133 |   \x1b[01;31m\x1b[Kdisparity_sub_.subscribe(this, disparity_topic, rclcpp::QoS(10))\x1b[m\x1b[K;\n'}
+[23.724248] (image_view) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.764368] (image_view) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32\x1b[m\x1b[K,\n'}
+[23.764725] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:56\x1b[m\x1b[K:\n'}
+[23.764846] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr, const std::string&, rmw_qos_profile_t) \x1b[35m\x1b[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.764983] (image_view) StderrLine: {'line': b'  240 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[23.765080] (image_view) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.765183] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::StereoViewNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::NodePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[23.765301] (image_view) StderrLine: {'line': b'  240 |   void subscribe(\x1b[01;36m\x1b[KNodePtr node\x1b[m\x1b[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[23.765444] (image_view) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.765545] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType*, const std::string&, rmw_qos_profile_t) \x1b[35m\x1b[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.765642] (image_view) StderrLine: {'line': b'  255 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[23.765745] (image_view) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.765883] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_s\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[23.766013] (image_view) StderrLine: {'line': b'  255 |   void subscribe(NodeType * node, const std::string& topic, \x1b[01;36m\x1b[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default\x1b[m\x1b[K) override\n'}
+[23.766326] (image_view) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.766560] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.766706] (image_view) StderrLine: {'line': b'  270 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[23.766809] (image_view) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.766907] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[23.766996] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.767091] (image_view) StderrLine: {'line': b'  292 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[23.767174] (image_view) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.767256] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[23.782585] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K() \x1b[35m\x1b[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.782915] (image_view) StderrLine: {'line': b'  319 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K() override\n'}
+[23.783024] (image_view) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.783131] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[23.817513] (-) TimerEvent: {}
+[23.917985] (-) TimerEvent: {}
+[24.023435] (-) TimerEvent: {}
+[24.124211] (-) TimerEvent: {}
+[24.227489] (-) TimerEvent: {}
+[24.332470] (-) TimerEvent: {}
+[24.445465] (-) TimerEvent: {}
+[24.570458] (-) TimerEvent: {}
+[24.672847] (-) TimerEvent: {}
+[24.775439] (-) TimerEvent: {}
+[24.843516] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ExtractImagesNode::\x1b[01;32m\x1b[KExtractImagesNode\x1b[m\x1b[K(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.844053] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:79:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.844222] (image_view) StderrLine: {'line': b'   79 |   image_transport::TransportHints hints{*this\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[24.844358] (image_view) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.869676] (image_view) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[24.870098] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:58\x1b[m\x1b[K:\n'}
+[24.870324] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.870545] (image_view) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K(\n'}
+[24.870663] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.870771] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ExtractImagesNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.870898] (image_view) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst rclcpp::Node * node\x1b[m\x1b[K,\n'}
+[24.870986] (image_view) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[24.871076] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const image_transport::TransportHints&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.871187] (image_view) StderrLine: {'line': b'   45 | class \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K\n'}
+[24.871306] (image_view) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.871456] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ExtractImagesNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst image_transport::TransportHints&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.871589] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(image_transport::TransportHints&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.871695] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ExtractImagesNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.879457] (-) TimerEvent: {}
+[24.925627] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:83:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ExtractImagesNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.925919] (image_view) StderrLine: {'line': b'   83 |     \x1b[01;31m\x1b[K*this\x1b[m\x1b[K, topic, std::bind(\n'}
+[24.926022] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.926111] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[24.926200] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[Kimage_view::ExtractImagesNode\x1b[m\x1b[K\n'}
+[24.926285] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.926439] (image_view) StderrLine: {'line': b'   64 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[24.926533] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[24.979582] (-) TimerEvent: {}
+[25.088626] (-) TimerEvent: {}
+[25.192490] (-) TimerEvent: {}
+[25.291478] (image_proc) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rectify.dir/build.make:76: CMakeFiles/rectify.dir/src/rectify.cpp.o] Error 1\n'}
+[25.291833] (image_proc) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/rectify.dir/all] Error 2\n'}
+[25.291986] (image_proc) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[25.292586] (-) TimerEvent: {}
+[25.393117] (-) TimerEvent: {}
+[25.499738] (-) TimerEvent: {}
+[25.605441] (-) TimerEvent: {}
+[25.670292] (image_proc) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX executable crop_decimate_node\x1b[0m\n'}
+[25.709447] (-) TimerEvent: {}
+[25.810003] (-) TimerEvent: {}
+[25.913483] (-) TimerEvent: {}
+[25.941478] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageViewNode::\x1b[01;32m\x1b[KImageViewNode\x1b[m\x1b[K(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.944460] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:110:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.944858] (image_view) StderrLine: {'line': b'  110 |   image_transport::TransportHints hints{*this\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[25.945027] (image_view) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[25.945155] (image_view) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[25.945282] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_view_node.hpp:29\x1b[m\x1b[K,\n'}
+[25.945478] (image_view) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:59\x1b[m\x1b[K:\n'}
+[25.945734] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.945904] (image_view) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K(\n'}
+[25.946061] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.946205] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.946523] (image_view) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst rclcpp::Node * node\x1b[m\x1b[K,\n'}
+[25.946772] (image_view) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[25.946989] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const image_transport::TransportHints&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.947104] (image_view) StderrLine: {'line': b'   45 | class \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K\n'}
+[25.947259] (image_view) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.956714] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst image_transport::TransportHints&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.957311] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(image_transport::TransportHints&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.957545] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.983444] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:120:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_view::ImageViewNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.983746] (image_view) StderrLine: {'line': b'  120 |     \x1b[01;31m\x1b[K*this\x1b[m\x1b[K, topic, std::bind(&ImageViewNode::imageCb, this, std::placeholders::_1),\n'}
+[25.983850] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[25.983942] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[25.984030] (image_view) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[Kimage_view::ImageViewNode\x1b[m\x1b[K\n'}
+[25.984112] (image_view) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.984200] (image_view) StderrLine: {'line': b'   64 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[25.984280] (image_view) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[26.016471] (-) TimerEvent: {}
+[26.118489] (-) TimerEvent: {}
+[26.220514] (-) TimerEvent: {}
+[26.321062] (-) TimerEvent: {}
+[26.421647] (-) TimerEvent: {}
+[26.522420] (-) TimerEvent: {}
+[26.627691] (-) TimerEvent: {}
+[26.730646] (-) TimerEvent: {}
+[26.831158] (-) TimerEvent: {}
+[26.940434] (-) TimerEvent: {}
+[27.040833] (-) TimerEvent: {}
+[27.097834] (image_proc) StdoutLine: {'line': b'[ 51%] Built target crop_decimate_node\n'}
+[27.143448] (-) TimerEvent: {}
+[27.246495] (-) TimerEvent: {}
+[27.347232] (-) TimerEvent: {}
+[27.447816] (-) TimerEvent: {}
+[27.548463] (-) TimerEvent: {}
+[27.653441] (-) TimerEvent: {}
+[27.754238] (-) TimerEvent: {}
+[27.859464] (-) TimerEvent: {}
+[27.960145] (-) TimerEvent: {}
+[28.049865] (image_proc) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable crop_non_zero_node\x1b[0m\n'}
+[28.060278] (-) TimerEvent: {}
+[28.164113] (-) TimerEvent: {}
+[28.273179] (-) TimerEvent: {}
+[28.377457] (-) TimerEvent: {}
+[28.477933] (-) TimerEvent: {}
+[28.533733] (image_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_publisher.dir/build.make:76: CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o] Error 1\n'}
+[28.540536] (image_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_publisher.dir/all] Error 2\n'}
+[28.541080] (image_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[28.562541] (image_publisher) CommandEnded: {'returncode': 2}
+[28.580532] (-) TimerEvent: {}
+[28.606175] (image_publisher) JobEnded: {'identifier': 'image_publisher', 'rc': 2}
+[28.686476] (-) TimerEvent: {}
+[28.787062] (-) TimerEvent: {}
+[28.894468] (-) TimerEvent: {}
+[28.994996] (-) TimerEvent: {}
+[29.099443] (-) TimerEvent: {}
+[29.127833] (image_proc) StdoutLine: {'line': b'[ 54%] Built target crop_non_zero_node\n'}
+[29.139645] (image_proc) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[29.156034] (image_proc) JobEnded: {'identifier': 'image_proc', 'rc': 'SIGINT'}
+[29.200578] (-) TimerEvent: {}
+[29.306759] (-) TimerEvent: {}
+[29.407217] (-) TimerEvent: {}
+[29.513426] (-) TimerEvent: {}
+[29.615483] (-) TimerEvent: {}
+[29.716426] (-) TimerEvent: {}
+[29.819702] (-) TimerEvent: {}
+[29.921658] (-) TimerEvent: {}
+[29.935753] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:118: CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o] Error 1\n'}
+[29.936043] (image_view) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[30.021837] (-) TimerEvent: {}
+[30.125440] (-) TimerEvent: {}
+[30.225865] (-) TimerEvent: {}
+[30.326310] (-) TimerEvent: {}
+[30.426813] (-) TimerEvent: {}
+[30.527287] (-) TimerEvent: {}
+[30.633422] (-) TimerEvent: {}
+[30.733866] (-) TimerEvent: {}
+[30.835635] (-) TimerEvent: {}
+[30.884805] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[30.885195] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:316:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::TransportHints(image_rotate::ImageRotateNode&, const char [4])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.885475] (image_rotate) StderrLine: {'line': b'  316 |           "raw"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[30.886818] (image_rotate) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[30.887109] (image_rotate) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[30.887249] (image_rotate) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:44\x1b[m\x1b[K,\n'}
+[30.887403] (image_rotate) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42\x1b[m\x1b[K:\n'}
+[30.887547] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const rclcpp::Node*, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.887687] (image_rotate) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K(\n'}
+[30.887787] (image_rotate) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.887880] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.888021] (image_rotate) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst rclcpp::Node * node\x1b[m\x1b[K,\n'}
+[30.888125] (image_rotate) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[30.888225] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(const image_transport::TransportHints&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.888330] (image_rotate) StderrLine: {'line': b'   45 | class \x1b[01;36m\x1b[KTransportHints\x1b[m\x1b[K\n'}
+[30.888577] (image_rotate) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.888690] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[30.888794] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::TransportHints::\x1b[01;32m\x1b[KTransportHints\x1b[m\x1b[K(image_transport::TransportHints&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.888900] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[30.901582] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:322:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.901942] (image_rotate) StderrLine: {'line': b'  322 |             \x1b[01;31m\x1b[K*this\x1b[m\x1b[K,\n'}
+[30.902075] (image_rotate) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[30.902182] (image_rotate) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[30.902282] (image_rotate) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\n'}
+[30.902431] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::CameraSubscriber image_transport::\x1b[01;32m\x1b[Kcreate_camera_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.902562] (image_rotate) StderrLine: {'line': b'   86 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[30.902659] (image_rotate) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[30.907471] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:333:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.907860] (image_rotate) StderrLine: {'line': b'  333 |             \x1b[01;31m\x1b[K*this\x1b[m\x1b[K,\n'}
+[30.908009] (image_rotate) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[30.908147] (image_rotate) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[30.908265] (image_rotate) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\n'}
+[30.908427] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.908637] (image_rotate) StderrLine: {'line': b'   64 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[30.908774] (image_rotate) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[30.910988] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid image_rotate::ImageRotateNode::\x1b[01;32m\x1b[KonInit\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.911680] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:349:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.911879] (image_rotate) StderrLine: {'line': b'  349 |   img_pub_ = image_transport::create_publisher(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, topic, rclcpp::SystemDefaultsQoS(),\n'}
+[30.912099] (image_rotate) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[30.912329] (image_rotate) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[30.912675] (image_rotate) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[Kimage_rotate::ImageRotateNode\x1b[m\x1b[K\n'}
+[30.912886] (image_rotate) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Publisher image_transport::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.913171] (image_rotate) StderrLine: {'line': b'   54 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[30.917618] (image_rotate) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[30.935780] (-) TimerEvent: {}
+[31.038804] (-) TimerEvent: {}
+[31.142173] (-) TimerEvent: {}
+[31.244494] (-) TimerEvent: {}
+[31.344928] (-) TimerEvent: {}
+[31.445412] (-) TimerEvent: {}
+[31.545892] (-) TimerEvent: {}
+[31.651458] (-) TimerEvent: {}
+[31.751953] (-) TimerEvent: {}
+[31.852442] (-) TimerEvent: {}
+[31.952950] (-) TimerEvent: {}
+[32.063465] (-) TimerEvent: {}
+[32.164452] (-) TimerEvent: {}
+[32.264916] (-) TimerEvent: {}
+[32.365404] (-) TimerEvent: {}
+[32.466014] (-) TimerEvent: {}
+[32.569442] (-) TimerEvent: {}
+[32.669953] (-) TimerEvent: {}
+[32.729219] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:90: CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o] Error 1\n'}
+[32.770076] (-) TimerEvent: {}
+[32.873704] (-) TimerEvent: {}
+[32.974298] (-) TimerEvent: {}
+[33.076764] (-) TimerEvent: {}
+[33.177280] (-) TimerEvent: {}
+[33.280644] (-) TimerEvent: {}
+[33.381082] (-) TimerEvent: {}
+[33.486452] (-) TimerEvent: {}
+[33.590688] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:104: CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o] Error 1\n'}
+[33.591517] (-) TimerEvent: {}
+[33.692730] (-) TimerEvent: {}
+[33.795621] (-) TimerEvent: {}
+[33.896030] (-) TimerEvent: {}
+[33.996440] (-) TimerEvent: {}
+[34.099436] (-) TimerEvent: {}
+[34.199846] (-) TimerEvent: {}
+[34.300275] (-) TimerEvent: {}
+[34.400797] (-) TimerEvent: {}
+[34.501206] (-) TimerEvent: {}
+[34.601622] (-) TimerEvent: {}
+[34.704438] (-) TimerEvent: {}
+[34.804863] (-) TimerEvent: {}
+[34.905305] (-) TimerEvent: {}
+[34.945518] (image_rotate) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_rotate.dir/build.make:76: CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o] Error 1\n'}
+[34.945862] (image_rotate) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/image_rotate.dir/all] Error 2\n'}
+[34.946266] (image_rotate) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[34.952053] (image_rotate) JobEnded: {'identifier': 'image_rotate', 'rc': 'SIGINT'}
+[35.006422] (-) TimerEvent: {}
+[35.106808] (-) TimerEvent: {}
+[35.207153] (-) TimerEvent: {}
+[35.307573] (-) TimerEvent: {}
+[35.408019] (-) TimerEvent: {}
+[35.508373] (-) TimerEvent: {}
+[35.608694] (-) TimerEvent: {}
+[35.709021] (-) TimerEvent: {}
+[35.809378] (-) TimerEvent: {}
+[35.909732] (-) TimerEvent: {}
+[36.010066] (-) TimerEvent: {}
+[36.110429] (-) TimerEvent: {}
+[36.210865] (-) TimerEvent: {}
+[36.311235] (-) TimerEvent: {}
+[36.411630] (-) TimerEvent: {}
+[36.440940] (image_view) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:132: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o] Error 1\n'}
+[36.441355] (image_view) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/image_view_nodes.dir/all] Error 2\n'}
+[36.441816] (image_view) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[36.447230] (image_view) JobEnded: {'identifier': 'image_view', 'rc': 'SIGINT'}
+[36.457925] (libcamera) JobSkipped: {'identifier': 'libcamera'}
+[36.458051] (camera_ros) JobSkipped: {'identifier': 'camera_ros'}
+[36.458073] (depth_image_proc) JobSkipped: {'identifier': 'depth_image_proc'}
+[36.458092] (stereo_image_proc) JobSkipped: {'identifier': 'stereo_image_proc'}
+[36.458110] (image_pipeline) JobSkipped: {'identifier': 'image_pipeline'}
+[36.458129] (-) EventReactorShutdown: {}

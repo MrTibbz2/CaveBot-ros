@@ -1,0 +1,165 @@
+[0.050s] Invoking command in '/home/pi/CaveBot-ros/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_view -- -j4 -l4
+[0.890s] [  5%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o[0m
+[0.890s] [ 10%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o[0m
+[0.890s] [ 15%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o[0m
+[0.890s] [ 21%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o[0m
+[21.645s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:[m[K In constructor ‘[01m[Kimage_view::ImageSaverNode::[01;32m[KImageSaverNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[21.646s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:77:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)[m[K’
+[21.646s]    77 |   image_transport::TransportHints hints{*this[01;31m[K}[m[K;
+[21.646s]       |                                              [01;31m[K^[m[K
+[21.646s] In file included from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+[21.646s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_saver_node.hpp:56[m[K,
+[21.646s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:56[m[K:
+[21.646s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const rclcpp::Node*, const std::string&, const std::string&)[m[K’
+[21.646s]    61 |   [01;36m[KTransportHints[m[K(
+[21.646s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[21.646s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ImageSaverNode[m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+[21.647s]    62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+[21.647s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[21.647s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const image_transport::TransportHints&)[m[K’
+[21.647s]    45 | class [01;36m[KTransportHints[m[K
+[21.647s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[21.647s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ImageSaverNode[m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[21.647s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(image_transport::TransportHints&&)[m[K’
+[21.647s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ImageSaverNode[m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[21.704s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:86:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_view::ImageSaverNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[21.704s]    86 |     [01;31m[K*this[m[K, topic, std::bind(
+[21.704s]       |     [01;31m[K^~~~~[m[K
+[21.704s]       |     [01;31m[K|[m[K
+[21.704s]       |     [01;31m[Kimage_view::ImageSaverNode[m[K
+[21.704s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::CameraSubscriber image_transport::[01;32m[Kcreate_camera_subscription[m[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)[m[K’
+[21.705s]    86 |   [01;36m[Krclcpp::Node * node[m[K,
+[21.705s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[21.747s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_saver_node.cpp:92:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_view::ImageSaverNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[21.751s]    92 |     [01;31m[K*this[m[K, topic, std::bind(
+[21.751s]       |     [01;31m[K^~~~~[m[K
+[21.751s]       |     [01;31m[K|[m[K
+[21.751s]       |     [01;31m[Kimage_view::ImageSaverNode[m[K
+[21.752s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::Subscriber image_transport::[01;32m[Kcreate_subscription[m[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+[21.752s]    64 |   [01;36m[Krclcpp::Node * node[m[K,
+[21.752s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[23.686s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:[m[K In constructor ‘[01m[Kimage_view::StereoViewNode::[01;32m[KStereoViewNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[23.689s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:102:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)[m[K’
+[23.689s]   102 |   image_transport::TransportHints hints{*this[01;31m[K}[m[K;
+[23.689s]       |                                              [01;31m[K^[m[K
+[23.689s] In file included from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+[23.689s]                  from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:39[m[K,
+[23.689s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/stereo_view_node.hpp:63[m[K,
+[23.689s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:61[m[K:
+[23.690s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const rclcpp::Node*, const std::string&, const std::string&)[m[K’
+[23.690s]    61 |   [01;36m[KTransportHints[m[K(
+[23.690s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[23.690s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::StereoViewNode[m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+[23.690s]    62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+[23.696s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[23.696s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const image_transport::TransportHints&)[m[K’
+[23.697s]    45 | class [01;36m[KTransportHints[m[K
+[23.697s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[23.697s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::StereoViewNode[m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[23.697s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(image_transport::TransportHints&&)[m[K’
+[23.697s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::StereoViewNode[m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[23.697s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:131:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_view::StereoViewNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[23.697s]   131 |   left_sub_.subscribe([01;31m[K*this[m[K, left_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());
+[23.697s]       |                       [01;31m[K^~~~~[m[K
+[23.697s]       |                       [01;31m[K|[m[K
+[23.698s]       |                       [01;31m[Kimage_view::StereoViewNode[m[K
+[23.698s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid image_transport::SubscriberFilter::[01;32m[Ksubscribe[m[K(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+[23.698s]   110 |     [01;36m[Krclcpp::Node * node[m[K,
+[23.698s]       |     [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[23.698s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:132:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_view::StereoViewNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[23.698s]   132 |   right_sub_.subscribe([01;31m[K*this[m[K, right_topic, hints.getTransport(), rclcpp::SystemDefaultsQoS());
+[23.698s]       |                        [01;31m[K^~~~~[m[K
+[23.698s]       |                        [01;31m[K|[m[K
+[23.698s]       |                        [01;31m[Kimage_view::StereoViewNode[m[K
+[23.698s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/subscriber_filter.hpp:110:20:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid image_transport::SubscriberFilter::[01;32m[Ksubscribe[m[K(rclcpp::Node*, const std::string&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+[23.699s]   110 |     [01;36m[Krclcpp::Node * node[m[K,
+[23.699s]       |     [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[23.699s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:133:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::subscribe(image_view::StereoViewNode*, std::string&, rclcpp::QoS)[m[K’
+[23.699s]   133 |   [01;31m[Kdisparity_sub_.subscribe(this, disparity_topic, rclcpp::QoS(10))[m[K;
+[23.699s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.739s] In file included from [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32[m[K,
+[23.739s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/stereo_view_node.cpp:56[m[K:
+[23.740s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodePtr, const std::string&, rmw_qos_profile_t) [35m[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[23.740s]   240 |   void [01;36m[Ksubscribe[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[23.740s]       |        [01;36m[K^~~~~~~~~[m[K
+[23.740s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::StereoViewNode*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<stereo_msgs::msg::DisparityImage_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[23.740s]   240 |   void subscribe([01;36m[KNodePtr node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[23.740s]       |                  [01;36m[K~~~~~~~~^~~~[m[K
+[23.740s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[23.740s]   255 |   void [01;36m[Ksubscribe[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[23.740s]       |        [01;36m[K^~~~~~~~~[m[K
+[23.741s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+[23.741s]   255 |   void subscribe(NodeType * node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K) override
+[23.741s]       |                                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.741s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+[23.741s]   270 |   void [01;36m[Ksubscribe[m[K(
+[23.741s]       |        [01;36m[K^~~~~~~~~[m[K
+[23.742s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[23.742s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+[23.742s]   292 |   void [01;36m[Ksubscribe[m[K(
+[23.742s]       |        [01;36m[K^~~~~~~~~[m[K
+[23.742s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[23.757s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K() [35m[K[with M = stereo_msgs::msg::DisparityImage_<std::allocator<void> >; NodeType = rclcpp::Node][m[K[m[K’
+[23.758s]   319 |   void [01;36m[Ksubscribe[m[K() override
+[23.758s]       |        [01;36m[K^~~~~~~~~[m[K
+[23.758s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[24.819s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:[m[K In constructor ‘[01m[Kimage_view::ExtractImagesNode::[01;32m[KExtractImagesNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[24.819s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:79:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)[m[K’
+[24.819s]    79 |   image_transport::TransportHints hints{*this[01;31m[K}[m[K;
+[24.819s]       |                                              [01;31m[K^[m[K
+[24.845s] In file included from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+[24.845s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:58[m[K:
+[24.845s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const rclcpp::Node*, const std::string&, const std::string&)[m[K’
+[24.845s]    61 |   [01;36m[KTransportHints[m[K(
+[24.845s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[24.845s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ExtractImagesNode[m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+[24.846s]    62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+[24.846s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[24.846s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const image_transport::TransportHints&)[m[K’
+[24.846s]    45 | class [01;36m[KTransportHints[m[K
+[24.846s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[24.846s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ExtractImagesNode[m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[24.846s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(image_transport::TransportHints&&)[m[K’
+[24.846s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ExtractImagesNode[m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[24.900s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/extract_images_node.cpp:83:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_view::ExtractImagesNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[24.901s]    83 |     [01;31m[K*this[m[K, topic, std::bind(
+[24.901s]       |     [01;31m[K^~~~~[m[K
+[24.901s]       |     [01;31m[K|[m[K
+[24.901s]       |     [01;31m[Kimage_view::ExtractImagesNode[m[K
+[24.901s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::Subscriber image_transport::[01;32m[Kcreate_subscription[m[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+[24.901s]    64 |   [01;36m[Krclcpp::Node * node[m[K,
+[24.901s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[25.916s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:[m[K In constructor ‘[01m[Kimage_view::ImageViewNode::[01;32m[KImageViewNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[25.919s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:110:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(<brace-enclosed initializer list>)[m[K’
+[25.920s]   110 |   image_transport::TransportHints hints{*this[01;31m[K}[m[K;
+[25.920s]       |                                              [01;31m[K^[m[K
+[25.920s] In file included from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+[25.920s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/include/image_view/image_view_node.hpp:29[m[K,
+[25.920s]                  from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:59[m[K:
+[25.920s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const rclcpp::Node*, const std::string&, const std::string&)[m[K’
+[25.921s]    61 |   [01;36m[KTransportHints[m[K(
+[25.921s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[25.921s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ImageViewNode[m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+[25.921s]    62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+[25.922s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[25.922s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const image_transport::TransportHints&)[m[K’
+[25.922s]    45 | class [01;36m[KTransportHints[m[K
+[25.931s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[25.932s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ImageViewNode[m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[25.932s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(image_transport::TransportHints&&)[m[K’
+[25.932s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_view::ImageViewNode[m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[25.958s] [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_view/src/image_view_node.cpp:120:5:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_view::ImageViewNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[25.958s]   120 |     [01;31m[K*this[m[K, topic, std::bind(&ImageViewNode::imageCb, this, std::placeholders::_1),
+[25.959s]       |     [01;31m[K^~~~~[m[K
+[25.959s]       |     [01;31m[K|[m[K
+[25.959s]       |     [01;31m[Kimage_view::ImageViewNode[m[K
+[25.959s] [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:64:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::Subscriber image_transport::[01;32m[Kcreate_subscription[m[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+[25.959s]    64 |   [01;36m[Krclcpp::Node * node[m[K,
+[25.959s]       |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[29.911s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:118: CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o] Error 1
+[29.911s] gmake[2]: *** Waiting for unfinished jobs....
+[32.704s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:90: CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o] Error 1
+[33.566s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:104: CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o] Error 1
+[36.416s] gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:132: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o] Error 1
+[36.416s] gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/image_view_nodes.dir/all] Error 2
+[36.417s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,256 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0b60bfaeee066a86d797.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_decimate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_decimate-68fdbb656aaf888e1c2b.json",
+					"name" : "crop_decimate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_decimate_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_decimate_node-ec80b51ca2edccecf3a0.json",
+					"name" : "crop_decimate_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_non_zero::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_non_zero-9085bd9c9c773028010c.json",
+					"name" : "crop_non_zero",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_non_zero_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_non_zero_node-8739532515defde4ff81.json",
+					"name" : "crop_non_zero_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debayer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debayer-9c0d31667382c1943334.json",
+					"name" : "debayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debayer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debayer_node-5a348dfd7a19328cdd49.json",
+					"name" : "debayer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-53edaed68a44b14a5530.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-93b150a171cb7678f31f.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc-a0930fa8ae0b18324a7b.json",
+					"name" : "image_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc_uninstall-f97dadf5c334cd87345a.json",
+					"name" : "image_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify-c965b923e7dc4b22d849.json",
+					"name" : "rectify",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify_node-2cc67fb3d68e5d1763c3.json",
+					"name" : "rectify_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize-a4e43da4b5c38ae1d42d.json",
+					"name" : "resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize_node-629767224050abad95a5.json",
+					"name" : "resize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rostest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rostest-8889758f495a318d5072.json",
+					"name" : "rostest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_rectify::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_rectify-69ab447028d123bd3e45.json",
+					"name" : "test_rectify",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "track_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-track_marker-1f6abc267fd7f75ccd02.json",
+					"name" : "track_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "track_marker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-track_marker_node-46a201270b0a1386c8c9.json",
+					"name" : "track_marker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-578fbba9775bcb8e0b98.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/CaveBot-ros/build/image_proc",
+		"source" : "/home/pi/CaveBot-ros/src/image_pipeline/image_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

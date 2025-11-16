@@ -1,0 +1,7 @@
+[0.849s] Invoking command in '/home/pi/CaveBot-ros/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/CaveBot-ros/build/image_publisher -- -j4 -l4
+[1.259s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[8.429s] gmake[2]: *** wait: No child processes.  Stop.
+[8.430s] gmake[2]: *** Waiting for unfinished jobs....
+[8.430s] gmake[2]: *** wait: No child processes.  Stop.
+[8.431s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_publisher.dir/all] Error 2
+[8.441s] gmake: *** [Makefile:146: all] Interrupt

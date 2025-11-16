@@ -1,0 +1,20 @@
+[1.139s] Invoking command in '/home/pi/CaveBot-ros/src/dualcam_launch': CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/pi/CaveBot-ros/build/dualcam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dualcam_launch build --build-base /home/pi/CaveBot-ros/build/dualcam_launch/build install --record /home/pi/CaveBot-ros/build/dualcam_launch/install.log --single-version-externally-managed install_data
+[1.486s] running egg_info
+[1.510s] writing ../../build/dualcam_launch/dualcam_launch.egg-info/PKG-INFO
+[1.511s] writing dependency_links to ../../build/dualcam_launch/dualcam_launch.egg-info/dependency_links.txt
+[1.512s] writing requirements to ../../build/dualcam_launch/dualcam_launch.egg-info/requires.txt
+[1.512s] writing top-level names to ../../build/dualcam_launch/dualcam_launch.egg-info/top_level.txt
+[1.562s] reading manifest file '../../build/dualcam_launch/dualcam_launch.egg-info/SOURCES.txt'
+[1.563s] writing manifest file '../../build/dualcam_launch/dualcam_launch.egg-info/SOURCES.txt'
+[1.563s] running build
+[1.564s] running build_py
+[1.564s] running install
+[1.573s] running install_lib
+[1.598s] running install_data
+[1.598s] copying launch/dualcam.launch.py -> /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch
+[1.598s] running install_egg_info
+[1.624s] removing '/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch-0.0.1-py3.12.egg-info' (and everything under it)
+[1.625s] Copying ../../build/dualcam_launch/dualcam_launch.egg-info to /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch-0.0.1-py3.12.egg-info
+[1.626s] running install_scripts
+[1.801s] writing list of installed files to '/home/pi/CaveBot-ros/build/dualcam_launch/install.log'
+[1.878s] Invoked command in '/home/pi/CaveBot-ros/src/dualcam_launch' returned '0': CMAKE_PREFIX_PATH=/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/pi/CaveBot-ros/build/dualcam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dualcam_launch build --build-base /home/pi/CaveBot-ros/build/dualcam_launch/build install --record /home/pi/CaveBot-ros/build/dualcam_launch/install.log --single-version-externally-managed install_data

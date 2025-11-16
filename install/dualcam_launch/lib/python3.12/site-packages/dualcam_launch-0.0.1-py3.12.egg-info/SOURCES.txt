@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dualcam_launch/dualcam_launch.egg-info/PKG-INFO
+../../build/dualcam_launch/dualcam_launch.egg-info/SOURCES.txt
+../../build/dualcam_launch/dualcam_launch.egg-info/dependency_links.txt
+../../build/dualcam_launch/dualcam_launch.egg-info/requires.txt
+../../build/dualcam_launch/dualcam_launch.egg-info/top_level.txt
+../../build/dualcam_launch/dualcam_launch.egg-info/zip-safe
+dualcam_launch/__init__.py
+launch/dualcam.launch.py
+resource/dualcam_launch

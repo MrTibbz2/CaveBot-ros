@@ -1,0 +1,40 @@
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/image_proc` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:[m[K In lambda function:
+[01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:79:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(image_proc::RectifyNode&)[m[K’
+   79 |         image_transport::TransportHints hints(*this[01;31m[K)[m[K;
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/include/image_proc/rectify.hpp:41[m[K,
+                 from [01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:40[m[K:
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const rclcpp::Node*, const std::string&, const std::string&)[m[K’
+   61 |   [01;36m[KTransportHints[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+   62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(const image_transport::TransportHints&)[m[K’
+   45 | class [01;36m[KTransportHints[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::[01;32m[KTransportHints[m[K(image_transport::TransportHints&&)[m[K’
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:81:11:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+   81 |           [01;31m[K*this[m[K, image_topic_, std::bind(
+      |           [01;31m[K^~~~~[m[K
+      |           [01;31m[K|[m[K
+      |           [01;31m[Kimage_proc::RectifyNode[m[K
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:86:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::CameraSubscriber image_transport::[01;32m[Kcreate_camera_subscription[m[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)[m[K’
+   86 |   [01;36m[Krclcpp::Node * node[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:[m[K In constructor ‘[01m[Kimage_proc::RectifyNode::[01;32m[KRectifyNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/pi/CaveBot-ros/src/image_pipeline/image_proc/src/rectify.cpp:89:49:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kimage_proc::RectifyNode[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+   89 |   pub_rect_ = image_transport::create_publisher([01;31m[K*this[m[K, rect_topic, rclcpp::SystemDefaultsQoS(),
+      |                                                 [01;31m[K^~~~~[m[K
+      |                                                 [01;31m[K|[m[K
+      |                                                 [01;31m[Kimage_proc::RectifyNode[m[K
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::Publisher image_transport::[01;32m[Kcreate_publisher[m[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)[m[K’
+   54 |   [01;36m[Krclcpp::Node * node[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/rectify.dir/build.make:76: CMakeFiles/rectify.dir/src/rectify.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/rectify.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

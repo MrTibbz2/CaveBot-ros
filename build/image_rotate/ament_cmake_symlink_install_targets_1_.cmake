@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/CaveBot-ros/build/image_rotate/libimage_rotate.so" "/home/pi/CaveBot-ros/build/image_rotate/libimage_flip.so" "TARGETS" "image_rotate" "image_flip" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,19 @@
+[2.924s] Invoking command in '/home/pi/CaveBot-ros/build/camera_calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/camera_calibration/build --no-deps symlink_data
+[4.846s] running develop
+[7.005s] running egg_info
+[7.046s] writing src/camera_calibration.egg-info/PKG-INFO
+[7.047s] writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+[7.050s] writing entry points to src/camera_calibration.egg-info/entry_points.txt
+[7.051s] writing requirements to src/camera_calibration.egg-info/requires.txt
+[7.055s] writing top-level names to src/camera_calibration.egg-info/top_level.txt
+[7.378s] reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[7.378s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[7.576s] running build_ext
+[7.577s] Creating /home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages/camera-calibration.egg-link (link to src)
+[7.580s] Installing cameracalibrator script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration
+[7.580s] Installing cameracheck script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration
+[7.580s] Installing tarfile_calibration script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration
+[7.593s] 
+[7.594s] Installed /home/pi/CaveBot-ros/build/camera_calibration/src
+[7.594s] running symlink_data
+[8.180s] Invoked command in '/home/pi/CaveBot-ros/build/camera_calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/camera_calibration/build --no-deps symlink_data

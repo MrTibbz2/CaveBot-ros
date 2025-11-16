@@ -1,0 +1,26 @@
+[3.476s] Invoking command in '/home/pi/CaveBot-ros/build/camera_calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/camera_calibration/build --no-deps symlink_data
+[4.349s] running develop
+[4.881s] running egg_info
+[4.883s] creating src/camera_calibration.egg-info
+[4.924s] writing src/camera_calibration.egg-info/PKG-INFO
+[4.925s] writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+[4.925s] writing entry points to src/camera_calibration.egg-info/entry_points.txt
+[4.925s] writing requirements to src/camera_calibration.egg-info/requires.txt
+[4.925s] writing top-level names to src/camera_calibration.egg-info/top_level.txt
+[4.926s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[5.015s] reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[5.015s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[5.067s] running build_ext
+[5.069s] Creating /home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages/camera-calibration.egg-link (link to src)
+[5.071s] Installing cameracalibrator script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration
+[5.071s] Installing cameracheck script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration
+[5.071s] Installing tarfile_calibration script to /home/pi/CaveBot-ros/install/camera_calibration/lib/camera_calibration
+[5.071s] 
+[5.071s] Installed /home/pi/CaveBot-ros/build/camera_calibration/src
+[5.071s] running symlink_data
+[5.075s] creating /home/pi/CaveBot-ros/install/camera_calibration/share/ament_index
+[5.076s] creating /home/pi/CaveBot-ros/install/camera_calibration/share/ament_index/resource_index
+[5.076s] creating /home/pi/CaveBot-ros/install/camera_calibration/share/ament_index/resource_index/packages
+[5.076s] symbolically linking /home/pi/CaveBot-ros/build/camera_calibration/resource/camera_calibration -> /home/pi/CaveBot-ros/install/camera_calibration/share/ament_index/resource_index/packages
+[5.076s] symbolically linking /home/pi/CaveBot-ros/build/camera_calibration/package.xml -> /home/pi/CaveBot-ros/install/camera_calibration/share/camera_calibration
+[5.296s] Invoked command in '/home/pi/CaveBot-ros/build/camera_calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/CaveBot-ros/build/camera_calibration/build --no-deps symlink_data

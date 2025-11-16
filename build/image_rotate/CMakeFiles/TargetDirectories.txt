@@ -1,0 +1,13 @@
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/uninstall.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/image_rotate_uninstall.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/image_rotate.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/image_rotate_bin.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/image_flip.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/image_flip_node.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/test.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/edit_cache.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/rebuild_cache.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/list_install_components.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/install.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/install/local.dir
+/home/pi/CaveBot-ros/build/image_rotate/CMakeFiles/install/strip.dir
