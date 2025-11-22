@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000416] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000723] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.000750] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000771] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000935] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000955] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000974] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000992] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001011] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001028] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.001047] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001066] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001084] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001101] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001120] (-) JobUnselected: {'identifier': 'libcamera'}
+[0.001138] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001155] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001174] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.001192] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001218] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001237] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001256] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001273] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001292] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001504] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001525] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001543] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001588] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001606] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001624] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001643] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001660] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001680] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001697] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001716] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001806] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001825] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001843] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001861] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001878] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001897] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001914] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001935] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001954] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001972] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001990] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.002007] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.002026] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.002044] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.002062] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.002080] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.002098] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.002117] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.002134] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.002152] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.002170] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.002189] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002211] (cave_depth) JobQueued: {'identifier': 'cave_depth', 'dependencies': OrderedDict({'depthimage_to_laserscan': '/home/pi/CaveBot-ros/install/depthimage_to_laserscan', 'image_view': '/home/pi/CaveBot-ros/install/image_view', 'libcamera': '/home/pi/CaveBot-ros/install/libcamera', 'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'camera_ros': '/home/pi/CaveBot-ros/install/camera_ros', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc', 'stereo_image_proc': '/home/pi/CaveBot-ros/install/stereo_image_proc'})}
+[0.002277] (cave_depth) JobStarted: {'identifier': 'cave_depth'}
+[0.099596] (-) TimerEvent: {}
+[0.199929] (-) TimerEvent: {}
+[0.300233] (-) TimerEvent: {}
+[0.365558] (cave_depth) JobEnded: {'identifier': 'cave_depth', 'rc': 0}
+[0.366698] (-) EventReactorShutdown: {}
