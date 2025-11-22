@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/depthimage_to_laserscan/ament_cmake_environment_hooks/local_setup.bash

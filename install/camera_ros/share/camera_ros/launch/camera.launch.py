@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/camera_ros/launch/camera.launch.py

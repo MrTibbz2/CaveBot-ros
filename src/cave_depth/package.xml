@@ -3,16 +3,11 @@
 <package format="3">
   <name>cave_depth</name>
   <version>0.0.1</version>
-  <description>Dual camera launch package</description>
+  <description>Depth estimation package</description>
   <maintainer email="user@todo.todo">user</maintainer>
   <license>TODO</license>
-  <exec_depend>camera_ros</exec_depend>
-  <exec_depend>stereo_image_proc</exec_depend>
-  <exec_depend>depthimage_to_laserscan</exec_depend>
-  <exec_depend>image_view</exec_depend>
-  <exec_depend>rviz2</exec_depend>
+
   <depend>rclpy</depend>
-  <depend>stereo_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
   <export>

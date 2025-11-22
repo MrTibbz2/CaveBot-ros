@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/stereo_image_proc/ament_cmake_environment_hooks/local_setup.bash

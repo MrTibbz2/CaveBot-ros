@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/image_proc/ament_cmake_core/image_procConfig.cmake

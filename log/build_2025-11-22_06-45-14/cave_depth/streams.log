@@ -1,0 +1,14 @@
+[0.641s] Invoking command in '/CaveBot-ros/src/cave_depth': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[0.834s] running egg_info
+[0.846s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[0.846s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[0.846s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[0.847s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[0.847s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[0.871s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.872s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.872s] running build
+[0.872s] running build_py
+[0.872s] running install
+[0.878s] error: [Errno 2] No such file or directory: 'pip'
+[0.900s] Invoked command in '/CaveBot-ros/src/cave_depth' returned '1': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data

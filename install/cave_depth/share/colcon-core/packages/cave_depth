@@ -1,1 +1,0 @@
-camera_ros:cv_bridge:depthimage_to_laserscan:image_view:rclpy:rviz2:sensor_msgs:stereo_image_proc:stereo_msgs

@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/tracetools_image_pipeline/ament_cmake_environment_hooks/local_setup.bash

@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp

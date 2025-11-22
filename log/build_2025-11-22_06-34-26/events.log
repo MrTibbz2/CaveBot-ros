@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.000730] (cave_depth) JobQueued: {'identifier': 'cave_depth', 'dependencies': OrderedDict()}
+[0.000813] (cave_depth) JobStarted: {'identifier': 'cave_depth'}
+[0.099819] (-) TimerEvent: {}
+[0.200130] (-) TimerEvent: {}
+[0.300381] (-) TimerEvent: {}
+[0.400669] (-) TimerEvent: {}
+[0.500959] (-) TimerEvent: {}
+[0.601291] (-) TimerEvent: {}
+[0.663574] (cave_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cave_depth', 'build', '--build-base', '/CaveBot-ros/build/cave_depth/build', 'install', '--record', '/CaveBot-ros/build/cave_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/CaveBot-ros/src/cave_depth', 'env': {'HOSTNAME': '300badbd3611', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/CaveBot-ros/build/cave_depth', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.701438] (-) TimerEvent: {}
+[0.801759] (-) TimerEvent: {}
+[0.856007] (cave_depth) StdoutLine: {'line': b'running egg_info\n'}
+[0.868093] (cave_depth) StdoutLine: {'line': b'writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO\n'}
+[0.868396] (cave_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt\n'}
+[0.868634] (cave_depth) StdoutLine: {'line': b'writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt\n'}
+[0.868805] (cave_depth) StdoutLine: {'line': b'writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt\n'}
+[0.868956] (cave_depth) StdoutLine: {'line': b'writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt\n'}
+[0.892355] (cave_depth) StdoutLine: {'line': b"reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[0.893087] (cave_depth) StdoutLine: {'line': b"writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[0.893264] (cave_depth) StdoutLine: {'line': b'running build\n'}
+[0.893353] (cave_depth) StdoutLine: {'line': b'running build_py\n'}
+[0.893472] (cave_depth) StdoutLine: {'line': b'copying cave_depth/__init__.py -> /CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[0.893696] (cave_depth) StdoutLine: {'line': b'copying cave_depth/hitnet_depth_node.py -> /CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[0.893969] (cave_depth) StdoutLine: {'line': b'running install\n'}
+[0.898775] (cave_depth) StdoutLine: {'line': b'running install_lib\n'}
+[0.901850] (-) TimerEvent: {}
+[0.911006] (cave_depth) StdoutLine: {'line': b'running install_data\n'}
+[0.911262] (cave_depth) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.924944] (cave_depth) StdoutLine: {'line': b"removing '/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[0.925364] (cave_depth) StdoutLine: {'line': b'Copying ../../build/cave_depth/cave_depth.egg-info to /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info\n'}
+[0.926662] (cave_depth) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001973] (-) TimerEvent: {}
+[1.021816] (cave_depth) StdoutLine: {'line': b'Installing hitnet_depth_node script to /CaveBot-ros/install/cave_depth/lib/cave_depth\n'}
+[1.022175] (cave_depth) StdoutLine: {'line': b"writing list of installed files to '/CaveBot-ros/build/cave_depth/install.log'\n"}
+[1.053621] (cave_depth) CommandEnded: {'returncode': 0}
+[1.065503] (cave_depth) JobEnded: {'identifier': 'cave_depth', 'rc': 0}
+[1.066462] (-) EventReactorShutdown: {}

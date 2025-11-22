@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/camera_ros/ament_cmake_environment_hooks/local_setup.zsh

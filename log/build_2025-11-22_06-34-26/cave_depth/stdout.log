@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cave_depth/__init__.py -> /CaveBot-ros/build/cave_depth/build/lib/cave_depth
+copying cave_depth/hitnet_depth_node.py -> /CaveBot-ros/build/cave_depth/build/lib/cave_depth
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/cave_depth/cave_depth.egg-info to /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info
+running install_scripts
+Installing hitnet_depth_node script to /CaveBot-ros/install/cave_depth/lib/cave_depth
+writing list of installed files to '/CaveBot-ros/build/cave_depth/install.log'

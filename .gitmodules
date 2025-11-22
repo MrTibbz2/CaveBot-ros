@@ -1,0 +1,21 @@
+[submodule "src/camera_ros"]
+	path = src/camera_ros
+	url = https://github.com/christianrauch/camera_ros.git
+[submodule "src/depthimage_to_laserscan"]
+	path = src/depthimage_to_laserscan
+	url = https://github.com/ros-perception/depthimage_to_laserscan.git
+[submodule "src/image_pipeline"]
+	path = src/image_pipeline
+	url = https://github.com/ros-perception/image_pipeline.git
+[submodule "src/libcamera"]
+	path = src/libcamera
+	url = https://github.com/raspberrypi/libcamera.git
+[submodule "src/navigation2"]
+	path = src/navigation2
+	url = https://github.com/ros-planning/navigation2.git
+[submodule "src/slam_toolbox"]
+	path = src/slam_toolbox
+	url = https://github.com/SteveMacenski/slam_toolbox.git
+[submodule "src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation"]
+	path = src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation
+	url = https://github.com/ibaiGorordo/ONNX-HITNET-Stereo-Depth-estimation.git

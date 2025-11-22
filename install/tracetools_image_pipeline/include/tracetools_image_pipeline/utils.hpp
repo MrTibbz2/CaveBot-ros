@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
