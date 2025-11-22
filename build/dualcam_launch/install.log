@@ -7,6 +7,7 @@
 /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch/stereo_pipeline_viz.launch.py
 /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch/stereo_pipeline.launch.py
 /home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch/dualcam.launch.py
+/home/pi/CaveBot-ros/install/dualcam_launch/share/dualcam_launch/launch/stereo_simple.launch.py
 /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch-0.0.1-py3.12.egg-info/dependency_links.txt
 /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch-0.0.1-py3.12.egg-info/zip-safe
 /home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages/dualcam_launch-0.0.1-py3.12.egg-info/top_level.txt

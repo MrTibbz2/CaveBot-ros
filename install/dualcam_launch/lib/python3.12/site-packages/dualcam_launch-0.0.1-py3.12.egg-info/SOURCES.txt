@@ -14,4 +14,5 @@ dualcam_launch/disparity_to_depth.py
 launch/dualcam.launch.py
 launch/stereo_pipeline.launch.py
 launch/stereo_pipeline_viz.launch.py
+launch/stereo_simple.launch.py
 resource/dualcam_launch

@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000300] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.000324] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000392] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000412] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000430] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000633] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000651] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000668] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000684] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000701] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000719] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000736] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000753] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000769] (-) JobUnselected: {'identifier': 'libcamera'}
+[0.000922] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000940] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000958] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000974] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001179] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001199] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001216] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001233] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001250] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001268] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001379] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001397] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001413] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001431] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001447] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001465] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001482] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001498] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001515] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001531] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001549] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001566] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001582] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001600] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001616] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001636] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001652] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001669] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001685] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001702] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001720] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001736] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001754] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001770] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001787] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001804] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001820] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001837] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001853] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001871] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001888] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001904] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001925] (cave_depth) JobQueued: {'identifier': 'cave_depth', 'dependencies': OrderedDict({'depthimage_to_laserscan': '/home/pi/CaveBot-ros/install/depthimage_to_laserscan', 'image_view': '/home/pi/CaveBot-ros/install/image_view', 'libcamera': '/home/pi/CaveBot-ros/install/libcamera', 'tracetools_image_pipeline': '/home/pi/CaveBot-ros/install/tracetools_image_pipeline', 'camera_ros': '/home/pi/CaveBot-ros/install/camera_ros', 'image_proc': '/home/pi/CaveBot-ros/install/image_proc', 'stereo_image_proc': '/home/pi/CaveBot-ros/install/stereo_image_proc'})}
+[0.001993] (cave_depth) JobStarted: {'identifier': 'cave_depth'}
+[0.099589] (-) TimerEvent: {}
+[0.199799] (-) TimerEvent: {}
+[0.299999] (-) TimerEvent: {}
+[0.400278] (-) TimerEvent: {}
+[0.500566] (-) TimerEvent: {}
+[0.600760] (-) TimerEvent: {}
+[0.700935] (-) TimerEvent: {}
+[0.801118] (-) TimerEvent: {}
+[0.901305] (-) TimerEvent: {}
+[1.001496] (-) TimerEvent: {}
+[1.101702] (-) TimerEvent: {}
+[1.201935] (-) TimerEvent: {}
+[1.245872] (cave_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cave_depth', 'build', '--build-base', '/home/pi/CaveBot-ros/build/cave_depth/build', 'install', '--record', '/home/pi/CaveBot-ros/build/cave_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/CaveBot-ros/src/cave_depth', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 40366 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc/lib:/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:/home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a01cb777-84b6-47b2-98e0-b447237f26f1.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'XDG_SESSION_ID': '7', 'VSCODE_CLI_REQUIRE_TOKEN': '8f186724-4acb-4055-9550-585b9b6d4e11', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/cave_depth', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 40366 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.302022] (-) TimerEvent: {}
+[1.402205] (-) TimerEvent: {}
+[1.502394] (-) TimerEvent: {}
+[1.602580] (-) TimerEvent: {}
+[1.609110] (cave_depth) StdoutLine: {'line': b'running egg_info\n'}
+[1.635211] (cave_depth) StdoutLine: {'line': b'writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO\n'}
+[1.635595] (cave_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt\n'}
+[1.636554] (cave_depth) StdoutLine: {'line': b'writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt\n'}
+[1.637247] (cave_depth) StdoutLine: {'line': b'writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt\n'}
+[1.637927] (cave_depth) StdoutLine: {'line': b'writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt\n'}
+[1.692617] (cave_depth) StdoutLine: {'line': b"reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.693600] (cave_depth) StdoutLine: {'line': b"writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.693843] (cave_depth) StdoutLine: {'line': b'running build\n'}
+[1.693932] (cave_depth) StdoutLine: {'line': b'running build_py\n'}
+[1.694090] (cave_depth) StdoutLine: {'line': b'copying cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[1.694590] (cave_depth) StdoutLine: {'line': b'running install\n'}
+[1.702638] (-) TimerEvent: {}
+[1.703762] (cave_depth) StdoutLine: {'line': b'running install_lib\n'}
+[1.730170] (cave_depth) StdoutLine: {'line': b'copying /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth\n'}
+[1.731017] (cave_depth) StdoutLine: {'line': b'byte-compiling /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth/hitnet_depth_node.py to hitnet_depth_node.cpython-312.pyc\n'}
+[1.732113] (cave_depth) StdoutLine: {'line': b'running install_data\n'}
+[1.732293] (cave_depth) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.760604] (cave_depth) StdoutLine: {'line': b"removing '/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[1.761037] (cave_depth) StdoutLine: {'line': b'Copying ../../build/cave_depth/cave_depth.egg-info to /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info\n'}
+[1.762238] (cave_depth) StdoutLine: {'line': b'running install_scripts\n'}
+[1.802748] (-) TimerEvent: {}
+[1.902968] (-) TimerEvent: {}
+[1.948484] (cave_depth) StdoutLine: {'line': b'Installing hitnet_depth_node script to /home/pi/CaveBot-ros/install/cave_depth/lib/cave_depth\n'}
+[1.949010] (cave_depth) StdoutLine: {'line': b"writing list of installed files to '/home/pi/CaveBot-ros/build/cave_depth/install.log'\n"}
+[2.003095] (-) TimerEvent: {}
+[2.023628] (cave_depth) CommandEnded: {'returncode': 0}
+[2.038479] (cave_depth) JobEnded: {'identifier': 'cave_depth', 'rc': 0}
+[2.039353] (-) EventReactorShutdown: {}

@@ -27,7 +27,7 @@ def generate_launch_description():
     )
     
     right_camera = Node(
-        package='camera_ros',
+        package='camera_ros', 
         executable='camera_node',
         name='right_camera',
         output='screen',
