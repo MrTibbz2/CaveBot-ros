@@ -1,0 +1,72 @@
+[1.259s] Invoking command in '/home/pi/CaveBot-ros/src/cave_depth': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /home/pi/CaveBot-ros/build/cave_depth/build install --record /home/pi/CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[1.622s] running egg_info
+[1.622s] creating ../../build/cave_depth/cave_depth.egg-info
+[1.649s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[1.649s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[1.649s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[1.649s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[1.649s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[1.650s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.710s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.711s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.712s] running build
+[1.712s] running build_py
+[1.712s] creating /home/pi/CaveBot-ros/build/cave_depth/build
+[1.712s] creating /home/pi/CaveBot-ros/build/cave_depth/build/lib
+[1.712s] creating /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth
+[1.713s] copying cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth
+[1.713s] copying cave_depth/__init__.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth
+[1.713s] running install
+[2.867s] Requirement already satisfied: opencv-python in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 1)) (4.12.0.88)
+[2.868s] Requirement already satisfied: imread-from-url in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (0.1.3)
+[2.869s] Requirement already satisfied: onnx in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (1.19.1)
+[2.871s] Requirement already satisfied: onnxruntime in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (1.23.2)
+[3.267s] Collecting numpy<2.3.0,>=2 (from opencv-python->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 1))
+[3.271s]   Using cached numpy-2.2.6-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (63 kB)
+[3.296s] Requirement already satisfied: Pillow>=6.1.0 in /usr/lib/python3/dist-packages (from imread-from-url->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (10.2.0)
+[3.298s] Requirement already satisfied: fake-useragent>=0.1.11 in /home/pi/.local/lib/python3.12/site-packages (from imread-from-url->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (2.2.0)
+[3.300s] Requirement already satisfied: requests>=2.22.0 in /usr/lib/python3/dist-packages (from imread-from-url->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (2.31.0)
+[3.320s] Requirement already satisfied: protobuf>=4.25.1 in /home/pi/.local/lib/python3.12/site-packages (from onnx->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (6.33.1)
+[3.321s] Requirement already satisfied: typing_extensions>=4.7.1 in /usr/lib/python3/dist-packages (from onnx->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (4.10.0)
+[3.322s] Requirement already satisfied: ml_dtypes>=0.5.0 in /home/pi/.local/lib/python3.12/site-packages (from onnx->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (0.5.4)
+[3.327s] Requirement already satisfied: coloredlogs in /home/pi/.local/lib/python3.12/site-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (15.0.1)
+[3.328s] Requirement already satisfied: flatbuffers in /home/pi/.local/lib/python3.12/site-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (25.9.23)
+[3.344s] Requirement already satisfied: packaging in /usr/lib/python3/dist-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (24.0)
+[3.346s] Requirement already satisfied: sympy in /usr/lib/python3/dist-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (1.12)
+[3.452s] Requirement already satisfied: humanfriendly>=9.1 in /home/pi/.local/lib/python3.12/site-packages (from coloredlogs->onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (10.0)
+[3.471s] Using cached numpy-2.2.6-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (14.0 MB)
+[4.682s] Installing collected packages: numpy
+[4.683s]   Attempting uninstall: numpy
+[4.738s]     Found existing installation: numpy 1.26.4
+[4.738s]     Not uninstalling numpy at /home/pi/.local/lib/python3.12/site-packages, outside environment /home/pi/CaveBot-ros/install/cave_depth
+[4.738s]     Can't uninstall 'numpy'. No files were found to uninstall.
+[7.544s] [33m  WARNING: The scripts f2py and numpy-config are installed in '/home/pi/CaveBot-ros/install/cave_depth/bin' which is not on PATH.
+[7.544s]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m[33m
+[7.608s] [0m[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+[7.608s] scipy 1.11.4 requires numpy<1.28.0,>=1.21.6, but you have numpy 2.2.6 which is incompatible.[0m[31m
+[7.608s] Successfully installed numpy-2.2.6
+[8.623s] Obtaining file:///home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation
+[8.624s] [0m[31mERROR: file:///home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.[0m[31m
+[8.775s] [0mTraceback (most recent call last):
+[8.775s]   File "/home/pi/CaveBot-ros/src/cave_depth/setup.py", line 19, in <module>
+[8.775s]     setup(
+[8.775s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[8.776s]     return distutils.core.setup(**attrs)
+[8.776s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[8.776s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 185, in setup
+[8.777s]     return run_commands(dist)
+[8.777s]            ^^^^^^^^^^^^^^^^^^
+[8.777s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 201, in run_commands
+[8.777s]     dist.run_commands()
+[8.777s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+[8.778s]     self.run_command(cmd)
+[8.778s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+[8.780s]     super().run_command(command)
+[8.780s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command
+[8.780s]     cmd_obj.run()
+[8.780s]   File "/home/pi/CaveBot-ros/src/cave_depth/setup.py", line 16, in run
+[8.780s]     subprocess.check_call(['pip', 'install', '-e', hitnet_path])
+[8.780s]   File "/usr/lib/python3.12/subprocess.py", line 413, in check_call
+[8.781s]     raise CalledProcessError(retcode, cmd)
+[8.781s] subprocess.CalledProcessError: Command '['pip', 'install', '-e', '/home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation']' returned non-zero exit status 1.
+[8.834s] Invoked command in '/home/pi/CaveBot-ros/src/cave_depth' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /home/pi/CaveBot-ros/build/cave_depth/build install --record /home/pi/CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data

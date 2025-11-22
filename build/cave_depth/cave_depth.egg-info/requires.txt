@@ -1,0 +1,6 @@
+imread-from-url
+numpy<1.28.0,>=1.21.6
+onnx
+onnxruntime
+opencv-python
+setuptools

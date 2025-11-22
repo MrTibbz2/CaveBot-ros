@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000427] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000754] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.000934] (-) JobUnselected: {'identifier': 'cave_cameras'}
+[0.000957] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001175] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001197] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.001216] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001260] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001279] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001297] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001316] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.001334] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001353] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001371] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001388] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001479] (-) JobUnselected: {'identifier': 'libcamera'}
+[0.001498] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001524] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001546] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.001574] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001618] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001637] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001655] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001676] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001694] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001712] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001731] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001750] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001768] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001786] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001803] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001821] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001839] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001857] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001875] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001893] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001911] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001929] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001947] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001965] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001983] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.002002] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.002019] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.002037] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.002054] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.002072] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.002346] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.002366] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.002384] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.002402] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.002420] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.002439] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.002456] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.002474] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.002492] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.002519] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.002636] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.002672] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002697] (cave_depth) JobQueued: {'identifier': 'cave_depth', 'dependencies': OrderedDict()}
+[0.002724] (cave_depth) JobStarted: {'identifier': 'cave_depth'}
+[0.099506] (-) TimerEvent: {}
+[0.199847] (-) TimerEvent: {}
+[0.300151] (-) TimerEvent: {}
+[0.400460] (-) TimerEvent: {}
+[0.500788] (-) TimerEvent: {}
+[0.601117] (-) TimerEvent: {}
+[0.701420] (-) TimerEvent: {}
+[0.801729] (-) TimerEvent: {}
+[0.902036] (-) TimerEvent: {}
+[1.002382] (-) TimerEvent: {}
+[1.102689] (-) TimerEvent: {}
+[1.203025] (-) TimerEvent: {}
+[1.259280] (cave_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cave_depth', 'build', '--build-base', '/home/pi/CaveBot-ros/build/cave_depth/build', 'install', '--record', '/home/pi/CaveBot-ros/build/cave_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/CaveBot-ros/src/cave_depth', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 40366 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pi/CaveBot-ros/install/stereo_image_proc/lib:/home/pi/CaveBot-ros/install/depth_image_proc/lib:/home/pi/CaveBot-ros/install/image_proc/lib:/home/pi/CaveBot-ros/install/tracetools_image_pipeline/lib:/home/pi/CaveBot-ros/install/nav2_system_tests/lib:/home/pi/CaveBot-ros/install/slam_toolbox/lib:/home/pi/CaveBot-ros/install/opennav_docking/lib:/home/pi/CaveBot-ros/install/opennav_docking_bt/lib:/home/pi/CaveBot-ros/install/nav2_smoother/lib:/home/pi/CaveBot-ros/install/nav2_rotation_shim_controller/lib:/home/pi/CaveBot-ros/install/nav2_graceful_controller/lib:/home/pi/CaveBot-ros/install/nav2_controller/lib:/home/pi/CaveBot-ros/install/dwb_plugins/lib:/home/pi/CaveBot-ros/install/dwb_critics/lib:/home/pi/CaveBot-ros/install/dwb_core/lib:/home/pi/CaveBot-ros/install/nav_2d_utils/lib:/home/pi/CaveBot-ros/install/dwb_msgs/lib:/home/pi/CaveBot-ros/install/nav_2d_msgs/lib:/home/pi/CaveBot-ros/install/nav2_waypoint_follower/lib:/home/pi/CaveBot-ros/install/nav2_theta_star_planner/lib:/home/pi/CaveBot-ros/install/nav2_smac_planner/lib:/home/pi/CaveBot-ros/install/nav2_route/lib:/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller/lib:/home/pi/CaveBot-ros/install/nav2_planner/lib:/home/pi/CaveBot-ros/install/nav2_navfn_planner/lib:/home/pi/CaveBot-ros/install/nav2_mppi_controller/lib:/home/pi/CaveBot-ros/install/nav2_constrained_smoother/lib:/home/pi/CaveBot-ros/install/nav2_bt_navigator/lib:/home/pi/CaveBot-ros/install/nav2_behaviors/lib:/home/pi/CaveBot-ros/install/nav2_collision_monitor/lib:/home/pi/CaveBot-ros/install/costmap_queue/lib:/home/pi/CaveBot-ros/install/nav2_costmap_2d/lib:/home/pi/CaveBot-ros/install/nav2_voxel_grid/lib:/home/pi/CaveBot-ros/install/nav2_velocity_smoother/lib:/home/pi/CaveBot-ros/install/nav2_rviz_plugins/lib:/home/pi/CaveBot-ros/install/nav2_map_server/lib:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager/lib:/home/pi/CaveBot-ros/install/nav2_behavior_tree/lib:/home/pi/CaveBot-ros/install/nav2_amcl/lib:/home/pi/CaveBot-ros/install/nav2_util/lib:/home/pi/CaveBot-ros/install/nav2_msgs/lib:/home/pi/CaveBot-ros/install/camera_ros/lib:/home/pi/CaveBot-ros/install/libcamera/lib:/home/pi/CaveBot-ros/install/image_view/lib:/home/pi/CaveBot-ros/install/image_rotate/lib:/home/pi/CaveBot-ros/install/image_publisher/lib:/home/pi/CaveBot-ros/install/depthimage_to_laserscan/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/CaveBot-ros/testing', 'TERM_PROGRAM_VERSION': '1.102.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-63033724-62be-4ff3-bb80-81d7b39f82d5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/pi/CaveBot-ros/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/CaveBot-ros/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/pi/CaveBot-ros/install/libcamera/bin:/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ba6ff9ee9f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/CaveBot-ros/install/image_pipeline:/home/pi/CaveBot-ros/install/dualcam_launch:/home/pi/CaveBot-ros/install/cave_depth:/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/depth_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/nav2_system_tests:/home/pi/CaveBot-ros/install/nav2_bringup:/home/pi/CaveBot-ros/install/slam_toolbox:/home/pi/CaveBot-ros/install/navigation2:/home/pi/CaveBot-ros/install/opennav_docking:/home/pi/CaveBot-ros/install/opennav_docking_core:/home/pi/CaveBot-ros/install/opennav_docking_bt:/home/pi/CaveBot-ros/install/nav2_smoother:/home/pi/CaveBot-ros/install/nav2_rotation_shim_controller:/home/pi/CaveBot-ros/install/nav2_graceful_controller:/home/pi/CaveBot-ros/install/nav2_dwb_controller:/home/pi/CaveBot-ros/install/nav2_controller:/home/pi/CaveBot-ros/install/dwb_plugins:/home/pi/CaveBot-ros/install/dwb_critics:/home/pi/CaveBot-ros/install/dwb_core:/home/pi/CaveBot-ros/install/nav_2d_utils:/home/pi/CaveBot-ros/install/dwb_msgs:/home/pi/CaveBot-ros/install/nav_2d_msgs:/home/pi/CaveBot-ros/install/nav2_waypoint_follower:/home/pi/CaveBot-ros/install/nav2_theta_star_planner:/home/pi/CaveBot-ros/install/nav2_smac_planner:/home/pi/CaveBot-ros/install/nav2_route:/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller:/home/pi/CaveBot-ros/install/nav2_planner:/home/pi/CaveBot-ros/install/nav2_navfn_planner:/home/pi/CaveBot-ros/install/nav2_mppi_controller:/home/pi/CaveBot-ros/install/nav2_constrained_smoother:/home/pi/CaveBot-ros/install/nav2_bt_navigator:/home/pi/CaveBot-ros/install/nav2_behaviors:/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_collision_monitor:/home/pi/CaveBot-ros/install/costmap_queue:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_velocity_smoother:/home/pi/CaveBot-ros/install/nav2_rviz_plugins:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_amcl:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_loopback_sim:/home/pi/CaveBot-ros/install/nav2_simple_commander:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/image_rotate:/home/pi/CaveBot-ros/install/image_publisher:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/home/pi/CaveBot-ros/install/camera_calibration:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/CaveBot-ros/build/cave_depth', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 40366 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/dualcam_launch/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/slam_toolbox/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/dwb_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav_2d_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/build/nav2_loopback_sim:/home/pi/CaveBot-ros/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/pi/CaveBot-ros/build/nav2_simple_commander:/home/pi/CaveBot-ros/install/nav2_simple_commander/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_msgs/lib/python3.12/site-packages:/home/pi/CaveBot-ros/install/nav2_common/lib/python3.12/site-packages:/home/pi/CaveBot-ros/build/camera_calibration/src:/home/pi/CaveBot-ros/install/camera_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/CaveBot-ros/install/image_pipeline:/home/pi/CaveBot-ros/install/stereo_image_proc:/home/pi/CaveBot-ros/install/depth_image_proc:/home/pi/CaveBot-ros/install/image_proc:/home/pi/CaveBot-ros/install/tracetools_image_pipeline:/home/pi/CaveBot-ros/install/nav2_system_tests:/home/pi/CaveBot-ros/install/nav2_bringup:/home/pi/CaveBot-ros/install/slam_toolbox:/home/pi/CaveBot-ros/install/navigation2:/home/pi/CaveBot-ros/install/opennav_docking:/home/pi/CaveBot-ros/install/opennav_docking_core:/home/pi/CaveBot-ros/install/opennav_docking_bt:/home/pi/CaveBot-ros/install/nav2_smoother:/home/pi/CaveBot-ros/install/nav2_rotation_shim_controller:/home/pi/CaveBot-ros/install/nav2_graceful_controller:/home/pi/CaveBot-ros/install/nav2_dwb_controller:/home/pi/CaveBot-ros/install/nav2_controller:/home/pi/CaveBot-ros/install/dwb_plugins:/home/pi/CaveBot-ros/install/dwb_critics:/home/pi/CaveBot-ros/install/dwb_core:/home/pi/CaveBot-ros/install/nav_2d_utils:/home/pi/CaveBot-ros/install/dwb_msgs:/home/pi/CaveBot-ros/install/nav_2d_msgs:/home/pi/CaveBot-ros/install/nav2_waypoint_follower:/home/pi/CaveBot-ros/install/nav2_theta_star_planner:/home/pi/CaveBot-ros/install/nav2_smac_planner:/home/pi/CaveBot-ros/install/nav2_route:/home/pi/CaveBot-ros/install/nav2_regulated_pure_pursuit_controller:/home/pi/CaveBot-ros/install/nav2_planner:/home/pi/CaveBot-ros/install/nav2_navfn_planner:/home/pi/CaveBot-ros/install/nav2_mppi_controller:/home/pi/CaveBot-ros/install/nav2_constrained_smoother:/home/pi/CaveBot-ros/install/nav2_bt_navigator:/home/pi/CaveBot-ros/install/nav2_behaviors:/home/pi/CaveBot-ros/install/nav2_core:/home/pi/CaveBot-ros/install/nav2_collision_monitor:/home/pi/CaveBot-ros/install/costmap_queue:/home/pi/CaveBot-ros/install/nav2_costmap_2d:/home/pi/CaveBot-ros/install/nav2_voxel_grid:/home/pi/CaveBot-ros/install/nav2_velocity_smoother:/home/pi/CaveBot-ros/install/nav2_rviz_plugins:/home/pi/CaveBot-ros/install/nav2_map_server:/home/pi/CaveBot-ros/install/nav2_lifecycle_manager:/home/pi/CaveBot-ros/install/nav2_behavior_tree:/home/pi/CaveBot-ros/install/nav2_amcl:/home/pi/CaveBot-ros/install/nav2_util:/home/pi/CaveBot-ros/install/nav2_msgs:/home/pi/CaveBot-ros/install/nav2_common:/home/pi/CaveBot-ros/install/camera_ros:/home/pi/CaveBot-ros/install/image_view:/home/pi/CaveBot-ros/install/image_rotate:/home/pi/CaveBot-ros/install/image_publisher:/home/pi/CaveBot-ros/install/depthimage_to_laserscan:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.303124] (-) TimerEvent: {}
+[1.403446] (-) TimerEvent: {}
+[1.503760] (-) TimerEvent: {}
+[1.604067] (-) TimerEvent: {}
+[1.623998] (cave_depth) StdoutLine: {'line': b'running egg_info\n'}
+[1.624505] (cave_depth) StdoutLine: {'line': b'creating ../../build/cave_depth/cave_depth.egg-info\n'}
+[1.651070] (cave_depth) StdoutLine: {'line': b'writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO\n'}
+[1.651497] (cave_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt\n'}
+[1.651736] (cave_depth) StdoutLine: {'line': b'writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt\n'}
+[1.651908] (cave_depth) StdoutLine: {'line': b'writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt\n'}
+[1.652020] (cave_depth) StdoutLine: {'line': b'writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt\n'}
+[1.652195] (cave_depth) StdoutLine: {'line': b"writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.704181] (-) TimerEvent: {}
+[1.712551] (cave_depth) StdoutLine: {'line': b"reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.713848] (cave_depth) StdoutLine: {'line': b"writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.714209] (cave_depth) StdoutLine: {'line': b'running build\n'}
+[1.714401] (cave_depth) StdoutLine: {'line': b'running build_py\n'}
+[1.714605] (cave_depth) StdoutLine: {'line': b'creating /home/pi/CaveBot-ros/build/cave_depth/build\n'}
+[1.714766] (cave_depth) StdoutLine: {'line': b'creating /home/pi/CaveBot-ros/build/cave_depth/build/lib\n'}
+[1.714928] (cave_depth) StdoutLine: {'line': b'creating /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[1.715129] (cave_depth) StdoutLine: {'line': b'copying cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[1.715582] (cave_depth) StdoutLine: {'line': b'copying cave_depth/__init__.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[1.716085] (cave_depth) StdoutLine: {'line': b'running install\n'}
+[1.804274] (-) TimerEvent: {}
+[1.904577] (-) TimerEvent: {}
+[2.004900] (-) TimerEvent: {}
+[2.105212] (-) TimerEvent: {}
+[2.205567] (-) TimerEvent: {}
+[2.305939] (-) TimerEvent: {}
+[2.406268] (-) TimerEvent: {}
+[2.506605] (-) TimerEvent: {}
+[2.606914] (-) TimerEvent: {}
+[2.707213] (-) TimerEvent: {}
+[2.807537] (-) TimerEvent: {}
+[2.869975] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: opencv-python in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 1)) (4.12.0.88)\n'}
+[2.870950] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: imread-from-url in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (0.1.3)\n'}
+[2.871994] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: onnx in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (1.19.1)\n'}
+[2.873238] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: onnxruntime in /home/pi/.local/lib/python3.12/site-packages (from -r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (1.23.2)\n'}
+[2.907597] (-) TimerEvent: {}
+[3.007958] (-) TimerEvent: {}
+[3.108346] (-) TimerEvent: {}
+[3.208696] (-) TimerEvent: {}
+[3.269238] (cave_depth) StdoutLine: {'line': b'Collecting numpy<2.3.0,>=2 (from opencv-python->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 1))\n'}
+[3.273362] (cave_depth) StdoutLine: {'line': b'  Using cached numpy-2.2.6-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (63 kB)\n'}
+[3.299017] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: Pillow>=6.1.0 in /usr/lib/python3/dist-packages (from imread-from-url->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (10.2.0)\n'}
+[3.300821] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: fake-useragent>=0.1.11 in /home/pi/.local/lib/python3.12/site-packages (from imread-from-url->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (2.2.0)\n'}
+[3.302981] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: requests>=2.22.0 in /usr/lib/python3/dist-packages (from imread-from-url->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 2)) (2.31.0)\n'}
+[3.308763] (-) TimerEvent: {}
+[3.322201] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: protobuf>=4.25.1 in /home/pi/.local/lib/python3.12/site-packages (from onnx->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (6.33.1)\n'}
+[3.323620] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: typing_extensions>=4.7.1 in /usr/lib/python3/dist-packages (from onnx->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (4.10.0)\n'}
+[3.325106] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: ml_dtypes>=0.5.0 in /home/pi/.local/lib/python3.12/site-packages (from onnx->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 3)) (0.5.4)\n'}
+[3.330024] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: coloredlogs in /home/pi/.local/lib/python3.12/site-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (15.0.1)\n'}
+[3.330781] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: flatbuffers in /home/pi/.local/lib/python3.12/site-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (25.9.23)\n'}
+[3.346346] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: packaging in /usr/lib/python3/dist-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (24.0)\n'}
+[3.348142] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: sympy in /usr/lib/python3/dist-packages (from onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (1.12)\n'}
+[3.408875] (-) TimerEvent: {}
+[3.454585] (cave_depth) StdoutLine: {'line': b'Requirement already satisfied: humanfriendly>=9.1 in /home/pi/.local/lib/python3.12/site-packages (from coloredlogs->onnxruntime->-r /home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation/requirements.txt (line 4)) (10.0)\n'}
+[3.473828] (cave_depth) StdoutLine: {'line': b'Using cached numpy-2.2.6-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (14.0 MB)\n'}
+[3.508984] (-) TimerEvent: {}
+[3.609322] (-) TimerEvent: {}
+[3.709670] (-) TimerEvent: {}
+[3.809967] (-) TimerEvent: {}
+[3.910284] (-) TimerEvent: {}
+[4.010721] (-) TimerEvent: {}
+[4.111066] (-) TimerEvent: {}
+[4.211365] (-) TimerEvent: {}
+[4.311687] (-) TimerEvent: {}
+[4.411991] (-) TimerEvent: {}
+[4.512302] (-) TimerEvent: {}
+[4.612607] (-) TimerEvent: {}
+[4.684881] (cave_depth) StdoutLine: {'line': b'Installing collected packages: numpy\n'}
+[4.685219] (cave_depth) StdoutLine: {'line': b'  Attempting uninstall: numpy\n'}
+[4.712694] (-) TimerEvent: {}
+[4.740127] (cave_depth) StdoutLine: {'line': b'    Found existing installation: numpy 1.26.4\n'}
+[4.740587] (cave_depth) StdoutLine: {'line': b'    Not uninstalling numpy at /home/pi/.local/lib/python3.12/site-packages, outside environment /home/pi/CaveBot-ros/install/cave_depth\n'}
+[4.740849] (cave_depth) StdoutLine: {'line': b"    Can't uninstall 'numpy'. No files were found to uninstall.\n"}
+[4.812805] (-) TimerEvent: {}
+[4.913149] (-) TimerEvent: {}
+[5.013727] (-) TimerEvent: {}
+[5.114106] (-) TimerEvent: {}
+[5.214487] (-) TimerEvent: {}
+[5.314825] (-) TimerEvent: {}
+[5.415160] (-) TimerEvent: {}
+[5.515776] (-) TimerEvent: {}
+[5.616418] (-) TimerEvent: {}
+[5.716958] (-) TimerEvent: {}
+[5.817595] (-) TimerEvent: {}
+[5.918118] (-) TimerEvent: {}
+[6.018627] (-) TimerEvent: {}
+[6.119118] (-) TimerEvent: {}
+[6.219611] (-) TimerEvent: {}
+[6.320177] (-) TimerEvent: {}
+[6.420587] (-) TimerEvent: {}
+[6.520933] (-) TimerEvent: {}
+[6.621309] (-) TimerEvent: {}
+[6.721879] (-) TimerEvent: {}
+[6.822211] (-) TimerEvent: {}
+[6.922621] (-) TimerEvent: {}
+[7.023067] (-) TimerEvent: {}
+[7.123616] (-) TimerEvent: {}
+[7.223982] (-) TimerEvent: {}
+[7.324415] (-) TimerEvent: {}
+[7.424782] (-) TimerEvent: {}
+[7.525325] (-) TimerEvent: {}
+[7.546137] (cave_depth) StderrLine: {'line': b"\x1b[33m  WARNING: The scripts f2py and numpy-config are installed in '/home/pi/CaveBot-ros/install/cave_depth/bin' which is not on PATH.\n"}
+[7.546412] (cave_depth) StderrLine: {'line': b'  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\x1b[0m\x1b[33m\n'}
+[7.610256] (cave_depth) StderrLine: {'line': b"\x1b[0m\x1b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+[7.610630] (cave_depth) StderrLine: {'line': b'scipy 1.11.4 requires numpy<1.28.0,>=1.21.6, but you have numpy 2.2.6 which is incompatible.\x1b[0m\x1b[31m\n'}
+[7.610760] (cave_depth) StdoutLine: {'line': b'Successfully installed numpy-2.2.6\n'}
+[7.625491] (-) TimerEvent: {}
+[7.726018] (-) TimerEvent: {}
+[7.826394] (-) TimerEvent: {}
+[7.926870] (-) TimerEvent: {}
+[8.027186] (-) TimerEvent: {}
+[8.127485] (-) TimerEvent: {}
+[8.227801] (-) TimerEvent: {}
+[8.328100] (-) TimerEvent: {}
+[8.428397] (-) TimerEvent: {}
+[8.528714] (-) TimerEvent: {}
+[8.625832] (cave_depth) StdoutLine: {'line': b'Obtaining file:///home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation\n'}
+[8.626662] (cave_depth) StderrLine: {'line': b"\x1b[0m\x1b[31mERROR: file:///home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\x1b[0m\x1b[31m\n"}
+[8.628779] (-) TimerEvent: {}
+[8.729064] (-) TimerEvent: {}
+[8.777632] (cave_depth) StderrLine: {'line': b'\x1b[0mTraceback (most recent call last):\n'}
+[8.777938] (cave_depth) StderrLine: {'line': b'  File "/home/pi/CaveBot-ros/src/cave_depth/setup.py", line 19, in <module>\n'}
+[8.778032] (cave_depth) StderrLine: {'line': b'    setup(\n'}
+[8.778117] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup\n'}
+[8.778736] (cave_depth) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[8.778886] (cave_depth) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[8.778974] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 185, in setup\n'}
+[8.779347] (cave_depth) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[8.779548] (cave_depth) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^\n'}
+[8.779664] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 201, in run_commands\n'}
+[8.779752] (cave_depth) StderrLine: {'line': b'    dist.run_commands()\n'}
+[8.779833] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 969, in run_commands\n'}
+[8.780785] (cave_depth) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[8.780901] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command\n'}
+[8.782363] (cave_depth) StderrLine: {'line': b'    super().run_command(command)\n'}
+[8.782480] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command\n'}
+[8.782648] (cave_depth) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[8.782775] (cave_depth) StderrLine: {'line': b'  File "/home/pi/CaveBot-ros/src/cave_depth/setup.py", line 16, in run\n'}
+[8.782908] (cave_depth) StderrLine: {'line': b"    subprocess.check_call(['pip', 'install', '-e', hitnet_path])\n"}
+[8.783013] (cave_depth) StderrLine: {'line': b'  File "/usr/lib/python3.12/subprocess.py", line 413, in check_call\n'}
+[8.783571] (cave_depth) StderrLine: {'line': b'    raise CalledProcessError(retcode, cmd)\n'}
+[8.783754] (cave_depth) StderrLine: {'line': b"subprocess.CalledProcessError: Command '['pip', 'install', '-e', '/home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation']' returned non-zero exit status 1.\n"}
+[8.829180] (-) TimerEvent: {}
+[8.836832] (cave_depth) CommandEnded: {'returncode': 1}
+[8.837334] (cave_depth) JobEnded: {'identifier': 'cave_depth', 'rc': 1}
+[8.847778] (-) EventReactorShutdown: {}

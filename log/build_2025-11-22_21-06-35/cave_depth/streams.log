@@ -1,0 +1,34 @@
+[1.181s] Invoking command in '/home/pi/CaveBot-ros/src/cave_depth': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /home/pi/CaveBot-ros/build/cave_depth/build install --record /home/pi/CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[1.543s] running egg_info
+[1.569s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[1.570s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[1.571s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[1.571s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[1.572s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[1.626s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.627s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.628s] running build
+[1.628s] running build_py
+[1.628s] copying cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth
+[1.628s] running install
+[1.637s] running install_lib
+[1.664s] creating /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth
+[1.664s] copying /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth
+[1.664s] copying /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth/__init__.py -> /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth
+[1.665s] byte-compiling /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth/hitnet_depth_node.py to hitnet_depth_node.cpython-312.pyc
+[1.666s] byte-compiling /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth/__init__.py to __init__.cpython-312.pyc
+[1.666s] running install_data
+[1.666s] creating /home/pi/CaveBot-ros/install/cave_depth/share/ament_index
+[1.666s] creating /home/pi/CaveBot-ros/install/cave_depth/share/ament_index/resource_index
+[1.666s] creating /home/pi/CaveBot-ros/install/cave_depth/share/ament_index/resource_index/packages
+[1.667s] copying resource/cave_depth -> /home/pi/CaveBot-ros/install/cave_depth/share/ament_index/resource_index/packages
+[1.667s] copying package.xml -> /home/pi/CaveBot-ros/install/cave_depth/share/cave_depth
+[1.667s] creating /home/pi/CaveBot-ros/install/cave_depth/share/cave_depth/launch
+[1.667s] copying launch/dualcam.launch.py -> /home/pi/CaveBot-ros/install/cave_depth/share/cave_depth/launch
+[1.667s] copying launch/depth.launch.py -> /home/pi/CaveBot-ros/install/cave_depth/share/cave_depth/launch
+[1.667s] running install_egg_info
+[1.696s] Copying ../../build/cave_depth/cave_depth.egg-info to /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info
+[1.697s] running install_scripts
+[1.880s] Installing hitnet_depth_node script to /home/pi/CaveBot-ros/install/cave_depth/lib/cave_depth
+[1.881s] writing list of installed files to '/home/pi/CaveBot-ros/build/cave_depth/install.log'
+[1.952s] Invoked command in '/home/pi/CaveBot-ros/src/cave_depth' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /home/pi/CaveBot-ros/build/cave_depth/build install --record /home/pi/CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data

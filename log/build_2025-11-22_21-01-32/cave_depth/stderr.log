@@ -1,0 +1,27 @@
+[33m  WARNING: The scripts f2py and numpy-config are installed in '/home/pi/CaveBot-ros/install/cave_depth/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m[33m
+[0m[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+scipy 1.11.4 requires numpy<1.28.0,>=1.21.6, but you have numpy 2.2.6 which is incompatible.[0m[31m
+[0m[31mERROR: file:///home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.[0m[31m
+[0mTraceback (most recent call last):
+  File "/home/pi/CaveBot-ros/src/cave_depth/setup.py", line 19, in <module>
+    setup(
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 185, in setup
+    return run_commands(dist)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 201, in run_commands
+    dist.run_commands()
+  File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+    self.run_command(cmd)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+    super().run_command(command)
+  File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/pi/CaveBot-ros/src/cave_depth/setup.py", line 16, in run
+    subprocess.check_call(['pip', 'install', '-e', hitnet_path])
+  File "/usr/lib/python3.12/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['pip', 'install', '-e', '/home/pi/CaveBot-ros/src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation']' returned non-zero exit status 1.

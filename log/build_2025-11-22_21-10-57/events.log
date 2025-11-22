@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000295] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.000318] (-) JobUnselected: {'identifier': 'cave_cameras'}
+[0.000345] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000595] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000616] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000635] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000652] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000803] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000821] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000838] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000855] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000873] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000889] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000906] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000923] (-) JobUnselected: {'identifier': 'libcamera'}
+[0.000939] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000956] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000972] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000995] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001174] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001192] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001209] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001226] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001243] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001260] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001278] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001294] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001312] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001328] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001377] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001395] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001412] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001429] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001447] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001463] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001481] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001497] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001515] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001531] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001548] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001564] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001581] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001597] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001614] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001630] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001647] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001663] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001679] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001696] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001713] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001731] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001747] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001764] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001781] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001798] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001815] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001833] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001853] (cave_depth) JobQueued: {'identifier': 'cave_depth', 'dependencies': OrderedDict()}
+[0.001874] (cave_depth) JobStarted: {'identifier': 'cave_depth'}
+[0.099591] (-) TimerEvent: {}
+[0.199792] (-) TimerEvent: {}
+[0.300003] (-) TimerEvent: {}
+[0.400266] (-) TimerEvent: {}
+[0.500448] (-) TimerEvent: {}
+[0.600641] (-) TimerEvent: {}
+[0.700834] (-) TimerEvent: {}
+[0.801010] (-) TimerEvent: {}
+[0.901187] (-) TimerEvent: {}
+[1.001376] (-) TimerEvent: {}
+[1.101573] (-) TimerEvent: {}
+[1.174297] (cave_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cave_depth', 'build', '--build-base', '/home/pi/CaveBot-ros/build/cave_depth/build', 'install', '--record', '/home/pi/CaveBot-ros/build/cave_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/CaveBot-ros/src/cave_depth', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/pi', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'pi', 'SSH_CLIENT': '192.168.86.28 40366 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'NO_PROXY': '', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e5c219d0-ebae-4e20-ab82-b3ca881ac802.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '7', 'VSCODE_CLI_REQUIRE_TOKEN': '8f186724-4acb-4055-9550-585b9b6d4e11', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/pi/.vscode-server', 'EXPERIMENTAL_HTTP_PROXY_SUPPORT': 'true', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', '__TELEMETRY_CLIENT_ID': '9c6fb72c-6e0a-46a6-bd27-a9976886da31', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/CaveBot-ros/build/cave_depth', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.28 40366 192.168.86.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.201671] (-) TimerEvent: {}
+[1.301883] (-) TimerEvent: {}
+[1.402074] (-) TimerEvent: {}
+[1.502266] (-) TimerEvent: {}
+[1.538409] (cave_depth) StdoutLine: {'line': b'running egg_info\n'}
+[1.564482] (cave_depth) StdoutLine: {'line': b'writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO\n'}
+[1.564827] (cave_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt\n'}
+[1.565782] (cave_depth) StdoutLine: {'line': b'writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt\n'}
+[1.568275] (cave_depth) StdoutLine: {'line': b'writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt\n'}
+[1.568939] (cave_depth) StdoutLine: {'line': b'writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt\n'}
+[1.602360] (-) TimerEvent: {}
+[1.623616] (cave_depth) StdoutLine: {'line': b"reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.624597] (cave_depth) StdoutLine: {'line': b"writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'\n"}
+[1.624808] (cave_depth) StdoutLine: {'line': b'running build\n'}
+[1.624954] (cave_depth) StdoutLine: {'line': b'running build_py\n'}
+[1.625081] (cave_depth) StdoutLine: {'line': b'copying cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth\n'}
+[1.625498] (cave_depth) StdoutLine: {'line': b'running install\n'}
+[1.634744] (cave_depth) StdoutLine: {'line': b'running install_lib\n'}
+[1.661440] (cave_depth) StdoutLine: {'line': b'copying /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth\n'}
+[1.662232] (cave_depth) StdoutLine: {'line': b'byte-compiling /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth/hitnet_depth_node.py to hitnet_depth_node.cpython-312.pyc\n'}
+[1.663562] (cave_depth) StdoutLine: {'line': b'running install_data\n'}
+[1.663782] (cave_depth) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.692161] (cave_depth) StdoutLine: {'line': b"removing '/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[1.692619] (cave_depth) StdoutLine: {'line': b'Copying ../../build/cave_depth/cave_depth.egg-info to /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info\n'}
+[1.693780] (cave_depth) StdoutLine: {'line': b'running install_scripts\n'}
+[1.702421] (-) TimerEvent: {}
+[1.802545] (-) TimerEvent: {}
+[1.880172] (cave_depth) StdoutLine: {'line': b'Installing hitnet_depth_node script to /home/pi/CaveBot-ros/install/cave_depth/lib/cave_depth\n'}
+[1.880667] (cave_depth) StdoutLine: {'line': b"writing list of installed files to '/home/pi/CaveBot-ros/build/cave_depth/install.log'\n"}
+[1.902651] (-) TimerEvent: {}
+[1.957304] (cave_depth) CommandEnded: {'returncode': 0}
+[1.982157] (cave_depth) JobEnded: {'identifier': 'cave_depth', 'rc': 0}
+[1.982987] (-) EventReactorShutdown: {}

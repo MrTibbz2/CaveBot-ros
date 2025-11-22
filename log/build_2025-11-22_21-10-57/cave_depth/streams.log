@@ -1,0 +1,24 @@
+[1.173s] Invoking command in '/home/pi/CaveBot-ros/src/cave_depth': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /home/pi/CaveBot-ros/build/cave_depth/build install --record /home/pi/CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[1.537s] running egg_info
+[1.563s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[1.564s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[1.566s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[1.567s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[1.622s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.623s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[1.623s] running build
+[1.623s] running build_py
+[1.623s] copying cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth
+[1.624s] running install
+[1.633s] running install_lib
+[1.660s] copying /home/pi/CaveBot-ros/build/cave_depth/build/lib/cave_depth/hitnet_depth_node.py -> /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth
+[1.660s] byte-compiling /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth/hitnet_depth_node.py to hitnet_depth_node.cpython-312.pyc
+[1.662s] running install_data
+[1.662s] running install_egg_info
+[1.690s] removing '/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)
+[1.691s] Copying ../../build/cave_depth/cave_depth.egg-info to /home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info
+[1.692s] running install_scripts
+[1.878s] Installing hitnet_depth_node script to /home/pi/CaveBot-ros/install/cave_depth/lib/cave_depth
+[1.879s] writing list of installed files to '/home/pi/CaveBot-ros/build/cave_depth/install.log'
+[1.956s] Invoked command in '/home/pi/CaveBot-ros/src/cave_depth' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /home/pi/CaveBot-ros/build/cave_depth/build install --record /home/pi/CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
