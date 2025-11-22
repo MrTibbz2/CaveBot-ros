@@ -16,6 +16,6 @@
 [submodule "src/slam_toolbox"]
 	path = src/slam_toolbox
 	url = https://github.com/SteveMacenski/slam_toolbox.git
-[submodule "src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation"]
-	path = src/cave_depth/ONNX-HITNET-Stereo-Depth-estimation
+[submodule "libs/ONNX-HITNET-Stereo-Depth-estimation"]
+	path = libs/ONNX-HITNET-Stereo-Depth-estimation
 	url = https://github.com/ibaiGorordo/ONNX-HITNET-Stereo-Depth-estimation.git
