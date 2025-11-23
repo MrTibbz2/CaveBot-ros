@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_util/include/nav2_util/lifecycle_utils.hpp

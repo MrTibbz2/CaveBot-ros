@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/launch/image_rotate.launch.py

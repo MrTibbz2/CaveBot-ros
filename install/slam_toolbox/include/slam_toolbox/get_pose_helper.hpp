@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp

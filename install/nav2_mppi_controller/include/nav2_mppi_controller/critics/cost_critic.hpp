@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/cost_critic.hpp

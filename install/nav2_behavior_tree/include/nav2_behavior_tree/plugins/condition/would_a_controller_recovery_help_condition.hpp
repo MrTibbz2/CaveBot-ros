@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp

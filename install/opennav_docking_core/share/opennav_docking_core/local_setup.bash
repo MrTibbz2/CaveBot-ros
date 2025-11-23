@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/opennav_docking_core/ament_cmake_environment_hooks/local_setup.bash

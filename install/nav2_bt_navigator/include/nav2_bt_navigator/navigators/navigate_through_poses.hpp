@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_bt_navigator/include/nav2_bt_navigator/navigators/navigate_through_poses.hpp

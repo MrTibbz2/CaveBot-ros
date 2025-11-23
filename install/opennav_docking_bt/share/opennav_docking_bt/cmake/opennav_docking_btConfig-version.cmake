@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/opennav_docking_bt/ament_cmake_core/opennav_docking_btConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/nav2_rotation_shim_controller/ament_cmake_environment_hooks/local_setup.sh

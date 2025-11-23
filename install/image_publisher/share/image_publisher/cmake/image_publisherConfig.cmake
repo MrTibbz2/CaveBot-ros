@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/image_publisher/ament_cmake_core/image_publisherConfig.cmake

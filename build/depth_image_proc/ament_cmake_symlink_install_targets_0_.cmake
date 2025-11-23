@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/CaveBot-ros/build/depth_image_proc/convert_metric_node" "TARGETS" "convert_metric_node" "DESTINATION" "lib/depth_image_proc")

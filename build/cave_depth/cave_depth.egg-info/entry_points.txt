@@ -1,2 +1,0 @@
-[console_scripts]
-hitnet_depth_node = cave_depth.hitnet_depth_node:main

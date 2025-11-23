@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp

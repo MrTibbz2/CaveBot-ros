@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/nav2_theta_star_planner/ament_cmake_core/nav2_theta_star_plannerConfig.cmake

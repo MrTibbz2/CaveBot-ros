@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_velocity_smoother/include/nav2_velocity_smoother/velocity_smoother.hpp

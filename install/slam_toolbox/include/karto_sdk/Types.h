@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Types.h

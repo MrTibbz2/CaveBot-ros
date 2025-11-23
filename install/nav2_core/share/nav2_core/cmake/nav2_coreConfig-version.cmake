@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/nav2_core/ament_cmake_core/nav2_coreConfig-version.cmake

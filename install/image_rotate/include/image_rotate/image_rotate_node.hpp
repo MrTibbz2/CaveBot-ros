@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp

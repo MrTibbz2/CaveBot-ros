@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_dwb_controller/dwb_critics/include/dwb_critics/goal_align.hpp

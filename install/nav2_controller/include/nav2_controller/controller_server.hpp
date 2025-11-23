@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_controller/include/nav2_controller/controller_server.hpp

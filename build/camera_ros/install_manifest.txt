@@ -1,3 +1,0 @@
-/home/pi/CaveBot-ros/install/camera_ros/lib/libcamera_component.so
-/home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
-/home/pi/CaveBot-ros/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake

@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/image_pipeline/image_publisher/include/image_publisher/visibility.h

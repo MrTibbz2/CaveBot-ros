@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/parameter_handler.hpp

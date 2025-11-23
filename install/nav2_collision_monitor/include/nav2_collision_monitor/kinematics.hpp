@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/src/navigation2/nav2_collision_monitor/include/nav2_collision_monitor/kinematics.hpp

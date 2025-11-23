@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/compute_route.h

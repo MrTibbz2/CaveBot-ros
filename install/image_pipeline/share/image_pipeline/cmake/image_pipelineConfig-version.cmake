@@ -1,1 +1,0 @@
-/home/pi/CaveBot-ros/build/image_pipeline/ament_cmake_core/image_pipelineConfig-version.cmake
