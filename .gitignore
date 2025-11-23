@@ -1,0 +1,8 @@
+# ROS2 build/install workspace
+build/
+install/
+log/
+
+# CaveDepth model files
+src/cave_depth/models/
+**/*.onnx
