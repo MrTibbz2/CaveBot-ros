@@ -1,0 +1,16 @@
+[0.618s] Invoking command in '/CaveBot-ros/src/cave_depth': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[0.811s] running egg_info
+[0.823s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[0.823s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[0.823s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[0.823s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[0.824s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[0.849s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.850s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.850s] running install
+[0.855s] running install_lib
+[0.867s] running install_data
+[0.867s] error: can't copy 'models/eth3d': doesn't exist or not a regular file
+[0.886s] Invoked command in '/CaveBot-ros/src/cave_depth' returned '1': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data

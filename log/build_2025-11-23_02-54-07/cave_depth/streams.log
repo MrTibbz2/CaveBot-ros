@@ -1,0 +1,139 @@
+[0.599s] Invoking command in '/CaveBot-ros/src/cave_depth': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[0.798s] running egg_info
+[0.809s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[0.809s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[0.810s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[0.811s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[0.837s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.839s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.839s] running build
+[0.839s] running build_py
+[0.839s] running install
+[0.844s] running install_lib
+[0.857s] running install_data
+[0.857s] copying models/eth3d.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models
+[0.862s] copying models/middlebury_d400.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models
+[0.876s] copying models/flyingthings_finalpass_xl.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models
+[0.889s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d
+[0.889s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.889s] copying models/eth3d/saved_model_256x256/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.894s] copying models/eth3d/saved_model_256x256/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.901s] copying models/eth3d/saved_model_256x256/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.910s] copying models/eth3d/saved_model_256x256/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.914s] copying models/eth3d/saved_model_256x256/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.929s] copying models/eth3d/saved_model_256x256/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_256x256
+[0.935s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.935s] copying models/eth3d/saved_model_120x160/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.946s] copying models/eth3d/saved_model_120x160/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.953s] copying models/eth3d/saved_model_120x160/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.958s] copying models/eth3d/saved_model_120x160/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.961s] copying models/eth3d/saved_model_120x160/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.965s] copying models/eth3d/saved_model_120x160/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_120x160
+[0.971s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[0.971s] copying models/eth3d/saved_model_240x320/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[0.978s] copying models/eth3d/saved_model_240x320/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[0.984s] copying models/eth3d/saved_model_240x320/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[0.987s] copying models/eth3d/saved_model_240x320/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[0.993s] copying models/eth3d/saved_model_240x320/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[1.011s] copying models/eth3d/saved_model_240x320/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_240x320
+[1.015s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model
+[1.016s] copying models/eth3d/saved_model/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model
+[1.021s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.021s] copying models/eth3d/saved_model_720x1280/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.025s] copying models/eth3d/saved_model_720x1280/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.031s] copying models/eth3d/saved_model_720x1280/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.038s] copying models/eth3d/saved_model_720x1280/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.042s] copying models/eth3d/saved_model_720x1280/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.049s] copying models/eth3d/saved_model_720x1280/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_720x1280
+[1.253s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.253s] copying models/eth3d/saved_model_480x640/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.260s] copying models/eth3d/saved_model_480x640/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.265s] copying models/eth3d/saved_model_480x640/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.269s] copying models/eth3d/saved_model_480x640/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.346s] copying models/eth3d/saved_model_480x640/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.350s] copying models/eth3d/saved_model_480x640/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/eth3d/saved_model_480x640
+[1.357s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400
+[1.357s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.357s] copying models/middlebury_d400/saved_model_480x640/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.372s] copying models/middlebury_d400/saved_model_480x640/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.388s] copying models/middlebury_d400/saved_model_480x640/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.400s] copying models/middlebury_d400/saved_model_480x640/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.407s] copying models/middlebury_d400/saved_model_480x640/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.418s] copying models/middlebury_d400/saved_model_480x640/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_480x640
+[1.553s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.553s] copying models/middlebury_d400/saved_model_120x160/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.568s] copying models/middlebury_d400/saved_model_120x160/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.578s] copying models/middlebury_d400/saved_model_120x160/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.583s] copying models/middlebury_d400/saved_model_120x160/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.599s] copying models/middlebury_d400/saved_model_120x160/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.627s] copying models/middlebury_d400/saved_model_120x160/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_120x160
+[1.640s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[1.640s] copying models/middlebury_d400/saved_model_720x1280/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[1.655s] copying models/middlebury_d400/saved_model_720x1280/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[1.662s] copying models/middlebury_d400/saved_model_720x1280/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[2.404s] copying models/middlebury_d400/saved_model_720x1280/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[2.415s] copying models/middlebury_d400/saved_model_720x1280/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[2.429s] copying models/middlebury_d400/saved_model_720x1280/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_720x1280
+[2.445s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.446s] copying models/middlebury_d400/saved_model_240x320/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.452s] copying models/middlebury_d400/saved_model_240x320/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.465s] copying models/middlebury_d400/saved_model_240x320/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.515s] copying models/middlebury_d400/saved_model_240x320/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.522s] copying models/middlebury_d400/saved_model_240x320/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.534s] copying models/middlebury_d400/saved_model_240x320/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_240x320
+[2.546s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.546s] copying models/middlebury_d400/saved_model_256x256/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.557s] copying models/middlebury_d400/saved_model_256x256/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.604s] copying models/middlebury_d400/saved_model_256x256/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.609s] copying models/middlebury_d400/saved_model_256x256/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.625s] copying models/middlebury_d400/saved_model_256x256/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.640s] copying models/middlebury_d400/saved_model_256x256/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model_256x256
+[2.648s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model
+[2.649s] copying models/middlebury_d400/saved_model/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/middlebury_d400/saved_model
+[2.662s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl
+[2.662s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.662s] copying models/flyingthings_finalpass_xl/saved_model_120x160/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.669s] copying models/flyingthings_finalpass_xl/saved_model_120x160/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.706s] copying models/flyingthings_finalpass_xl/saved_model_120x160/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.722s] copying models/flyingthings_finalpass_xl/saved_model_120x160/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.749s] copying models/flyingthings_finalpass_xl/saved_model_120x160/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.776s] copying models/flyingthings_finalpass_xl/saved_model_120x160/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_120x160
+[2.796s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[2.796s] copying models/flyingthings_finalpass_xl/saved_model_720x1280/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[2.816s] copying models/flyingthings_finalpass_xl/saved_model_720x1280/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[2.827s] copying models/flyingthings_finalpass_xl/saved_model_720x1280/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[2.835s] copying models/flyingthings_finalpass_xl/saved_model_720x1280/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[2.855s] copying models/flyingthings_finalpass_xl/saved_model_720x1280/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[2.870s] copying models/flyingthings_finalpass_xl/saved_model_720x1280/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_720x1280
+[3.536s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model
+[3.536s] copying models/flyingthings_finalpass_xl/saved_model/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model
+[3.552s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.552s] copying models/flyingthings_finalpass_xl/saved_model_240x320/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.627s] copying models/flyingthings_finalpass_xl/saved_model_240x320/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.634s] copying models/flyingthings_finalpass_xl/saved_model_240x320/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.649s] copying models/flyingthings_finalpass_xl/saved_model_240x320/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.666s] copying models/flyingthings_finalpass_xl/saved_model_240x320/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.672s] copying models/flyingthings_finalpass_xl/saved_model_240x320/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_240x320
+[3.688s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[3.688s] copying models/flyingthings_finalpass_xl/saved_model_480x640/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[3.702s] copying models/flyingthings_finalpass_xl/saved_model_480x640/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[3.719s] copying models/flyingthings_finalpass_xl/saved_model_480x640/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[3.737s] copying models/flyingthings_finalpass_xl/saved_model_480x640/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[4.065s] copying models/flyingthings_finalpass_xl/saved_model_480x640/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[4.070s] copying models/flyingthings_finalpass_xl/saved_model_480x640/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_480x640
+[4.080s] creating /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.080s] copying models/flyingthings_finalpass_xl/saved_model_256x256/model_float32.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.098s] copying models/flyingthings_finalpass_xl/saved_model_256x256/model_float32_opt.onnx.zip -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.110s] copying models/flyingthings_finalpass_xl/saved_model_256x256/model_weight_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.118s] copying models/flyingthings_finalpass_xl/saved_model_256x256/saved_model.pb -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.133s] copying models/flyingthings_finalpass_xl/saved_model_256x256/model_float16_quant.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.142s] copying models/flyingthings_finalpass_xl/saved_model_256x256/model_float32.tflite -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.166s] copying models/flyingthings_finalpass_xl/saved_model_256x256/model_float32_opt.onnx -> /CaveBot-ros/install/cave_depth/share/cave_depth/models/flyingthings_finalpass_xl/saved_model_256x256
+[4.216s] running install_egg_info
+[4.229s] removing '/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)
+[4.230s] Copying ../../build/cave_depth/cave_depth.egg-info to /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info
+[4.231s] running install_scripts
+[4.341s] Installing hitnet_depth_node script to /CaveBot-ros/install/cave_depth/lib/cave_depth
+[4.341s] writing list of installed files to '/CaveBot-ros/build/cave_depth/install.log'
+[4.373s] Invoked command in '/CaveBot-ros/src/cave_depth' returned '0': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data

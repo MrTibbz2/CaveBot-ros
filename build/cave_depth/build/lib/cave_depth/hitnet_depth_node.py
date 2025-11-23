@@ -7,10 +7,7 @@ import cv2 as cv2
 
 import sys
 import os
-# Add HITNET library to path using relative workspace location
-workspace_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-hitnet_path = os.path.join(workspace_root, 'libs', 'ONNX-HITNET-Stereo-Depth-estimation')
-sys.path.append(hitnet_path)
+from ament_index_python.packages import get_package_share_directory
 from hitnet import HitNet, ModelType
 
 class HitnetDepthNode(Node):
@@ -20,9 +17,9 @@ class HitnetDepthNode(Node):
         self.left_img = None
         self.right_img = None
         
-        # Use relative path to model
-        workspace_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-        model_path = os.path.join(workspace_root, 'libs', 'ONNX-HITNET-Stereo-Depth-estimation', 'models', 'eth3d', 'saved_model_720x1280', 'model_float32_opt.onnx')
+        # Use package share directory for model
+        package_share = get_package_share_directory('cave_depth')
+        model_path = os.path.join(package_share, 'models', 'eth3d', 'saved_model_720x1280', 'model_float32_opt.onnx')
         self.depth_estimator = HitNet(model_path, ModelType.eth3d)
         self.get_logger().info('HitNet model loaded')
         

@@ -1,0 +1,29 @@
+[0.686s] Invoking command in '/CaveBot-ros/src/cave_depth': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
+[0.896s] running egg_info
+[0.910s] writing ../../build/cave_depth/cave_depth.egg-info/PKG-INFO
+[0.910s] writing dependency_links to ../../build/cave_depth/cave_depth.egg-info/dependency_links.txt
+[0.910s] writing entry points to ../../build/cave_depth/cave_depth.egg-info/entry_points.txt
+[0.910s] writing requirements to ../../build/cave_depth/cave_depth.egg-info/requires.txt
+[0.910s] writing top-level names to ../../build/cave_depth/cave_depth.egg-info/top_level.txt
+[0.938s] reading manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../../build/cave_depth/cave_depth.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running build_py
+[0.939s] creating /CaveBot-ros/build/cave_depth/build/lib/hitnet
+[0.939s] copying ../../libs/ONNX-HITNET-Stereo-Depth-estimation/hitnet/__init__.py -> /CaveBot-ros/build/cave_depth/build/lib/hitnet
+[0.939s] copying ../../libs/ONNX-HITNET-Stereo-Depth-estimation/hitnet/hitnet.py -> /CaveBot-ros/build/cave_depth/build/lib/hitnet
+[0.939s] running install
+[0.944s] running install_lib
+[0.957s] creating /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/hitnet
+[0.957s] copying /CaveBot-ros/build/cave_depth/build/lib/hitnet/__init__.py -> /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/hitnet
+[0.957s] copying /CaveBot-ros/build/cave_depth/build/lib/hitnet/hitnet.py -> /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/hitnet
+[0.957s] byte-compiling /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/hitnet/__init__.py to __init__.cpython-312.pyc
+[0.958s] byte-compiling /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/hitnet/hitnet.py to hitnet.cpython-312.pyc
+[0.959s] running install_data
+[0.959s] running install_egg_info
+[0.972s] removing '/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info' (and everything under it)
+[0.973s] Copying ../../build/cave_depth/cave_depth.egg-info to /CaveBot-ros/install/cave_depth/lib/python3.12/site-packages/cave_depth-0.0.1-py3.12.egg-info
+[0.974s] running install_scripts
+[1.072s] Installing hitnet_depth_node script to /CaveBot-ros/install/cave_depth/lib/cave_depth
+[1.073s] writing list of installed files to '/CaveBot-ros/build/cave_depth/install.log'
+[1.101s] Invoked command in '/CaveBot-ros/src/cave_depth' returned '0': PYTHONPATH=/CaveBot-ros/build/cave_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/CaveBot-ros/install/cave_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cave_depth build --build-base /CaveBot-ros/build/cave_depth/build install --record /CaveBot-ros/build/cave_depth/install.log --single-version-externally-managed install_data
