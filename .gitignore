@@ -1,8 +1,13 @@
-# ROS2 build/install workspace
 build/
 install/
 log/
 
-# CaveDepth model files
+# Python bytecode
+__pycache__/
+
+# Depth models (ONNX, PB, etc)
+cave_depth/models/
 src/cave_depth/models/
-**/*.onnx
+
+# ROS2 colcon meta files
+.colcon_install_layout
